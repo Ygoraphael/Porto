@@ -1,0 +1,15 @@
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe.config
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.pdb
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.dll
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.dll
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.xml
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.xml
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csprojResolveAssemblyReference.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Form1.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Properties.Resources.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.GenerateResource.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CoreCompileInputs.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CopyComplete
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.exe
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.pdb
