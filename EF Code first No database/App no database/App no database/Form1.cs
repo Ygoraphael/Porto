@@ -26,11 +26,21 @@ namespace App_no_database
                 var lmathSubj = new Subject() { Name = "Matematicas" };
                 var lPortSubj = new Subject() { Name = "Portugues" };
 
+                var lstudent2 = new Student() { Name = "Carlos" };
+
+                var lGeoSubj = new Subject() { Name = "Geografia" };
+                var lHisSubj = new Subject() { Name = "Historia" };
+
                 lstudent.Sunbjects.Add(lmathSubj);
                 lstudent.Sunbjects.Add(lPortSubj);
 
+                lstudent2.Sunbjects.Add(lGeoSubj);
+                lstudent2.Sunbjects.Add(lHisSubj);
+
                 db.Students.Add(lstudent);
+                db.Students.Add(lstudent2);
                 db.SaveChanges();
+                MessageBox.Show("base criada com sucesso!", "SUCESSO", MessageBoxButtons.OK);
             }
         }
     }
