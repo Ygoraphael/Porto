@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -10,10 +12,12 @@ namespace App_no_database
     class ModelBD
     {
     }
-
+    [Table("Student")]
     public class Student
     {
+        [Key]
         public int StudentiId { get; set; }
+
         public string Name { get; set; }
 
         public virtual List<Subject> Sunbjects { get; set; }
@@ -23,10 +27,12 @@ namespace App_no_database
             this.Sunbjects = new List<Subject>();
         }
     }
-
+    [Table("Subject")]
     public class Subject
     {
+        [Key]
         public int SubjectId { get; set; }
+
         public string Name { get; set; }
 
         public virtual Student Student { get; set; }
