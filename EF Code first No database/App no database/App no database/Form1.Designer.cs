@@ -49,7 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Cria Base Code First (Seo C. World)";
             this.ResumeLayout(false);
 
         }

@@ -21,26 +21,33 @@ namespace App_no_database
         {
             using (var db = new StudentContext())
             {
-                var lstudent = new Student() { Name = "Ygor raphael" };
+                try
+                {
+                    var lstudent = new Student() { Name = "Ygor raphael" , Telefone = "991244001"};
 
-                var lmathSubj = new Subject() { Name = "Matematicas" };
-                var lPortSubj = new Subject() { Name = "Portugues" };
+                    var lmathSubj = new Subject() { Name = "Matematicas" };
+                    var lPortSubj = new Subject() { Name = "Portugues" };
 
-                var lstudent2 = new Student() { Name = "Carlos" };
+                    var lstudent2 = new Student() { Name = "Carlos", Telefone = "939136321" };
 
-                var lGeoSubj = new Subject() { Name = "Geografia" };
-                var lHisSubj = new Subject() { Name = "Historia" };
+                    var lGeoSubj = new Subject() { Name = "Geografia" };
+                    var lHisSubj = new Subject() { Name = "Historia" };
 
-                lstudent.Sunbjects.Add(lmathSubj);
-                lstudent.Sunbjects.Add(lPortSubj);
+                    lstudent.Sunbjects.Add(lmathSubj);
+                    lstudent.Sunbjects.Add(lPortSubj);
 
-                lstudent2.Sunbjects.Add(lGeoSubj);
-                lstudent2.Sunbjects.Add(lHisSubj);
+                    lstudent2.Sunbjects.Add(lGeoSubj);
+                    lstudent2.Sunbjects.Add(lHisSubj);
 
-                db.Students.Add(lstudent);
-                db.Students.Add(lstudent2);
-                db.SaveChanges();
-                MessageBox.Show("base criada com sucesso!", "SUCESSO", MessageBoxButtons.OK);
+                    db.Students.Add(lstudent);
+                    db.Students.Add(lstudent2);
+                    db.SaveChanges();
+                    MessageBox.Show("base criada com sucesso!", "SUCESSO", MessageBoxButtons.OK);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Um erro ocorreu durante o processo: " + ex.Message);
+              }
             }
         }
     }

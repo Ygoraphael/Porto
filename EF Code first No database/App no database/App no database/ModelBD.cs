@@ -20,6 +20,8 @@ namespace App_no_database
 
         public string Name { get; set; }
 
+        public string Telefone { get; set; }
+
         public virtual List<Subject> Sunbjects { get; set; }
 
         public Student()
@@ -40,6 +42,7 @@ namespace App_no_database
 
     class StudentContext : DbContext
     {
+        public StudentContext(): base("StudentDB") { }
         public DbSet<Student> Students { get; set; }
         public DbSet<Subject> Subjects { get; set; }
     }
