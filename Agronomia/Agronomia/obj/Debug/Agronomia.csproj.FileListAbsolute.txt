@@ -1,0 +1,115 @@
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\Agronomia.exe.config
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\Agronomia.exe
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\Agronomia.pdb
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.FrmPrincipal.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.Properties.Resources.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.csproj.GenerateResource.Cache
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.exe
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.pdb
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadUsuario.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmUsuario.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\EntityFramework.dll
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\EntityFramework.xml
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmTesteGerminacao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadGerminacao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPropriedade.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPropriedade.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPadraoVariavel.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPadraoVariavel.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCompeticao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCompeticao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmGerminacao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCultura.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCultura.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaGerminacao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaGerminacao.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.csprojResolveAssemblyReference.cache
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaExperimento.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadExperimento.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaExperimento.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmExperimento.resources
+C:\Users\ygor\Desktop\Ultimo\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmLogin.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\Agronomia.exe.config
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.exe
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.pdb
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\Agronomia.exe
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\Agronomia.pdb
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\EntityFramework.dll
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\EntityFramework.xml
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaExperimento.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCompeticao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCultura.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadExperimento.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPadraoVariavel.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPropriedade.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadUsuario.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaExperimento.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCompeticao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCultura.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmExperimento.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmLogin.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPadraoVariavel.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.FrmPrincipal.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.Properties.Resources.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPropriedade.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmTesteGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmUsuario.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.csproj.GenerateResource.Cache
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\MaterialSkin.dll
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\MetroFramework.dll
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TCadastro.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TExperimento.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TGerminacao.resources
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.csprojResolveAssemblyReference.cache
+C:\Users\CCVALE\Desktop\Nova pasta (3)\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TCarregamento.resources
+D:\files_git\Agronomia\Agronomia\bin\Debug\Agronomia.exe.config
+D:\files_git\Agronomia\Agronomia\bin\Debug\Agronomia.exe
+D:\files_git\Agronomia\Agronomia\bin\Debug\Agronomia.pdb
+D:\files_git\Agronomia\Agronomia\bin\Debug\EntityFramework.dll
+D:\files_git\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.dll
+D:\files_git\Agronomia\Agronomia\bin\Debug\MaterialSkin.dll
+D:\files_git\Agronomia\Agronomia\bin\Debug\MetroFramework.dll
+D:\files_git\Agronomia\Agronomia\bin\Debug\MetroFramework.Fonts.dll
+D:\files_git\Agronomia\Agronomia\bin\Debug\EntityFramework.xml
+D:\files_git\Agronomia\Agronomia\bin\Debug\EntityFramework.SqlServer.xml
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.csprojResolveAssemblyReference.cache
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TCadastro.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TCarregamento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TExperimento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.TelaPrincipal.TGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaExperimento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadColetaGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCompeticao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadCultura.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadExperimento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPadraoVariavel.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadPropriedade.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCadUsuario.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaExperimento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmColetaGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCompeticao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmCultura.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmExperimento.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmLogin.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPadraoVariavel.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.FrmPrincipal.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.Properties.Resources.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmPropriedade.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmTesteGerminacao.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.view.FrmUsuario.resources
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.csproj.GenerateResource.cache
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.csproj.CoreCompileInputs.cache
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.csproj.CopyComplete
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.exe
+D:\files_git\Agronomia\Agronomia\obj\Debug\Agronomia.pdb

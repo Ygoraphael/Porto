@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProAgroModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="COLETAEXPERIMENTO">
+    <Key>
+      <PropertyRef Name="CODI_COE" />
+    </Key>
+    <Property Name="CODI_COE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODI_EXP" Type="int" Nullable="false" />
+    <Property Name="TRATAM_COE" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="REPETI_COE" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="DATCOL_COE" Type="date" Nullable="false" />
+    <Property Name="ESTADI_COE" Type="nchar" MaxLength="3" />
+    <Property Name="INDIUV_COE" Type="int" />
+    <Property Name="PRESSA_COE" Type="decimal" Precision="5" Scale="1" />
+    <Property Name="PONORV_COE" Type="int" />
+    <Property Name="TEMMAX_COE" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="TEMMIN_COE" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PLUVIO_COE" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="VELVEN_COE" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="UMIDAD_COE" Type="int" />
+    <Property Name="TENSIO_COE" Type="decimal" Precision="5" Scale="1" />
+    <Property Name="IRRQNT_COE" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="VALRE1_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE2_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE3_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE4_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE5_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE6_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE7_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE8_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALRE9_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="VALREA_EXP" Type="nchar" MaxLength="30" />
+    <Property Name="OBSGER_COE" Type="nchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="COLETAGERMINACAO">
+    <Key>
+      <PropertyRef Name="CODI_COG" />
+    </Key>
+    <Property Name="CODI_COG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODI_GER" Type="int" Nullable="false" />
+    <Property Name="TRATAM_COG" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="REPETI_COG" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="PLAACO_COG" Type="int" Nullable="false" />
+    <Property Name="DATCOG_COG" Type="date" Nullable="false" />
+    <Property Name="SEMGER_COG" Type="int" Nullable="false" />
+    <Property Name="NAOGER_COG" Type="int" Nullable="false" />
+    <Property Name="PORGER_COG" Type="decimal" Precision="3" Scale="1" />
+  </EntityType>
+  <EntityType Name="COMPETICAO">
+    <Key>
+      <PropertyRef Name="CODI_COM" />
+    </Key>
+    <Property Name="CODI_COM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODI_CUL" Type="int" Nullable="false" />
+    <Property Name="NOMECO_COM" Type="nchar" MaxLength="60" />
+    <Property Name="CODI_EXP" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CULTURA">
+    <Key>
+      <PropertyRef Name="CODI_CUL" />
+    </Key>
+    <Property Name="CODI_CUL" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMCUL_CUL" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="CULTIV_CUL" Type="nchar" MaxLength="30" />
+    <Property Name="LOTECU_CUL" Type="nchar" MaxLength="60" />
+    <Property Name="GERMIN_CUL" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PUREZA_CUL" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="VALIDA_CUL" Type="date" />
+    <Property Name="SAFRAC_CUL" Type="nchar" MaxLength="9" />
+    <Property Name="M100SE_CUL" Type="decimal" Precision="6" Scale="3" />
+    <Property Name="TRAQUI_CUL" Type="nchar" MaxLength="100" />
+    <Property Name="PROSEM_CUL" Type="nchar" MaxLength="60" />
+    <Property Name="OBSERV_CUL" Type="nchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="EXPERIMENTO">
+    <Key>
+      <PropertyRef Name="CODI_EXP" />
+    </Key>
+    <Property Name="CODI_EXP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODI_PRO" Type="int" Nullable="false" />
+    <Property Name="CODI_COM" Type="nchar" MaxLength="30" />
+    <Property Name="NUMTRA_EXP" Type="int" />
+    <Property Name="NUMREP_EXP" Type="int" />
+    <Property Name="DATINI_EXP" Type="date" />
+    <Property Name="DIAVAS_EXP" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="DESTRA_EXP" Type="nchar" MaxLength="2000" />
+    <Property Name="CODI_PAD" Type="int" Nullable="false" />
+    <Property Name="EXPFIN_EXP" Type="nchar" MaxLength="1" />
+    <Property Name="TIPTRA_EXP" Type="nchar" MaxLength="1" />
+    <Property Name="PEIEA1_EXP" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PEIEA2_EXP" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PEIEA3_EXP" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PEQET1_EXP" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PEQET2_EXP" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="PEQET3_EXP" Type="decimal" Precision="3" Scale="1" />
+  </EntityType>
+  <EntityType Name="GERMINACAO">
+    <Key>
+      <PropertyRef Name="CODI_GER" />
+    </Key>
+    <Property Name="CODI_GER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CODI_EXP" Type="int" />
+    <Property Name="CODI_USU" Type="int" Nullable="false" />
+    <Property Name="CODI_RES" Type="nchar" MaxLength="30" />
+    <Property Name="CODI_CUL" Type="int" Nullable="false" />
+    <Property Name="ESPECI_GER" Type="nchar" MaxLength="20" />
+    <Property Name="DATAMO_GER" Type="date" Nullable="false" />
+    <Property Name="NUMTRA_GER" Type="int" Nullable="false" />
+    <Property Name="NUMREP_GER" Type="int" Nullable="false" />
+    <Property Name="PEPAGE_GER" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="TEMPET_GER" Type="decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="QUAGUA_GER" Type="decimal" Precision="4" Scale="1" />
+    <Property Name="QSETOT_GER" Type="int" Nullable="false" />
+    <Property Name="QSEREP_GER" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NOMEPADRAOVARIAVEIS">
+    <Key>
+      <PropertyRef Name="CODI_PAD" />
+    </Key>
+    <Property Name="CODI_PAD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LAVAR1_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR2_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR3_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR4_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR5_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR6_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR7_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR8_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVAR9_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="LAVARA_PRO" Type="nchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROPRIEDADE">
+    <Key>
+      <PropertyRef Name="CODI_PRO" />
+    </Key>
+    <Property Name="CODI_PRO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMEPR_PRO" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="MUNICI_PRO" Type="nchar" MaxLength="50" />
+    <Property Name="ESTADO_PRO" Type="nchar" MaxLength="2" />
+    <Property Name="ENDERE_PRO" Type="nchar" MaxLength="100" />
+    <Property Name="COMPLE_PRO" Type="nchar" MaxLength="40" />
+    <Property Name="TELEFO_PRO" Type="nchar" MaxLength="12" />
+    <Property Name="EMAILP_PROP" Type="nchar" MaxLength="30" />
+    <Property Name="NOMRES_PRO" Type="nchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="CODI_USU" />
+    </Key>
+    <Property Name="CODI_USU" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LOGIN_USU" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="SENHA_USU" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NOME_USU" Type="nchar" MaxLength="100" />
+    <Property Name="ENDERECO_USU" Type="nchar" MaxLength="100" />
+    <Property Name="TELEFONE_USU" Type="nchar" MaxLength="12" />
+    <Property Name="BAIRRO_USU" Type="nchar" MaxLength="50" />
+    <Property Name="COMPLEMENTO_USU" Type="nchar" MaxLength="20" />
+    <Property Name="CEP_USU" Type="nchar" MaxLength="20" />
+    <Property Name="ESTADO_USU" Type="nchar" MaxLength="2" />
+    <Property Name="STATUS" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="USUADM" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <Association Name="fk_COLETAEXPERIMENTO_EXPERIMENTO">
+    <End Role="EXPERIMENTO" Type="Self.EXPERIMENTO" Multiplicity="1" />
+    <End Role="COLETAEXPERIMENTO" Type="Self.COLETAEXPERIMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EXPERIMENTO">
+        <PropertyRef Name="CODI_EXP" />
+      </Principal>
+      <Dependent Role="COLETAEXPERIMENTO">
+        <PropertyRef Name="CODI_EXP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_COLETAGERMINACAO_GERMINACAO">
+    <End Role="GERMINACAO" Type="Self.GERMINACAO" Multiplicity="1" />
+    <End Role="COLETAGERMINACAO" Type="Self.COLETAGERMINACAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GERMINACAO">
+        <PropertyRef Name="CODI_GER" />
+      </Principal>
+      <Dependent Role="COLETAGERMINACAO">
+        <PropertyRef Name="CODI_GER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_COMPETICAO_CULTURA">
+    <End Role="CULTURA" Type="Self.CULTURA" Multiplicity="1" />
+    <End Role="COMPETICAO" Type="Self.COMPETICAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CULTURA">
+        <PropertyRef Name="CODI_CUL" />
+      </Principal>
+      <Dependent Role="COMPETICAO">
+        <PropertyRef Name="CODI_CUL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_COMPETICAO_EXPERIMENTO">
+    <End Role="EXPERIMENTO" Type="Self.EXPERIMENTO" Multiplicity="1" />
+    <End Role="COMPETICAO" Type="Self.COMPETICAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EXPERIMENTO">
+        <PropertyRef Name="CODI_EXP" />
+      </Principal>
+      <Dependent Role="COMPETICAO">
+        <PropertyRef Name="CODI_EXP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_EXPERIMENTO_NOMEPADRAOVARIAVEIS">
+    <End Role="NOMEPADRAOVARIAVEIS" Type="Self.NOMEPADRAOVARIAVEIS" Multiplicity="1" />
+    <End Role="EXPERIMENTO" Type="Self.EXPERIMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NOMEPADRAOVARIAVEIS">
+        <PropertyRef Name="CODI_PAD" />
+      </Principal>
+      <Dependent Role="EXPERIMENTO">
+        <PropertyRef Name="CODI_PAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_EXPERIMENTO_PROPRIEDADE">
+    <End Role="PROPRIEDADE" Type="Self.PROPRIEDADE" Multiplicity="1" />
+    <End Role="EXPERIMENTO" Type="Self.EXPERIMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROPRIEDADE">
+        <PropertyRef Name="CODI_PRO" />
+      </Principal>
+      <Dependent Role="EXPERIMENTO">
+        <PropertyRef Name="CODI_PRO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_GERMINACAO_CULTURA">
+    <End Role="CULTURA" Type="Self.CULTURA" Multiplicity="1" />
+    <End Role="GERMINACAO" Type="Self.GERMINACAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CULTURA">
+        <PropertyRef Name="CODI_CUL" />
+      </Principal>
+      <Dependent Role="GERMINACAO">
+        <PropertyRef Name="CODI_CUL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_GERMINACAO_EXPERIMENTO">
+    <End Role="EXPERIMENTO" Type="Self.EXPERIMENTO" Multiplicity="0..1" />
+    <End Role="GERMINACAO" Type="Self.GERMINACAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EXPERIMENTO">
+        <PropertyRef Name="CODI_EXP" />
+      </Principal>
+      <Dependent Role="GERMINACAO">
+        <PropertyRef Name="CODI_EXP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProAgroModelStoreContainer">
+    <EntitySet Name="COLETAEXPERIMENTO" EntityType="Self.COLETAEXPERIMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="COLETAGERMINACAO" EntityType="Self.COLETAGERMINACAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="COMPETICAO" EntityType="Self.COMPETICAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CULTURA" EntityType="Self.CULTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EXPERIMENTO" EntityType="Self.EXPERIMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GERMINACAO" EntityType="Self.GERMINACAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NOMEPADRAOVARIAVEIS" EntityType="Self.NOMEPADRAOVARIAVEIS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROPRIEDADE" EntityType="Self.PROPRIEDADE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_COLETAEXPERIMENTO_EXPERIMENTO" Association="Self.fk_COLETAEXPERIMENTO_EXPERIMENTO">
+      <End Role="EXPERIMENTO" EntitySet="EXPERIMENTO" />
+      <End Role="COLETAEXPERIMENTO" EntitySet="COLETAEXPERIMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_COLETAGERMINACAO_GERMINACAO" Association="Self.fk_COLETAGERMINACAO_GERMINACAO">
+      <End Role="GERMINACAO" EntitySet="GERMINACAO" />
+      <End Role="COLETAGERMINACAO" EntitySet="COLETAGERMINACAO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_COMPETICAO_CULTURA" Association="Self.fk_COMPETICAO_CULTURA">
+      <End Role="CULTURA" EntitySet="CULTURA" />
+      <End Role="COMPETICAO" EntitySet="COMPETICAO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_COMPETICAO_EXPERIMENTO" Association="Self.fk_COMPETICAO_EXPERIMENTO">
+      <End Role="EXPERIMENTO" EntitySet="EXPERIMENTO" />
+      <End Role="COMPETICAO" EntitySet="COMPETICAO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_EXPERIMENTO_NOMEPADRAOVARIAVEIS" Association="Self.fk_EXPERIMENTO_NOMEPADRAOVARIAVEIS">
+      <End Role="NOMEPADRAOVARIAVEIS" EntitySet="NOMEPADRAOVARIAVEIS" />
+      <End Role="EXPERIMENTO" EntitySet="EXPERIMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_EXPERIMENTO_PROPRIEDADE" Association="Self.fk_EXPERIMENTO_PROPRIEDADE">
+      <End Role="PROPRIEDADE" EntitySet="PROPRIEDADE" />
+      <End Role="EXPERIMENTO" EntitySet="EXPERIMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_GERMINACAO_CULTURA" Association="Self.fk_GERMINACAO_CULTURA">
+      <End Role="CULTURA" EntitySet="CULTURA" />
+      <End Role="GERMINACAO" EntitySet="GERMINACAO" />
+    </AssociationSet>
+    <AssociationSet Name="fk_GERMINACAO_EXPERIMENTO" Association="Self.fk_GERMINACAO_EXPERIMENTO">
+      <End Role="EXPERIMENTO" EntitySet="EXPERIMENTO" />
+      <End Role="GERMINACAO" EntitySet="GERMINACAO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
