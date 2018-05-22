@@ -118,5 +118,10 @@ namespace Agronomia
         {
 
         }
+
+        private void TRelatorio_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

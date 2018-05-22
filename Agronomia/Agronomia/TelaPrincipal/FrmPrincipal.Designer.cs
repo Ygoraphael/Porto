@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TSair = new MetroFramework.Controls.MetroTile();
+            this.TAjuda = new MetroFramework.Controls.MetroTile();
+            this.TQr = new MetroFramework.Controls.MetroTile();
             this.TFerramentas = new MetroFramework.Controls.MetroTile();
             this.TAnalise = new MetroFramework.Controls.MetroTile();
             this.TRelatorio = new MetroFramework.Controls.MetroTile();
             this.TGerminacao = new MetroFramework.Controls.MetroTile();
             this.TExperimento = new MetroFramework.Controls.MetroTile();
             this.TCadastros = new MetroFramework.Controls.MetroTile();
-            this.TSair = new MetroFramework.Controls.MetroTile();
-            this.TAjuda = new MetroFramework.Controls.MetroTile();
-            this.TQr = new MetroFramework.Controls.MetroTile();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,6 +65,72 @@
             this.panel1.Size = new System.Drawing.Size(877, 596);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(741, 526);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "ProAgro System";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(263, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(560, 535);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // TSair
+            // 
+            this.TSair.CustomBackground = true;
+            this.TSair.CustomForeColor = true;
+            this.TSair.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.TSair.Location = new System.Drawing.Point(17, 531);
+            this.TSair.Name = "TSair";
+            this.TSair.Size = new System.Drawing.Size(108, 62);
+            this.TSair.TabIndex = 22;
+            this.TSair.Text = "Sair";
+            this.TSair.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.TSair.TileImage = ((System.Drawing.Image)(resources.GetObject("TSair.TileImage")));
+            this.TSair.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.TSair.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.TSair.UseTileImage = true;
+            // 
+            // TAjuda
+            // 
+            this.TAjuda.CustomBackground = true;
+            this.TAjuda.CustomForeColor = true;
+            this.TAjuda.Location = new System.Drawing.Point(17, 466);
+            this.TAjuda.Name = "TAjuda";
+            this.TAjuda.Size = new System.Drawing.Size(120, 64);
+            this.TAjuda.TabIndex = 23;
+            this.TAjuda.Text = "Ajuda";
+            this.TAjuda.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.TAjuda.TileImage = ((System.Drawing.Image)(resources.GetObject("TAjuda.TileImage")));
+            this.TAjuda.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.TAjuda.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.TAjuda.UseTileImage = true;
+            // 
+            // TQr
+            // 
+            this.TQr.CustomBackground = true;
+            this.TQr.CustomForeColor = true;
+            this.TQr.Location = new System.Drawing.Point(17, 405);
+            this.TQr.Name = "TQr";
+            this.TQr.Size = new System.Drawing.Size(225, 58);
+            this.TQr.TabIndex = 24;
+            this.TQr.Text = "QR Code Experimento";
+            this.TQr.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.TQr.TileImage = ((System.Drawing.Image)(resources.GetObject("TQr.TileImage")));
+            this.TQr.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.TQr.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.TQr.UseTileImage = true;
             // 
             // TFerramentas
             // 
@@ -110,6 +176,7 @@
             this.TRelatorio.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.TRelatorio.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.TRelatorio.UseTileImage = true;
+            this.TRelatorio.Click += new System.EventHandler(this.TRelatorio_Click);
             // 
             // TGerminacao
             // 
@@ -160,72 +227,6 @@
             this.TCadastros.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
             this.TCadastros.UseTileImage = true;
             this.TCadastros.Click += new System.EventHandler(this.TCadastros_Click);
-            // 
-            // TSair
-            // 
-            this.TSair.CustomBackground = true;
-            this.TSair.CustomForeColor = true;
-            this.TSair.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.TSair.Location = new System.Drawing.Point(17, 531);
-            this.TSair.Name = "TSair";
-            this.TSair.Size = new System.Drawing.Size(108, 62);
-            this.TSair.TabIndex = 22;
-            this.TSair.Text = "Sair";
-            this.TSair.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.TSair.TileImage = ((System.Drawing.Image)(resources.GetObject("TSair.TileImage")));
-            this.TSair.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.TSair.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.TSair.UseTileImage = true;
-            // 
-            // TAjuda
-            // 
-            this.TAjuda.CustomBackground = true;
-            this.TAjuda.CustomForeColor = true;
-            this.TAjuda.Location = new System.Drawing.Point(17, 466);
-            this.TAjuda.Name = "TAjuda";
-            this.TAjuda.Size = new System.Drawing.Size(120, 64);
-            this.TAjuda.TabIndex = 23;
-            this.TAjuda.Text = "Ajuda";
-            this.TAjuda.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.TAjuda.TileImage = ((System.Drawing.Image)(resources.GetObject("TAjuda.TileImage")));
-            this.TAjuda.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.TAjuda.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.TAjuda.UseTileImage = true;
-            // 
-            // TQr
-            // 
-            this.TQr.CustomBackground = true;
-            this.TQr.CustomForeColor = true;
-            this.TQr.Location = new System.Drawing.Point(17, 405);
-            this.TQr.Name = "TQr";
-            this.TQr.Size = new System.Drawing.Size(225, 58);
-            this.TQr.TabIndex = 24;
-            this.TQr.Text = "QR Code Experimento";
-            this.TQr.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.TQr.TileImage = ((System.Drawing.Image)(resources.GetObject("TQr.TileImage")));
-            this.TQr.TileImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.TQr.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
-            this.TQr.UseTileImage = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(263, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(560, 535);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(741, 526);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "ProAgro System";
             // 
             // FrmPrincipal
             // 

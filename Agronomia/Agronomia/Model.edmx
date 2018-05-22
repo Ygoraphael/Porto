@@ -853,6 +853,27 @@
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
-    <Diagrams></Diagrams>
+    <Diagrams>
+      <Diagram DiagramId="32134143de5c4949ab6d9bc3a1badcb5" Name="Diagram1">
+        <EntityTypeShape EntityType="ProAgroModel.COLETAEXPERIMENTO" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.COLETAGERMINACAO" Width="1.5" PointX="10.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.COMPETICAO" Width="1.5" PointX="8.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.CULTURA" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.EXPERIMENTO" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.GERMINACAO" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.NOMEPADRAOVARIAVEIS" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.PROPRIEDADE" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProAgroModel.USUARIO" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="ProAgroModel.fk_COLETAEXPERIMENTO_EXPERIMENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_COLETAGERMINACAO_GERMINACAO" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_COMPETICAO_CULTURA" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_COMPETICAO_EXPERIMENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_GERMINACAO_CULTURA" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_EXPERIMENTO_NOMEPADRAOVARIAVEIS" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_EXPERIMENTO_PROPRIEDADE" ManuallyRouted="false" />
+        <AssociationConnector Association="ProAgroModel.fk_GERMINACAO_EXPERIMENTO" ManuallyRouted="false" />
+      </Diagram>
+    </Diagrams>
   </Designer>
 </edmx:Edmx>

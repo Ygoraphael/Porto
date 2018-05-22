@@ -15,3 +15,4 @@ D:\files_git\EF Code first No database\App no database\App no database\obj\Debug
 D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.pdb
 D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.InitialCreate.resources
 D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.ADICIONATELEFONEESTUDANTE.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.FormConexaoBase.resources
