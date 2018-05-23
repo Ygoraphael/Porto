@@ -16,7 +16,8 @@ namespace App_no_database
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormConexaoBase());
+            //Application.Run(new FormConexaoBase());
+            Application.Run(new Form1());
         }
     }
 }

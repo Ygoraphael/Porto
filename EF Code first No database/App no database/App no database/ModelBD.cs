@@ -9,9 +9,6 @@ using System.Threading.Tasks;
 
 namespace App_no_database
 {
-    class ModelBD
-    {
-    }
     [Table("Student")]
     public class Student
     {

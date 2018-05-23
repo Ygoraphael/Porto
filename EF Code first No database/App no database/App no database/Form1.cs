@@ -1,4 +1,6 @@
-﻿using System;
+﻿using App_no_database.DBSET;
+using App_no_database.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,9 +21,31 @@ namespace App_no_database
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (var db = new StudentContext())
+            using (var db = new ProAgroContext())
             {
                 try
+                {
+                    var lUsuario = new USUARIO();
+                    lUsuario.LOGIN_USU = "YgorRaphael";
+                    lUsuario.SENHA_USU = "123456";
+                    lUsuario.NOME_USU = "Ygor Raphael";
+
+
+                    db.USUARIOs.Add(lUsuario);
+                    db.SaveChanges();
+                    MessageBox.Show("base criada com sucesso!", "SUCESSO", MessageBoxButtons.OK);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Um erro ocorreu durante o processo: " + ex.Message);
+                }                
+            }
+        }
+    }
+}
+
+
+/* try
                 {
                     var lstudent = new Student() { Name = "Ygor raphael" , Telefone = "991244001"};
 
@@ -47,8 +71,4 @@ namespace App_no_database
                 catch (Exception ex)
                 {
                     MessageBox.Show("Um erro ocorreu durante o processo: " + ex.Message);
-              }
-            }
-        }
-    }
-}
+              }*/

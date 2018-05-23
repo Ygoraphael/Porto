@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBSET\ClasseConexao.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +75,15 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelBD.cs" />
+    <Compile Include="Modelo\ColetaExperimento.cs" />
+    <Compile Include="Modelo\ColetaGerminacao.cs" />
+    <Compile Include="Modelo\Competicao.cs" />
+    <Compile Include="Modelo\Cultura.cs" />
+    <Compile Include="Modelo\Experimento.cs" />
+    <Compile Include="Modelo\Germinacao.cs" />
+    <Compile Include="Modelo\NomePadraoVariaveis.cs" />
+    <Compile Include="Modelo\Propriedade.cs" />
+    <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlHelper.cs" />
