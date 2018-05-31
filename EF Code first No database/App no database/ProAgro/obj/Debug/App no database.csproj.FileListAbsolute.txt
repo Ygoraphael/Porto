@@ -1,0 +1,54 @@
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe.config
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.pdb
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.dll
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.dll
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.xml
+D:\files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.xml
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csprojResolveAssemblyReference.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Form1.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Properties.Resources.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.GenerateResource.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CoreCompileInputs.cache
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CopyComplete
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.exe
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.pdb
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.InitialCreate.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.ADICIONATELEFONEESTUDANTE.resources
+D:\files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.FormConexaoBase.resources
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe.config
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.exe
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\App no database.pdb
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.dll
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.xml
+C:\Files_git\EF Code first No database\App no database\App no database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Form1.resources
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.FormConexaoBase.resources
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.InitialCreate.resources
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Migrations.ADICIONATELEFONEESTUDANTE.resources
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App_no_database.Properties.Resources.resources
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.GenerateResource.cache
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CoreCompileInputs.cache
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csproj.CopyComplete
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.exe
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.pdb
+C:\Files_git\EF Code first No database\App no database\App no database\obj\Debug\App no database.csprojResolveAssemblyReference.cache
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.Form1.resources
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.FormConexaoBase.resources
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.Properties.Resources.resources
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.GenerateResource.cache
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.CoreCompileInputs.cache
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.exe.config
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.exe
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.pdb
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.dll
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.SqlServer.dll
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\MetroFramework.dll
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\MetroFramework.Fonts.dll
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.xml
+C:\Files_git\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.SqlServer.xml
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.CopyComplete
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.exe
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.pdb
+C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csprojResolveAssemblyReference.cache
