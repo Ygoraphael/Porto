@@ -19,12 +19,10 @@ namespace App_no_database.Modelo
 
         [Required(ErrorMessage = "O tratamento é obrigatório!", AllowEmptyStrings = false)]
         [MaxLength(3)]
-        [StringLength(3, MinimumLength = 3)]
         public string TRATAM_COG { get; set; }
 
         [Required(ErrorMessage = "A repetição é obrigatório!", AllowEmptyStrings = false)]
         [MaxLength(3)]
-        [StringLength(3, MinimumLength = 3)]
         public string REPETI_COG { get; set; }
 
         [Required(ErrorMessage = "O PLANO DE ACOMPANHAMENTO DIAS é obrigatório!", AllowEmptyStrings = false)]

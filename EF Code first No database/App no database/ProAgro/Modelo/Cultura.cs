@@ -11,13 +11,13 @@ namespace App_no_database.Modelo
     [Table("tblCultura")]
     public class CULTURA
     {
-        /*
+
         public CULTURA()
         {
-            this.COMPETICAO = new HashSet<COMPETICAO>();
-            this.GERMINACAO = new HashSet<GERMINACAO>();
+            this.COMPETICAOs = new List<COMPETICAO>();
+            this.GERMINACAOs = new List<GERMINACAO>();
         }
-        */
+
         [Key]
         public int CODI_CUL { get; set; }
 
@@ -55,7 +55,7 @@ namespace App_no_database.Modelo
         [MaxLength(250)]
         public string OBSERV_CUL { get; set; }
                 
-        //public virtual ICollection<COMPETICAO> COMPETICAO { get; set; }
-        //public virtual ICollection<GERMINACAO> GERMINACAO { get; set; }
+        public virtual List<COMPETICAO> COMPETICAOs { get; set; }
+        public virtual List<GERMINACAO> GERMINACAOs { get; set; }
     }
 }
