@@ -9,7 +9,7 @@ namespace App_no_database
 {
     class AppSetting
     {
-        Configuration config;
+        Configuration config; 
         public AppSetting()
         {
             config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);

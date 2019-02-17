@@ -52,3 +52,21 @@ C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no 
 C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.exe
 C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.pdb
 C:\Files_git\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csprojResolveAssemblyReference.cache
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.exe.config
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.exe
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\App no database.pdb
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.dll
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.SqlServer.dll
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\MetroFramework.dll
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\MetroFramework.Fonts.dll
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.xml
+E:\git\Porto\EF Code first No database\App no database\ProAgro\bin\Debug\EntityFramework.SqlServer.xml
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csprojAssemblyReference.cache
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.Form1.resources
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.FormConexaoBase.resources
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App_no_database.Properties.Resources.resources
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.GenerateResource.cache
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.CoreCompileInputs.cache
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.csproj.CopyComplete
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.exe
+E:\git\Porto\EF Code first No database\App no database\ProAgro\obj\Debug\App no database.pdb
