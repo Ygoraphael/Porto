@@ -1,0 +1,15 @@
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\QRCODEWFM.exe.config
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.csprojResolveAssemblyReference.cache
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.Form1.resources
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.Properties.Resources.resources
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.csproj.GenerateResource.Cache
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\QRCODEWFM.exe
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\QRCODEWFM.pdb
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.dll
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.presentation.dll
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.pdb
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.xml
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.presentation.pdb
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\bin\Debug\zxing.presentation.xml
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.exe
+C:\Users\ygor\Desktop\ProAgro\EXEMPLO QRCODE\QRCODEWFM\QRCODEWFM\obj\Debug\QRCODEWFM.pdb
