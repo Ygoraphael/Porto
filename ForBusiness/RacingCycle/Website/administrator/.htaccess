@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "protected"
+AuthUserFile "/home/racingcycle/.htpasswds/public_html/administrator/passwd"
+require valid-user

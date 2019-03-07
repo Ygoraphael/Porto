@@ -1,0 +1,3 @@
+IGNORALOG
+05/03/2019
+true

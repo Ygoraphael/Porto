@@ -1,0 +1,9 @@
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\bin\Debug\AtualizaPHC.exe.config
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\bin\Debug\AtualizaPHC.exe
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\bin\Debug\AtualizaPHC.pdb
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.Properties.Resources.resources
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.csproj.GenerateResource.cache
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.csproj.CoreCompileInputs.cache
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.exe
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.pdb
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\obj\Debug\AtualizaPHC.PaginaLoad.resources

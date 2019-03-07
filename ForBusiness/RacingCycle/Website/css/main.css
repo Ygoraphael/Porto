@@ -1,0 +1,107 @@
+#right_toolbar {
+	position: fixed;
+	right:5px;
+	top: 30%;
+	z-index: 50;
+	width:45px;
+}
+#left_toolbar {
+	position: fixed;
+	left:0px;
+	top: 30%;
+	z-index: 500;
+	width:45px;
+}
+#right_toolbar .shopping_cart_mini {
+	position:absolute;
+	bottom:-135px;
+	margin-right:38px;
+	right:0;
+	left:auto;
+	top:auto;
+	overflow:hidden;
+	width:250px;
+background-color:#ffffff;
+}
+#left_toolbar .shopping_cart_mini {
+    position:absolute;
+    bottom:-135px;
+    margin-left:38px;
+    right:auto;
+    left:0;
+    top:auto;
+    overflow:hidden;
+    width:250px;
+background-color:#ffffff;
+}
+.shoppingcart .fadelink {
+	background:#ed1218;
+	padding:5px 0px;
+	position:absolute;
+	right:0;
+	top:0;
+	float:right;
+	border-radius:5px;
+}
+.shoppingcart:hover .fadelink span a {
+	background:#ed1218;
+	color:#fff;
+	cursor: pointer;
+	-webkit-transition: background-color 0.25s 0s ease;
+	-moz-transition: background-color 0.25s 0s ease;
+	-o-transition: background-color 0.25s 0s ease;
+}
+.shopping_cart_mini .product-detailes .product-name {
+	color: #ed1218;
+	text-decoration: none;
+	font-size: 12px;
+	line-height:1.05em;
+}
+.shopping_cart_mini .button {
+	float: left;
+	margin-right:5px;
+	padding: 0 7px;
+	border-radius: 3px;
+	background:#ed1218;
+	color:#ffffff;
+	text-decoration:none;
+	line-height:31px;
+	-webkit-transition: background-color 0.25s 0s ease;
+	-moz-transition: background-color 0.25s 0s ease;
+	-o-transition: background-color 0.25s 0s ease;
+
+}
+#right_toolbar .form-search button {
+    background-color: #ed1218;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+    margin: -3px 0 0 5px;
+    padding: 3px 0 1px;
+    position: relative;
+    width: 40px;
+    z-index: 100;
+}
+#left_toolbar .form-search button {
+    background-color: #ed1218;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+    margin: -3px 0 0 5px;
+    padding: 3px 0 1px;
+    position: relative;
+    width: 40px;
+    z-index: 100;
+}
+.scrollproduct-price {
+	color: #000000;
+	
+}
+.scarttxtcolor{
+color:#333333;
+}
+	/*  update google Font  */
+	.top-cart-content .block-subtitle,.mini-cart .actions .btn-checkout,.mini-cart .actions .view-cart,.mini-cart .actions .view-cart:hover,#nav > li > a,#nav ul.level0 > li > a,#nav .nav-custom-link .header-nav-dropdown-wrapper h4.heading,.totals h3,.crosssel h2,.cart-collaterals .col2-set h3,.page-title h1, .page-title h2,.products-grid .item .item-inner .item-info .info-inner .item-title a,.email-friend a,.block .block-title,.side-nav-categories .block-title,.block-account .block-title,.cat-img-title .cat-heading,.products-list .product-name a,.products-grid .actions button.button.btn-cart span,a.button.detail-bnt span,.product-view .new-label,.product-view .sale-label,.product-view .product-name h1,.product-view .short-description h2,.product-view .product-shop .add-to-links .link-wishlist,.product-view .product-shop .add-to-box .add-to-cart label,.product-view .product-shop .product-options-bottom .add-to-cart label,#customer-reviews .page-title h2,.tab-box .activeLink a,.tab-box a,.tab-box a:hover,.availability, .product-brand,.add-to-links span,.one-page-checkout .step-title .number,.one-page-checkout .active .step-title h3,.one-page-checkout .step-title h3,.one-page-checkout .active .step-title,.checkout-progress li,.page-title_multi h2,#wishlist-table .product-name,.login_page strong,#shopping-cart-table .product-name,#store-messages .message strong,footer h4,.our-features-box .feature-box,.new_title h2,.related-block .block-title,.up-sell-slider .block-title,.popular-block .block-title,.orange-slider .text,.right-side-content h2,#menu ul.navmenu .menutop h2,ul.topnav li a,.blog-title h2,.latest-news ul li h2,.latest-news a,.newsletter-sign-box h3,.light .intro-btn a,.caption .intro-btn a,.caption .heading,.caption.light1 .heading,.caption.light1 .badge,.pro-recommend .products-grid .actions button.button.btn-cart span,.pro-recommend .new_title h2,.pro-recommend  a.button.detail-bnt span,.newsletter-wrap button.subscribe,.jcarousel-skin-tango4 .products-grid .actions button.button.btn-cart span,.jcarousel-skin-tango4 a.button.detail-bnt span { font-family: 'Open Sans',  sans-serif;  } 
+	/* update theme color */
+	.products-grid .actions button.button.btn-cart,.jcarousel-skin-tango4 .products-grid .actions button.button.btn-cart,.pro-recommend .products-grid .actions button.button.btn-cart,.button, .btn, .button-inverse, .button-vote, .sidebar .button, .sidebar .btn, .dropdown .dropdown-menu .button, .buttons-set .back-link a, .scrolltop, .button-tabs li a,.products-list .product-shop .btn-cart { background:; } 
+	

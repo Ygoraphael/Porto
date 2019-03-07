@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<extension type="module" version="2.5">
+    <name>VirtueMart Shopping Cart</name>
+    <creationDate>January 2014</creationDate>
+    <author>Linelab.org</author>
+    <authorUrl>http://www.linelabox.com</authorUrl>
+    <copyright>Copyright (C) 2014 Linelabox.com All rights reserved.</copyright>
+    <license>GNU/GPL 3 Licence</license>
+    <version>2.0</version>
+    <description>MOD_VM2_CART_DESC</description>
+    <files>
+        <filename module="mod_vm2cart">mod_vm2cart.php</filename>
+        <filename>tmpl/default.php</filename>
+    </files>
+    <languages folder="languages">
+    	<language tag="en-GB">en-GB.mod_vm2cart.ini</language>
+    </languages>
+    <config>
+    	<fields name="params">
+    		<fieldset name="basic">
+    			<field name="width" id="width" type="text" default="150" label="MOD_VM2_CART_WIDTH" />
+    		</fieldset>
+    	</fields>
+    </config>
+</extension>

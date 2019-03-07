@@ -1,0 +1,6 @@
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\bin\Release\AtualizaArquivosPHC.exe.config
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\bin\Release\AtualizaArquivosPHC.exe
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\bin\Release\AtualizaArquivosPHC.pdb
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\obj\Release\AtualizaArquivosPHC.csproj.CoreCompileInputs.cache
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\obj\Release\AtualizaArquivosPHC.exe
+D:\gitNC\Atualiza_arquivos_pasta_PHC_from_FTP\AtualizaArquivosPHC\AtualizaArquivosPHC\obj\Release\AtualizaArquivosPHC.pdb

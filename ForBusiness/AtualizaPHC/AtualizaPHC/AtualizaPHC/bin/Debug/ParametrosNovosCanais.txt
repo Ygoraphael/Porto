@@ -1,0 +1,3 @@
+D:\gitNC\AtualizaPHC\AtualizaPHC\AtualizaPHC\bin\Debug\FromFTP
+1000
+C:\PHC\NovosCanais.exe

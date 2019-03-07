@@ -1,0 +1,233 @@
+/**
+ * @version		$Id: $
+ * @author		Codextension
+ * @package		Joomla!
+ * @subpackage	Module
+ * @copyright	Copyright (C) 2008 - 2012 by Codextension. All rights reserved.
+ * @license		GNU/GPL, see LICENSE
+ */
+/*======= cart div style =========*/
+#vmQuickCartModule #jlcart {
+	/*line-height: 50px;
+	float:right;*/
+	cursor: pointer;
+	position:relative;
+	padding:0 5px;
+}
+#vmQuickCartModule #jlcart a.cart_dropdown img {
+	margin-right:6px;
+	border:none;
+}
+#vmQuickCartModule #jlcart a.cart_dropdown {
+	color:white;
+	padding-right:30px;
+	background:url('images/arrow_down.png') no-repeat 90% 50%;
+}
+/* cart dropdown content */
+#vmQuickCartModule #jlcart div.cart_content {
+	display: none;
+	position:absolute;
+	top:98%;
+	width:420px;
+	background:#f7f7f7;
+	border:1px solid #d9d9d9;
+	border-top:3px solid black;
+	z-index: 9999;
+	/* box shadow */
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	left:0px;
+	min-height:150px;
+}
+#vmQuickCartModule #jlcart div.cart_content ul.innerItems{
+	/*height:250px;*/
+	overflow: hidden;
+}
+#vmQuickCartModule #jlcart div.cart_content ul.innerItems li{
+	background:none!important;
+	list-style:none!important;
+}	
+#vmQuickCartModule #jlcart div.cart_content b.cart_content_arrow {
+	position: absolute;
+	top:-10px;
+	left: 10%;
+	width:13px;
+	height:7px;
+	display: block;
+	background: url('images/red_top_arrow.png') no-repeat left top;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li {
+	padding:12px;
+	/*border-bottom:1px solid #ddd;*/
+}
+#vmQuickCartModule #jlcart div.cart_content ul li:hover {
+	background:#f0f0f0;
+	cursor:default;
+}
+/*===== div.cart_product_name ======*/
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_name {
+	float:left;
+	width:75%;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_name img {
+	border:1px solid #dedede;
+	float:left;
+	margin-right:10px;
+	/* box shadow */
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.1);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,.1);
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_name span {
+	/*float:left;
+	width:70%;
+	line-height: 20px;
+	color:#666;
+	font-weight:400;*/
+	color:black;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_name span strong {
+	font-size:14px;
+	font-weight:600;
+	text-transform: capitalize;
+}
+/*==== cart_product_price ====*/
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_price {
+	float:right;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_price span {
+	float:right;
+	line-height: 20px;
+	color:black;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_price span a {
+	font-weight:600;
+	color:#e81962;
+	text-decoration: underline;
+}
+#vmQuickCartModule #jlcart div.cart_content ul li div.cart_product_price span a:hover {
+	text-decoration: none;
+}
+
+
+/*======== dropdown_cart_info ==========*/
+#vmQuickCartModule #jlcart div.cart_content div.dropdown_cart_info {
+	padding:12px;
+}
+/*==== cart_total_price ====*/
+#vmQuickCartModule #jlcart div.cart_content div.dropdown_cart_info div.cart_total_price {
+	float:right;
+}
+#vmQuickCartModule #jlcart div.cart_content div.dropdown_cart_info div.cart_total_price span {
+	float:right;
+	line-height: 24px;
+}
+
+/*==== cart_buttons ====*/
+#vmQuickCartModule #jlcart div.cart_content div.dropdown_cart_info div.cart_buttons {
+	float:left;
+	margin:0;
+}
+#vmQuickCartModule #jlcart div.cart_content div.dropdown_cart_info div.cart_buttons button {
+	float:left;
+	margin:0;
+}
+.clearfix{
+	clear:both;
+}
+/*====== (gray btn) ======*/
+.gray_btn:link, .gray_btn:visited, input.gray_btn, button.gray_btn {
+	font:12px 'Open Sans', Arial, Tahoma, sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#333;
+	border:1px solid #d5d5d5;
+	padding:12px 14px;
+	display: inline-block;
+	cursor:pointer;
+
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#eaeaea));
+	background: -webkit-linear-gradient(top, #f4f4f4 0%,#eaeaea 100%);
+	background: -o-linear-gradient(top, #f4f4f4 0%,#eaeaea 100%);
+	background: -ms-linear-gradient(top, #f4f4f4 0%,#eaeaea 100%);
+	background: linear-gradient(to bottom, #f4f4f4 0%,#eaeaea 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#eaeaea',GradientType=0 );
+	
+	-webkit-box-shadow: 0 1px 3px #e7e6e7;
+	-moz-box-shadow: 0 1px 3px #e7e6e7;
+	-o-box-shadow: 0 1px 3px #e7e6e7;
+	box-shadow: 0 1px 3px #e7e6e7;
+
+	-moz-text-shadow:0 1px 0 #fff;
+	-webkit-text-shadow:0 1px 0 #fff;
+	-o-text-shadow:0 1px 0 #fff;
+	text-shadow:0 1px 0 #fff;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.gray_btn:hover, .gray_btn:active, input.gray_btn:hover, button.gray_btn:hover {
+	background: #eaeaea;
+	background: -moz-linear-gradient(top, #eaeaea 0%, #f4f4f4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#f4f4f4));
+	background: -webkit-linear-gradient(top, #eaeaea 0%,#f4f4f4 100%);
+	background: -o-linear-gradient(top, #eaeaea 0%,#f4f4f4 100%);
+	background: -ms-linear-gradient(top, #eaeaea 0%,#f4f4f4 100%);
+	background: linear-gradient(to bottom, #eaeaea 0%,#f4f4f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#f4f4f4',GradientType=0 );
+}
+
+
+/*==== (red_btn) ====*/
+.red_btn:link, .red_btn:visited, input.red_btn, button.red_btn {
+	font:12px 'Open Sans', Arial, Tahoma, sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#fff;
+	border:1px solid #d5d5d5;
+	padding:12px 14px;
+	display: inline-block;
+	cursor:pointer;
+
+	background: #ef256c;
+	background: -moz-linear-gradient(top, #ef256c 0%, #e1155d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef256c), color-stop(100%,#e1155d));
+	background: -webkit-linear-gradient(top, #ef256c 0%,#e1155d 100%);
+	background: -o-linear-gradient(top, #ef256c 0%,#e1155d 100%);
+	background: -ms-linear-gradient(top, #ef256c 0%,#e1155d 100%);
+	background: linear-gradient(to bottom, #ef256c 0%,#e1155d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef256c', endColorstr='#e1155d',GradientType=0 );
+
+	-webkit-box-shadow: 0 1px 3px #e7e6e7;
+	-moz-box-shadow: 0 1px 3px #e7e6e7;
+	-o-box-shadow: 0 1px 3px #e7e6e7;
+	box-shadow: 0 1px 3px #e7e6e7;
+
+	-moz-text-shadow:0 1px 0 #ad0d46;
+	-webkit-text-shadow:0 1px 0 #ad0d46;
+	-o-text-shadow:0 1px 0 #ad0d46;
+	text-shadow:0 1px 0 #ad0d46;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.red_btn:hover,.red_btn:active, input.red_btn:hover, button.red_btn:hover {
+	background: #e1155d;
+	background: -moz-linear-gradient(top, #e1155d 0%, #ef256c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e1155d), color-stop(100%,#ef256c));
+	background: -webkit-linear-gradient(top, #e1155d 0%,#ef256c 100%);
+	background: -o-linear-gradient(top, #e1155d 0%,#ef256c 100%);
+	background: -ms-linear-gradient(top, #e1155d 0%,#ef256c 100%);
+	background: linear-gradient(to bottom, #e1155d 0%,#ef256c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1155d', endColorstr='#ef256c',GradientType=0 );
+}
+
