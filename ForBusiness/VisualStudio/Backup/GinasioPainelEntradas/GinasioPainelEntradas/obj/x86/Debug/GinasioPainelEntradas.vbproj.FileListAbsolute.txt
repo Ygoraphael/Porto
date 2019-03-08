@@ -1,0 +1,23 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.Form1.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.Resources.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.myFrm.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\bin\Debug\GinasioPainelEntradas.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.Form1.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.Resources.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.myFrm.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.vbproj.GenerateResource.Cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioPainelEntradas\GinasioPainelEntradas\obj\x86\Debug\GinasioPainelEntradas.vbprojResolveAssemblyReference.cache

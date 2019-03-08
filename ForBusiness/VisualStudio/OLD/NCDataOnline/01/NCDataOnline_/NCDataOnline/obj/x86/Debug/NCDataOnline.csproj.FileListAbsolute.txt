@@ -1,0 +1,14 @@
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.Properties.Resources.resources
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.Splash.resources
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\bin\Debug\NCDataOnline.exe
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\bin\Debug\NCDataOnline.pdb
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.exe
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.pdb
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.DlgProperties.resources
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.Form1.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.Form2.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnline\NCDataOnline\obj\x86\Debug\NCDataOnline.DlgDataGrid.resources
