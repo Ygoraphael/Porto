@@ -1,0 +1,111 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/survey/new_survey">%%New Survey%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/survey/surveys">%%All Replies%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/survey/surveystoanswer">%%Reply to surveys%%</a>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-check2" ></i> %%Surveys%%</h4>
+                <div class="row st">
+                    <form class="form" method="get"  name="User" action="/panel/surveys/" >
+                        <div class="col-md-5">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="date-expired">%%Start date%%</label>
+                                    <input onchange="dataStart(this);" type="date"  id="date-start" class="form-control" name="s" max="#" value="{{start}}">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="date-expired">%%End date%%</label>
+                                    <input onchange="dataEnd(this);" type="date" id="date-end" class="form-control" name="e" min="#" value="{{END2}}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="date-expired">%%Status%%</label>
+                                            <select name="t" class="form-control" required >
+                                                <!-- BEGIN BLOCK_STATUS -->
+                                                <option value="{{VALUEST}}" {{SELECTED}}>{{TEXTST}}</option>
+                                                <!-- END BLOCK_STATUS -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="date-expired">%%Profile%%</label>
+                                            <select name="p" class="form-control"  >
+                                                <option value="0" {{SELECTED2}}  >%%All%%</option>
+                                                <!-- BEGIN BLOCK_SELECT_PROFILE -->
+                                                <option value="{{SELECT_PROFILE->ID}}" {{SELECTED3}}>{{SELECT_PROFILE->NAME}}</option>
+                                                <!-- END BLOCK_SELECT_PROFILE -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="col-md-1" style="margin-top:30px;">
+                            <button type="submit" class="btn btn-success">%%Search%%</button>
+                        </div>
+                    </form>	
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_LISTING_SURVEYS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Created at%%</th>
+                                <th>%%Periodicity%%</th>
+                                <th>%%Profile%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SURVEYS -->
+                            <tr>
+                                <td>{{SURVEY->CREATED_AT}}</td>
+                                <td>{{SURVEY->QTT}} x {{SURVEY->TYPE}}</td>
+                                <td>{{SURVEY->PROFILE}}</td>
+                                <td><span class="tag tag-{{status_class}} ">{{SURVEY->STATUS}}</span></td>
+                                <td>
+                                    <a class="btn btn-xs btn-info" href="/survey/view/{{ID}}" title="%%See Survey%%"><i class="icon-eye"></i></a>    
+                                    <a class="btn btn-xs btn-warning" href="/survey/edit/{{ID}}" title="%%Edit Survey%%"><i class="icon-edit"></i></a>    
+                                    <a class="btn btn-xs btn-success" href="/survey/duplicate/{{ID}}" title="%%Duplicate Survey%%"><i class="icon-files-o"></i></a>    
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SURVEYS -->
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- END BLOCK_LISTING_SURVEYS -->
+                <!-- BEGIN BLOCK_NO_SURVEYS -->
+                <div class="col-md-12 ">
+                    <h4>%%There are no surveys%%</h4>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_NO_SURVEYS -->
+            </div>
+        </div>
+    </div>
+</div>

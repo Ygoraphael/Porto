@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" judirplugintype="field">
+    <name>Media</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>media</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/media">
+            <file>media.xml</file>
+            <file>media.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+            <folder>assets</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="config" label="Config">
+            <field
+                    name="auto_upload"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_AUTO_UPLOAD_LABEL"
+                    description="COM_JUFORM_FIELD_AUTO_UPLOAD_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="max_files"
+                    type="text"
+                    default="0"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_MAX_FILES_LABEL"
+                    description="COM_JUFORM_FIELD_MAX_FILES_DESC"
+                    />
+
+            <field
+                    name="max_size"
+                    type="text"
+                    size="10"
+                    default="2"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_MAX_SIZE_LABEL"
+                    description="COM_JUFORM_FIELD_MAX_SIZE_DESC"
+                    />
+
+            <field
+                    name="extensions"
+                    type="textarea"
+                    cols="20"
+                    rows="5"
+                    default="mp4,m4v,f4v,mov,flv,webm,aac,m4a,f4a,mp3,ogg,oga"
+                    label="COM_JUFORM_FIELD_LEGAL_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_EXTENSIONS_DESC"
+                    />
+
+            <field name="spacer1"
+                   type="spacer"
+                   hr="true"
+                    />
+
+            <field
+                    name="check_mimetype"
+                    type="radio"
+                    default="1"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_CHECK_MIME_LABEL"
+                    description="COM_JUFORM_FIELD_CHECK_MIME_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="ignored_extensions"
+                    type="text"
+                    size="50"
+                    class="jufilter-check_mimetype-1"
+                    label="COM_JUFORM_FIELD_IGNORED_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_IGNORED_EXTENSIONS_DESC"
+                    />
+
+            <field
+                    name="mimetypes"
+                    type="textarea"
+                    cols="20"
+                    rows="5"
+                    default="video/mp4,video/x-f4v,video/quicktime,video/flv,video/webm,audio/mp4,audio/mpeg,audio/ogg"
+                    class="jufilter-check_mimetype-1"
+                    label="COM_JUFORM_FIELD_LEGAL_MIME_TYPES_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_MIME_TYPES_DESC"
+                    />
+
+            <field name="spacer2"
+                   type="spacer"
+                   label="COM_JUFORM_THUMB_IMAGE_FOR_VIDEO"
+                    />
+
+            <field
+                    name="image_max_size"
+                    type="text"
+                    default="500"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_MAX_SIZE_LABEL"
+                    description="COM_JUFORM_FIELD_MAX_SIZE_DESC"
+                    />
+
+            <field
+                    name="image_extensions"
+                    type="text"
+                    size="50"
+                    default="bmp,gif,jpg,png"
+                    label="COM_JUFORM_FIELD_LEGAL_IMAGE_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_IMAGE_EXTENSIONS_DESC"
+                    />
+
+            <field
+                    name="image_check_mimetype"
+                    type="radio"
+                    default="1"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_CHECK_MIME_LABEL"
+                    description="COM_JUFORM_FIELD_CHECK_MIME_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="spacer3"
+                   type="spacer"
+                   hr="true"
+                    />
+
+            <field
+                    name="width"
+                    type="text"
+                    default="100%"
+                    label="COM_JUFORM_FIELD_MEDIA_WIDTH_LABEL"
+                    description="COM_JUFORM_FIELD_MEDIA_WIDTH_DESC"
+                    />
+
+            <field
+                    name="height"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_MEDIA_HEIGHT_LABEL"
+                    description="COM_JUFORM_FIELD_MEDIA_HEIGHT_DESC"
+                    />
+
+            <field
+                    name="aspectratio"
+                    type="list"
+                    default="16:9"
+                    label="COM_JUFORM_FIELD_ASPECTRATIO_LABEL"
+                    description="COM_JUFORM_FIELD_ASPECTRATIO_DESC">
+                <option value="16:9">16:9</option>
+                <option value="24:10">24:10</option>
+                <option value="4:3">4:3</option>
+            </field>
+
+            <field
+                    name="autostart"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_AUTOSTART_LABEL"
+                    description="COM_JUFORM_FIELD_AUTOSTART_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="repeat"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_REPEAT_LABEL"
+                    description="COM_JUFORM_FIELD_REPEAT_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="listbar_position"
+                    type="list"
+                    default="none"
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_LISTBAR_POSITION_LABEL"
+                    description="COM_JUFORM_FIELD_LISTBAR_POSITION_DESC">
+                <option value="none">COM_JUFORM_NONE</option>
+                <option value="right">COM_JUFORM_OPTION_RIGHT</option>
+                <option value="bottom">COM_JUFORM_OPTION_BOTTOM</option>
+            </field>
+
+            <field
+                    name="listbar_size"
+                    type="text"
+                    default="180"
+                    class="jufilter-listbar_position-right-bottom"
+                    label="COM_JUFORM_FIELD_LISTBAR_SIZE_LABEL"
+                    description="COM_JUFORM_FIELD_LISTBAR_SIZE_DESC"
+                    />
+
+            <field
+                    name="listbar_layout"
+                    type="radio"
+                    default="extended"
+                    class="jufilter-listbar_position-right-bottom btn-group"
+                    label="COM_JUFORM_FIELD_LISTBAR_LAYOUT_LABEL"
+                    description="COM_JUFORM_FIELD_LISTBAR_LAYOUT_DESC">
+                <option value="basic">COM_JUFORM_OPTION_BASIC</option>
+                <option value="extended">COM_JUFORM_OPTION_EXTENDED</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

@@ -1,0 +1,8 @@
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\bin\Debug\GinasioMultiExe.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\bin\Debug\GinasioMultiExe.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\bin\Debug\GinasioMultiExe.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.Resources.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioVerificaConexao.vbproj.GenerateResource.Cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.pdb

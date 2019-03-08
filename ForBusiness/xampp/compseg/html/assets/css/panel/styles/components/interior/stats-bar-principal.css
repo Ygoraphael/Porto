@@ -1,0 +1,39 @@
+.stats-bar-principal {
+  width: 100%;
+  height: 70px;
+  background: url(images/stats-bar-principal-background.png) center center no-repeat;
+  margin-top: -10px;
+  padding-top: 20px;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: calc(100% + 30px);
+  color: #ffffff;
+  font: 100 12px / 20px Roboto;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.stats-bar-principal li {
+  display: inline-block;
+}
+.stats-bar-principal .stats {
+  float: left;
+  background-color: #480808;
+  box-shadow: 1px 2px 1px 0.00px #761717;
+  border-radius: 27px;
+  height: 27px;
+  margin-top: -5px;
+}
+.stats-bar-principal .stats ul {
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.stats-bar-principal .stats ul li {
+  margin-left: 11.5px;
+  margin-right: 11.5px;
+  color: #ffffff;
+  font: 100 12px / 0px Roboto;
+}
+.stats-bar-principal .onlineCount {
+  float: right;
+}

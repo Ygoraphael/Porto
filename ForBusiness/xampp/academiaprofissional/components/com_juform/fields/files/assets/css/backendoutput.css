@@ -1,0 +1,4 @@
+.field-files .total-file, .field-files .total-download {
+    float: left;
+    clear: both;
+}

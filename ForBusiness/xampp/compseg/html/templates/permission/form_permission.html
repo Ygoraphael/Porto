@@ -1,0 +1,51 @@
+
+<form class="form" name="permission">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-key2"></i> %%New Permissions Group%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <h4 class="form-section">%%Basic Info%%</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name-group">%%Name%%</label>
+                                <input type="text" id="name-group" required class="form-control" placeholder="%%Name%%" name="name-group">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="type_user">%%User Type%%:</label>
+                                <select id="type_user" name="level" class="form-control select_change"  data-controller="permission" data-method="listing" data-id="form_group_permission">
+                                    <option value="0" selected="">%%Common%%</option>
+                                    <option value="1">%%Supervisor%%</option>
+                                    <option value="2">%%Director%%</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="permission_listing_form_group_permission" class="hide">
+                    <div class="alert alert-warning no-border mb-2" role="alert">
+                        <strong>Atenção!</strong> %%Select the type of user%%!
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                            <i class="icon-cross2"></i> %%Cancel%%
+                        </button>
+                        <button type="submit" class="btn btn-success btn_save">
+                            <i class="icon-check2"></i> %%Save%%
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

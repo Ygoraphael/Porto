@@ -1,0 +1,107 @@
+@url_base: "https://mafialocal.cosmosdigital.pt";
+.registerButton{
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    background-image: url("@{url_base}/assets/img/bigButton.png");
+    height: 74px;
+    width: 263px; 
+    text-align: center;
+    padding-top: 20px;
+    color: #fce9b8; 
+    font: 700 20px / 32px HelveticaLT;
+    text-transform: uppercase;
+    outline: none;
+    &:focus{ outline: none; }
+    &:hover{
+        text-decoration: none;
+        color: #fff0c8;
+    }
+}
+
+.login{
+    position: relative;
+    text-align: center; 
+    color: #e6d4a6;
+    font: 400 12px / 11.69px HelveticaCE;
+    padding-top: 20px;
+    max-width: 289px;
+    @media(max-width: @screen-tablet) {
+        margin-left: e("calc(50% - 145px)"); 
+    }
+    @media(min-width: @screen-tablet) {
+        min-height: 349px;
+        margin-bottom: -27px;
+        border: 0;
+        border-left: 1px solid rgba(139, 139, 139, 0.3);
+        box-shadow: -1px 0px 0px 0px rgb(0, 0, 0);
+        padding-left: 34px; 
+    }
+    .hat{
+        @media(max-width: @screen-tablet) {
+            background: url("@{url_base}/assets/img/hat.png");
+            height: 65px;
+            width: 74px;
+            margin-left: e("calc(50% - 37px)");
+        }
+        @media(min-width: @screen-tablet) {
+            position: absolute;
+            background: url("@{url_base}/assets/img/hat.png");
+            height: 65px;
+            width: 74px;
+            top: -25px;
+            left: 10px;
+        }
+        @media(min-width: @screen-desktop) {
+            position: absolute;
+            background: url("@{url_base}/assets/img/hat.png");
+            height: 65px;
+            width: 74px;
+            top: -25px;
+        }
+    }
+    .form-input{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    button{
+        height: 40px;
+        //width: 196px;
+        font: 700 1em / 32px HelveticaLT;
+        padding-top: 6px;
+        text-transform: uppercase;
+    }
+    input[type=text], input[type=password] {
+        background: url("@{url_base}/assets/img/inputBackground.png") center center;
+        background-position: 0px 1px;
+        background-size: 100% 110%;
+        background-repeat: no-repeat;
+        background-color: rgb(30, 30, 30);
+        box-shadow: 0px 2px 0px 0px rgba(155, 9, 9, 0.89);
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+        text-align: center;
+        color: #e6d4a6;
+    }
+    a{
+        color: #e6d4a6;
+        font: 400 14px / 11.69px HelveticaCE;
+        text-decoration: underline;
+    }
+    #serverSelect { 
+        outline: none;
+        &:focus{ outline: none; }
+        //background: url(/html/assets/img/botao-selecionar.png);
+        background: linear-gradient(0deg, #310000 0%, #6d0202 100%); 
+        border-radius: 3px;
+        box-shadow: 0px 5px 5px 0.00px #000000;
+        height: 27px;
+        min-width: 131px;
+        border: 0;
+        padding-left: 15px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+}

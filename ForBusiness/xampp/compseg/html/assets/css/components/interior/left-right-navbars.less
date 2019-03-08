@@ -1,0 +1,81 @@
+
+@url_base:"https://mafialocal.cosmosdigital.pt";
+
+.leftNav, .rightNav{
+    @media (min-width: 1200px) {
+        width: 232px;
+    }
+    @media (max-width: 1199px) {
+        //width: 200px;
+        width: 20%;
+    }
+    @media (max-width: 992px) {
+        width: 20%;
+    }
+    float:left;
+    background: url("@{url_base}/assets/img/linkListBackground.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 280px e("calc(100% + 50px)");
+    height: 100%;
+    padding: 5px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.leftNav { margin-right: 14px; }
+.rightNav { margin-left: 14px; }
+.main-content-area{
+    float:left;
+    @media (min-width: 1200px) {
+        width: e("calc(100% - 492px)");
+    }
+    @media (max-width: 1199px) {
+        //width: e("calc(100% - 428px)");
+        width: e("calc(60% - 30px)");
+    }
+    @media (max-width: 992px) {
+        width: e("calc(60% - 30px)");
+    }
+    padding-left: 15px;
+    padding-right: 15px;
+    .fadeDown;
+}
+.navLogo{
+    text-align: center;
+}
+.linkList{
+    .linkList-header{
+        color: #f3e1b2;
+        font: 700 18px / 34px Roboto;
+        background: url("@{url_base}/assets/img/linkListHeaderBackground.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 55px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 5px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li{
+            background: url("@{url_base}/assets/img/linkListLiBackground.png");
+            background-size: 200px 100%;
+            background-position: center center;
+            text-align: center;
+            height: 30px;
+            //width: 200px;
+        }
+    }
+    a{
+        color: #f3e1b2;
+        &:hover{
+            color: #ebe2cb;
+            text-decoration: none;
+        }
+    }
+}
+

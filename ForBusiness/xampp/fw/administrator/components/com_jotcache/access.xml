@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: access.xml,v 1.2 2013/04/09 12:30:52 Jot Exp $ -->
+<access component="com_jotcache">
+  <section name="component">
+    <action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+    <action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+    <action name="jotcache.manage" title="Manage JotCache" description="popis" />
+  </section>
+</access>

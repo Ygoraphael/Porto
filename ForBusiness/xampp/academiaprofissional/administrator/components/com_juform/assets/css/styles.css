@@ -1,0 +1,631 @@
+/* Dashboard */
+div.cpanel-left {
+    float: left;
+    width: 54%;
+}
+
+div.cpanel-right {
+    float: right;
+    width: 45%;
+}
+
+.cpanel .icon-wrapper {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+div#position-icon.pane-sliders .icon {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.cpanel div.icon, #cpanel div.icon {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.cpanel {
+    float: left;
+}
+
+#cpanel img, .cpanel img {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.cpanel div.icon a, #cpanel div.icon a {
+    background-color: #FFFFFF;
+    background-position: -30px center;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    color: #565656;
+    display: block;
+    float: left;
+    height: 97px;
+    text-decoration: none;
+    transition-duration: 0.8s;
+    transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+    vertical-align: middle;
+    width: 108px;
+}
+
+.cpanel div.icon a, #cpanel div.icon a {
+    color: #565656;
+}
+
+#cpanel span, .cpanel span {
+    display: block;
+    text-align: center;
+}
+
+#cpanel div.icon a:hover, #cpanel div.icon a:focus, #cpanel div.icon a:active, .cpanel div.icon a:hover, .cpanel div.icon a:focus, .cpanel div.icon a:active {
+    background-position: 0 center;
+    border-bottom-left-radius: 50% 20px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+}
+
+.cpanel div.icon a, #cpanel div.icon a {
+    background-color: #FFFFFF;
+    background-position: -30px center;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    color: #565656;
+    display: block;
+    float: left;
+    height: 97px;
+    text-decoration: none;
+    transition-duration: 0.8s;
+    transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+    vertical-align: middle;
+    width: 108px;
+}
+
+#cpanel span, .cpanel span {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.cpanel span.update-badge {
+    background-image: -moz-linear-gradient(center bottom, #FF0000 41%, #FC7E7E 79%);
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(41%, #FF0000), color-stop(79%, #FC7E7E));
+    border: 2px solid #FFFFFF;
+    border-radius: 1.5em;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 1.2em;
+    left: 60px;
+    min-width: 1em;
+    padding: 0 0.1em;
+    position: relative;
+    top: -74px;
+}
+
+/* Top menu in all views */
+#jumenu .navbar-inner {
+    background: #f2f2f2 none repeat scroll 0 0;
+    margin-bottom: 10px;
+}
+
+#jumenu .navbar-inner .dropdown-menu > .active > a {
+    background-color: #2d6ca2;
+    background-image: linear-gradient(to bottom, #3071a9, #2a6496);
+    background-repeat: repeat-x;
+    color: #FFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+/* Breadcrumb path in list cats */
+.breadcrumb > li + li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+
+/* Fix calendar button of calendar field */
+.input-append .icon-calendar {
+    cursor: pointer;
+}
+
+/* Textarea field in form edit page */
+.field-textarea textarea {
+    float: left;
+}
+
+.field-textarea #editor-xtd-buttons {
+    clear: both;
+    float: left;
+}
+
+/* Global config */
+.juform-config .jusplit-column {
+    clear: none;
+    float: left;
+    margin: 0;
+}
+
+.juform-config .jusplit-column-list {
+    margin: 0;
+    padding: 0;
+}
+
+.juform-config {
+    clear: both;
+}
+
+.juform-config .tab-pane ul > li {
+    list-style: none outside none;
+}
+
+.juform-config fieldset.adminForm legend {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    color: #555555;
+    display: inline-block;
+    font: 700 11px/1.2 Tahoma, Arial, sans-serif !important;
+    left: auto;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    position: relative;
+    top: 1px;
+    width: auto;
+}
+
+.juform-config fieldset.adminForm {
+    border: 1px solid #CCCCCC !important;
+    border-radius: 2px;
+    margin: 0 10px 20px !important;
+    overflow: visible;
+    padding: 10px;
+}
+
+.juform-config ul li.jusplit-column {
+    clear: none;
+    float: left;
+    margin: 0;
+}
+
+.juform-config ul.jusplit-column-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* Backend permissions */
+.group-permission-wrap {
+    width: 100%;
+    display: inline-block;
+}
+
+.group-permission-label-div {
+    min-width: 150px;
+    width: 17%;
+    float: left;
+}
+
+.group-permission-label-div ul {
+    list-style: none;
+    margin: 0 !important;
+}
+
+.group-permission-label-div ul li {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+}
+
+.group-permission-label-div ul span {
+    float: left;
+}
+
+.group-permission-label-div li.header {
+    height: 77px;
+    padding: 0;
+    border: none;
+    margin-bottom: 8px;
+    background: none;
+}
+
+.group-permission-label-div li.header span {
+    margin-top: 30px;
+}
+
+.group-permission-label-div li span.group {
+    width: 40%;
+    overflow: hidden;
+}
+
+.group-permission-label-div li span.group label {
+    white-space: nowrap;
+}
+
+.group-permission-label-div li span.view {
+    width: 20%;
+    text-align: center;
+}
+
+.group-permission-label-div li span.manage {
+    width: 20%;
+    text-align: center;
+}
+
+.group-permission-label-div li span.delete {
+    width: 20%;
+    text-align: center;
+}
+
+.group-permission-div {
+    border-left: 1px solid #ddd;
+    float: left;
+    margin-left: -1px;
+    overflow-y: auto;
+    padding-bottom: 25px;
+    width: 83%;
+}
+
+.group-permission-div .header, .group-permission-label-div .header {
+    height: 50px;
+    background: none;
+}
+
+.group-permission-label .center, .group-permission .center {
+    text-align: center;
+}
+
+.group-permission-label .center > div {
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.group-permission-label .center > div label {
+    padding: 0;
+    margin: 0;
+}
+
+.group-permission-div .group-permission {
+    border-collapse: inherit;
+}
+
+.group-permission tr > th {
+    min-width: 65px;
+    height: 75px;
+    vertical-align: bottom;
+}
+
+.group-permission tr {
+
+}
+
+.group-permission .center > div {
+    margin-top: 10px;
+}
+
+.group-permission th.center label, .group-permission-label th.center label {
+    width: auto;
+    min-width: 0;
+    float: none;
+    padding: 0 5px;
+}
+
+.group-permission th.center label span {
+    font-weight: bold;
+}
+
+.group-permission .center label {
+    width: 100%;
+}
+
+.group-permission .center input, .group-permission-label .center input {
+    float: none !important;
+}
+
+/* Email body textarea*/
+#jform_body_text {
+    width: 600px;
+}
+
+.control-group.hiddenfield {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px dashed #d5d5d5;
+    opacity: 0.9;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Accordion in right side panel(span4-5) */
+.span4 .accordion input[type="text"], .span4 .accordion textarea, .span4 .accordion .uneditable-input {
+    width: 175px;
+}
+
+/* Fix width for all form-horizontal in JU Form*/
+.form-horizontal .control-label {
+    max-width: 150px !important;
+}
+
+.form-horizontal .controls {
+    margin-left: 150px !important;
+}
+
+.form-vertical .controls {
+    margin-left: 0 !important;
+}
+
+/* Multi select boostrap */
+button.multiselect {
+    margin-right: 5px;
+}
+
+button.multiselect .caret {
+    margin: 7px 0;
+}
+
+/* Fix all ul/li in adminformlist */
+ul.adminformlist {
+    margin: 0;
+}
+
+ul.adminformlist li {
+    list-style: none outside none;
+}
+
+/* Item alias in list view*/
+p.small {
+    margin: 0;
+}
+
+p.small span {
+    color: #a0a0a0;
+}
+
+/* Others */
+#iframe-help {
+    display: none;
+    height: 300px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.jubootstrap .from {
+    margin-right: 5px;
+}
+
+.jubootstrap .to {
+    margin: 0 5px;
+}
+
+.pro-version {
+    color: #d50000;
+    font-size: 10px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+/* View form */
+#design .template_code {
+    margin-bottom: 10px;
+}
+
+.afterprocess-action-value > div {
+    clear: both;
+}
+
+.show_message-lbl {
+    margin: 10px 0;
+    width: 200px;
+}
+
+/* View submissions */
+.popover .popover-content {
+    padding: 0;
+}
+
+.submissions.field-list {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.submissions.field-list li {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    min-height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    clear: both;
+    cursor: move !important;
+    width: 100%;
+    margin-right: 2px;
+    padding: 0;
+ }
+
+.submissions.field-list li:hover {
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+}
+
+.submissions.field-list li label {
+    float: left;
+    line-height: 14px;
+    margin: 8px 5px 4px;
+    padding-left: 0;
+}
+
+.submissions.field-list li label input {
+    margin: 0 5px 0 0;
+}
+
+.submissions.field-list li.placeHolder {
+    border: 1px dashed #ccc;
+}
+
+/* Force show select form in submissions view */
+body.view-submissions .js-stools-container-bar {
+    margin-bottom: 10px;
+}
+
+body.view-submissions .js-stools-container-list, body.view-submissions .ordering-select {
+    display: block !important;
+}
+
+.save-order-field {
+    float: right;
+    border: 1px dashed #000;
+    padding: 0 6px;
+    cursor: pointer;
+    height: 15px;
+    line-height: 17px;
+}
+
+.save-order-field.disabled {
+    cursor: auto;
+    border: 1px dashed #ccc;
+}
+
+.save-order-field.disabled i.icon-ok:before {
+    color: #000000;
+}
+
+#jufm-container.detail-form .controls > div, #jufm-container.detail-form .controls > span {
+    float: left;
+}
+
+.spinner {
+    display: none;
+}
+
+.field-condition-list, .email-condition-list {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+.field-condition-list li, .email-condition-list li {
+    margin-bottom: 5px;
+    float: left;
+}
+
+.field-condition-list li select, .email-condition-list li select {
+    float: left;
+    margin: 0 3px 0 0;
+}
+
+.field-condition-list li button, .email-condition-list li button {
+    float: left;
+}
+
+#email-message_ifr {
+    height: 300px !important;
+}
+
+#email-attachments {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#email-attachments li {
+    margin: 0 0 10px 0;
+}
+
+#email-attachments li .upload-progress {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+#email-attachments li .progress-bar {
+    background-color: #09F;
+    height: 3px;
+    width: 1px;
+}
+
+.form-design li {
+    float: left;
+    clear: both;
+    margin: 5px;
+}
+
+.fieldtype-list {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px !important;
+}
+
+.fieldtype-list li {
+    line-height: 25px;
+}
+
+.fieldtype-list li a {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.fieldtype-list li:last-child a {
+    border-bottom: none;
+}
+
+.field-config .field-list {
+    border: 1px solid #e5e5e5;
+    padding: 0 5px;
+}
+
+.field-config ul li {
+    list-style: none outside none;;
+}
+
+.field-notification .email-list {
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+.field-action .field-action-list {
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+.field-calculation .field-calculation-list {
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+ul.field-list {
+    display: inline-block;
+    margin: 0;
+    max-height: 350px;
+    overflow: auto;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+ul.field-list li {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 2px;
+    line-height: 1.3em;
+    display: block;
+    clear: both;
+    cursor: pointer !important;
+}
+
+ul.field-list li:hover {
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+}
+
+.fancybox-iframe body {
+    padding: 10px;
+}
+
+/*Fix fancybox*/
+html.fancybox-lock {
+    overflow: unset !important;
+}

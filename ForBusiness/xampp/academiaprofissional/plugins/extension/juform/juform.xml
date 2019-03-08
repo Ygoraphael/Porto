@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="extension" method="upgrade">
+	<name>plg_extension_juform</name>
+	<creationDate>08 Apr 2015</creationDate>
+    <author>JoomUltra</author>
+    <authorEmail>qvsoft@gmail.com</authorEmail>
+    <authorUrl>http://www.joomultra.com</authorUrl>
+    <copyright>Copyright (C) 2010 - 2015 JoomUltra Co., Ltd. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.0.3</version>
+	<description>PLG_EXTENSION_JUFORM_XML_DESCRIPTION</description>
+	
+	<scriptfile>script.php</scriptfile>
+	
+	<files>
+		<filename plugin="juform">juform.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_extension_juform.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_extension_juform.sys.ini</language>
+	</languages>
+</extension>

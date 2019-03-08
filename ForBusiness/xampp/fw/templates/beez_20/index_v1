@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>FULLWEAR :: equipamentos de ciclismo : downhill : triatlo : duatlo</title>
+		<link rel="shortcut icon" href="<?php echo $this->baseurl ?>/imagens/layout/icon.ico">
+		<link href="<?php echo $this->baseurl ?>/CSS/CSS.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/fontes.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/buttons.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Custom CSS -->
+		<link href="<?php echo $this->baseurl ?>/CSS/animate.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/cursos.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/default.min.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/envira1.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/envira2.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/ethos.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/remodal.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/settings.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/style1.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/style2.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/wdi_frontend.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/onBody.css" rel="stylesheet" type="text/css">
+
+
+		<link href="<?php echo $this->baseurl ?>/CSS/wwp-vc-breadcumbs.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $this->baseurl ?>/CSS/font-awesome.css" rel="stylesheet" type="text/css">
+		<!-- END of Custom CSS -->
+
+
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/js/lightbox.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/x-head.min.js"></script>
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/js/cs-head.min.js"></script>
+
+
+		<script src="<?php echo $this->baseurl ?>/js/jquery.min.js"></script>
+		<script src="<?php echo $this->baseurl ?>/js/jquery.PrintArea.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl ?>/css/menu_horizontal.css" />
+		<jdoc:include type="head" />
+		<script type="text/javascript" src="<?php echo $this->baseurl ?>/media/system/js/mootools-more.js"></script>
+
+	</head>
+	<body>
+	<div id="top" class="site tab_main">
+		<header class="masthead masthead-stacked" role="banner">
+			 <div class="x-logobar">
+					<div class="x-logobar-inner">
+						 <div class="x-container max width">
+								<h1 class="visually-hidden">Fullwear</h1>
+								<a href="#" class="x-brand img" title="equipamentos de ciclismo : downhill : triatlo : duatlo">
+								<img src="<?php echo $this->baseurl ?>/imagens/layout/logo_fw.png" alt="equipamentos de ciclismo : downhill : triatlo : duatlo"></a>
+						 </div>
+					</div>
+			 </div>
+			 <div class="x-navbar-wrap">
+					<div class="x-navbar">
+						 <div class="x-navbar-inner">
+								<div class="x-container max width">
+									 <nav class="x-nav-wrap desktop" role="navigation">
+											<ul id="menu-primary-menu" class="x-nav">
+												 <li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-50 current_page_item menu-item-59">
+													 <a href="<?php echo $this->baseurl ?> /index.php">
+														 <span>Início</span>
+												   </a>
+												 </li>
+												 <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61">
+													 <a href="#">
+														 <span>Destaques</span></a>
+												</li>
+												 <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="#"><span>Identidade</span></a></li>
+												 <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62">
+														<a href="#"><span>PRODUTOS</span></a>
+														<ul class="sub-menu">
+															 <li id="menu-item-1009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1009"><a href="#"><span>CICLISMO</span></a></li>
+															 <li id="menu-item-1013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1013"><a href="#"><span>ATLETISMO</span></a></li>
+															 <li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="#S"><span>TRIATLO</span></a></li>
+														</ul>
+												 </li>
+												 <li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-819">
+														<a href="#"><span>PortEfólio</span></a>
+														<ul class="sub-menu">
+															 <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a href="#"><span>Maquetas</span></a></li>
+															 <li id="menu-item-823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823"><a href="#"><span>Testemunhos</span></a></li>
+															 <li id="menu-item-817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-817"><a href="#"><span>Comunidade</span></a></li>
+														</ul>
+												 </li>
+												 <li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1416">
+														<a href="#"><span>Qualidade</span></a>
+														<ul class="sub-menu">
+															 <li id="menu-item-2093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2093"><a href="#"><span>Carneiras FW</span></a></li>
+															 <li id="menu-item-2096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2096"><a href="#"><span>Normas de encomenda</span></a></li>
+															 <li id="menu-item-2528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2528"><a href="#"><span>Protocolo de compra – Prazos e quantidades</span></a></li>
+														</ul>
+												 </li>
+												 <li id="menu-item-818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-818">
+														<a href="#"><span>Orçamentos</span></a>
+														<ul class="sub-menu">
+															 <li id="menu-item-2444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2444"><a href="#"><span>Solicitar orçamento</span></a></li>
+															 <li id="menu-item-2443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2443"><a href="#"><span>Confirmar orçamento</span></a></li>
+															 <li id="menu-item-2529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2529"><a href="#"><span>Protocolo de compra – Prazos e quantidades</span></a></li>
+														</ul>
+												 </li>
+												 <li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="#"><span>Contactos</span></a></li>
+												 <li id="menu-item-2000" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2000"><a href="#"><span><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></span></a></li>
+												 <li class="menu-item x-menu-item x-menu-item-search"><a href="#" class="x-btn-navbar-search"><span><i class="x-icon-search" data-x-icon="" aria-hidden="true"></i><span class="x-hidden-desktop"> Search</span></span></a></li>
+											</ul>
+									 </nav>
+								</div>
+						 </div>
+					</div>
+			 </div>
+		</header>
+		<div class="x-main full" role="main">
+			 <article id="post-50" class="post-50 page type-page status-publish hentry no-post-thumbnail">
+					<div class="entry-content">
+						 <div id="cs-content" class="cs-content">
+								<div id="x-section-1" class="x-section" style="margin: 0px;padding: 45px 0px;display:none; background-color: transparent;">
+									 <div class="x-container max width" style="margin: 0px auto;padding: 0px;display:none;">
+											<div class="x-column x-sm x-1-1" style="padding: 0px;display:none;">
+												 <div class="x-text" style="display:none;">
+														<p></p>
+												 </div>
+											</div>
+									 </div>
+								</div>
+								<div id="x-section-2" class="x-section" style="margin: 0px;padding: 5px 0px; background-color: transparent;">
+									 <div class="x-container max width" style="margin: 0px auto;padding: 0px;">
+											<div class="x-column x-sm x-1-1" style="padding: 0px;">
+												 <div class="" id="" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px">
+
+													 <jdoc:include type="modules" name="position-2" />
+
+												 </div>
+											</div>
+									 </div>
+								</div>
+								<div id="x-section-3" class="x-section" style="margin: 0px;padding: 5px 0px; background-color: transparent;">
+									 <div class="x-container max width" style="margin: 0px auto;padding: 0px;">
+											<div class="x-column x-sm x-1-1" style="padding: 0px;">
+												 <div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_1_1_forcefullwidth" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px">
+														<jdoc:include type="modules" name="position-6" />
+														<jdoc:include type="component" />
+														<!-- flex container -->
+
+
+
+														<!-- end of flex container -->
+												 </div>
+											</div>
+									 </div>
+								</div>
+						 </div>
+			 </article>
+			 </div>
+			 <div class="x-widgetbar collapse">
+					<div class="x-widgetbar-inner">
+						 <div class="x-container max width">
+								<div class="x-column x-md x-1-4">
+									 <div id="execphp-2" class="widget widget_execphp">
+											<div class="execphpwidget"></div>
+									 </div>
+								</div>
+								<div class="x-column x-md x-1-4">
+									 <div id="execphp-3" class="widget widget_execphp">
+											<div class="execphpwidget">
+											</div>
+									 </div>
+								</div>
+								<div class="x-column x-md x-1-4">
+									 <div id="execphp-4" class="widget widget_execphp">
+											<div class="execphpwidget"><a href="#">Español</a>
+											</div>
+									 </div>
+								</div>
+								<div class="x-column x-md x-1-4 last">
+									 <div id="execphp-5" class="widget widget_execphp">
+											<div class="execphpwidget"><a href="#">Português</a>
+											</div>
+									 </div>
+								</div>
+						 </div>
+					</div>
+			 </div>
+			 <a href="#" class="x-btn-widgetbar collapsed" data-toggle="collapse" data-target=".x-widgetbar">
+			 <i class="x-icon-plus-circle" data-x-icon=""><span class="visually-hidden">Toggle the Widgetbar</span></i>
+			 </a>
+			 <a class="x-scroll-top right fade" href="#" title="Back to Top">
+			 <i class="x-icon-angle-up" data-x-icon=""></i>
+			 </a>
+		 </div>
+			 <footer class="tab_footer footer x-colophon bottom" role="contentinfo">
+					<div class="x-container max width">
+						 <div class="x-colophon-content">
+								<p>copyright © fullsport • all rights reserved • 2016</p>
+						 </div>
+						 <ul id="menu-primary-menu-2" class="x-nav">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-50 current_page_item menu-item-59"><a href="#">Início</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="#">Destaques</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="#">Identidade</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62"><a href="#">PRODUTOS</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-819"><a href="#">PortEfólio</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1416"><a href="#">Qualidade</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-818"><a href="#">Orçamentos</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="#">Contactos</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2000"><a href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+						 </ul>
+						 <div class="x-social-global"><a href="https://www.facebook.com/FULLWEAR/" class="facebook" title="Facebook" target="_blank">
+							 <i class="x-icon-facebook-square" data-x-icon="" aria-hidden="true"></i></a>
+							 <a href="https://www.youtube.com/results?search_query=fullwear" class="youtube" title="YouTube" target="_blank"><i class="x-icon-youtube-square" data-x-icon="" aria-hidden="true"></i></a>
+						 </div>
+					</div>
+			 </footer>
+		 </div>
+		 <script type="text/javascript" src="<?php echo $this->baseurl ?>/js/x-body.min.js"></script>
+		 <script type="text/javascript" src="<?php echo $this->baseurl ?>/js/cs-body.min.js"></script>
+	</body>
+</html>

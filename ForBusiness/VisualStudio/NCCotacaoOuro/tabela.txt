@@ -1,0 +1,5 @@
+CREATE TABLE ncouro_cotacao(
+	[dia] [datetime] NULL,
+	[ouro] [numeric](9, 3) NULL,
+	[prata] [numeric](9, 3) NULL
+) ON [PRIMARY]

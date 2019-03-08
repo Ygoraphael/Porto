@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <install type="module" version="1.5.0" method="upgrade"> -->
+ <extension type="module" version="2.5.0" method="upgrade"> 
+    <name>Optimized FB Like Button</name>
+	<author>Optimized Sense</author>
+    <creationDate>March, 2013</creationDate>
+	<copyright>(C) 2013 Optimized Sense. This module is released under GNU/GPL license</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html</license>
+    <authoremail>support@o-sense.com</authoremail>
+    <authorurl>http://www.o-sense.com</authorurl>
+	<version>4.0.0</version>
+    <description>This module will allow you to show the Facebook Like Button for any URL, so it will show all the people that liked your page, very simple, very easy, yet effective.<br/> For more information, examples and other modules, please visit Optimized Sense (http://www.o-sense.com).
+	</description>
+	<updateservers>
+		<server type="extension" name="Optimized FB Like Button v4.0.0" priority="1">http://www.o-sense.com/joomla/mod_ofblikebutton/update.xml</server>
+	</updateservers>
+    <files folder="content">
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>		
+        <filename>index.html</filename>
+        <filename module="mod_ofblikebutton">mod_ofblikebutton.php</filename>
+    </files>
+    <params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module Class Suffix" />
+		<param type="spacer" default="" />
+        <param name="olink" type="text" default="" label="URL to Like" description="Put the link that you want to like ( example: http://www.o-sense.com/), this is the URL to Like, in XFBML and HTML5 the default empty value is for the current page" />		  
+		<param name="owidth" type="text" default="400" label="Box Width" description="Put the width of the box that you want in pixels." />
+		<param name="ocolor" type="list" default="light" label="Color Scheme" description="Choose the color scheme for the FB Like Button.">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </param>  
+		<param name="ofaces" type="list" default="true" label="Show Faces" description="Show the faces (profile photos) below the button">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>  
+
+		<param name="oshowSend" type="list" default="true" label="Show Send Button" description="Include a Send button beside the Like button, only available for the HTML5 and XFBML code type">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>  
+		<param name="overb" type="list" default="true" label="Verb to Display" description="The verb to display in the button, only Like and Recommend are supported">
+            <option value="like">Like</option>
+            <option value="recommend">Recommend</option>
+        </param>  
+		<param name="ofont" type="list" default="tahoma" label="Font" description="The font of the like button">
+            <option value="arial">Arial</option>
+			<option value="lucida grande">Lucida Grande</option>
+			<option value="segoe ui">Segoe ui</option>
+            <option value="tahoma">Tahoma</option>
+			<option value="trebuchet ms">Trebuchet ms</option>
+			<option value="verdana">Verdana</option>
+        </param>  
+		<param name="ostyle" type="list" default="true" label="Show Faces" description="Show the faces (profile photos) below the button">
+            <option value="standard">Standard</option>
+			<option value="button_count">Button Count</option>
+            <option value="box_count">Box Count</option>
+        </param>  
+		
+		<param name="osource" type="list" default="1" label="Generated Code Type" description="Choose the generated code type wether it is HTML5 or XFBML or iFrame... This is used to support all type of websites, so in case one type didn't worked on your website, try another type">
+            <option value="1">HTML5</option>
+            <option value="2">XFBML</option>
+			<option value="3">iFrame</option>
+        </param>  
+		
+		<param name="olang" type="list" default="en_US" label="Like Button Language" description="Choose the language that you want to show in Optimized Facebook Like Button">			
+			<option value="af_ZA">af_ZA</option>
+            <option value="ar_AR">ar_AR</option>
+            <option value="ay_BO">ay_BO</option>
+            <option value="az_AZ">az_AZ</option>
+            <option value="be_BY">be_BY</option>
+            <option value="bg_BG">bg_BG</option>
+            <option value="bn_IN">bn_IN</option>
+            <option value="bs_BA">bs_BA</option>
+            <option value="ca_ES">ca_ES</option>
+            <option value="ck_US">ck_US</option>
+            <option value="cs_CZ">cs_CZ</option>
+            <option value="cy_GB">cy_GB</option>
+            <option value="da_DK">da_DK</option>
+            <option value="de_DE">de_DE</option>
+            <option value="el_GR">el_GR</option>
+            <option value="en_GB">en_GB</option>
+            <option value="en_PI">en_PI</option>
+            <option value="en_UD">en_UD</option>
+            <option value="en_US">en_US</option>
+            <option value="eo_EO">eo_EO</option>
+            <option value="es_CL">es_CL</option>
+            <option value="es_CO">es_CO</option>
+            <option value="es_ES">es_ES</option>
+            <option value="es_LA">es_LA</option>
+            <option value="es_MX">es_MX</option>
+            <option value="es_VE">es_VE</option>
+            <option value="et_EE">et_EE</option>
+            <option value="eu_ES">eu_ES</option>
+            <option value="fa_IR">fa_IR</option>
+            <option value="fb_LT">fb_LT</option>
+            <option value="fi_FI">fi_FI</option>
+            <option value="fo_FO">fo_FO</option>
+            <option value="fr_CA">fr_CA</option>
+            <option value="fr_FR">fr_FR</option>
+            <option value="ga_IE">ga_IE</option>
+            <option value="gl_ES">gl_ES</option>
+            <option value="gn_PY">gn_PY</option>
+            <option value="gu_IN">gu_IN</option>
+            <option value="he_IL">he_IL</option>
+            <option value="hi_IN">hi_IN</option>
+            <option value="hr_HR">hr_HR</option>
+            <option value="hu_HU">hu_HU</option>
+            <option value="hy_AM">hy_AM</option>
+            <option value="id_ID">id_ID</option>
+            <option value="is_IS">is_IS</option>
+            <option value="it_IT">it_IT</option>
+            <option value="ja_JP">ja_JP</option>
+            <option value="jv_ID">jv_ID</option>
+            <option value="ka_GE">ka_GE</option>
+            <option value="kk_KZ">kk_KZ</option>
+            <option value="km_KH">km_KH</option>
+            <option value="kn_IN">kn_IN</option>
+            <option value="ko_KR">ko_KR</option>
+            <option value="ku_TR">ku_TR</option>
+            <option value="la_VA">la_VA</option>
+            <option value="li_NL">li_NL</option>
+            <option value="lt_LT">lt_LT</option>
+            <option value="lv_LV">lv_LV</option>
+            <option value="mg_MG">mg_MG</option>
+            <option value="mk_MK">mk_MK</option>
+            <option value="ml_IN">ml_IN</option>
+            <option value="mn_MN">mn_MN</option>
+            <option value="mr_IN">mr_IN</option>
+            <option value="ms_MY">ms_MY</option>
+            <option value="mt_MT">mt_MT</option>
+            <option value="nb_NO">nb_NO</option>
+            <option value="ne_NP">ne_NP</option>
+            <option value="nl_BE">nl_BE</option>
+            <option value="nl_NL">nl_NL</option>
+            <option value="nn_NO">nn_NO</option>
+            <option value="pa_IN">pa_IN</option>
+            <option value="pl_PL">pl_PL</option>
+            <option value="ps_AF">ps_AF</option>
+            <option value="pt_BR">pt_BR</option>
+            <option value="pt_PT">pt_PT</option>
+            <option value="qu_PE">qu_PE</option>
+            <option value="qu_PE">qu_PE</option>
+            <option value="ro_RO">ro_RO</option>
+            <option value="ru_RU">ru_RU</option>
+            <option value="sa_IN">sa_IN</option>
+            <option value="se_NO">se_NO</option>
+            <option value="sk_SK">sk_SK</option>
+            <option value="sl_SI">sl_SI</option>
+            <option value="so_SO">so_SO</option>
+            <option value="sq_AL">sq_AL</option>
+            <option value="sr_RS">sr_RS</option>
+            <option value="sv_SE">sv_SE</option>
+            <option value="sw_KE">sw_KE</option>
+            <option value="sy_SY">sy_SY</option>
+            <option value="ta_IN">ta_IN</option>
+            <option value="te_IN">te_IN</option>
+            <option value="tg_TJ">tg_TJ</option>
+            <option value="th_TH">th_TH</option>
+            <option value="tl_PH">tl_PH</option>
+            <option value="tl_ST">tl_ST</option>
+            <option value="tr_TR">tr_TR</option>
+            <option value="tt_RU">tt_RU</option>
+            <option value="uk_UA">uk_UA</option>
+            <option value="ur_PK">ur_PK</option>
+            <option value="uz_UZ">uz_UZ</option>
+            <option value="vi_VN">vi_VN</option>
+            <option value="xh_ZA">xh_ZA</option>
+            <option value="yi_DE">yi_DE</option>
+            <option value="zh_CN">zh_CN</option>
+            <option value="zh_HK">zh_HK</option>
+            <option value="zh_TW">zh_TW</option>
+            <option value="zu_ZA">zu_ZA</option>
+        </param>  
+    </params>
+	
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Module Caching">
+			<option value="0">No caching</option>
+			<option value="1">Use global</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+	
+	<!-- from here, the params for Joomla! 1.6 standards -->
+	<config>
+	<fields name="params">
+	<fieldset name="oFBLikeButton" label="Module Parameters">
+		<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module Class Suffix" />
+		<field type="spacer" default="" />
+
+		<field name="olink" type="text" default="" label="URL to Like" description="Put the link that you want to like ( example: http://www.o-sense.com/), this is the URL to Like, in XFBML and HTML5 the default empty value is for the current page" />		  
+		<field name="owidth" type="text" default="400" label="Box Width" description="Put the width of the box that you want in pixels." />
+		<field name="ocolor" type="list" default="light" label="Color Scheme" description="Choose the color scheme for the FB Like Button.">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </field>  
+		<field name="ofaces" type="list" default="true" label="Show Faces" description="Show the faces (profile photos) below the button">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </field>  
+
+		<field name="oshowSend" type="list" default="true" label="Show Send Button" description="Include a Send button beside the Like button, only available for the HTML5 and XFBML code type">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </field>  
+		<field name="overb" type="list" default="true" label="Verb to Display" description="The verb to display in the button, only Like and Recommend are supported">
+            <option value="like">Like</option>
+            <option value="recommend">Recommend</option>
+        </field>  
+		<field name="ofont" type="list" default="tahoma" label="Font" description="The font of the like button">
+            <option value="arial">Arial</option>
+			<option value="lucida grande">Lucida Grande</option>
+			<option value="segoe ui">Segoe ui</option>
+            <option value="tahoma">Tahoma</option>
+			<option value="trebuchet ms">Trebuchet ms</option>
+			<option value="verdana">Verdana</option>
+        </field>  
+		<field name="ostyle" type="list" default="true" label="Show Faces" description="Show the faces (profile photos) below the button">
+            <option value="standard">Standard</option>
+			<option value="button_count">Button Count</option>
+            <option value="box_count">Box Count</option>
+        </field>  
+		
+		<field name="osource" type="list" default="1" label="Generated Code Type" description="Choose the generated code type wether it is HTML5 or XFBML or iFrame... This is used to support all type of websites, so in case one type didn't worked on your website, try another type">
+            <option value="1">HTML5</option>
+            <option value="2">XFBML</option>
+			<option value="3">iFrame</option>
+        </field>
+
+		<field name="olang" type="list" default="en_US" label="Like Button Language" description="Choose the language that you want to show in Optimized Facebook Like Button">			
+			<option value="af_ZA">af_ZA</option>
+            <option value="ar_AR">ar_AR</option>
+            <option value="ay_BO">ay_BO</option>
+            <option value="az_AZ">az_AZ</option>
+            <option value="be_BY">be_BY</option>
+            <option value="bg_BG">bg_BG</option>
+            <option value="bn_IN">bn_IN</option>
+            <option value="bs_BA">bs_BA</option>
+            <option value="ca_ES">ca_ES</option>
+            <option value="ck_US">ck_US</option>
+            <option value="cs_CZ">cs_CZ</option>
+            <option value="cy_GB">cy_GB</option>
+            <option value="da_DK">da_DK</option>
+            <option value="de_DE">de_DE</option>
+            <option value="el_GR">el_GR</option>
+            <option value="en_GB">en_GB</option>
+            <option value="en_PI">en_PI</option>
+            <option value="en_UD">en_UD</option>
+            <option value="en_US">en_US</option>
+            <option value="eo_EO">eo_EO</option>
+            <option value="es_CL">es_CL</option>
+            <option value="es_CO">es_CO</option>
+            <option value="es_ES">es_ES</option>
+            <option value="es_LA">es_LA</option>
+            <option value="es_MX">es_MX</option>
+            <option value="es_VE">es_VE</option>
+            <option value="et_EE">et_EE</option>
+            <option value="eu_ES">eu_ES</option>
+            <option value="fa_IR">fa_IR</option>
+            <option value="fb_LT">fb_LT</option>
+            <option value="fi_FI">fi_FI</option>
+            <option value="fo_FO">fo_FO</option>
+            <option value="fr_CA">fr_CA</option>
+            <option value="fr_FR">fr_FR</option>
+            <option value="ga_IE">ga_IE</option>
+            <option value="gl_ES">gl_ES</option>
+            <option value="gn_PY">gn_PY</option>
+            <option value="gu_IN">gu_IN</option>
+            <option value="he_IL">he_IL</option>
+            <option value="hi_IN">hi_IN</option>
+            <option value="hr_HR">hr_HR</option>
+            <option value="hu_HU">hu_HU</option>
+            <option value="hy_AM">hy_AM</option>
+            <option value="id_ID">id_ID</option>
+            <option value="is_IS">is_IS</option>
+            <option value="it_IT">it_IT</option>
+            <option value="ja_JP">ja_JP</option>
+            <option value="jv_ID">jv_ID</option>
+            <option value="ka_GE">ka_GE</option>
+            <option value="kk_KZ">kk_KZ</option>
+            <option value="km_KH">km_KH</option>
+            <option value="kn_IN">kn_IN</option>
+            <option value="ko_KR">ko_KR</option>
+            <option value="ku_TR">ku_TR</option>
+            <option value="la_VA">la_VA</option>
+            <option value="li_NL">li_NL</option>
+            <option value="lt_LT">lt_LT</option>
+            <option value="lv_LV">lv_LV</option>
+            <option value="mg_MG">mg_MG</option>
+            <option value="mk_MK">mk_MK</option>
+            <option value="ml_IN">ml_IN</option>
+            <option value="mn_MN">mn_MN</option>
+            <option value="mr_IN">mr_IN</option>
+            <option value="ms_MY">ms_MY</option>
+            <option value="mt_MT">mt_MT</option>
+            <option value="nb_NO">nb_NO</option>
+            <option value="ne_NP">ne_NP</option>
+            <option value="nl_BE">nl_BE</option>
+            <option value="nl_NL">nl_NL</option>
+            <option value="nn_NO">nn_NO</option>
+            <option value="pa_IN">pa_IN</option>
+            <option value="pl_PL">pl_PL</option>
+            <option value="ps_AF">ps_AF</option>
+            <option value="pt_BR">pt_BR</option>
+            <option value="pt_PT">pt_PT</option>
+            <option value="qu_PE">qu_PE</option>
+            <option value="qu_PE">qu_PE</option>
+            <option value="ro_RO">ro_RO</option>
+            <option value="ru_RU">ru_RU</option>
+            <option value="sa_IN">sa_IN</option>
+            <option value="se_NO">se_NO</option>
+            <option value="sk_SK">sk_SK</option>
+            <option value="sl_SI">sl_SI</option>
+            <option value="so_SO">so_SO</option>
+            <option value="sq_AL">sq_AL</option>
+            <option value="sr_RS">sr_RS</option>
+            <option value="sv_SE">sv_SE</option>
+            <option value="sw_KE">sw_KE</option>
+            <option value="sy_SY">sy_SY</option>
+            <option value="ta_IN">ta_IN</option>
+            <option value="te_IN">te_IN</option>
+            <option value="tg_TJ">tg_TJ</option>
+            <option value="th_TH">th_TH</option>
+            <option value="tl_PH">tl_PH</option>
+            <option value="tl_ST">tl_ST</option>
+            <option value="tr_TR">tr_TR</option>
+            <option value="tt_RU">tt_RU</option>
+            <option value="uk_UA">uk_UA</option>
+            <option value="ur_PK">ur_PK</option>
+            <option value="uz_UZ">uz_UZ</option>
+            <option value="vi_VN">vi_VN</option>
+            <option value="xh_ZA">xh_ZA</option>
+            <option value="yi_DE">yi_DE</option>
+            <option value="zh_CN">zh_CN</option>
+            <option value="zh_HK">zh_HK</option>
+            <option value="zh_TW">zh_TW</option>
+            <option value="zu_ZA">zu_ZA</option>
+        </field>
+	</fieldset>
+	
+	<fieldset name="cache" label="Advanced Parameters">
+            <field
+               name="cache"
+               type="list"
+               default="1"
+               label="COM_MODULES_FIELD_CACHING_LABEL"
+               description="COM_MODULES_FIELD_CACHING_DESC">
+               <option
+                  value="1">JGLOBAL_USE_GLOBAL</option>
+               <option
+                  value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+            </field>
+            <field
+               name="cache_time"
+               type="text"
+               default="900"
+               label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+               description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+            <field
+               name="cachemode"
+               type="hidden"
+               default="static">
+               <option
+                  value="static"></option>
+                </field>
+         </fieldset>
+    </fields>
+     </config>
+	<!-- End Joomla! 1.6 params -->
+ </extension> 
+<!-- </install> -->

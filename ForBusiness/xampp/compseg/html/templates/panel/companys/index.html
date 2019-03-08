@@ -1,0 +1,68 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="company" data-method="new_company">%%New Company%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-office"></i> %%Companies%%</h4>
+				<div class="row st">
+					<form class="form" method="get"  name="User" action="/panel/companys/" >
+						<div class="col-md-4">
+							<div class="form-group">
+							<label for="date-expired">%%Status%%</label>
+								<select name="s" class="form-control" required >
+									<!-- BEGIN BLOCK_STATUS -->
+									<option value="{{VALUEST}}" {{SELECTED}}>{{TEXTST}}</option>
+									<!-- END BLOCK_STATUS -->
+								</select>
+							</div>
+						</div>
+						<div class="col-md-1" style="margin-top:28px;">
+							<button type="submit" class="btn btn-success">%%Search%%</button>
+						</div>
+					</form>	
+				</div> 
+			</div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_COMPANYS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Nome%%</th>
+                                <th>%%VAT%%</th>
+                                <th>%%License%%</th>
+                                <th>%%Database%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_COMPANY -->
+                            <tr>
+                                <th scope="row" class="name">{{COMPANY_NAME}}</th>
+                                <td>{{COMPANY->NIF}}</td>
+                                <td>{{COMPANY->LICENSE}}</td>
+                                <td>{{COMPANY->DATA_BASE}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{COMPANY->STATUS}}</span></td>
+                                <td>
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="company" data-id="{{COMPANY->ID}}" data-method="edit" title="%%Edit Company%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="company" data-id="{{COMPANY->ID}}" title="%%Delete Company%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_COMPANY -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END BLOCK_COMPANYS -->
+                <!-- BEGIN BLOCK_NO_COMPANYS -->
+                <h4>%%There are no registered companies%%</h4>
+                <!-- END BLOCK_NO_COMPANYS -->
+            </div>
+        </div>
+    </div>
+</div>

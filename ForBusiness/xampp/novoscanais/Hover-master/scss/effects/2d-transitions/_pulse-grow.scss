@@ -1,0 +1,20 @@
+/*  Grow */
+@include keyframes(#{$nameSpace}--grow) {
+	to {
+		@include prefixed(transform, scale(1.1));
+	}
+}
+
+@mixin -grow {
+	@include hacks();
+
+	&:hover,
+	&:focus,
+	&:active {
+		@include prefixed(animation-name, #{$nameSpace}--grow);
+		@include prefixed(animation-duration, $mediumDuration);
+		@include prefixed(animation-timing-function, linear);
+		@include prefixed(animation-iteration-count, infinite);
+		@include prefixed(animation-direction, alternate);
+	}
+}

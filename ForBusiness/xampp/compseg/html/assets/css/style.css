@@ -1,0 +1,241 @@
+/*================================================================================
+        Item Name: Robust - Responsive Admin Theme
+        Version: 1.0
+        Author: PIXINVENT
+        Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.modal{
+    background: rgba(0, 0, 0, 0.5);
+}
+#ul-tools{
+    padding-right: 25px;
+}
+.iconedit{
+    margin: 5px;
+    font-size: 15px;
+}
+#ul-tools li{
+    margin-top: 5px;    
+    padding:10px
+}
+#ul-tools li:hover{
+    cursor:pointer;
+    background:#f9f9f9;
+}
+#createInquiry .panel{
+    margin: 20px 0;
+    min-height: 80px;
+    margin-top: 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+#createInquiry .panel .edit{
+    display: block;
+    margin: 5px 0;
+    border: 1px dotted #ccc;
+}
+#save-survey{
+    float: right;
+}
+.btn-survey-remove{
+    float: right;
+}
+#btn-insecurity-save{
+    float: right;
+    color:#fff;
+}
+#layout{
+    border:solid 1px #ccc;
+}
+#layout .text1{
+    border:solid 1px #ccc;
+    background:#eef4fb; 
+}
+#layout .text1 span{    
+    font-size: 16px;
+    font-style: italic;
+}
+#layout .text2 span{
+    font-size: 16px;
+    font-style: italic;
+
+}
+#main-menu-navigation {
+    padding-left: 0;
+}
+
+.marginBottom25 {
+    margin-bottom: 25px;
+}
+
+.marginTopBottom15 {
+    margin: 15px 0 15px 0;
+}
+
+.modal-footer .btn-danger {
+    margin: 0px 15px 0px 15px;
+}
+
+.modal-footer .btn-success {
+    margin: 0px 15px 0px 15px;
+}
+
+.middleTable > tbody > tr > td, .middleTable > tbody > tr > th {
+    vertical-align: middle;
+    text-align: center !important;
+}
+
+@media (min-width: 100px) and (max-width: 700px){
+    .pc {
+        display: none !important;            
+    }
+
+    .BtnFile{
+        width: 100px;
+        height: auto;
+        margin-top:15px;
+    }
+    #imgInp {
+        display:none;    
+    }
+	#imgInp2 {
+        display:none;    
+    }
+
+    #LabelForBtnFile{
+        border:solid 1px #ccc;
+        background:#2F4F4F; 
+        width: 200px;
+        height: 30px;
+        color: white;
+        padding:5px;
+
+    }
+
+}
+
+@media (min-width: 701px) and (max-width: 1200px){
+    .pc {
+        display: none !important;            
+    }
+    .BtnFile{
+        width: 100px;
+        height: auto;
+        margin-top:15px;
+    }
+    #imgInp {
+        display:none;    
+    }
+	#imgInp2 {
+        display:none;    
+    }
+
+    #LabelForBtnFile{
+        border:solid 1px #ccc;
+        background:#2F4F4F; 
+        width: 200px;
+        height: 30px;
+        color: white;
+        padding:5px;
+
+    }
+}
+
+@media (min-width: 1201px){
+    .phone {
+        display: none !important;            
+    }
+    .BtnFile{
+        width: 100px;
+        height: auto;
+        margin-top:15px;
+    }
+    #imgInp {
+        display:none;    
+    }
+	#imgInp2 {
+        display:none;    
+    }
+
+    #LabelForBtnFile{
+        border:solid 1px #ccc;
+        background:#2F4F4F; 
+        width: 200px;
+        height: 40px;
+        color: white;
+        padding:5px;
+
+    }
+}
+
+.st{
+    margin-top:5px;
+}
+
+
+.ComentInsecurity{
+    border:solid 1px #ccc;
+    background:#90EE90; 
+    width: 200px;
+    height: 40px;
+    color: Black;
+    padding:5px;
+
+}
+
+
+.ComentNoInsecurity{
+    border:solid 1px #ccc;
+    background:#90EE90; 
+    width: 200px;
+    height: 40px;
+    color: Black;
+    padding:5px;
+
+}
+
+#ComentNoInsecurity:hover {background-color: #FF4500}
+
+#ComentNoInsecurity:active {
+    background-color: #FF4500;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#ComentInsecurity:hover {background-color: #4169E1}
+
+#ComentInsecurity:active {
+    background-color: #4169E1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.historico_Insecurity_phone {
+	display: block;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+}
+
+.historico_Insecurity_pc {
+	display: block;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+}
+
+.brand-logo {
+    max-width: 150px;
+    max-height: 50px;
+}

@@ -1,0 +1,7 @@
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\bin\Debug\EscolaDeMentosDeProcessos.exe
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\bin\Debug\EscolaDeMentosDeProcessos.pdb
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\obj\x86\Debug\EscolaDeMentosDeProcessos.Form1.resources
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\obj\x86\Debug\EscolaDeMentosDeProcessos.Properties.Resources.resources
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\obj\x86\Debug\EscolaDeMentosDeProcessos.csproj.GenerateResource.Cache
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\obj\x86\Debug\EscolaDeMentosDeProcessos.exe
+c:\users\tml\documents\visual studio 2010\Projects\EscolaDeMentosDeProcessos\EscolaDeMentosDeProcessos\obj\x86\Debug\EscolaDeMentosDeProcessos.pdb

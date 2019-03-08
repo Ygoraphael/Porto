@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="sector" data-method="new_sector">%%New Sector%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-office"></i> %%Sector%%</h4>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_SECTORS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Name%%</th>
+                                <th>%%Factory%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SECTOR -->
+                            <tr>
+                                <th scope="row" class="name">{{SECTOR->NAME}}</th>
+                                <td>{{FACTORY->NAME}}</td>
+                                <td>{{SECTOR->CREATED_AT}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{SECTOR->STATUS}}</span></td>
+                                <td>
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="sector" data-id="{{SECTOR->ID}}" data-method="edit" title="%%Edit Sector%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="sector" data-id="{{SECTOR->ID}}" title="%%Delete Sector%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SECTOR -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END BLOCK_SECTORS -->
+                <!-- BEGIN BLOCK_NO_SECTORS -->
+                <h4>%%There are no registered sectors%%</h4>
+                <!-- END BLOCK_NO_SECTORS -->
+            </div>
+        </div>
+    </div>
+</div>

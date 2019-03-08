@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item name="dashboard"
+          link="index.php?option=com_juform&amp;view=dashboard"
+          label="COM_JUFORM_SUBMENU_DASHBOARD"
+          icon="&lt;i class='icon-dashboard'&gt;&lt;/i&gt;"/>
+    <item name="forms"
+          link="index.php?option=com_juform&amp;view=forms"
+          label="COM_JUFORM_SUBMENU_FORMS"
+          icon="&lt;i class='icon-menu-3'&gt;&lt;/i&gt;">
+    </item>
+    <item name="submissions"
+          link="index.php?option=com_juform&amp;view=submissions"
+          label="COM_JUFORM_SUBMENU_SUBMISSIONS"
+          icon="&lt;i class='icon-stack'&gt;&lt;/i&gt;"/>
+    <item name="plugins"
+          link="index.php?option=com_juform&amp;view=plugins"
+          label="COM_JUFORM_SUBMENU_PLUGINS"
+          icon="&lt;i class='icon-puzzle'&gt;&lt;/i&gt;">
+        <item name="plugin.add"
+              link="index.php?option=com_juform&amp;task=plugin.add"
+              label="COM_JUFORM_SUBMENU_INSTALL_PLUGIN"/>
+    </item>
+    <item name="languages"
+          link="index.php?option=com_juform&amp;view=languages"
+          label="COM_JUFORM_SUBMENU_LANGUAGES"
+          icon="&lt;i class='icon-book'&gt;&lt;/i&gt;"/>
+    <item name="csvprocess"
+          link="index.php?option=com_juform&amp;view=csvprocess"
+          label="COM_JUFORM_SUBMENU_CSV"
+          icon="&lt;i class='icon-file-2'&gt;&lt;/i&gt;"/>
+    <item name="backendpermission"
+          proversion="true"
+          link="index.php?option=com_juform&amp;view=backendpermission"
+          label="COM_JUFORM_SUBMENU_BACKENDPERMISSION"
+          icon="&lt;i class='icon-shield'&gt;&lt;/i&gt;"/>
+</menu>

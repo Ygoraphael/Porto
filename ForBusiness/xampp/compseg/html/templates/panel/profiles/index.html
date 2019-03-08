@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="profile" data-method="new_profile">%%New Profile%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-office"></i> %%Profile%%</h4>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_PROFILES -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Name%%</th>
+                                <th>%%Created At%%</th>
+                                <th>%%Status%%</th>
+                                <th style="max-width: 100px">%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_PROFILE -->
+                            <tr>
+                                <th scope="row" class="name">{{PROFILE->NAME}}</th>
+                                <td>{{PROFILE->CREATED_AT}}</td>
+                                <td><span class=" tag tag-{{status_class}}">{{PROFILE->STATUS}}</span></td>
+                                <td style="max-width: 100px">
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="profile" data-id="{{PROFILE->ID}}" data-method="edit" title="%%Edit Profile%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="profile" data-id="{{PROFILE->ID}}" title="%%Delete Profile%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_PROFILE -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END BLOCK_PROFILES -->
+                <!-- BEGIN BLOCK_NO_PROFILES -->
+                <h4>%%No Profiles%%</h4>
+                <!-- END BLOCK_NO_PROFILES -->
+            </div>
+        </div>
+    </div>
+</div>

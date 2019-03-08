@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\cdtemp\cdtemp\bin\Debug\cdtemp.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\cdtemp\cdtemp\bin\Debug\cdtemp.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\cdtemp\cdtemp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\cdtemp\cdtemp\obj\x86\Debug\cdtemp.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\cdtemp\cdtemp\obj\x86\Debug\cdtemp.pdb

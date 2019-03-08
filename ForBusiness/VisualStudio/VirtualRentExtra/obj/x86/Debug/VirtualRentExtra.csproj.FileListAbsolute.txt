@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\VirtualRentExtra\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\VirtualRentExtra\bin\Debug\VirtualRentExtra.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\VirtualRentExtra\bin\Debug\VirtualRentExtra.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\VirtualRentExtra\obj\x86\Debug\VirtualRentExtra.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\VirtualRentExtra\obj\x86\Debug\VirtualRentExtra.pdb

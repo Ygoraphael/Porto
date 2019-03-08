@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('fonts/oswald/oswald-light-webfont.eot');
+    src: url('fonts/oswald/oswald-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald/oswald-light-webfont.html') format('woff'),
+         url('fonts/oswald/oswald-light-webfont.ttf') format('truetype'),
+         url('fonts/oswald/oswald-light-webfont-2.html#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('fonts/oswald/oswald-bold-webfont.eot');
+    src: url('fonts/oswald/oswald-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald/oswald-bold-webfont.html') format('woff'),
+         url('fonts/oswald/oswald-bold-webfont.ttf') format('truetype'),
+         url('fonts/oswald/oswald-bold-webfont-2.html#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('fonts/oswald/oswald-regular-webfont.eot');
+    src: url('fonts/oswald/oswald-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald/oswald-regular-webfont.html') format('woff'),
+         url('fonts/oswald/oswald-regular-webfont.ttf') format('truetype'),
+         url('fonts/oswald/oswald-regular-webfont-2.html#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*==================ALLER=================================*/
+@font-face {
+    font-family: 'allerbold';
+    src: url('fonts/aller/aller_bd-webfont.html');
+    src: url('fonts/aller/aller_bd-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/aller/aller_bd-webfont-2.html') format('woff'),
+         url('fonts/aller/aller_bd-webfont-3.html') format('truetype'),
+         url('fonts/aller/aller_bd-webfont-4.html#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('fonts/aller/aller_lt-webfont.html');
+    src: url('fonts/aller/aller_lt-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/aller/aller_lt-webfont-2.html') format('woff'),
+         url('fonts/aller/aller_lt-webfont-3.html') format('truetype'),
+         url('fonts/aller/aller_lt-webfont-4.html#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'allerregular';
+    src: url('fonts/aller/aller_rg-webfont.html');
+    src: url('fonts/aller/aller_rg-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/aller/aller_rg-webfont-2.html') format('woff'),
+         url('fonts/aller/aller_rg-webfont-3.html') format('truetype'),
+         url('fonts/aller/aller_rg-webfont-4.html#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*==================ALLER=================================*/
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu/ubuntu-b-webfont.eot');
+    src: url('fonts/ubuntu/ubuntu-b-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-b-webfont.html') format('woff'),
+         url('fonts/ubuntu/ubuntu-b-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu/ubuntu-b-webfont-2.html#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_condensedregular';
+    src: url('fonts/ubuntu/ubuntu-c-webfont.eot');
+    src: url('fonts/ubuntu/ubuntu-c-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-c-webfont.html') format('woff'),
+         url('fonts/ubuntu/ubuntu-c-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu/ubuntu-c-webfont-2.html#ubuntu_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu/ubuntu-r-webfont.eot');
+    src: url('fonts/ubuntu/ubuntu-r-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-r-webfont.html') format('woff'),
+         url('fonts/ubuntu/ubuntu-r-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu/ubuntu-r-webfont-2.html#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu/ubuntu-l-webfont.eot');
+    src: url('fonts/ubuntu/ubuntu-l-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-l-webfont.html') format('woff'),
+         url('fonts/ubuntu/ubuntu-l-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu/ubuntu-l-webfont-2.html#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('fonts/ubuntu/ubuntu-m-webfont.eot');
+    src: url('fonts/ubuntu/ubuntu-m-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-m-webfont.html') format('woff'),
+         url('fonts/ubuntu/ubuntu-m-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu/ubuntu-m-webfont-2.html#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

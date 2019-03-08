@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Product Widget Small</name>
+    <author>Tiago Loureiro - Novoscanais</author>
+    <version>1.0.0</version>
+    <description>Modulo para widget pequeno index</description>
+    <files>
+        <filename>mod_modfwsmall.xml</filename>
+        <filename module="mod_modfwsmall">mod_modfwsmall.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="image" filter="raw" type="media" default="" label="Imagem" cols="40" rows="20" description="Imagem" />
+                <field name="prodalias" type="text" default="" label="Produto Alias" description="Produto Alias" />
+                <field name="url" type="url" default="" label="URL" description="URL" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

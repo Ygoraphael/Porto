@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg4508"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="drive_fx_by_phc_only_balls.svg">
+  <defs
+     id="defs4502" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-633.32508"
+     inkscape:cy="198.74318"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4505">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-161.53332)">
+    <g
+       id="g4739"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.812689,0,0,1.8135733,-332.96156,143.93803)">
+      <g
+         id="g4741"
+         style="fill:#ffffff;fill-opacity:1">
+        <circle
+           id="circle4743"
+           r="7.6999998"
+           cy="35.299999"
+           cx="212.2"
+           style="fill:#ffffff;fill-opacity:1" />
+        <circle
+           id="circle4745"
+           r="7.6999998"
+           cy="58.799999"
+           cx="212.2"
+           style="fill:#ffffff;fill-opacity:1" />
+      </g>
+      <circle
+         id="circle4747"
+         r="7.6999998"
+         cy="47.099998"
+         cx="229.89999"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

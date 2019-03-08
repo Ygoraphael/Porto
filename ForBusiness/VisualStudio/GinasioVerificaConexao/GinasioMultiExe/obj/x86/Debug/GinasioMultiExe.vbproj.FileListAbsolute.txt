@@ -1,0 +1,22 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.Resources.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\bin\Debug\GinasioMultiExe.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.Resources.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.vbproj.GenerateResource.Cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioMultiExe\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.vbprojResolveAssemblyReference.cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.xml
+C:\Users\tml\Documents\Visual Studio 2010\Projects\GinasioVerificaConexao\GinasioMultiExe\obj\x86\Debug\GinasioMultiExe.pdb

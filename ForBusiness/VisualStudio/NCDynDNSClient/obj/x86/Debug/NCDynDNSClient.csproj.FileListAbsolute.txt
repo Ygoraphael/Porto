@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCDynDNSClient\bin\Debug\NCDynDNSClient.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCDynDNSClient\bin\Debug\NCDynDNSClient.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCDynDNSClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCDynDNSClient\obj\x86\Debug\NCDynDNSClient.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCDynDNSClient\obj\x86\Debug\NCDynDNSClient.pdb

@@ -1,0 +1,8 @@
+23-09-2015 12:16:17 - Erro: comunicação servidor envio!
+23-09-2015 12:16:17 - Detalhes:
+23-09-2015 12:16:17 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/get_encomenda
+23-09-2015 12:16:17 - java.lang.NullPointerException
+23-09-2015 12:17:48 - Erro: comunicação servidor envio!
+23-09-2015 12:17:48 - Detalhes:
+23-09-2015 12:17:48 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/get_encomenda
+23-09-2015 12:17:48 - java.lang.NullPointerException

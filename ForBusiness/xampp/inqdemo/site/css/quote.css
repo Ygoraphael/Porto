@@ -1,0 +1,17 @@
+        .pquote {
+            float: right;
+            width: 500px;
+            background: url(glyphicon glyphicon-tag) top left no-repeat;
+            color: #030;
+            font-size: 26px;
+            line-height: 0.9;
+            font-style: italic;
+            padding: 13px;
+        }
+        blockquote {
+            margin: 0;
+        }
+        .pquote p:first-letter {
+            font-size: 39px;
+            font-weight: bold;
+        }

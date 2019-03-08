@@ -1,0 +1,38 @@
+/* CPTRACKBAR CSS */
+.cptrackbar-outer-container {padding:0; margin:0;}
+.cptrackbar-inner-container {position:relative; height:2px; padding:12px 0;}
+.cptrackbar-limit-range {background:#D5D5D5; height:2px; position:absolute;
+	top:50%; left: 0; width:100%;}
+.cptrackbar-selected-range {background:#ABD1F4; height:2px; position:absolute;
+	top: 50%;}
+.cptrackbar-available-range {background:#959595; height:2px; position:absolute;
+	top: 50%;}
+.cptrackbar-available-selected-range {background:#0090C9; height:2px; position:absolute; /*009FDD */
+	top: 50%;}
+.cptrackbar-track {height:2px; padding:12px 0; position:absolute; top:0;
+	left:0; right:0;}
+.cptrackbar-knob {background:#FFFFFF; border-radius:14px; border:1px solid #ABABAB;
+	box-shadow:0 3px 8px rgba(51, 51, 51, 0.29), 0 3px 0 -1px rgba(68, 68, 68, 0.14);
+	cursor:default; position:absolute; top:5px; height:17px; width:17px;}
+.cptrackbar-knob-up {background:url('../img/knob_up.png');
+	cursor:default; position:absolute; top:-1px; height:19px; width:15px;}
+.cptrackbar-knob-down {background:url('../img/knob_down.png');
+	cursor:default; position:absolute; top:3px; height:19px; width:15px;}
+.cptrackbar-tick-marks {position:absolute; width:100%;}
+.cptrackbar-tick-mark {background:#9A9A9A; height:5px; position:absolute;
+	width:1px;}
+.cptrackbar-hover-knob, .cptrackbar-hover-knob-above {
+	position:absolute; background:#D53E3E; border-radius:2px;
+	box-shadow:0 1px 4px rgba(69, 69, 69, 0.29); cursor:default;
+	padding:2px 5px; min-width:25px; top:21px; text-align:center;
+	line-height:0; }
+.cptrackbar-hover-knob-above { top:-6px; }
+.cptrackbar-hover-knob:after, .cptrackbar-hover-knob-above:after {
+	bottom:100%; left:50%; border:solid transparent;
+	content:" "; height:0; width:0; position:absolute; pointer-events:none;
+	border-color:transparent; border-bottom-color:#D53E3E;
+	border-width:5px; margin-left:-5px;}
+.cptrackbar-hover-knob-above:after {top:100%; border-color:transparent;
+	border-top-color:#D53E3E;}
+.cptrackbar-hover-knob-label {font:10px/11px Arial; color:#FFFFFF;
+	white-space:nowrap;}

@@ -1,0 +1,33 @@
+13-12-2017 12:32:32 - Erro: comunicação servidor envio!
+13-12-2017 12:32:32 - Detalhes:
+13-12-2017 12:32:32 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost/rc/sync
+13-12-2017 12:34:10 - Erro: comunicação servidor!
+13-12-2017 12:34:10 - Detalhes:
+13-12-2017 12:34:10 - java.net.MalformedURLException: no protocol: localhost/rc/sync
+13-12-2017 12:34:11 - Erro: comunicação servidor envio!
+13-12-2017 12:34:11 - Detalhes:
+13-12-2017 12:34:11 - java.lang.NullPointerException
+13-12-2017 12:34:38 - Erro: comunicação servidor!
+13-12-2017 12:34:38 - Detalhes:
+13-12-2017 12:34:38 - java.net.MalformedURLException: no protocol: localhost/rc/sync
+13-12-2017 12:34:39 - Erro: comunicação servidor envio!
+13-12-2017 12:34:39 - Detalhes:
+13-12-2017 12:34:39 - java.lang.NullPointerException
+13-12-2017 12:34:49 - Erro: comunicação servidor envio!
+13-12-2017 12:34:49 - Detalhes:
+13-12-2017 12:34:49 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost/rc/sync
+13-12-2017 12:35:09 - Erro: comunicação servidor envio!
+13-12-2017 12:35:09 - Detalhes:
+13-12-2017 12:35:09 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost/rc/sync
+13-12-2017 12:36:03 - Erro: comunicação servidor envio!
+13-12-2017 12:36:03 - Detalhes:
+13-12-2017 12:36:03 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost/rc/sync
+13-12-2017 12:37:10 - Erro: comunicação servidor envio!
+13-12-2017 12:37:10 - Detalhes:
+13-12-2017 12:37:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://192.168.101.93/rc/sync
+13-12-2017 12:37:58 - Erro: comunicação servidor envio!
+13-12-2017 12:37:58 - Detalhes:
+13-12-2017 12:37:58 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://192.168.101.93/rc/sync
+13-12-2017 12:39:31 - Erro: comunicação servidor envio!
+13-12-2017 12:39:31 - Detalhes:
+13-12-2017 12:39:31 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://192.168.101.93/rc/sync

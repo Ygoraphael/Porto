@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/administrator/components/com_juform/models/fields/"
+      addrulepath="/administrator/components/com_juform/models/rules">
+    <fieldset name="details">
+        <field name="id"
+               type="text"
+               default="0"
+               readonly="true"
+               class="readonly"
+               label="COM_JUFORM_FIELD_ID_LABEL"
+               description="COM_JUFORM_FIELD_ID_DESC"
+                />
+
+        <field
+                name="title"
+                type="text"
+                default=""
+                class="input-xxlarge input-large-text"
+                size="32"
+                required="true"
+                label="COM_JUFORM_FIELD_TITLE_LABEL"
+                description="COM_JUFORM_FIELD_TITLE_DESC"
+                />
+
+        <field
+                name="alias"
+                type="text"
+                default=""
+                size="32"
+                label="COM_JUFORM_FIELD_ALIAS_LABEL"
+                description="COM_JUFORM_FIELD_ALIAS_DESC"
+                />
+
+        <field
+                name="description"
+                type="textarea"
+                default=""
+                label="COM_JUFORM_FIELD_DESCRIPTION_LABEL"
+                description="COM_JUFORM_FIELD_DESCRIPTION_DESC"
+                />
+
+        <field
+                name="access"
+                type="accesslevel"
+                class="inputbox"
+                label="COM_JUFORM_FIELD_ACCESS_LABEL"
+                description="COM_JUFORM_FIELD_ACCESS_DESC"
+                />
+
+        <field name="save_submission"
+               type="list"
+               default="1"
+               label="COM_JUFORM_FIELD_SAVE_SUBMISSION_LABEL"
+               description="COM_JUFORM_FIELD_SAVE_SUBMISSION_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="show_title"
+               type="list"
+               default="1"
+               label="COM_JUFORM_FIELD_SHOW_TITLE_LABEL"
+               description="COM_JUFORM_FIELD_SHOW_TITLE_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="required_label"
+                type="text"
+                default=""
+                filter="raw"
+                label="COM_JUFORM_FIELD_REQUIRED_LABEL_LABEL"
+                description="COM_JUFORM_FIELD_REQUIRED_LABEL_DESC"
+                />
+
+        <field
+                name="attributes"
+                type="textarea"
+                default=""
+                label="COM_JUFORM_FIELD_ATTRIBUTES_LABEL"
+                description="COM_JUFORM_FIELD_ATTRIBUTES_DESC"
+                />
+
+        <field
+                name="hits"
+                type="text"
+                default=""
+                class="validate-numeric"
+                label="COM_JUFORM_FIELD_HITS_LABEL"
+                description="COM_JUFORM_FIELD_HITS_DESC"
+        />
+
+        <field
+                name="ordering"
+                type="juordering"
+                table="forms"
+                label="COM_JUFORM_FIELD_ORDERING_LABEL"
+                description="COM_JUFORM_FIELD_ORDERING_DESC"
+        />
+
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="COM_JUFORM_FIELD_PUBLISHED_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISHED_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        
+        <field
+                name="local"
+                type="list"
+                default=""
+                class="dLocal"
+                label="Local"
+                description="Local destinado à inserção do formulário"
+                >
+            
+            <option value="1">Novo Separador</option>
+            <option value="2">Apresentação do Curso</option>
+            <option value="3">Página Novidades</option>
+            <option value="4">Página</option>
+        </field>
+        
+        <field
+                name="curso"
+                type="list"
+                default=""
+                label="Curso"
+                description="Curso pretendido"
+                >
+        <option value=""></option>
+            
+        </field>
+        
+        <field
+                name="pagina"
+                type="list"
+                default=""
+                label="Página"
+                description="Página destinada à inserção do formulário"
+                >
+        <option value=""></option>
+        </field>
+        
+        
+    </fieldset>
+
+    <fieldset name="field_config">
+        <field name="fields"
+               type="fields"
+               label="COM_JUFORM_FIELD_FIELDS_LABEL"
+               description="COM_JUFORM_FIELD_FIELDS_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="design">
+        <field name="template_id"
+               type="templates"
+               label="COM_JUFORM_FIELD_TEMPLATE_LABEL"
+               description="COM_JUFORM_FIELD_TEMPLATE_DESC"/>
+
+        <field name="template_type"
+               type="layouttype"
+               label="COM_JUFORM_FIELD_TEMPLATE_TYPE_LABEL"
+               description="COM_JUFORM_FIELD_TEMPLATE_TYPE_DESC"
+                >
+            <option value="1">COM_JUFORM_AUTO</option>
+            <option value="2">COM_JUFORM_CUSTOM</option>
+        </field>
+
+        <field name="template_code"
+               type="layoutcode"
+               filter="raw"
+               label="COM_JUFORM_FIELD_LAYOUT_CODE_LABEL"
+               description="COM_JUFORM_FIELD_LAYOUT_CODE_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="stylesheet">
+        <field name="stylesheet_declaration"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               default=""
+               label="COM_JUFORM_FIELD_STYLESHEET_DECLARATION_LABEL"
+               description="COM_JUFORM_FIELD_STYLESHEET_DECLARATION_DESC"
+                />
+
+        <field name="stylesheet"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               default=""
+               label="COM_JUFORM_FIELD_STYLESHEET_LABEL"
+               description="COM_JUFORM_FIELD_STYLESHEET_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="javascript">
+        <field name="javascript_declaration"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               default=""
+               label="COM_JUFORM_FIELD_JAVASCRIPT_DECLARATION_LABEL"
+               description="COM_JUFORM_FIELD_JAVASCRIPT_DECLARATION_DESC"
+                />
+
+        <field name="javascript"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               default=""
+               label="COM_JUFORM_FIELD_JAVASCRIPT_LABEL"
+               description="COM_JUFORM_FIELD_JAVASCRIPT_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="php">
+        <field name="php_ondisplay"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               label="COM_JUFORM_FIELD_PHP_ONDISPLAY_LABEL"
+               description="COM_JUFORM_FIELD_PHP_ONDISPLAY_DESC"
+        />
+
+        <field name="php_onbeforeprocess"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               label="COM_JUFORM_FIELD_PHP_ONBEFOREPROCESS_LABEL"
+               description="COM_JUFORM_FIELD_PHP_ONBEFOREPROCESS_DESC"
+        />
+
+        <field name="php_onprocess"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               label="COM_JUFORM_FIELD_PHP_ONPROCESS_LABEL"
+               description="COM_JUFORM_FIELD_PHP_ONPROCESS_DESC"
+        />
+        
+        <field name="php_onsendemail"
+               type="editor"
+               editor="codemirror"
+               filter="raw"
+               rows="10"
+               cols="50"
+               label="COM_JUFORM_FIELD_PHP_ONSENDEMAIL_LABEL"
+               description="COM_JUFORM_FIELD_PHP_ONSENDEMAIL_DESC"
+        />
+    </fieldset>
+
+    <fieldset name="after_submission">
+        <field name="afterprocess_action"
+               type="list"
+               label="Redirecionar"
+               description="COM_JUFORM_FIELD_PHP_AFTERPROCESS_ACTION_DESC"
+        >
+  
+        </field>
+
+        <field name="afterprocess_action_value"
+               type="afterprocessactionvalue"
+               label=""
+        />
+
+        
+    </fieldset>
+
+    <fieldset name="notification">
+        <field name="notification"
+               type="notification"
+               label="COM_JUFORM_FIELD_NOTIFICATION_LABEL"
+               description="COM_JUFORM_FIELD_NOTIFICATION_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="field_action">
+        <field name="field_action"
+               type="fieldaction"
+               label="COM_JUFORM_FIELD_FIELDACTION_LABEL"
+               description="COM_JUFORM_FIELD_FIELDACTION_DESC"/>
+    </fieldset>
+
+    <fieldset name="calculation">
+        <field name="calculation"
+               type="calculation"
+               label="COM_JUFORM_FIELD_CALCULATION_LABEL"
+               description="COM_JUFORM_FIELD_CALCULATION_DESC"/>
+    </fieldset>
+
+    <fieldset name="posttolocation">
+        <field name="post_to_location"
+               type="radio"
+               class="btn-group"
+               default="0"
+               label="COM_JUFORM_FIELD_POST_TO_LOCATION_LABEL"
+               description="COM_JUFORM_FIELD_POST_TO_LOCATION_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="silent_post"
+               type="radio"
+               class="btn-group"
+               default="1"
+               label="COM_JUFORM_FIELD_SILENT_POST_LABEL"
+               description="COM_JUFORM_FIELD_SILENT_POST_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="post_method"
+               type="radio"
+               class="btn-group"
+               default="post"
+               label="COM_JUFORM_FIELD_POST_METHOD_LABEL"
+               description="COM_JUFORM_FIELD_POST_METHOD_DESC">
+            <option value="get">GET</option>
+            <option value="post">POST</option>
+        </field>
+
+        <field name="post_url"
+               type="text"
+               default=""
+               label="COM_JUFORM_FIELD_POST_URL_LABEL"
+               description="COM_JUFORM_FIELD_POST_URL_DESC"/>
+    </fieldset>
+
+    <fieldset name="publishing">
+        <field name="created"
+               type="calendar"
+               default=""
+               class="inputbox"
+               format="%Y-%m-%d %H:%M:%S"
+               filter="user_utc"
+               label="COM_JUFORM_FIELD_CREATED_LABEL"
+               description="COM_JUFORM_FIELD_CREATED_DESC"
+                />
+
+        <field
+                name="created_by"
+                type="user"
+                label="COM_JUFORM_FIELD_CREATED_BY_LABEL"
+                description="COM_JUFORM_FIELD_CREATED_BY_DESC"
+                />
+
+        <field name="modified"
+               type="calendar"
+               default=""
+               class="readonly"
+               readonly="true"
+               format="%Y-%m-%d %H:%M:%S"
+               filter="user_utc"
+               label="COM_JUFORM_FIELD_MODIFIED_LABEL"
+               description="COM_JUFORM_FIELD_MODIFIED_DESC"
+                />
+
+        <field name="modified_by"
+               type="user"
+               label="COM_JUFORM_FIELD_MODIFIED_BY_LABEL"
+               description="COM_JUFORM_FIELD_MODIFIED_BY_DESC"
+               class="readonly"
+               readonly="true"
+                />
+
+        <field
+                name="publish_up"
+                type="calendar"
+                default=""
+                class="inputbox"
+                format="%Y-%m-%d %H:%M:%S"
+                filter="user_utc"
+                label="COM_JUFORM_FIELD_PUBLISH_UP_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISH_UP_DESC"
+                />
+
+        <field
+                name="publish_down"
+                type="calendar"
+                default=""
+                class="inputbox"
+                format="%Y-%m-%d %H:%M:%S"
+                filter="user_utc"
+                label="COM_JUFORM_FIELD_PUBLISH_DOWN_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISH_DOWN_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="metadata">
+        <field name="metatitle"
+               type="text"
+               size="32"
+               label="COM_JUFORM_FIELD_META_TITLE_LABEL"
+               description="COM_JUFORM_FIELD_META_TITLE_DESC"
+                />
+
+        <field name="metakeyword"
+               type="textarea"
+               class="inputbox"
+               rows="3"
+               cols="30"
+               label="COM_JUFORM_FIELD_META_KEYWORD_LABEL"
+               description="COM_JUFORM_FIELD_META_KEYWORD_DESC"
+                />
+
+        <field name="metadescription"
+               type="textarea"
+               class="inputbox"
+               rows="3"
+               cols="30"
+               label="COM_JUFORM_FIELD_META_DESCRIPTION_LABEL"
+               description="COM_JUFORM_FIELD_META_DESCRIPTION_DESC"
+                />
+    </fieldset>
+
+    <fields name="metadata">
+        <field name="robots"
+               type="list"
+               fieldset="metadata"
+               label="COM_JUFORM_FIELD_METADATA_ROBOTS_LABEL"
+               description="COM_JUFORM_FIELD_METADATA_ROBOTS_DESC"
+                >
+            <option value="">COM_JUFORM_USE_GLOBAL</option>
+            <option value="index, follow">COM_JUFORM_INDEX_FOLLOW</option>
+            <option value="noindex, follow">COM_JUFORM_NOINDEX_FOLLOW</option>
+            <option value="index, nofollow">COM_JUFORM_INDEX_NOFOLLOW</option>
+            <option value="noindex, nofollow">COM_JUFORM_NOINDEX_NOFOLLOW</option>
+        </field>
+
+        <field name="author"
+               type="text"
+               fieldset="metadata"
+               size="32"
+               label="COM_JUFORM_FIELD_METADATA_AUTHOR_LABEL"
+               description="COM_JUFORM_FIELD_METADATA_AUTHOR_DESC"
+                />
+
+        <field name="rights"
+               type="textarea"
+               class="inputbox"
+               fieldset="metadata"
+               filter="string"
+               cols="30"
+               rows="2"
+               label="COM_JUFORM_FIELD_METADATA_RIGHTS_LABEL"
+               description="COM_JUFORM_FIELD_METADATA_RIGHTS_DESC"
+                />
+
+        <field name="xreference"
+               type="text"
+               fieldset="metadata"
+               class="inputbox"
+               size="32"
+               label="COM_JUFORM_FIELD_METADATA_XREFERENCE_LABEL"
+               description="COM_JUFORM_FIELD_METADATA_XREFERENCE_DESC"
+                />
+    </fields>
+
+    <fields name="template_params">
+    </fields>
+</form>

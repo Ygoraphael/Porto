@@ -1,0 +1,134 @@
+.addtocart-bar {
+}
+
+.product-field-display select {
+    margin-bottom:15px;
+}
+
+.filters-btn{
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.gray-bg {
+    background: #f5f5f5 !important;
+}
+
+.modal-cart {
+    width:600px;
+}
+
+.modal-cart-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modal-cart h3 {
+    color:black;
+}
+
+.modal-cart-container {
+    width:100%;
+}
+
+.modal-cart-container a {
+    border-radius: 0px;
+}
+
+.img-fluid {
+    max-height:100%;
+}
+
+.accordion {
+    background-color: #ccc;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: aliceblue;
+    border-bottom-radius:3px;
+    width: 98%;
+    margin: 0 auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.magnify {
+/*    width: 350px;
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid rgb(221, 221, 221);*/
+}
+
+.addtocart-button {
+    border-radius: 0px;
+}
+
+.no-border-radius {
+    border-radius:0px;
+}
+
+.logItem a {
+    font-size: 0.8rem;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 0px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}

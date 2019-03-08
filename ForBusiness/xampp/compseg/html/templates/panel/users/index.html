@@ -1,0 +1,98 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="user" data-method="NewUser">%%New user%%</button>
+
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-users2"></i> %%Users%%</h4>
+				<div class="row st" >
+					
+					<form class="form" method="get"  name="User" action="/panel/users/" >
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+								<label>%%Company%%</label>
+									<select name="c" class="form-control" required >
+									<option value="0" {{SELECTED2}} >%%All%%</option>
+										<!-- BEGIN BLOCK_COMPANY -->
+										<option value="{{IdCompany}}" {{SELECTED}}>{{COMPANY_NAME}}</option>
+										<!-- END BLOCK_COMPANY -->
+									</select>
+								</div>
+							</div>
+						</div>  
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+								<label>%%Profile%%</label>
+									<select name="p" class="form-control" required >
+									<option value="0" {{SELECTED4}} >%%All%%</option>
+										<!-- BEGIN BLOCK_PROFILE -->
+										<option value="{{IDPROFILE}}" {{SELECTED3}}>{{PROFILE2}}</option>
+										<!-- END BLOCK_PROFILE -->
+									</select>
+								</div>
+							</div>
+						</div>  
+					</div>
+					
+					<div class="col-md-1" style="margin-top:30px;">
+						<button type="submit" class="btn btn-success">%%Search%%</button>
+					</div>
+					</form>	
+				</div>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_USERS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+								<th>%%Code%%</th>
+                                <th>%%First Name%%</th>
+                                <th>%%Last Name%%</th>
+                                <th>%%Email%%</th>
+                                <th>%%Company%%</th>
+                                <th>%%Profile%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_USER -->
+                            <tr>
+								<th scope="row" >{{USER->CODE}}</th>
+                                <td class="name">{{USER->NAME}}</td>
+                                <td>{{USER->LAST_NAME}}</td>
+                                <td>{{USER->EMAIL}}</td>
+                                <td>{{USER->COMPANY}}</td>
+                                <td>{{PROFILE}}</td>
+                                <td><span class="tag tag-{{status_class}}">{{USER->STATUS}}</span></td>
+                                <td>
+                                    <!-- BEGIN BLOCK_BTN_EDIT -->
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="user" data-id="{{USER->ID}}" data-method="edit" title="%%Edit User%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="user" data-id="{{USER->ID}}"><i class="icon-close-round" title="%%Delete User%%" ></i></button>
+                                    <!-- END BLOCK_BTN_EDIT -->
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_USER -->
+                        </tbody>
+                    </table>
+
+                </div>
+                <!-- END BLOCK_USERS -->
+                <!-- BEGIN BLOCK_NO_USERS -->
+                <h4>%%No registered users%%</h4>
+                <!-- END BLOCK_NO_USERS -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+DROP TABLE u_vouch;
+CREATE TABLE u_vouch (
+`u_vouchstamp` VARCHAR(25) NOT NULL, 
+`no` NUMERIC(10,0) NOT NULL, 
+`value` NUMERIC(16,6) NOT NULL, 
+`type` VARCHAR(4) NOT NULL, 
+`code` VARCHAR(254) NOT NULL, 
+`useqtt` NUMERIC(10,0) NOT NULL, 
+`validity` DATETIME(3) NOT NULL, 
+`ousrdata` DATETIME(3) NOT NULL, 
+`ousrhora` VARCHAR(8) NOT NULL, 
+`ousrinis` VARCHAR(30) NOT NULL, 
+`usrdata` DATETIME(3) NOT NULL, 
+`usrhora` VARCHAR(8) NOT NULL, 
+`usrinis` VARCHAR(30) NOT NULL);

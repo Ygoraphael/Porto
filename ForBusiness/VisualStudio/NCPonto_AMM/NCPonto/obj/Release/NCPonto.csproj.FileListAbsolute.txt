@@ -1,0 +1,40 @@
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Release\NCPonto.exe.config
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Release\NCPonto.exe
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Release\NCPonto.pdb
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\ResolveAssemblyReference.cache
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.frmPicarFO.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.frmFO.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.frmMain.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.frmMDI.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.frmPicar.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.Properties.Resources.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto._frmConfig.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.csproj.GenerateResource.Cache
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.exe
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Release\NCPonto.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\bin\Release\NCPonto.exe.config
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\bin\Release\NCPonto.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\bin\Release\NCPonto.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.frmPicarFO.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.frmFO.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.frmMain.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.frmMDI.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.frmPicar.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.Properties.Resources.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto._frmConfig.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto\obj\Release\NCPonto.csproj.GenerateResource.Cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\bin\Release\NCPonto.exe.config
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\bin\Release\NCPonto.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\bin\Release\NCPonto.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.frmPicarFO.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.frmFO.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.frmMain.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.frmMDI.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.frmPicar.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.Properties.Resources.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto._frmConfig.resources
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto_AMM\NCPonto\obj\Release\NCPonto.csproj.GenerateResource.Cache

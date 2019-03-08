@@ -1,0 +1,9 @@
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\bin\Debug\XDArtigosPrecos.exe
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\bin\Debug\XDArtigosPrecos.pdb
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\obj\x86\Debug\XDArtigosPrecos.Form1.resources
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\obj\x86\Debug\XDArtigosPrecos.Properties.Resources.resources
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\obj\x86\Debug\XDArtigosPrecos.csproj.GenerateResource.Cache
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\obj\x86\Debug\XDArtigosPrecos.exe
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\obj\x86\Debug\XDArtigosPrecos.pdb
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\bin\Debug\System.Data.SQLite.dll
+c:\users\tml\documents\visual studio 2010\Projects\XDArtigosPrecos\XDArtigosPrecos\bin\Debug\System.Data.SQLite.xml

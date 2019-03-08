@@ -1,0 +1,14 @@
+c:\users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\NCDataOnlineService.exe
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\NCDataOnlineService.pdb
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\SQLite.NET.dll
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.exe
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\bin\Debug\NCDataOnlineService.exe
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\bin\Debug\NCDataOnlineService.pdb
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tml\Documents\Visual Studio 2010\Projects\NCDataOnlineService_\NCDataOnlineService\bin\Debug\SQLite.NET.dll

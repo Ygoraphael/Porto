@@ -1,0 +1,20 @@
+/*  Shrink */
+.keyframes(~"@{nameSpace}--shrink", {
+	to {
+		.prefixed(transform, scale(.9));
+	}
+});
+
+.-shrink() {
+	.hacks();
+
+	&:hover,
+	&:focus,
+	&:active {
+		.prefixed(animation-name, ~"@{nameSpace}--shrink");
+		.prefixed(animation-duration, @mediumDuration);
+		.prefixed(animation-timing-function, linear);
+		.prefixed(animation-iteration-count, infinite);
+		.prefixed(animation-direction, alternate);
+	}
+}

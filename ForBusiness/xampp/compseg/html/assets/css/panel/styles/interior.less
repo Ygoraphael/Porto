@@ -1,0 +1,57 @@
+//while true;do lessc --strict-imports interior.less > interior.css; sleep 1; done;
+body, div { font: 300 14px / 14.69px Roboto; color: whitesmoke; }
+@import "jquery-ui.min.css";
+@import "base.less";
+@import "components/badges.less";
+a{ cursor: pointer; }
+h1{ font-size: 25px; font-weight: bold; }
+h2{ font-size: 23px; font-weight: bold; }
+h3{ font-size: 20px; font-weight: bold; }
+h4{ font-size: 18px; font-weight: bold; }
+h5{ font-size: 16px; font-weight: bold; }
+label{ cursor: pointer; }
+.col-sm-6-separated{
+  position: relative !important;
+  min-height: 1px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  float:left !important;
+  width: e("calc(50% - 4px)") !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+.col-sm-4-separated{
+  position: relative !important;
+  min-height: 1px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  float:left !important;
+  width: e("calc(33.33% - 4px)") !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+
+a{
+    color: #f3e1b2;
+    font: 300 14px / 14.69px Roboto;
+    text-decoration: none;
+}
+.underline{ text-decoration: underline; }
+
+
+@import "components/interior/stats-bar-principal.less";
+@import "components/interior/stats-panel-principal.less";
+
+@import "components/interior/left-right-navbars.less";
+@import "components/interior/main-content-area.less";
+
+@import "components/interior/legacy_components/brekk.less";
+@import "components/interior/legacy_components/legacy_container_hacks.less";
+
+@import "components/interior/components/progress_bars.less";
+@import "components/interior/components/view_messages.less";
+@import "components/interior/components/cards/robbery.less";
+@import "components/interior/components/cards/car_theft.less";
+@import "components/interior/components/airport/worldmap.less";
+

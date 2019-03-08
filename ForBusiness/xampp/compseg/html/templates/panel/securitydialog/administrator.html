@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="dialog" data-method="new_dialog">%%New Dialogue%%</button>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="dialog" data-method="new_dialog">%%Dialogues Rules%%</button>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-bubbles2"></i> %%Dialogues%%</h4>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_SECURITYDIALOGS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Code%%</th>
+                                <th>%%Theme%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SECURITYDIALOG -->
+                            <tr>
+                                <th scope="row" >{{SECURITYDIALOG->ID}}</th>
+                                <td class="name">{{SECURITYDIALOG->THEMA}}</td>
+                                <td>
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="user" data-id="{{SECURITYDIALOG->ID}}" data-method="edit" title="%%Edit Dialogue%%"><i class="icon-edit"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SECURITYDIALOG -->
+                        </tbody>
+                    </table>
+
+                </div>
+                <!-- END BLOCK_SECURITYDIALOGS -->
+                <!-- BEGIN BLOCK_NO_USERS -->
+                <h4>%%There are no registered dialogues%%</h4>
+                <!-- END BLOCK_NO_USERS -->
+            </div>
+        </div>
+    </div>
+</div>

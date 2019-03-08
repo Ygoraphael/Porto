@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="category" data-method="new_category">%%New Category%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-office"></i> %%Category%%</h4>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_CATEGORIES -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Name%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th style="max-width: 80px">%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_CATEGORY -->
+                            <tr>
+                                <th scope="row" class="name">{{CATEGORY->NAME}}</th>
+                                <td>{{CATEGORY->CREATED_AT}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{CATEGORY->STATUS}}</span></td>
+                                <td style="max-width: 100px">
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="category" data-id="{{CATEGORY->ID}}" data-method="edit" title="%%Edit Category%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="category" data-id="{{CATEGORY->ID}}" title="%%Delete Category%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_CATEGORY -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END BLOCK_CATEGORIES -->
+                <!-- BEGIN BLOCK_NO_CATEGORIES -->
+                <h4>%%There are no registered categories%%</h4>
+                <!-- END BLOCK_NO_CATEGORIES -->
+            </div>
+        </div>
+    </div>
+</div>

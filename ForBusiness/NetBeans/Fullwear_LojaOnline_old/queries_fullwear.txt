@@ -1,0 +1,68 @@
+//familias
+select distinct st.usr4 gama, st.usr5 genero, st.usr3 linha, sl.u_codproj, sl.u_descproj
+from st 
+	inner join sl on st.ref = sl.ref 
+	left join bi on st.ref = bi.ref and bi.u_codproj = sl.u_codproj and bi.ndos = 30 and bi.fechada = 0 and bi.cativo = 1 and sl.cor = bi.cor and sl.tam = bi.tam
+where sl.armazem = 2 and st.usr4 <> '' and st.usr5 <> '' and st.usr3 <> '' and st.ref like 'FW-%'
+group by st.usr4, st.usr5, st.usr3, sl.u_codproj, sl.u_descproj
+having SUM(case when cm > 50 then -sl.qtt else sl.qtt end) - SUM(isnull(bi.qtt, 0)) > 0 
+
+//artigos
+select stock.ref, stock.design, stock.cor, stock.tam, stock.familia, stock.u_codproj, stock.u_descproj, stock.stock - isnull(cativo.stock, 0) stock
+from
+(
+       select 
+                rtrim(ltrim(st.ref)) + '|||' + CONVERT(varchar(10), sl.u_codproj) ref,
+                st.design,
+                sl.cor,
+                sl.tam,
+                ltrim(rtrim(st.usr4)) + '|||' + ltrim(rtrim(st.usr5)) + '|||' + ltrim(rtrim(st.usr3)) familia,
+                sl.u_codproj,
+                sl.u_descproj,
+                SUM(case when cm > 50 then -sl.qtt else sl.qtt end)stock
+       from st 
+                inner join sl on st.ref = sl.ref 
+       where 
+                sl.armazem = 2 and st.usr4 <> '' and st.usr5 <> '' and st.usr3 <> ''
+       group by 
+                st.ref, 
+                st.design, 
+                sl.cor, 
+                sl.tam, 
+                st.usr4, 
+                st.usr5, 
+                st.usr3, 
+                sl.u_codproj, 
+                sl.u_descproj
+       having 
+                SUM(case when cm > 50 then -sl.qtt else sl.qtt end)  > 0 and st.ref like 'FW-%'
+)stock
+left join 
+(
+       select 
+                rtrim(ltrim(st.ref)) + '|||' + CONVERT(varchar(10), bi.u_codproj) ref,
+                st.design,
+                bi.cor,
+                bi.tam,
+                ltrim(rtrim(st.usr4)) + '|||' + ltrim(rtrim(st.usr5)) + '|||' + ltrim(rtrim(st.usr3)) familia,
+                bi.u_codproj,
+                bi.u_descproj,
+                SUM(isnull(bi.qtt, 0)) stock
+       from st 
+                inner join bi on st.ref = bi.ref 
+       where 
+                bi.ndos = 30 and bi.fechada = 0 and bi.cativo = 1 and st.usr4 <> '' and st.usr5 <> '' and st.usr3 <> ''
+       group by 
+                st.ref, 
+                st.design, 
+                bi.cor, 
+                bi.tam, 
+                st.usr4, 
+                st.usr5, 
+                st.usr3, 
+                bi.u_codproj, 
+                bi.u_descproj
+       having 
+                SUM(isnull(bi.qtt, 0)) > 0 and 
+                st.ref like 'FW-%'
+) cativo on  cativo.u_codproj = stock.u_codproj and  stock.cor = cativo.cor and stock.tam = cativo.tam

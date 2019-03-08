@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+	<server>./SQLEXPRESS</server>
+	<database>Patocycles</database>
+	<user>tl</user>
+	<password>tl123</password>
+	<synctype></synctype>
+	<ftp_server>novoscanais.com</ftp_server>
+	<ftp_folder>teste</ftp_folder>
+	<ftp_user>nc</ftp_user>
+	<ftp_password>ncnc</ftp_password>
+	<tables>
+		<table_entry>
+			<name>faturas</name>
+			<table>ft</table>
+		</table_entry>
+		<table_entry>
+			<name>faturas linhas</name>
+			<table></table>
+		</table_entry>
+	</tables>
+</config>

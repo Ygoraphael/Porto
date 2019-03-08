@@ -1,0 +1,63 @@
+18-01-2018 14:43:24 - Erro: comunicação servidor envio!
+18-01-2018 14:43:24 - Detalhes:
+18-01-2018 14:43:24 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:43:24 - java.lang.NullPointerException
+18-01-2018 14:43:24 - Erro: comunicação servidor envio!
+18-01-2018 14:43:24 - Detalhes:
+18-01-2018 14:43:24 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:44:15 - Erro: comunicação servidor envio!
+18-01-2018 14:44:15 - Detalhes:
+18-01-2018 14:44:15 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:44:15 - java.lang.NullPointerException
+18-01-2018 14:44:15 - Erro: comunicação servidor envio!
+18-01-2018 14:44:15 - Detalhes:
+18-01-2018 14:44:15 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:45:07 - Erro: comunicação servidor envio!
+18-01-2018 14:45:07 - Detalhes:
+18-01-2018 14:45:07 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:45:07 - java.lang.NullPointerException
+18-01-2018 14:45:07 - Erro: comunicação servidor envio!
+18-01-2018 14:45:07 - Detalhes:
+18-01-2018 14:45:07 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/artigos_ini
+18-01-2018 14:47:59 - Erro: comunicação servidor envio!
+18-01-2018 14:47:59 - Detalhes:
+18-01-2018 14:47:59 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:47:59 - java.lang.NullPointerException
+18-01-2018 14:47:59 - Erro: comunicação servidor envio!
+18-01-2018 14:47:59 - Detalhes:
+18-01-2018 14:47:59 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:49:30 - Erro: comunicação servidor envio!
+18-01-2018 14:49:30 - Detalhes:
+18-01-2018 14:49:30 - java.io.FileNotFoundException: http://127.0.0.1/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:49:30 - java.lang.NullPointerException
+18-01-2018 14:49:30 - Erro: comunicação servidor envio!
+18-01-2018 14:49:30 - Detalhes:
+18-01-2018 14:49:30 - java.io.FileNotFoundException: http://127.0.0.1/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:50:31 - Erro: comunicação servidor envio!
+18-01-2018 14:50:31 - Detalhes:
+18-01-2018 14:50:31 - java.io.FileNotFoundException: http://127.0.0.1/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:50:31 - java.lang.NullPointerException
+18-01-2018 14:50:31 - Erro: comunicação servidor envio!
+18-01-2018 14:50:31 - Detalhes:
+18-01-2018 14:50:31 - java.io.FileNotFoundException: http://127.0.0.1/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:53:44 - Erro: comunicação servidor envio!
+18-01-2018 14:53:44 - Detalhes:
+18-01-2018 14:53:44 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:53:44 - java.lang.NullPointerException
+18-01-2018 14:53:44 - Erro: comunicação servidor envio!
+18-01-2018 14:53:44 - Detalhes:
+18-01-2018 14:53:44 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:54:30 - Erro: comunicação servidor envio!
+18-01-2018 14:54:30 - Detalhes:
+18-01-2018 14:54:30 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:54:30 - java.lang.NullPointerException
+18-01-2018 14:54:30 - Erro: comunicação servidor envio!
+18-01-2018 14:54:30 - Detalhes:
+18-01-2018 14:54:30 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini
+18-01-2018 14:55:51 - Erro: comunicação servidor envio!
+18-01-2018 14:55:51 - Detalhes:
+18-01-2018 14:55:51 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/get_encomenda
+18-01-2018 14:55:51 - java.lang.NullPointerException
+18-01-2018 14:55:51 - Erro: comunicação servidor envio!
+18-01-2018 14:55:51 - Detalhes:
+18-01-2018 14:55:51 - java.io.FileNotFoundException: http://localhost/fw/templates/sync/index.php/sync/familias_ini

@@ -1,0 +1,4 @@
+c:\users\tml\documents\visual studio 2010\Projects\EtmaAtividadesSplit\EtmaAtividadesSplit\bin\Debug\EtmaAtividadesSplit.exe
+c:\users\tml\documents\visual studio 2010\Projects\EtmaAtividadesSplit\EtmaAtividadesSplit\bin\Debug\EtmaAtividadesSplit.pdb
+c:\users\tml\documents\visual studio 2010\Projects\EtmaAtividadesSplit\EtmaAtividadesSplit\obj\x86\Debug\EtmaAtividadesSplit.exe
+c:\users\tml\documents\visual studio 2010\Projects\EtmaAtividadesSplit\EtmaAtividadesSplit\obj\x86\Debug\EtmaAtividadesSplit.pdb

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Textarea</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>textarea</folder>
+    <default>1</default>
+    <administrator>
+        <files folder="admin">
+            <filename>textarea.php</filename>
+        </files>
+    </administrator>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                    name="restrict_type"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_RESTRICT_TYPE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_TYPE_DESC"
+            >
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="min">COM_JUFORM_MIN</option>
+                <option value="max">COM_JUFORM_MAX</option>
+                <option value="range">COM_JUFORM_RANGE</option>
+            </field>
+
+            <field
+                    name="restrict_value"
+                    type="text"
+                    default=""
+                    class="jufilter-restrict_type-min-max-range"
+                    label="COM_JUFORM_FIELD_RESTRICT_VALUE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_VALUE_DESC"
+            />
+
+            <field
+                    name="invalid_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_INVALID_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_INVALID_MESSAGE_DESC"
+                    />
+
+            <field
+                    name="required_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_REQUIRED_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_REQUIRED_MESSAGE_DESC"
+                    />
+        </fieldset>
+
+        <fieldset name="config" label="Config">
+            <field
+                    name="width"
+                    type="text"
+                    default="600"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_WIDTH_LABEL"
+                    description="COM_JUFORM_FIELD_WIDTH_DESC"
+                    />
+
+            <field
+                    name="height"
+                    type="text"
+                    default="400"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_HEIGHT_LABEL"
+                    description="COM_JUFORM_FIELD_HEIGHT_DESC"
+                    />
+
+            <field
+                    name="cols"
+                    type="text"
+                    default="50"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_COLS_LABEL"
+                    description="COM_JUFORM_FIELD_COLS_DESC"
+                    />
+
+            <field
+                    name="rows"
+                    type="text"
+                    default="5"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_ROWS_LABEL"
+                    description="COM_JUFORM_FIELD_ROWS_DESC"
+                    />
+
+            <field
+                    name="editor"
+                    type="selecteditors"
+                    folder="editors"
+                    default=""
+                    label="COM_JUFORM_FIELD_EDITOR_LABEL"
+                    description="COM_JUFORM_FIELD_EDITOR_DESC">
+                <option value="">Default editor - Global config</option>
+            </field>
+
+            <field name="placeholder"
+                   type="text"
+                   default=""
+                   label="COM_JUFORM_FIELD_PLACEHOLDER_LABEL"
+                   description="COM_JUFORM_FIELD_PLACEHOLDER_DESC"
+                    />
+
+            <field
+                    name="strip_tags_list_view"
+                    type="radio"
+                    default="1"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_STRIP_TAGS_IN_LIST_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_STRIP_TAGS_IN_LIST_VIEW_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="strip_tags_details_view"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_STRIP_TAGS_IN_DETAILS_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_STRIP_TAGS_IN_DETAILS_VIEW_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="strip_tags_before_save"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_STRIP_TAGS_BEFORE_STORING_TO_DATABASE_LABEL"
+                    description="COM_JUFORM_FIELD_STRIP_TAGS_BEFORE_STORING_TO_DATABASE_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="allowable_tags"
+                   type="text"
+                   label="COM_JUFORM_FIELD_ALLOWABLE_TAGS_LABEL"
+                   description="COM_JUFORM_FIELD_ALLOWABLE_TAGS_DESC"
+                   default="u,b,i,a,ul,li,pre,blockquote,strong,em"
+                    />
+
+            <field
+                    name="use_html_entities"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_USE_HTML_ENTITIES_IN_LIST_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_USE_HTML_ENTITIES_IN_LIST_VIEW_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="truncate"
+                    type="radio"
+                    default="1"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_TRUNCATE_IN_LIST_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_TRUNCATE_IN_LIST_VIEW_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="limit_char_in_list_view"
+                    type="text"
+                    default="200"
+                    class="jufilter-truncate-1 validate-numeric"
+                    label="COM_JUFORM_FIELD_LIMIT_CHARACTERS_IN_LIST_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_LIMIT_CHARACTERS_IN_LIST_VIEW_DESC"
+                    />
+
+            <field
+                    name="auto_link"
+                    type="radio"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_AUTO_LINK_IN_DETAILS_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_AUTO_LINK_IN_DETAILS_VIEW_DESC"
+                    default="1"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="nofollow_link"
+                    type="radio"
+                    default="1"
+                    class="jufilter-auto_link-1 btn-group"
+                    label="COM_JUFORM_FIELD_NOFOLLOW_LINK_LABEL"
+                    description="COM_JUFORM_FIELD_NOFOLLOW_LINK_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="trim_long_url"
+                    type="text"
+                    default="0"
+                    class="jufilter jufilter-auto_link-1 validate-numeric"
+                    label="COM_JUFORM_FIELD_TRIM_LONG_URL_LABEL"
+                    description="COM_JUFORM_FIELD_TRIM_LONG_URL_DESC"
+                    />
+
+            <field
+                    name="front_portion_url"
+                    type="text"
+                    default="0"
+                    class="jufilter-auto_link-1 jufilter-trim_long_url-1 validate-numeric"
+                    label="COM_JUFORM_FIELD_FRONT_PORTION_URL_LABEL"
+                    description="COM_JUFORM_FIELD_FRONT_PORTION_URL_DESC"
+                    />
+
+            <field
+                    name="back_portion_url"
+                    type="text"
+                    default="0"
+                    class="jufilter-auto_link-1 jufilter-trim_long_url-1 validate-numeric"
+                    label="COM_JUFORM_FIELD_BACK_PORTION_URL_LABEL"
+                    description="COM_JUFORM_FIELD_BACK_PORTION_URL_DESC"
+                    />
+
+            <field
+                    name="nl2br_details_view"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_NL2BR_DETAILS_VIEW_LABEL"
+                    description="COM_JUFORM_FIELD_NL2BR_DETAILS_VIEW_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="filter"
+                    type="list"
+                    default="RAW"
+                    label="COM_JUFORM_FIELD_FILTER_LABEL"
+                    description="COM_JUFORM_FIELD_FILTER_DESC">
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="RAW">COM_JUFORM_FILTER_RAW</option>
+                <option value="SAFEHTML">COM_JUFORM_FILTER_SAFE_HTML</option>
+            </field>
+
+            <field
+                    name="trigger_window_resize"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_TRIGGER_WINDOW_RESIZE_LABEL"
+                    description="COM_JUFORM_FIELD_TRIGGER_WINDOW_RESIZE_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

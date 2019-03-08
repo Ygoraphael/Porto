@@ -1,0 +1,1 @@
+java -jar PHCShrink.jar 127.0.0.1 SQLEXPRESS sa sa123 NCPOS "Clinica;Consolidação;Contabilidade;ControlDoc;CRM Comercial;Dashboard;Ecovalor;Factoring;Formação;Frota;Garantias Bancárias;Gestão;Imobilizado;Imóveis;InterOp;Intrastat;Letras e outros;Obras;Pessoal;Projeto;Projeto - Revisão;Qualidade;Recursos Humanos;Restauração;Serviços;SHST;Suporte;TeamControl"

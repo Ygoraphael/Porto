@@ -1,0 +1,70 @@
+.backgroundAnimOficinas{
+  background-image: url(../images/services/ncoficinabg.jpg);
+  width: 100%;
+  height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  animation: animatedBackground 30s infinite;
+}
+.backgroundAnimPhccs {
+    background: transparent url(../images/slider/phc_cs2.jpg);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite;
+}
+.backgroundAnimOuro {
+    background: transparent url(../images/services/ncourobg.jpg);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite;
+}
+.backgroundAnimDfx {
+    background: transparent url(../images/slider/drivefx-bg.png);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite;
+}
+.backgroundAnimOffice365 {
+    background: transparent url(../images/services/office_banner.jpg);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite;
+}
+.backgroundAnimWebApp {
+    background: transparent url(../images/services/solutionesti.jpg);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite ease-in-out;
+}
+.backgroundAnimContactos {
+    background: transparent url(../images/contactos.png);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    animation: animatedBackground 30s infinite ease-in-out;
+}
+/* keyframes */
+@keyframes animatedBackground {
+      0% { background-position: 100% 100%;}
+      33% { background-position: 0 0;}
+      66% { background-position: 100%  0;}
+      100% { background-position: 100% 100%;}
+}

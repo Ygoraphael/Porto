@@ -1,0 +1,1020 @@
+10-01-2016 18:18:33 - Erro: comunicação servidor envio!
+10-01-2016 18:18:33 - Detalhes:
+10-01-2016 18:18:33 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:18:33 - Erro: sincronizar artigos!
+10-01-2016 18:18:33 - Detalhes:
+10-01-2016 18:18:33 - Excepção: java.lang.NullPointerException
+10-01-2016 18:18:33 - FW-0324|||0|||L|||Preto
+10-01-2016 18:18:33 - FW-0324|||0|||M|||Preto
+10-01-2016 18:18:33 - FW-0324|||0|||S|||Preto
+10-01-2016 18:18:33 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:18:33 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:18:33 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:18:33 - Erro: comunicação servidor envio!
+10-01-2016 18:18:33 - Detalhes:
+10-01-2016 18:18:33 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:18:33 - Erro: sincronizar artigos!
+10-01-2016 18:18:33 - Detalhes:
+10-01-2016 18:18:33 - Excepção: java.lang.NullPointerException
+10-01-2016 18:18:33 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:18:33 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:18:33 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:18:33 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:18:33 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:18:34 - Erro: comunicação servidor envio!
+10-01-2016 18:18:34 - Detalhes:
+10-01-2016 18:18:34 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:18:34 - Erro: sincronizar artigos!
+10-01-2016 18:18:34 - Detalhes:
+10-01-2016 18:18:34 - Excepção: java.lang.NullPointerException
+10-01-2016 18:18:34 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:18:34 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:18:34 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:18:34 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:18:34 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:18:34 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:18:34 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:18:34 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:18:34 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:18:34 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:19:28 - Erro: comunicação servidor envio!
+10-01-2016 18:19:28 - Detalhes:
+10-01-2016 18:19:28 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:19:28 - Erro: sincronizar artigos!
+10-01-2016 18:19:28 - Detalhes:
+10-01-2016 18:19:28 - Excepção: java.lang.NullPointerException
+10-01-2016 18:19:28 - FW-0324|||0|||L|||Preto
+10-01-2016 18:19:28 - FW-0324|||0|||M|||Preto
+10-01-2016 18:19:28 - FW-0324|||0|||S|||Preto
+10-01-2016 18:19:28 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:19:28 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:19:28 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:19:28 - Erro: comunicação servidor envio!
+10-01-2016 18:19:28 - Detalhes:
+10-01-2016 18:19:28 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:19:28 - Erro: sincronizar artigos!
+10-01-2016 18:19:28 - Detalhes:
+10-01-2016 18:19:28 - Excepção: java.lang.NullPointerException
+10-01-2016 18:19:28 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:19:28 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:19:28 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:19:28 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:19:28 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:19:29 - Erro: comunicação servidor envio!
+10-01-2016 18:19:29 - Detalhes:
+10-01-2016 18:19:29 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:19:29 - Erro: sincronizar artigos!
+10-01-2016 18:19:29 - Detalhes:
+10-01-2016 18:19:29 - Excepção: java.lang.NullPointerException
+10-01-2016 18:19:29 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:19:29 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:19:29 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:19:29 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:19:29 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:19:29 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:19:29 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:19:29 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:19:29 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:19:29 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:21:13 - Erro: comunicação servidor envio!
+10-01-2016 18:21:13 - Detalhes:
+10-01-2016 18:21:13 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:21:13 - Erro: sincronizar artigos!
+10-01-2016 18:21:13 - Detalhes:
+10-01-2016 18:21:13 - Excepção: java.lang.NullPointerException
+10-01-2016 18:21:13 - FW-0324|||0|||L|||Preto
+10-01-2016 18:21:13 - FW-0324|||0|||M|||Preto
+10-01-2016 18:21:13 - FW-0324|||0|||S|||Preto
+10-01-2016 18:21:13 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:21:13 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:21:13 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:21:13 - Erro: comunicação servidor envio!
+10-01-2016 18:21:13 - Detalhes:
+10-01-2016 18:21:13 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:21:13 - Erro: sincronizar artigos!
+10-01-2016 18:21:13 - Detalhes:
+10-01-2016 18:21:13 - Excepção: java.lang.NullPointerException
+10-01-2016 18:21:13 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:21:13 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:21:13 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:21:13 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:21:13 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:21:14 - Erro: comunicação servidor envio!
+10-01-2016 18:21:14 - Detalhes:
+10-01-2016 18:21:14 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:21:14 - Erro: sincronizar artigos!
+10-01-2016 18:21:14 - Detalhes:
+10-01-2016 18:21:14 - Excepção: java.lang.NullPointerException
+10-01-2016 18:21:14 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:21:14 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:21:14 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:21:14 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:21:14 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:21:14 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:21:14 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:21:14 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:21:14 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:21:14 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:22:56 - Erro: comunicação servidor envio!
+10-01-2016 18:22:56 - Detalhes:
+10-01-2016 18:22:56 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:22:56 - Erro: sincronizar artigos!
+10-01-2016 18:22:56 - Detalhes:
+10-01-2016 18:22:56 - Excepção: java.lang.NullPointerException
+10-01-2016 18:22:56 - FW-0324|||0|||L|||Preto
+10-01-2016 18:22:56 - FW-0324|||0|||M|||Preto
+10-01-2016 18:22:56 - FW-0324|||0|||S|||Preto
+10-01-2016 18:22:56 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:22:56 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:22:56 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:22:56 - Erro: comunicação servidor envio!
+10-01-2016 18:22:56 - Detalhes:
+10-01-2016 18:22:56 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:22:56 - Erro: sincronizar artigos!
+10-01-2016 18:22:56 - Detalhes:
+10-01-2016 18:22:56 - Excepção: java.lang.NullPointerException
+10-01-2016 18:22:56 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:22:56 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:22:56 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:22:56 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:22:56 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:22:57 - Erro: comunicação servidor envio!
+10-01-2016 18:22:57 - Detalhes:
+10-01-2016 18:22:57 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:22:57 - Erro: sincronizar artigos!
+10-01-2016 18:22:57 - Detalhes:
+10-01-2016 18:22:57 - Excepção: java.lang.NullPointerException
+10-01-2016 18:22:57 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:22:57 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:22:57 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:22:57 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:22:57 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:22:57 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:22:57 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:22:57 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:22:57 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:22:57 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:25:05 - Erro: comunicação servidor envio!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:05 - Erro: sincronizar artigos!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:05 - FW-0324|||0|||L|||Preto
+10-01-2016 18:25:05 - FW-0324|||0|||M|||Preto
+10-01-2016 18:25:05 - FW-0324|||0|||S|||Preto
+10-01-2016 18:25:05 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:25:05 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:25:05 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:25:05 - Erro: comunicação servidor envio!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:05 - Erro: sincronizar artigos!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:05 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:25:05 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:25:05 - Erro: comunicação servidor envio!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:05 - Erro: sincronizar artigos!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:05 - FW-0010|||4928|||6A|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||8A|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||L|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||M|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||S|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||XL|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||XS|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||XXL|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||XXXL|||N/D
+10-01-2016 18:25:05 - FW-0010|||4928|||XXXXL|||N/D
+10-01-2016 18:25:05 - FW-0337|||0|||M|||Amarelo - Polya. 10
+10-01-2016 18:25:05 - FW-0337|||0|||S|||Amarelo - Polya. 10
+10-01-2016 18:25:05 - FW-0337|||0|||L|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:25:05 - FW-0337|||0|||M|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:25:05 - FW-0337|||0|||L|||Azul M - Polya. 5826
+10-01-2016 18:25:05 - FW-0337|||0|||M|||Azul M - Polya. 5826
+10-01-2016 18:25:05 - FW-0337|||0|||S|||Azul M - Polya. 5826
+10-01-2016 18:25:05 - FW-0337|||0|||L|||Azul R. - Polya. 3196
+10-01-2016 18:25:05 - FW-0337|||0|||M|||Azul R. - Polya. 3196
+10-01-2016 18:25:05 - FW-0337|||0|||S|||Azul R. - Polya. 3196
+10-01-2016 18:25:05 - Erro: comunicação servidor envio!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:05 - Erro: sincronizar artigos!
+10-01-2016 18:25:05 - Detalhes:
+10-01-2016 18:25:05 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:06 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:25:06 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:25:06 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:25:06 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:25:06 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:25:06 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:25:06 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:25:06 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:25:06 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:25:06 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:25:06 - Erro: comunicação servidor envio!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:06 - Erro: sincronizar artigos!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:06 - FW-0178|||2987|||M|||N/D
+10-01-2016 18:25:06 - FW-0178|||4928|||M|||N/D
+10-01-2016 18:25:06 - FW-0178|||2987|||S|||N/D
+10-01-2016 18:25:06 - FW-0178|||2987|||XL|||N/D
+10-01-2016 18:25:06 - FW-0178|||2987|||XS|||N/D
+10-01-2016 18:25:06 - FW-0178|||2987|||XXl|||N/D
+10-01-2016 18:25:06 - FW-0120|||0|||S|||Preto
+10-01-2016 18:25:06 - FW-0120|||0|||XL|||Preto
+10-01-2016 18:25:06 - FW-0120|||0|||XS|||Preto
+10-01-2016 18:25:06 - FW-0252|||2987|||L|||N/D
+10-01-2016 18:25:06 - FW-0252|||2987|||M|||N/D
+10-01-2016 18:25:06 - FW-0252|||5188|||XXL|||N/D
+10-01-2016 18:25:06 - FW-0246|||5188|||L|||N/D
+10-01-2016 18:25:06 - FW-0246|||4928|||M|||N/D
+10-01-2016 18:25:06 - FW-0246|||5188|||M|||N/D
+10-01-2016 18:25:06 - FW-0246|||5188|||S|||N/D
+10-01-2016 18:25:06 - FW-0246|||5188|||XL|||N/D
+10-01-2016 18:25:06 - FW-0105|||5188|||L|||N/D
+10-01-2016 18:25:06 - FW-0105|||4928|||M|||N/D
+10-01-2016 18:25:06 - FW-0105|||5188|||M|||N/D
+10-01-2016 18:25:06 - Erro: comunicação servidor envio!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:06 - Erro: sincronizar artigos!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:06 - FW-0105|||5188|||S|||N/D
+10-01-2016 18:25:06 - FW-0105|||5188|||XL|||N/D
+10-01-2016 18:25:06 - FW-0315|||0|||L|||Amarelo
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Amarelo
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Amarelo
+10-01-2016 18:25:06 - FW-0315|||0|||XL|||Amarelo
+10-01-2016 18:25:06 - FW-0315|||0|||XS|||Amarelo
+10-01-2016 18:25:06 - FW-0315|||0|||L|||Azul Marinho
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Azul Marinho
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Azul Marinho
+10-01-2016 18:25:06 - FW-0315|||0|||XL|||Azul Marinho
+10-01-2016 18:25:06 - FW-0315|||0|||XS|||Azul Marinho
+10-01-2016 18:25:06 - FW-0315|||0|||L|||azul,branco
+10-01-2016 18:25:06 - FW-0315|||0|||M|||azul,branco
+10-01-2016 18:25:06 - FW-0315|||0|||S|||azul,branco
+10-01-2016 18:25:06 - FW-0315|||0|||L|||Branco
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Branco
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Branco
+10-01-2016 18:25:06 - FW-0315|||0|||XL|||Branco
+10-01-2016 18:25:06 - FW-0315|||0|||XS|||Branco
+10-01-2016 18:25:06 - Erro: comunicação servidor envio!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:25:06 - Erro: sincronizar artigos!
+10-01-2016 18:25:06 - Detalhes:
+10-01-2016 18:25:06 - Excepção: java.lang.NullPointerException
+10-01-2016 18:25:06 - FW-0315|||0|||L|||Branco - Verde
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Branco - Verde
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Branco - Verde
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Preto
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Preto
+10-01-2016 18:25:06 - FW-0315|||0|||XL|||Preto
+10-01-2016 18:25:06 - FW-0315|||0|||XS|||Preto
+10-01-2016 18:25:06 - FW-0315|||0|||L|||Vermelho
+10-01-2016 18:25:06 - FW-0315|||0|||M|||Vermelho
+10-01-2016 18:25:06 - FW-0315|||0|||S|||Vermelho
+10-01-2016 18:25:06 - FW-0315|||0|||XL|||Vermelho
+10-01-2016 18:25:06 - FW-0315|||0|||XS|||Vermelho
+10-01-2016 18:25:06 - FW-0023|||4928|||M|||N/D
+10-01-2016 18:25:06 - FW-0184|||2987|||L|||N/D
+10-01-2016 18:25:06 - FW-0184|||4928|||M|||N/D
+10-01-2016 18:30:10 - Erro: comunicação servidor envio!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:10 - Erro: sincronizar artigos!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:10 - FW-0324|||0|||L|||Preto
+10-01-2016 18:30:10 - FW-0324|||0|||M|||Preto
+10-01-2016 18:30:10 - FW-0324|||0|||S|||Preto
+10-01-2016 18:30:10 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:30:10 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:30:10 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:30:10 - Erro: comunicação servidor envio!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:10 - Erro: sincronizar artigos!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:10 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:30:10 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:30:10 - Erro: comunicação servidor envio!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:10 - Erro: sincronizar artigos!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:10 - FW-0010|||4928|||6A|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||8A|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||L|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||M|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||S|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||XL|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||XS|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||XXL|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||XXXL|||N/D
+10-01-2016 18:30:10 - FW-0010|||4928|||XXXXL|||N/D
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Amarelo - Polya. 10
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Amarelo - Polya. 10
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Azul M - Polya. 5826
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Azul M - Polya. 5826
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Azul M - Polya. 5826
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Azul R. - Polya. 3196
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Azul R. - Polya. 3196
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Azul R. - Polya. 3196
+10-01-2016 18:30:10 - Erro: comunicação servidor envio!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:10 - Erro: sincronizar artigos!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:30:10 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:30:10 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:30:10 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:30:10 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:30:10 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:30:10 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:30:10 - Erro: comunicação servidor envio!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:10 - Erro: sincronizar artigos!
+10-01-2016 18:30:10 - Detalhes:
+10-01-2016 18:30:10 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:10 - FW-0178|||2987|||M|||N/D
+10-01-2016 18:30:10 - FW-0178|||4928|||M|||N/D
+10-01-2016 18:30:10 - FW-0178|||2987|||S|||N/D
+10-01-2016 18:30:10 - FW-0178|||2987|||XL|||N/D
+10-01-2016 18:30:10 - FW-0178|||2987|||XS|||N/D
+10-01-2016 18:30:10 - FW-0178|||2987|||XXl|||N/D
+10-01-2016 18:30:10 - FW-0120|||0|||S|||Preto
+10-01-2016 18:30:10 - FW-0120|||0|||XL|||Preto
+10-01-2016 18:30:10 - FW-0120|||0|||XS|||Preto
+10-01-2016 18:30:10 - FW-0252|||2987|||L|||N/D
+10-01-2016 18:30:10 - FW-0252|||2987|||M|||N/D
+10-01-2016 18:30:10 - FW-0252|||5188|||XXL|||N/D
+10-01-2016 18:30:10 - FW-0246|||5188|||L|||N/D
+10-01-2016 18:30:10 - FW-0246|||4928|||M|||N/D
+10-01-2016 18:30:10 - FW-0246|||5188|||M|||N/D
+10-01-2016 18:30:10 - FW-0246|||5188|||S|||N/D
+10-01-2016 18:30:10 - FW-0246|||5188|||XL|||N/D
+10-01-2016 18:30:10 - FW-0105|||5188|||L|||N/D
+10-01-2016 18:30:10 - FW-0105|||4928|||M|||N/D
+10-01-2016 18:30:10 - FW-0105|||5188|||M|||N/D
+10-01-2016 18:30:11 - Erro: comunicação servidor envio!
+10-01-2016 18:30:11 - Detalhes:
+10-01-2016 18:30:11 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:11 - Erro: sincronizar artigos!
+10-01-2016 18:30:11 - Detalhes:
+10-01-2016 18:30:11 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:11 - FW-0105|||5188|||S|||N/D
+10-01-2016 18:30:11 - FW-0105|||5188|||XL|||N/D
+10-01-2016 18:30:11 - FW-0315|||0|||L|||Amarelo
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Amarelo
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Amarelo
+10-01-2016 18:30:11 - FW-0315|||0|||XL|||Amarelo
+10-01-2016 18:30:11 - FW-0315|||0|||XS|||Amarelo
+10-01-2016 18:30:11 - FW-0315|||0|||L|||Azul Marinho
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Azul Marinho
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Azul Marinho
+10-01-2016 18:30:11 - FW-0315|||0|||XL|||Azul Marinho
+10-01-2016 18:30:11 - FW-0315|||0|||XS|||Azul Marinho
+10-01-2016 18:30:11 - FW-0315|||0|||L|||azul,branco
+10-01-2016 18:30:11 - FW-0315|||0|||M|||azul,branco
+10-01-2016 18:30:11 - FW-0315|||0|||S|||azul,branco
+10-01-2016 18:30:11 - FW-0315|||0|||L|||Branco
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Branco
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Branco
+10-01-2016 18:30:11 - FW-0315|||0|||XL|||Branco
+10-01-2016 18:30:11 - FW-0315|||0|||XS|||Branco
+10-01-2016 18:30:11 - Erro: comunicação servidor envio!
+10-01-2016 18:30:11 - Detalhes:
+10-01-2016 18:30:11 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:11 - Erro: sincronizar artigos!
+10-01-2016 18:30:11 - Detalhes:
+10-01-2016 18:30:11 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:11 - FW-0315|||0|||L|||Branco - Verde
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Branco - Verde
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Branco - Verde
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Preto
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Preto
+10-01-2016 18:30:11 - FW-0315|||0|||XL|||Preto
+10-01-2016 18:30:11 - FW-0315|||0|||XS|||Preto
+10-01-2016 18:30:11 - FW-0315|||0|||L|||Vermelho
+10-01-2016 18:30:11 - FW-0315|||0|||M|||Vermelho
+10-01-2016 18:30:11 - FW-0315|||0|||S|||Vermelho
+10-01-2016 18:30:11 - FW-0315|||0|||XL|||Vermelho
+10-01-2016 18:30:11 - FW-0315|||0|||XS|||Vermelho
+10-01-2016 18:30:11 - FW-0023|||4928|||M|||N/D
+10-01-2016 18:30:11 - FW-0184|||2987|||L|||N/D
+10-01-2016 18:30:11 - FW-0184|||4928|||M|||N/D
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0324|||0|||L|||Preto
+10-01-2016 18:30:52 - FW-0324|||0|||M|||Preto
+10-01-2016 18:30:52 - FW-0324|||0|||S|||Preto
+10-01-2016 18:30:52 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:30:52 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:30:52 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:30:52 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0010|||4928|||6A|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||8A|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||L|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||M|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||S|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||XL|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||XS|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||XXL|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||XXXL|||N/D
+10-01-2016 18:30:52 - FW-0010|||4928|||XXXXL|||N/D
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Amarelo - Polya. 10
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Amarelo - Polya. 10
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Azul M - Polya. 5826
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Azul M - Polya. 5826
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Azul M - Polya. 5826
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Azul R. - Polya. 3196
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Azul R. - Polya. 3196
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Azul R. - Polya. 3196
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:30:52 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:30:52 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:30:52 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:30:52 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:30:52 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:30:52 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0178|||2987|||M|||N/D
+10-01-2016 18:30:52 - FW-0178|||4928|||M|||N/D
+10-01-2016 18:30:52 - FW-0178|||2987|||S|||N/D
+10-01-2016 18:30:52 - FW-0178|||2987|||XL|||N/D
+10-01-2016 18:30:52 - FW-0178|||2987|||XS|||N/D
+10-01-2016 18:30:52 - FW-0178|||2987|||XXl|||N/D
+10-01-2016 18:30:52 - FW-0120|||0|||S|||Preto
+10-01-2016 18:30:52 - FW-0120|||0|||XL|||Preto
+10-01-2016 18:30:52 - FW-0120|||0|||XS|||Preto
+10-01-2016 18:30:52 - FW-0252|||2987|||L|||N/D
+10-01-2016 18:30:52 - FW-0252|||2987|||M|||N/D
+10-01-2016 18:30:52 - FW-0252|||5188|||XXL|||N/D
+10-01-2016 18:30:52 - FW-0246|||5188|||L|||N/D
+10-01-2016 18:30:52 - FW-0246|||4928|||M|||N/D
+10-01-2016 18:30:52 - FW-0246|||5188|||M|||N/D
+10-01-2016 18:30:52 - FW-0246|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0246|||5188|||XL|||N/D
+10-01-2016 18:30:52 - FW-0105|||5188|||L|||N/D
+10-01-2016 18:30:52 - FW-0105|||4928|||M|||N/D
+10-01-2016 18:30:52 - FW-0105|||5188|||M|||N/D
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:52 - FW-0105|||5188|||S|||N/D
+10-01-2016 18:30:52 - FW-0105|||5188|||XL|||N/D
+10-01-2016 18:30:52 - FW-0315|||0|||L|||Amarelo
+10-01-2016 18:30:52 - FW-0315|||0|||M|||Amarelo
+10-01-2016 18:30:52 - FW-0315|||0|||S|||Amarelo
+10-01-2016 18:30:52 - FW-0315|||0|||XL|||Amarelo
+10-01-2016 18:30:52 - FW-0315|||0|||XS|||Amarelo
+10-01-2016 18:30:52 - FW-0315|||0|||L|||Azul Marinho
+10-01-2016 18:30:52 - FW-0315|||0|||M|||Azul Marinho
+10-01-2016 18:30:52 - FW-0315|||0|||S|||Azul Marinho
+10-01-2016 18:30:52 - FW-0315|||0|||XL|||Azul Marinho
+10-01-2016 18:30:52 - FW-0315|||0|||XS|||Azul Marinho
+10-01-2016 18:30:52 - FW-0315|||0|||L|||azul,branco
+10-01-2016 18:30:52 - FW-0315|||0|||M|||azul,branco
+10-01-2016 18:30:52 - FW-0315|||0|||S|||azul,branco
+10-01-2016 18:30:52 - FW-0315|||0|||L|||Branco
+10-01-2016 18:30:52 - FW-0315|||0|||M|||Branco
+10-01-2016 18:30:52 - FW-0315|||0|||S|||Branco
+10-01-2016 18:30:52 - FW-0315|||0|||XL|||Branco
+10-01-2016 18:30:52 - FW-0315|||0|||XS|||Branco
+10-01-2016 18:30:52 - Erro: comunicação servidor envio!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:52 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:30:52 - Erro: sincronizar artigos!
+10-01-2016 18:30:52 - Detalhes:
+10-01-2016 18:30:53 - Excepção: java.lang.NullPointerException
+10-01-2016 18:30:53 - FW-0315|||0|||L|||Branco - Verde
+10-01-2016 18:30:53 - FW-0315|||0|||M|||Branco - Verde
+10-01-2016 18:30:53 - FW-0315|||0|||S|||Branco - Verde
+10-01-2016 18:30:53 - FW-0315|||0|||M|||Preto
+10-01-2016 18:30:53 - FW-0315|||0|||S|||Preto
+10-01-2016 18:30:53 - FW-0315|||0|||XL|||Preto
+10-01-2016 18:30:53 - FW-0315|||0|||XS|||Preto
+10-01-2016 18:30:53 - FW-0315|||0|||L|||Vermelho
+10-01-2016 18:30:53 - FW-0315|||0|||M|||Vermelho
+10-01-2016 18:30:53 - FW-0315|||0|||S|||Vermelho
+10-01-2016 18:30:53 - FW-0315|||0|||XL|||Vermelho
+10-01-2016 18:30:53 - FW-0315|||0|||XS|||Vermelho
+10-01-2016 18:30:53 - FW-0023|||4928|||M|||N/D
+10-01-2016 18:30:53 - FW-0184|||2987|||L|||N/D
+10-01-2016 18:30:53 - FW-0184|||4928|||M|||N/D
+10-01-2016 18:32:00 - Erro: comunicação servidor envio!
+10-01-2016 18:32:00 - Detalhes:
+10-01-2016 18:32:00 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:00 - Erro: sincronizar artigos!
+10-01-2016 18:32:00 - Detalhes:
+10-01-2016 18:32:00 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:00 - FW-0324|||0|||L|||Preto
+10-01-2016 18:32:00 - FW-0324|||0|||M|||Preto
+10-01-2016 18:32:00 - FW-0324|||0|||S|||Preto
+10-01-2016 18:32:00 - FW-0324|||0|||XL|||Preto
+10-01-2016 18:32:00 - FW-0324|||0|||XS|||Preto
+10-01-2016 18:32:00 - FW-0499|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0500|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0501|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0502|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0503|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0504|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0505|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0506|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0507|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0508|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0509|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0510|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0511|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0512|||5188|||S|||N/D
+10-01-2016 18:32:00 - FW-0513|||5188|||S|||N/D
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0514|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0515|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0516|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0517|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||10A|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||12A|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||14A|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||6A|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||8A|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||L|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||M|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||S|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||XL|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||XS|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||XXL|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||XXXL|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||XXXXL|||Cinzento - Verde
+10-01-2016 18:32:01 - FW-0010|||4928|||10A|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||12A|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||14A|||N/D
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0010|||4928|||6A|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||8A|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||L|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||M|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||S|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||XL|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||XS|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||XXL|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||XXXL|||N/D
+10-01-2016 18:32:01 - FW-0010|||4928|||XXXXL|||N/D
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Amarelo - Polya. 10
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Amarelo - Polya. 10
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Amarelo Fluo - Plya. 2367
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Azul M - Polya. 5826
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Azul M - Polya. 5826
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Azul M - Polya. 5826
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Azul R. - Polya. 3196
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Azul R. - Polya. 3196
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Azul R. - Polya. 3196
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Branco - Polya. 2048
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Branco - Polya. 2048
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Branco - Polya. 2048
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Cinza - Polya. 1372
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Cinza - Polya. 1372
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Cinza - Polya. 1372
+10-01-2016 18:32:01 - FW-0337|||0|||M|||fluorescente,cinza
+10-01-2016 18:32:01 - FW-0337|||0|||M|||fluorescente,preto
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Laranja - Polya. 18
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Laranja - Polya. 18
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Laranja - Polya. 18
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Preto - Polya. 23
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Preto - Polya. 23
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Verde - Polya. 281
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Verde - Polya. 281
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Verde - Polya. 281
+10-01-2016 18:32:01 - FW-0337|||0|||L|||Vermelho - Polya. 22
+10-01-2016 18:32:01 - FW-0337|||0|||M|||Vermelho - Polya. 22
+10-01-2016 18:32:01 - FW-0337|||0|||S|||Vermelho - Polya. 22
+10-01-2016 18:32:01 - FW-0178|||2987|||L|||N/D
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0178|||2987|||M|||N/D
+10-01-2016 18:32:01 - FW-0178|||4928|||M|||N/D
+10-01-2016 18:32:01 - FW-0178|||2987|||S|||N/D
+10-01-2016 18:32:01 - FW-0178|||2987|||XL|||N/D
+10-01-2016 18:32:01 - FW-0178|||2987|||XS|||N/D
+10-01-2016 18:32:01 - FW-0178|||2987|||XXl|||N/D
+10-01-2016 18:32:01 - FW-0120|||0|||S|||Preto
+10-01-2016 18:32:01 - FW-0120|||0|||XL|||Preto
+10-01-2016 18:32:01 - FW-0120|||0|||XS|||Preto
+10-01-2016 18:32:01 - FW-0252|||2987|||L|||N/D
+10-01-2016 18:32:01 - FW-0252|||2987|||M|||N/D
+10-01-2016 18:32:01 - FW-0252|||5188|||XXL|||N/D
+10-01-2016 18:32:01 - FW-0246|||5188|||L|||N/D
+10-01-2016 18:32:01 - FW-0246|||4928|||M|||N/D
+10-01-2016 18:32:01 - FW-0246|||5188|||M|||N/D
+10-01-2016 18:32:01 - FW-0246|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0246|||5188|||XL|||N/D
+10-01-2016 18:32:01 - FW-0105|||5188|||L|||N/D
+10-01-2016 18:32:01 - FW-0105|||4928|||M|||N/D
+10-01-2016 18:32:01 - FW-0105|||5188|||M|||N/D
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0105|||5188|||S|||N/D
+10-01-2016 18:32:01 - FW-0105|||5188|||XL|||N/D
+10-01-2016 18:32:01 - FW-0315|||0|||L|||Amarelo
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Amarelo
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Amarelo
+10-01-2016 18:32:01 - FW-0315|||0|||XL|||Amarelo
+10-01-2016 18:32:01 - FW-0315|||0|||XS|||Amarelo
+10-01-2016 18:32:01 - FW-0315|||0|||L|||Azul Marinho
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Azul Marinho
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Azul Marinho
+10-01-2016 18:32:01 - FW-0315|||0|||XL|||Azul Marinho
+10-01-2016 18:32:01 - FW-0315|||0|||XS|||Azul Marinho
+10-01-2016 18:32:01 - FW-0315|||0|||L|||azul,branco
+10-01-2016 18:32:01 - FW-0315|||0|||M|||azul,branco
+10-01-2016 18:32:01 - FW-0315|||0|||S|||azul,branco
+10-01-2016 18:32:01 - FW-0315|||0|||L|||Branco
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Branco
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Branco
+10-01-2016 18:32:01 - FW-0315|||0|||XL|||Branco
+10-01-2016 18:32:01 - FW-0315|||0|||XS|||Branco
+10-01-2016 18:32:01 - Erro: comunicação servidor envio!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost/dev/fullwear/templates/sync/index.php/sync/artigos
+10-01-2016 18:32:01 - Erro: sincronizar artigos!
+10-01-2016 18:32:01 - Detalhes:
+10-01-2016 18:32:01 - Excepção: java.lang.NullPointerException
+10-01-2016 18:32:01 - FW-0315|||0|||L|||Branco - Verde
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Branco - Verde
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Branco - Verde
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Preto
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Preto
+10-01-2016 18:32:01 - FW-0315|||0|||XL|||Preto
+10-01-2016 18:32:01 - FW-0315|||0|||XS|||Preto
+10-01-2016 18:32:01 - FW-0315|||0|||L|||Vermelho
+10-01-2016 18:32:01 - FW-0315|||0|||M|||Vermelho
+10-01-2016 18:32:01 - FW-0315|||0|||S|||Vermelho
+10-01-2016 18:32:01 - FW-0315|||0|||XL|||Vermelho
+10-01-2016 18:32:01 - FW-0315|||0|||XS|||Vermelho
+10-01-2016 18:32:01 - FW-0023|||4928|||M|||N/D
+10-01-2016 18:32:01 - FW-0184|||2987|||L|||N/D
+10-01-2016 18:32:01 - FW-0184|||4928|||M|||N/D

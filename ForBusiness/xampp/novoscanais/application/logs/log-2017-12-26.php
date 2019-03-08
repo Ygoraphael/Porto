@@ -1,0 +1,33 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-12-26 10:41:56 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 10:42:00 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 10:42:37 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 11:23:49 --> 404 Page Not Found: Nc/logistica_distribuicao_phc
+ERROR - 2017-12-26 11:23:53 --> 404 Page Not Found: Nc/industria_producao_phc
+ERROR - 2017-12-26 11:23:57 --> 404 Page Not Found: Nc/industria_producao_phc
+ERROR - 2017-12-26 11:23:58 --> 404 Page Not Found: Nc/logistica_distribuicao_phc
+ERROR - 2017-12-26 11:23:59 --> 404 Page Not Found: Nc/restauracao_phc
+ERROR - 2017-12-26 12:31:16 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 12:31:19 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 12:34:00 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 12:38:38 --> 404 Page Not Found: Equipa/index
+ERROR - 2017-12-26 12:38:58 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 12:40:10 --> 404 Page Not Found: Equipa/index
+ERROR - 2017-12-26 12:44:16 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 12:44:39 --> 404 Page Not Found: Contactophp/index
+ERROR - 2017-12-26 12:44:45 --> 404 Page Not Found: Nc/contacto.php
+ERROR - 2017-12-26 13:12:54 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 13:13:16 --> 404 Page Not Found: Dfx/index
+ERROR - 2017-12-26 13:13:30 --> 404 Page Not Found: Nc/empresa
+ERROR - 2017-12-26 13:13:33 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 13:13:42 --> 404 Page Not Found: Nc/empresa
+ERROR - 2017-12-26 16:53:05 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 17:52:29 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 21:48:46 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 21:59:02 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 21:59:23 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 21:59:25 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 21:59:45 --> 404 Page Not Found: Empresa/index
+ERROR - 2017-12-26 21:59:47 --> 404 Page Not Found: Contactos/index
+ERROR - 2017-12-26 22:00:13 --> 404 Page Not Found: Empresa/index

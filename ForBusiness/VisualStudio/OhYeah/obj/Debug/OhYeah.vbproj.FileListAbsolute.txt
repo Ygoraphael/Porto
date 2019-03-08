@@ -1,0 +1,21 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\bin\OhYeah.dll
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\bin\OhYeah.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\bin\OhYeah.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\OhYeah.Resources.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\GenerateResource.read.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\GenerateResource.write.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\OhYeah.dll
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\OhYeah.xml
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\OhYeah\obj\Debug\OhYeah.pdb
+D:\VisualStudio\OhYeah\bin\OhYeah.dll.config
+D:\VisualStudio\OhYeah\bin\OhYeah.dll
+D:\VisualStudio\OhYeah\bin\OhYeah.pdb
+D:\VisualStudio\OhYeah\bin\OhYeah.xml
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.vbprojAssemblyReference.cache
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.Resources.resources
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.vbproj.GenerateResource.cache
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.vbproj.CoreCompileInputs.cache
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.dll
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.xml
+D:\VisualStudio\OhYeah\obj\Debug\OhYeah.pdb

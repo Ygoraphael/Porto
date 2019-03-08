@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16mm"
+   height="16mm"
+   viewBox="0 0 56.692915 56.692915"
+   id="svg3896"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="rhumanos.svg">
+  <defs
+     id="defs3898" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.83146278"
+     inkscape:cx="150.14915"
+     inkscape:cy="45.101237"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="5"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3901">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-995.6693)">
+    <g
+       id="g3373"
+       transform="translate(-5.0315317,0.57139588)">
+      <path
+         id="path3946"
+         d="m 20.38533,1006.199 c -2.2,0 -4.3,0.9001 -5.8,2.6 -2.7,3.1 -2.5,7.8001 0.4,10.8001 l -1.5,1 0,16 7.4,3.7 5.9,-3.2 0,-3.2 3.4,1.5 1.4,-1 0,-5.9001 1.6,0.6001 1,-0.9 0,-7.3001 -7.1,-2.5 c 2.3,-3.4 1.4,-8 -1.9,-10.6 -1.4,-1.1 -3.1,-1.6 -4.8,-1.6 l 0,0 z m 0.1,1.6 c 3.4,0 6.2,2.8001 6.2,6.3001 0,3.5 -2.8,6.2999 -6.2,6.2999 -3.4,0 -6.2,-2.7999 -6.2,-6.2999 0,-3.5 2.8,-6.3001 6.2,-6.3001 l 0,0 z m 6.5,12.7 5.6,2 0,4.6001 -1,-0.4 0,-0.8 -4.6,-1.7 0,-3.7001 z m -10.4,1.7 12.4,4.8 0,5.3001 -8.2,-3.2 0,8 -4.3,-1.9 0,-13.0001 z m 0,0"
+         class="st0"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#e40421;fill-rule:evenodd" />
+      <path
+         id="path3948"
+         d="m 46.18533,1006.199 c -2,-0.1 -4,0.6 -5.6,2.1 -3.1,2.9 -3.3,7.9 -0.4,11.2 l 0,5 -4.5,1.9001 0,8.3 1.1,0.6 2.9,-1.6 0,2.7 5.6,4.3 7.6,-3.7001 0,-17 -0.9,-0.3999 c 2.9,-3 2.8,-8 -0.4,-11.1001 -1.4,-1.5 -3.4,-2.3 -5.4,-2.3 l 0,0 z m -0.2,1.6 c 3.4,0 6.2,2.8001 6.2,6.3001 0,3.5 -2.8,6.2999 -6.2,6.2999 -3.4,0 -6.2,-2.7999 -6.2,-6.2999 0,-3.5 2.8,-6.3001 6.2,-6.3001 l 0,0 z m 4.9,14.4 0,12.8 -5.2,2.5 0,-8.2999 -7.9,3.6 0,-5.2 13.1,-5.4001 z m 0,0"
+         class="st0"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#e40421;fill-rule:evenodd" />
+    </g>
+  </g>
+  <style
+     id="style3926"
+     type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#E40421;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+</svg>

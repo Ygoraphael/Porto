@@ -1,0 +1,54 @@
+<div class="card-block">
+    <div class="card-text">
+        <p>Esse espaço é destinado a qualquer utilizador que queira comunicar algum tipo de insegurança.</p>
+    </div>
+    <form class="form" enctype="multipart/form-data" method="post" action="/insecurity/new_insecurity">
+        <div class="form-body">
+            <h4 class="form-section"><i class="icon-bullhorn2"></i> Comunicar Insegurança </h4>
+            <div class="form-group">
+
+                <label id="projectinput7" class="file center-block">
+                    <input type="file" id="file" name="file_name" accept="image/*">
+                    <span class="file-custom"></span>
+                </label>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="sector">Local</label>
+                        <select id="sector" name="sector" class="form-control">
+                            <!-- BEGIN BLOCK_SECTOR -->
+                            <option value="{{SECTOR->ID}}">{{SECTOR->NAME}}</option>
+                            <!-- END BLOCK_SECTOR -->
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="date-comunication">Date do Comunicado</label>
+                        <input type="datetime-local" value="{{DATE_NOW}}" id="date-comunication" class="form-control" disabled name="date-comunication">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="date_occurrence">Data da ocorrencia</label>
+                        <input type="datetime-local" id="date-occurrence" class="form-control" value="{{DATE_NOW}}" required name="date_occurrence">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="projectinput8">Fale sobre a tarefa ou atividade observada.</label>
+                        <textarea id="projectinput8" rows="5" class="form-control" name="comment" placeholder="Escreva aqui detalhes da insegurança..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-xs btn-success " id="btn-insecurity-save"><i class="icon-checkmark2"></i> Enviar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

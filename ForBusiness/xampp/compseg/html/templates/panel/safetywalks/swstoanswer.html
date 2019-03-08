@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-android-walk"></i> %%Safety Walk to Answer%%</h4>
+                <div class="row st" >
+                    <form class="form" method="get"  name="User" action="/safetywalk/swtoanswer/" >
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="date-expired">%%Start date%%</label>
+                                <input onchange="dataStart(this);" type="date"  id="date-start" class="form-control" name="s" max="#" value="{{start}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="date-expired">%%End date%%</label>
+                                <input onchange="dataEnd(this);" type="date" id="date-end" class="form-control" name="e" min="#" value="{{END2}}">
+                            </div>
+                        </div>
+                        <div class="col-md-1" style="margin-top:30px;">
+                            <button type="submit" class="btn btn-success">%%Search%%</button>
+                        </div>
+                    </form>	
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Date limit%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_NOTIFICATION -->
+                            <tr>
+                                <td>{{NOTIFICATION->DATE_LIMIT}}</td>
+                                <td>
+                                    <a class="btn btn-xs btn-info" href="{{NOTIFICATION->URL}}" title="%%Reply to Safety Walks%%"><i class="icon-eye"></i></a>    
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_NOTIFICATION -->
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- BEGIN BLOCK_NO_SWTOANSWER -->
+                <div class="col-md-12 ">
+                    <h4>%%There are no safety walk to answer%%</h4>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_NO_SWTOANSWER -->
+            </div>
+        </div>
+    </div>
+</div>

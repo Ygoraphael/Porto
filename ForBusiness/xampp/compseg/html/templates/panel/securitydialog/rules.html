@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form class="form-inline">
+            <label for="qtt">%%Year%%</label>
+            <input type="number" required="" id="ano" class="form-control" placeholder="%%Year%%" name="ano" value="{{CURRENT_ANO}}" />
+            <a data-controller="dialog" data-method="rules" data-id="ano" name="muda_ano" class="btn btn-success muda_ano white">%%Change Year%%</a>
+            <input type="hidden" id="anoval" value="{{CURRENT_ANO}}" />
+            <button class="btn btn-success btn_rules">
+                <i class="icon-check2"></i> %%Save%%
+            </button>
+        </form>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-bubbles2 "></i> %%Dialogues Rules%% %%Year%% {{DIALOG_YEAR}}</h4>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Theme%%</th>
+                                <th>%%Week%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_DIALOG -->
+                            <tr>
+                                <th scope="row" class="name">{{DIALOG->THEMA}}</th>
+                                <td>
+                                    {{DIALOG->SELECT}}
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_DIALOG -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

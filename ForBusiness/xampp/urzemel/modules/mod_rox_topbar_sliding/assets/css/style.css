@@ -1,0 +1,38 @@
+div.mtop{margin-top:-48px}
+div.rox-close{background:#fda30e;width:100%;height:30px;margin:0;padding:10px 0;position: relative;}
+div.rox-wrapper{width:1200px; margin:0 auto;z-index:100;color:#FFF;}
+div.rox-scr-left{float:left;padding-left: 10px;line-height: 30px;}
+div.rox-scr-left p{display:inline-block;margin:0}
+img.rox_topbar_mail{margin-left:10px;}
+div.rox-scr-right{float:right;line-height: 30px;margin-right: 63px;}
+div.rox-scr-right a{display:inline-block;margin:0}
+div.rox-scr-right p{display:inline-block;margin-right:10px;}
+
+div.open{width:100%;border-bottom:3px solid #fda30e}
+div.open p{display: block;width: 39px;height: 37px;text-indent: -999em;position: absolute;right: 5px;top: 0;cursor: pointer;}
+/* Enable this to use it in diffrent site or theme
+div.open p{background:url(../images/click_close.png) no-repeat 0 100%}
+p.active{background: url(../images/click_open.png) no-repeat 0 100% !important;}
+*/
+div.open .rox-wrapper{position:relative}
+div.rox-scr-right a{
+height: 30px;
+width: 24px;
+text-indent: -9999em;
+padding: 0 2px;
+}
+a.facebook {
+background: url(../images/facebook.png) no-repeat 50%;
+}
+a.twitter {
+background: url(../images/twitter.png) no-repeat 50%;
+}
+a.googlep {
+background: url(../images/googlep.png) no-repeat 50%;
+}
+a.flicker {
+background: url(../images/flicker.png) no-repeat 50%;
+}
+a.pinterest {
+background: url(../images/pinterest.png) no-repeat 50%;
+}

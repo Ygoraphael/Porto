@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="filter">
+        <field
+                name="search"
+                type="text"
+                label="COM_JUFORM_FILTER_SEARCH_DESC"
+                hint="JSEARCH_FILTER"
+                />
+
+        <field
+                name="published"
+                type="list"
+                default=""
+                class="input-medium"
+                label="COM_JUFORM_FILTER_PUBLISHED"
+                description="COM_JUFORM_FILTER_PUBLISHED_DESC"
+                onchange="this.form.submit();"
+                >
+            <option value="">JALL</option>
+            <option value="1">COM_JUFORM_PUBLISHED</option>
+            <option value="0">COM_JUFORM_UNPUBLISHED</option>
+        </field>
+
+        <field
+                name="access"
+                type="accesslevel"
+                size="1"
+                class="input-medium"
+                label="COM_JUFORM_FILTER_ACCESS"
+                description="COM_JUFORM_FILTER_ACCESS_DESC"
+                onchange="this.form.submit();"
+                >
+            <option value="">All Accesslevel</option>
+        </field>
+    </fields>
+
+    <fields name="list">
+        <field
+                name="fullordering"
+                type="list"
+                label="COM_JUFORM_LIST_FULL_ORDERING"
+                description="COM_JUFORM_LIST_FULL_ORDERING_DESC"
+                onchange="this.form.submit();"
+                default="form.title ASC"
+                >
+            <option value="">COM_JUFORM_SORT_BY</option>
+            <option value="form.id ASC">COM_JUFORM_SORT_BY_ID_ASC</option>
+            <option value="form.id DESC">COM_JUFORM_SORT_BY_ID_DESC</option>
+            <option value="form.title ASC">COM_JUFORM_SORT_BY_TITLE_ASC</option>
+            <option value="form.title DESC">COM_JUFORM_SORT_BY_TITLE_DESC</option>
+            <option value="form.created_by ASC">COM_JUFORM_SORT_BY_CREATED_BY_ASC</option>
+            <option value="form.created_by DESC">COM_JUFORM_SORT_BY_CREATED_BY_DESC</option>
+            <option value="form.access ASC">COM_JUFORM_SORT_BY_ACCESS_ASC</option>
+            <option value="form.access DESC">COM_JUFORM_SORT_BY_ACCESS_DESC</option>
+            <option value="form.hits ASC">COM_JUFORM_SORT_BY_HITS_ASC</option>
+            <option value="form.hits DESC">COM_JUFORM_SORT_BY_HITS_DESC</option>
+            <option value="form.published ASC">COM_JUFORM_SORT_BY_PUBLISHED_ASC</option>
+            <option value="form.published DESC">COM_JUFORM_SORT_BY_PUBLISHED_DESC</option>
+            <option value="form.ordering ASC">COM_JUFORM_SORT_BY_ORDERING_ASC</option>
+            <option value="form.ordering DESC">COM_JUFORM_SORT_BY_ORDERING_DESC</option>
+        </field>
+
+        <field
+                name="limit"
+                type="limitbox"
+                class="inputbox input-mini"
+                default="25"
+                label="COM_JUFORM_LIST_LIMIT"
+                description="COM_JUFORM_LIST_LIMIT_DESC"
+                onchange="this.form.submit();"
+                />
+    </fields>
+</form>

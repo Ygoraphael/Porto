@@ -1,0 +1,127 @@
+
+<form class="form" name="company">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-office"></i> {{TITLE}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <h4 class="form-section">%%Basic Info%%</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="projectinput1">%%Name%%</label>
+                                <input type="text" id="projectinput1" required class="form-control" placeholder="%%Name%%" name="name" value="{{NAME}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="nif">%%VAT%%</label>
+                                <input type="number" required id="nif" class="form-control" placeholder="%%VAT%%" name="nif" value="{{COMPANY->NIF}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="phone">%%Phone%%</label>
+                                <input type="tel" required id="phone" class="form-control" placeholder="%%Phone%%" name="phone" value="{{COMPANY->PHONE}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="form-group">
+                                <label for="morada">%%Address%%</label>
+                                <input type="text" id="morada" required class="form-control" placeholder="%%Address%%" name="address" value="{{COMPANY->ADDRESS}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="zipcode">%%Postal Code%%</label>
+                                <input type="text" id="zipcode" required class="form-control" placeholder="%%Postal Code%%" name="zipcode" value="{{COMPANY->ZIPCODE}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="location">%%Locality%%</label>
+                                <input type="text" id="location" required class="form-control" placeholder="%%Locality%%" name="location" value="{{COMPANY->LOCATION}}">
+                            </div>
+                        </div>
+						<div class="col-md-6">
+							<div class="form-group"><!-- BEGIN BLOCK_LANGUAGES -->
+								<label for="location">%%Language%%</label>
+								<select id="language_combox" name="language" class="form-control" required>
+									<option disabled="" selected="" >%%Select a language%%</option>
+									<!-- BEGIN BLOCK_LANGUAGE -->
+									<option value="{{VALUE}} " {{select}} >{{TEXT}}</option>
+									<!-- END BLOCK_LANGUAGE -->
+								</select >
+							</div><!-- END BLOCK_LANGUAGES -->
+							
+                        </div>
+                    </div>
+                    <h4 class="form-section">%%System%%</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="data_base">%%Database%%</label>
+                                <input type="text" required id="data_base" class="form-control" placeholder="Nome da Database" name="data_base" value="{{COMPANY->DATA_BASE}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="users_license">Nº %%Users%%</label>
+                                <input type="number" required id="users_license" class="form-control" placeholder="Nº" name="users_license" value="{{LICENSE->USERS_LICENSE}}">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label for="license">%%License%%</label>
+                                <input type="text" required id="license" class="form-control" placeholder="License" name="license" value="{{LICENSE->CODE}}">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="form-section">%%Administrator%%</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="user-name">%%Name%%</label>
+                                <input type="text" required id="user-name" class="form-control"  {{disabled}} placeholder="Nome" name="user-name" value="{{USER->NAME}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="user-lastname">%%Surname%%</label>
+                                <input type="text" required id="user-lastname" class="form-control" {{disabled}} placeholder="Apelido" name="user-lastname" value="{{USER->LAST_NAME}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email">%%Email%%</label>
+                                <input type="email" required id="email" class="form-control" {{disabled}} placeholder="Email" name="user-email" value="{{USER->EMAIL}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="permission_listing_form_user">
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="id" value="{{COMPANY->ID}}">
+                    <div class="row">
+                        <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                            <i class="icon-cross2"></i> %%Cancel%%
+                        </button>
+                        <button type="submit" class="btn btn-success {{action}}">
+                            <i class="icon-check2"></i> %%Save%%
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

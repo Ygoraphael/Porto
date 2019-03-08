@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="vmpayment" method="upgrade">
+    <name>VM - Payment, PayLeap</name>
+    <creationDate>August 2012</creationDate>
+    <author>Joe Harwell</author>
+    <authorUrl>http://www.virtuemartjoomla.net</authorUrl>
+    <copyright>Copyright (C) 2012 iMarketing Solutions LLC. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <version>2.0.0</version>
+    <element>payleap</element>
+    <files>
+		<filename plugin="payleap">payleap.php</filename>
+	        <folder>payleap</folder>
+    </files>
+    <params addpath="/administrator/components/com_virtuemart/elements" />
+    <params addpath="/plugins/vmpayment/payleap/elements" />
+    <params addpath="/plugins/vmpayment/payleap/payleap/elements" />
+
+	<media destination="../images/stories/virtuemart/payment">
+		<filename>cvv.png</filename>
+		<filename>visa_48.png</filename>
+		<filename>mastercard_48.png</filename>
+		<filename>discover_48.png</filename>
+		<filename>amex_48.png</filename>
+	</media>
+	<languages>
+			<language tag="en-GB">en-GB.plg_vmpayment_payleap.ini</language>
+			<language tag="en-GB">en-GB.plg_vmpayment_payleap.sys.ini</language>
+	</languages>
+	<scriptfile>script.php</scriptfile>
+
+    <params>
+	<param type="spacer" default="VMPAYMENT_PAYLEAP_AIM" level="level1" />
+	<param type="vmjpluginwarning" />
+	<param type="spacer" default="VMPAYMNET_PAYLEAP_SIGNUP" level="level1" />
+	<param type="spacer" default=" " level="level1" />
+	<param type="spacer" default="VMPAYMENT_PAYLEAP_PARAMS" level="level1" />
+	<param name="hostname" type="text" size="50" default="https://secure1.payleap.com/TransactServices.svc/ProcessCreditCard" label="VMPAYMENT_PAYLEAP_HOSTNAME" description="VMPAYMENT_PAYLEAP_HOSTNAME_DESC"/>
+	<param name="login_id" type="text" size="50" default="" label="VMPAYMENT_PAYLEAP_LOGIN_ID" description="VMPAYMENT_PAYLEAP_LOGIN_ID_DESC"/>
+	<param name="transaction_key" type="text" ize="50" default="" label="VMPAYMENT_PAYLEAP_TRANSACTION_KEY" description="VMPAYMENT_PAYLEAP_TRANSACTION_KEY_DESC"   />
+	<param name="secure_post" type="radio" default="0" label="VMPAYMENT_PAYLEAP_SECURE_POST" description="VMPAYMENT_PAYLEAP_SECURE_POST_DESC">
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+
+	<param   type="spacer" default="VMPAYMENT_PAYLEAP_SANDBOX_PARAMS" level="level1" />
+	<param name="sandbox" type="radio" default="0" label="VMPAYMENT_PAYLEAP_USE_SANDBOX" description="VMPAYMENT_PAYLEAP_USE_SANDBOX_DESC">
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+	<param name="sandbox_hostname" type="text" size="50" default="https://uat.payleap.com/TransactServices.svc/ProcessCreditCard" label="VMPAYMENT_PAYLEAP_SANDBOX_HOSTNAME" description="VMPAYMENT_PAYLEAP_SANDBOX_HOSTNAME_DESC"/>
+
+	<param name="sandbox_login_id" type="text" size="50" default="" label="VMPAYMENT_PAYLEAP_SANDBOX_LOGIN_ID" description="VMPAYMENT_PayLeap_SANDBOX_LOGIN_ID_DESC"/>
+	<param name="sandbox_transaction_key" type="text" size="50" default="" label="VMPAYMENT_PAYLEAP_SANDBOX_TRANSACTION_KEY" description="VMPAYMENT_PAYLEAP_SANDBOX_TRANSACTION_KEY_DESC"  />
+
+	<param   type="spacer" default="VMPAYMENT_PAYLEAP_VIRTUEMART_PARAMS" level="level1" />
+
+	<param name="creditcards" type="payleapcreditcards"   default="" label="VMPAYMENT_PAYLEAP_CREDITCARDS" description="VMPAYMENT_PAYLEAP_CREDITCARDS_DESC">
+	    <option value="Visa">VMPAYMENT_PAYLEAP_VISA</option>
+	    <option value="Mastercard">VMPAYMENT_PAYLEAP_MASTERCARD</option>
+	    <option value="AmericanExpress">VMPAYMENT_PAYLEAP_AMERICANEXPRESS</option>
+	    <option value="Discover">VMPAYMENT_PAYLEAP_DISCOVER</option>
+	</param>
+	<param	name="payment_logos" type="vmfiles" label="VMPAYMENT_PAYLEAP_LOGOS"
+		description="VMPAYMENT_PAYLEAP_LOGOS_DESC"
+		directory="/images/stories/virtuemart/payment"
+		default="default" hide_default="1" hide_none="1"
+		stripext="0"  exclude="^_" />
+	<param	name="cvv_images" type="vmfiles" label="VMPAYMENT_PAYLEAP_CVVIMAGES"
+		description="VMPAYMENT_PAYLEAP_CVVIMAGES_DESC"
+		directory="/images/stories/virtuemart/payment"
+		default="default" hide_default="1" hide_none="1"
+		stripext="0"  exclude="^_" />
+	<param name="debug" type="radio" default="0" label="VMPAYMENT_PAYLEAP_DEBUG" description="VMPAYMENT_PAYLEAP_DEBUG_DESC" >
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+	<param name="payment_approved_status" type="vmorderstate" scope="com_virtuemart" default="C" label="VMPAYMENT_PAYLEAP_ORDERSTATUS_APPROVED" description="VMPAYMENT_PAYLEAP_ORDERSTATUS_SUCCESS_DESC" />
+	<param name="payment_declined_status" type="vmorderstate" scope="com_virtuemart" default="X" label="VMPAYMENT_PAYLEAP_ORDERSTATUS_DECLINED" description="VMPAYMENT_PAYLEAP_ORDERSTATUS_INVALID_DESC" />
+	<param name="payment_held_status" type="vmorderstate" scope="com_virtuemart" default="P" label="VMPAYMENT_PAYLEAP_ORDERSTATUS_HELD" description="VMPAYMENT_PAYLEAP_ORDERSTATUS_CANCEL_DESC" />
+	<param name="countries" type="vmcountries"  scope="com_virtuemart" default="" label="VMPAYMENT_PAYLEAP_COUNTRIES_DESC" description="VMPAYMENT_PAYLEAP_COUNTRIES_DESC"/>
+	<param name="min_amount" type="text"  label="VMPAYMENT_PAYLEAP_MIN_AMOUNT" description="VMPAYMENT_PAYLEAP_MIN_AMOUNT_DESC" />
+	<param name="max_amount" type="text"  label="VMPAYMENT_PAYLEAP_MAX_AMOUNT" description="VMPAYMENT_PAYLEAP_MAX_AMOUNT_DESC" />
+	<param name="cost_per_transaction" type="text"  label="VMPAYMENT_PAYLEAP_COST_PER_TRANSACTION" description="VMPAYMENT_PAYLEAP_COST_TRANSACTION_DESC" />
+	<param name="cost_percent_total" type="text"  label="VMPAYMENT_PAYLEAP_COST_PERCENT_TOTAL" description="VMPAYMENT_PAYLEAP_COST_TOTAL_DESC" />
+
+	<param name="tax_id" type="vmtaxes" scope="com_virtuemart"  label="VMPAYMENT_PAYLEAP_TAX" description="VMPAYMENT_PAYLEAP_TAX_DESC" />
+
+    </params>
+</install>

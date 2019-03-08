@@ -1,0 +1,217 @@
+.flightboard_panel {
+  .open{
+	//-webkit-transition-duration: 0.4s;
+	transition-timing-function: ease-in;
+	transition-duration: 0.3s;
+  }
+  .fb_green{
+	* { color:#94cc1a; }
+	.flap {
+	  border-bottom: 2px solid #94cc1a !important;
+	  border-top: 2px solid #94cc1a !important;
+	}
+  }
+  .fb_yellow{
+	* { color: #fca71a; }
+	.flap {
+	  border-bottom: 2px solid #fca71a !important;
+	  border-top: 2px solid #fca71a !important;
+	}
+  }
+  .fb_red {
+	* {
+	  color: rgb(186, 34, 34);
+	  font-weight: bold;
+	}
+	.flap {
+	  border-bottom: 2px solid rgb(186, 34, 34) !important;
+	  border-top: 2px solid rgb(186, 34, 34) !important;
+	}
+  }
+  .panel;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  background: linear-gradient(0deg, #000000 0%, #1d1d1d 100%);
+  .fb_header{
+	text-align: center;
+  }
+  .fb_row{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background: linear-gradient(0deg, #131313 0%, #0e0e0e 100%);
+  }
+  .fb_display {
+	margin-right: 5px;
+	display: inline-block;
+	font-size: 30px;
+	.board {
+	  //color: white;
+	  display: inline-block;
+	  //padding: 0 0.1em;
+	  position: relative;
+	  float: left;
+	  border: 1px solid transparent;
+	  //background: black;
+	  border-radius: 2px;
+	  height: 32px;
+	  width: 26px;
+	  text-align: center;
+	  overflow: hidden;
+	}
+	.board > .axis {
+	  border-bottom: 3px solid black;
+	  display: inline-block;
+	  width: 100%;
+	  height: e('calc(50% - 1px)');
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  margin: 0;
+	  padding: 0;
+	  z-index: 4;
+	}
+	.board > .flap {
+	  border-bottom: 2px solid white;
+	  border-top: 2px solid white;
+	  display: inline-block;
+	  width: 100%;
+	  position: absolute;
+	  left: 0;
+	  margin: 0;
+	  padding: 0;
+	  background: black;
+	  z-index: 3;
+	}
+	.board > .front, .board > .back {
+	  text-align: center;
+	  padding-top: 8px;
+	  font-size: 30px;
+	}
+	.board > .front {
+	  position: relative;
+	  width: 100%;
+	}
+	.board > .front.open {
+	  opacity: 1;
+	}
+	.board > .front.close {
+	  opacity: 0;
+	}
+	.board > .back {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  z-index: 1;
+	  overflow: hidden;
+	}
+	.board > .back.close {
+	  height: 0%;
+	}
+	.board > .back.open {
+	  height: 100%;
+	}
+	.board .top {
+	  height: 50%;
+	  bottom: 50%;
+	  opacity: 0;
+	}
+	.board .middle1 {
+	  height: 0%;
+	  opacity: 1;
+	}
+	.board .middle2 {
+	  height: 0%;
+	  opacity: 1;
+	  top: 50%;
+	  bottom: inherit;
+	}
+	.board .bottom {
+	  opacity: 0;
+	  height: 50%;
+	}
+  }
+}
+
+.flightboard_font30{
+  .board {
+	height: 32px !important;
+	width: 26px !important;
+  }
+  .board > .front, .board > .back {
+	padding-top: 0.25em !important;
+	font-size: 30px !important;
+  }
+}
+.flightboard_font20{
+  .board {
+	height: 22px !important;
+	width: 17px !important;
+  }
+  .board > .front, .board > .back {
+	padding-top: 3px !important;
+	font-size: 20px !important;
+  }
+  .board > .axis {
+	border-bottom: 3px solid black !important;
+	height: e('calc(50% + 3px)') !important;
+  }
+}
+.flightboard_font16{
+  .board {
+	height: 18px !important;
+	width: 14px !important;
+  }
+  .board > .front, .board > .back {
+	padding-top: 1px !important;
+	font-size: 16px !important;
+  }
+  .board > .axis {
+	border-bottom: 2px solid black !important;
+	height: e('calc(50% + 1px)') !important;
+  }
+}
+
+
+.flightboard_font12{
+  .fb_header{
+	height: 10px !important;
+  }
+  .board {
+	height: 15px !important;
+	width: 12px !important;
+  }
+  .board > .front, .board > .back {
+	padding-top: 0px !important;
+	font-size: 12px !important;
+  }
+  .board > .axis {
+	border-bottom: 1px solid black !important;
+	height: e('calc(50% + 1px)') !important;
+  }
+}
+
+.flightboard_font9{
+  .fb_header{
+	height: 5px !important;
+  }
+  .board {
+	height: 12px !important;
+	width: 10px !important;
+  }
+  .board > .front, .board > .back {
+	margin-top:-2px;
+	padding-top: 0px !important;
+	font-size: 9px !important;
+  }
+  .board > .axis {
+	border-bottom: 0px solid black !important;
+	height: e('calc(50% + 1px)') !important;
+  }
+}

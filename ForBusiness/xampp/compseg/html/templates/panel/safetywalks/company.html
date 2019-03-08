@@ -1,0 +1,116 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3 phone">
+        <a class="btn btn-secondary btn-block" href="/safetywalk/newswph">%%New Safety Walk%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3 pc">
+        <a class="btn btn-secondary btn-block" href="/safetywalk/newswp">%%New Safety Walk%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/safetywalk/safetywalks">%%All Replies%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/safetywalk/swtoanswer">%%Reply to Safety Walks%%</a>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-android-walk"></i> %%Safety Walks%%</h4>
+                <div class="row st"> 
+                    <form class="form" method="get"  name="User" action="/Panel/safetywalks/" >
+                        <div class="col-md-5">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="date-expired">%%Start date%%</label>
+                                    <input onchange="dataLimiteStart(this);" type="date"  id="date-start2" class="form-control" name="s" max="#"  value="{{start2}}">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="date-expired">%%End date%%</label>
+                                    <input onchange="dataLimiteEnd(this);" type="date" id="date-end2" class="form-control" name="e" min="#"  value="{{END3}}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="date-expired">%%Status%%</label>
+                                            <select name="t" class="form-control" >
+                                                <!-- BEGIN BLOCK_STATUS -->
+                                                <option value="{{VALUEST}}" {{SELECTED}}>{{TEXTST}}</option>
+                                                <!-- END BLOCK_STATUS -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="date-expired">%%Profile%%</label>
+                                            <select name="p" class="form-control"  >
+                                                <option value="0" {{SELECTED2}}  >%%All%%</option>
+                                                <!-- BEGIN BLOCK_SELECT_PROFILE -->
+                                                <option value="{{SELECT_PROFILE->ID}}" {{SELECTED3}}>{{SELECT_PROFILE->NAME}}</option>
+                                                <!-- END BLOCK_SELECT_PROFILE -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-md-1" style="margin-top:30px;">
+                                <button type="submit" class="btn btn-success">%%Search%%</button>
+                            </div>
+                        </div>
+                    </form>	
+                </div>
+            </div>		
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_LISTING_SAFETYWALKS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Created at%%</th>
+                                <th>%%Periodicy%%</th>
+                                <th>%%Profile%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SAFETYWALKS -->
+                            <tr>
+                                <td>{{SAFETYWALK->CREATED_AT}}</td>
+                                <td>{{SAFETYWALK->QTT}} x {{SAFETYWALK->TYPE}}</td>
+                                <td>{{SAFETYWALK->PROFILE}}</td>
+                                <td><span class="tag tag-{{status_class}} ">{{SAFETYWALK->STATUS}}</span></td>
+                                <td>
+                                    <a class="btn btn-xs btn-info" href="/safetywalk/view/{{ID}}" title="%%See Safety Walk%%"><i class="icon-eye"></i></a>  
+                                    <a class="btn btn-xs btn-warning phone" href="/safetywalk/editswph/{{ID}}" title="%%Edit Safety Walk%%"><i class="icon-edit"></i></a>  									
+                                    <a class="btn btn-xs btn-warning pc" href="/safetywalk/editswp/{{ID}}" title="%%Edit Safety Walk%%"><i class="icon-edit"></i></a>  									
+                                    <a class="btn btn-xs btn-success phone" href="/safetywalk/duplicateSwPh/{{ID}}" title="%%Duplicate Safety Walk%%"><i class="icon-files-o"></i></a>
+                                    <a class="btn btn-xs btn-success pc" href="/safetywalk/duplicateSwP/{{ID}}" title="%%Duplicate Safety Walk%%"><i class="icon-files-o"></i></a>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SAFETYWALKS -->
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- END BLOCK_LISTING_SAFETYWALKS -->
+                <!-- BEGIN BLOCK_NO_SAFETYWALKS -->
+                <div class="col-md-12 ">
+                    <h4>%%There are no safety walks%%</h4>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_NO_SAFETYWALKS -->
+            </div>
+        </div>
+    </div>
+</div>

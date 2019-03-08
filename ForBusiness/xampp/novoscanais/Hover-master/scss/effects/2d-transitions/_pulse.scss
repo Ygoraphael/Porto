@@ -1,0 +1,23 @@
+/*  */
+@include keyframes(#{$nameSpace}-) {
+	25% {
+		@include prefixed(transform, scale(1.1));
+	}
+
+	75% {
+		@include prefixed(transform, scale(.9));
+	}
+}
+
+@mixin  {
+	@include hacks();
+
+	&:hover,
+	&:focus,
+	&:active {
+		@include prefixed(animation-name, #{$nameSpace}-);
+		@include prefixed(animation-duration, 1s);
+		@include prefixed(animation-timing-function, linear);
+		@include prefixed(animation-iteration-count, infinite);
+	}
+}

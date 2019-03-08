@@ -1,0 +1,80 @@
+<?php
+
+$idstatus = $_GET['t'];
+$start = $_GET['s'];
+$start2 = $_GET['s'] . ' 00:00:00';
+$end = $_GET['e'];
+$end2 = $_GET['e'] . ' 00:00:00';
+
+use Cosmos\System\Template;
+
+$tpl = new Template(APP_PATH_TPL . 'panel/surveys/company.html');
+$translate = (new \App\Model\Translate());
+/* * BUTTONS DE AÇAO* */
+$tpl->NU = (new \App\Model\Translate())->translater('News Surveys');
+$tpl->AL = (new \App\Model\Translate())->translater('All Replies');
+$tpl->RS = (new \App\Model\Translate())->translater('Reply to surveys');
+$tpl->SD = (new \App\Model\Translate())->translater('Start date');
+$tpl->ED = (new \App\Model\Translate())->translater('End date');
+$tpl->Title = mb_strtoupper((new \App\Model\Translate())->translater('Surveys'));
+/* * Titles Nav* */
+$tpl->CODE = (new \App\Model\Translate())->translater('Code');
+$tpl->ST = (new \App\Model\Translate())->translater('Status');
+$tpl->AC = (new \App\Model\Translate())->translater('Action');
+$tpl->B = (new \App\Model\Translate())->translater('Search');
+$tpl->CreAT = (new \App\Model\Translate())->translater('Created at');
+$tpl->PEY = (new \App\Model\Translate())->translater('Periodicity');
+$parameters = [
+    'deleted' => ['=', 0, 'AND']
+];
+//data inicio
+if ($start != "") {
+    $parameters['created_at'] = ['>=', $start2, 'AND'];
+}
+//data  fim
+if ($end != "") {
+    $parameters['created_at'] = ['<=', $end2, 'AND'];
+}
+// Status
+
+if ($idstatus != 100) {
+    $parameters['status'] = ['=', $idstatus, 'AND'];
+}
+$parameters['idSurvey'] = ['>', 0, ''];
+$surveys = (new \App\Model\Survey)->listingRegisters($parameters);
+if (!empty($surveys)) {
+    foreach ($surveys as $survey) {
+        $status = Cosmos\System\Helper::getStatusSurvey($survey->getStatus());
+        $statusTranslater = (new \App\Model\Translate())->translater($status->status);
+        $survey->setStatus($statusTranslater);
+        $type = Cosmos\System\Helper::getMonthTypeSurvey($survey->getType());
+        $survey->setType($type);
+        $survey->setCreated_at((new DateTime($survey->getCreated_at()))->format('d/m/Y H:i:s'));
+        $tpl->status_class = $status->alert;
+        $tpl->SURVEY = $survey;
+        $tpl->block('BLOCK_SURVEYS');
+    }
+    $tpl->block('BLOCK_LISTING_SURVEYS');
+} else {
+    $tpl->block('BLOCK_NO_SURVEYS');
+}
+$st = array(100, 0, 1, 2);
+foreach ($st as $s) {
+    $status2 = \Cosmos\System\Helper::getStatusSurvey($s);
+    foreach ($status2 as $sta => $value) {
+        if ($sta === 'status') {
+            if ($idstatus == $s) {
+                $tpl->SELECTED = 'selected';
+            } else {
+                $tpl->SELECTED = '';
+            }
+            $tpl->VALUEST = $s;
+            $valst = (new \App\Model\Translate())->translater($value);
+            $tpl->TEXTST = $valst;
+            $tpl->block('BLOCK_STATUS');
+        }
+    }
+}
+$tpl->start = $start;
+$tpl->END2 = $end;
+$tpl->show();

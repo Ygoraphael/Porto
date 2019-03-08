@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>Novoscanais - Mago</name>
+	<creationDate>2016-10-25</creationDate>
+	<author>Tiago Loureiro</author>
+	<authorEmail>tiago.loureiro@novoscanais.com</authorEmail>
+	<authorUrl>http://www.novoscanais.com</authorUrl>
+	<copyright>Novoscanais 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Novoscanais - Mago</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>carousel.css</filename>
+		<folder>assets</folder>
+		<folder>fonts</folder>
+		<folder>carousel</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>center-top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>

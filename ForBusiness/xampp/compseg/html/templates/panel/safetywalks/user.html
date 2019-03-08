@@ -1,0 +1,48 @@
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-clipboard2"></i> Observações por Responder</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <input type="text" placeholder="Search" class="menu-search form-control round">
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Created at</th>
+                                <th>Validate</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SURVEYS -->
+                            <tr>
+                                <th scope="row" class="name">{{SURVEY->CODE}}</th>
+                                <td>{{SURVEY->CREATED_AT}}</td>
+                                <td>{{SURVEY->P_VALIDATE}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{SURVEY->STATUS}}</span></td>
+                                <td>
+                                    <a class="btn btn-xs btn-warning" href="/survey/answer/{{SURVEY->P_ID}}"><i class="icon-eye"></i></a>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SURVEYS -->
+                        </tbody>
+                    </table>
+                    <!-- BEGIN BLOCK_NO_SURVEYS -->
+                    <div class="col-md-12 ">
+                        <h4>Não existem observações</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- END BLOCK_NO_SURVEYS -->
+                </div>              
+            </div>
+        </div>
+    </div>
+</div>

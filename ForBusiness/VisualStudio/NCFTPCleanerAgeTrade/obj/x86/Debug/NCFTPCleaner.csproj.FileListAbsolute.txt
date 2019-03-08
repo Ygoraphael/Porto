@@ -1,0 +1,14 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCFTPCleaner\bin\Debug\NCFTPCleaner.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCFTPCleaner\bin\Debug\NCFTPCleaner.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\NCFTPCleaner.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\NCFTPCleaner.pdb
+D:\Visual Studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\NCFTPCleaner.exe
+D:\Visual Studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\NCFTPCleaner.pdb
+D:\Visual Studio 2010\Projects\NCFTPCleaner\bin\Debug\NCFTPCleaner.exe
+D:\Visual Studio 2010\Projects\NCFTPCleaner\bin\Debug\NCFTPCleaner.pdb
+D:\Visual Studio 2010\Projects\NCFTPCleaner\obj\x86\Debug\NCFTPCleaner.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\NCFTPCleanerAgeTrade\obj\x86\Debug\NCFTPCleaner.exe
+D:\Visual Studio 2010\Projects\NCFTPCleanerAgeTrade\obj\x86\Debug\NCFTPCleaner.pdb
+D:\Visual Studio 2010\Projects\NCFTPCleanerAgeTrade\bin\Debug\NCFTPCleaner.exe
+D:\Visual Studio 2010\Projects\NCFTPCleanerAgeTrade\bin\Debug\NCFTPCleaner.pdb

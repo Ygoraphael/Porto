@@ -1,0 +1,80 @@
+/**
+ * @package Xpert Captions
+ * @version 2.7
+ * @author ThemeXpert http://www.themexpert.com
+ * @copyright Copyright (C) 2009 - 2011 ThemeXpert
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ *
+ */
+
+/*General Mosaic Styles*/
+.xpert-captions { margin-left: -15px;}
+
+.xc-block {
+	display: inline-block;
+    vertical-align: top;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 15px 15px;;
+	background: #111 url(../images/progress.gif) no-repeat center center;
+	border: 1px solid #fff;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+    .xc-block a { text-decoration:none; }
+    .xc-block h4{
+        font:300 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height:160%;
+        letter-spacing:0.15em;
+        color:#fff;
+        margin: 0 0 10px;
+        text-shadow:1px 1px 0 rgb(0,0,0);
+    }
+    .xc-block h4 a, .xc_category, .xc_category a{color: #fff;}
+    .xc-block p{ font:300 12px 'Lucida Grande', Tahoma, Verdana, sans-serif; color:#aaa; text-shadow:1px 1px 0 rgb(0,0,0);}
+    .xc_readmore{margin: 10px 0 0;}
+	.xc-backdrop {
+		display:none;
+		position:absolute;
+		top:0;
+		height:100%;
+		width:100%;
+		background:#111;
+	}
+	.xc-overlay {
+		display:none;
+		z-index:5;
+		position:absolute;
+		width:100%;
+		height:auto;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+        filter:alpha(opacity=00);
+        background: url(../images/bg-black.png) repeat;
+	}
+        .xc-overlay img{display: block}
+        .xc-fade .xc-overlay {
+			opacity:0;
+            height: 100%;
+		}
+
+		.xc-overlay {
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			filter:alpha(opacity=80);
+		}
+.xc-details{ padding:15px 20px; }
+
+@media (max-width: 767px)  {
+    .xpert-captions { width: 100%;}
+    .xc-block {
+        background-image: none !important;
+    }
+    .xc-block,
+    .xc-block *{
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+}

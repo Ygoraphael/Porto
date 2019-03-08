@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- version $Id: jotcache.xml,v 1.14 2014/06/07 12:15:10 Jot Exp $ -->
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+  <name>JotCache</name>
+  <author>Vladimir Kanich</author>
+  <creationDate>October 2014</creationDate>
+  <copyright>(C) 2010-2014 Vladimir Kanich. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact_on_web_site@jotcomponents.net</authorEmail>
+  <authorUrl>http://www.jotcomponents.net</authorUrl>
+  <version>4.2.3</version>
+  <description>PLG_SYSTEM_JOTCACHE_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="jotcache">jotcache.php</filename>
+    <filename plugin="jotcache">jotcache/JotcacheFileCache.php</filename>
+    <filename plugin="jotcache">jotcache/autoclean.php</filename>
+    <filename plugin="jotcache">jotcache/UserAgent.php</filename>
+    <filename plugin="jotcache">jotcache/UserAgentStringParser.php</filename>
+    <filename plugin="jotcache">jotcache/plg_jotcache.css</filename>
+    <filename plugin="jotcache">fields/browsers.php</filename>
+  </files>
+
+  <config>
+    <fields name="params">
+      <fieldset name="basic" addfieldpath="/plugins/system/jotcache/fields">
+        <field name="spacer" type="spacer" default="" label="JOTCACHE_BROWSER_SPACER" />
+        <field name="browsercache" type="radio" default="0" label="JOTCACHE_BROWSER_LBL" description="JOTCACHE_BROWSER_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="spacer2" type="spacer" default="" label="JOTCACHE_SERVER_SPACER" />
+        <field name="cachetime" type="text" default="15" label="JOTCACHE_LIFE_LBL" description="JOTCACHE_LIFE_DESC"/>
+        <field name="cachecompress" type="radio" default="0" label="JOTCACHE_CMP_LBL" description="JOTCACHE_CMP_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="cachemark" type="radio" default="1" label="JOTCACHE_MARK_LBL" description="JOTCACHE_MARK_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="autoclean" type="text" default="" label="JOTCACHE_CLEAN_LBL" description="JOTCACHE_CLEAN_DESC"/>
+        <field name="cleanmode" type="radio" default="0" label="JOTCACHE_MODE_LBL" description="JOTCACHE_MODE_DESC">
+          <option value="0">JOTCACHE_MODE_FAST</option>
+          <option value="1">JOTCACHE_MODE_MID</option>
+          <option value="2">JOTCACHE_MODE_SLOW</option>
+        </field>
+        <field name="cleanlog" type="radio" default="0" label="JOTCACHE_LOG_LBL" description="JOTCACHE_LOG_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="cacheclient" type="browsers" default="" label="JOTCACHE_CLIENT_LBL" description="JOTCACHE_CLIENT_DESC" />
+        <field name="cachecookies" type="textarea" default="" label="JOTCACHE_EXCOOKIE_LBL" description="JOTCACHE_EXCOOKIE_DESC" rows="3" cols="35" />
+        <field name="cachesessionvars" type="textarea" default="" label="JOTCACHE_EXSESSION_LBL" description="JOTCACHE_EXSESSION_DESC" rows="3" cols="35" />
+        <field name="botexclude" type="radio" default="0" label="JOTCACHE_EXBOT_LBL" description="JOTCACHE_EXBOT_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field> 
+        <field name="cacheexclude" type="textarea" default="" label="JOTCACHE_EXCLUDE_LBL" description="JOTCACHE_EXCLUDE_DESC" rows="3" cols="35" />
+        <field name="domain" type="radio" default="0" label="JOTCACHE_DOMAIN_LBL" description="JOTCACHE_DOMAIN_DESC">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>

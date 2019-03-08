@@ -1,0 +1,12 @@
+02-07-2018 09:49:41 - Erro: comunicação servidor envio!
+02-07-2018 09:49:41 - Detalhes:
+02-07-2018 09:49:41 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://racingcycle.net/templates/sync/index.php/sync/clientes_mdate
+02-07-2018 09:50:28 - Erro: comunicação servidor envio!
+02-07-2018 09:50:29 - Detalhes:
+02-07-2018 09:50:29 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://racingcycle.net/templates/sync/index.php/sync/clientes_mdate
+02-07-2018 09:50:49 - Erro: comunicação servidor envio!
+02-07-2018 09:50:49 - Detalhes:
+02-07-2018 09:50:49 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://racingcycle.net/templates/sync/index.php/sync/clientes_mdate
+02-07-2018 09:51:05 - Erro: comunicação servidor envio!
+02-07-2018 09:51:05 - Detalhes:
+02-07-2018 09:51:05 - java.io.IOException: Server returned HTTP response code: 403 for URL: http://racingcycle.net/templates/sync/index.php/sync/clientes_mdate

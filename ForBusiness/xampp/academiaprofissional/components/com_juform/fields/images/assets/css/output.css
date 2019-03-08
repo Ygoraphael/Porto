@@ -1,0 +1,10 @@
+.output.field-images {
+    list-style: none;
+}
+
+.output.field-images li {
+    background: none !important;
+    border: none !important;
+    padding: 5px !important;
+    float: left;
+}

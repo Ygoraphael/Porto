@@ -1,0 +1,4 @@
+mcache/com_virtuemart_cats
+mtemplates/sync/application/config
+mtemplates/sync/application/controllers
+rtemplates/sync/application/logs

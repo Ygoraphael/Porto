@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>End page</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>endpage</folder>
+    <default>1</default>
+    <administrator>
+        <files folder="admin">
+            <filename>endpage.php</filename>
+        </files>
+    </administrator>
+    <config>
+        <fieldset name="config" label="Config">
+            <field
+                    name="show_next_prev_btn"
+                    type="radio"
+                    default="1"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_SHOW_NEXT_PREV_BTN_LABEL"
+                    description="COM_JUFORM_FIELD_SHOW_NEXT_PREV_BTN_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="next_btn_label"
+                    type="text"
+                    default="Next"
+                    class="jufilter-show_next_prev_btn-1"
+                    label="COM_JUFORM_FIELD_NEXT_BTN_LABEL_LABEL"
+                    description="COM_JUFORM_FIELD_NEXT_BTN_LABEL_DESC"
+                    />
+
+            <field
+                    name="prev_btn_label"
+                    type="text"
+                    default="Prev"
+                    class="jufilter-show_next_prev_btn-1"
+                    label="COM_JUFORM_FIELD_PREV_BTN_LABEL_LABEL"
+                    description="COM_JUFORM_FIELD_PREV_BTN_LABEL_DESC"
+                    />
+
+            <field
+                    name="next_btn_attributes"
+                    type="textarea"
+                    default="class=&quot;btn btn-default&quot;"
+                    class="jufilter-show_next_prev_btn-1"
+                    label="COM_JUFORM_FIELD_NEXT_BTN_ATTRIBUTES_LABEL"
+                    description="COM_JUFORM_BTN_NEXT_ATTRIBUTES_DESC"
+                    />
+
+            <field
+                    name="prev_btn_attributes"
+                    type="textarea"
+                    default="class=&quot;btn btn-default&quot;"
+                    class="jufilter-show_next_prev_btn-1"
+                    label="COM_JUFORM_FIELD_PREV_BTN_ATTRIBUTES_LABEL"
+                    description="COM_JUFORM_BTN_PREV_ATTRIBUTES_DESC"
+                    />
+
+            <field
+                    name="validate_on_change_page"
+                    type="radio"
+                    default="0"
+                    class="jufilter-show_next_prev_btn-1 btn-group"
+                    label="COM_JUFORM_FIELD_VALIDATE_ON_CHANGE_PAGE_LABEL"
+                    description="COM_JUFORM_FIELD_VALIDATE_ON_CHANGE_PAGE_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="spacer"
+                   type="spacer"
+                   hr="true"
+                    />
+
+            <field
+                    name="show_submit_btn"
+                    type="radio"
+                    default="0"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_SHOW_SUBMIT_BTN_LABEL"
+                    description="COM_JUFORM_FIELD_SHOW_SUBMIT_BTN_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="submit_btn_label"
+                    type="text"
+                    default="Submit"
+                    class="jufilter-show_submit_btn-1"
+                    label="COM_JUFORM_FIELD_SUBMIT_BTN_LABEL_LABEL"
+                    description="COM_JUFORM_FIELD_SUBMIT_BTN_LABEL_DESC"
+                    />
+
+            <field
+                    name="submit_btn_attributes"
+                    type="textarea"
+                    default="class=&quot;btn btn-default btn-primary&quot;"
+                    class="jufilter-show_submit_btn-1"
+                    label="COM_JUFORM_FIELD_SUBMIT_BTN_ATTRIBUTES_LABEL"
+                    description="COM_JUFORM_FIELD_SUBMIT_BTN_ATTRIBUTES_DESC"
+            />
+
+            <field
+                    name="show_reset_btn"
+                    type="radio"
+                    default="0"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_SHOW_RESET_BTN_LABEL"
+                    description="COM_JUFORM_FIELD_SHOW_RESET_BTN_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="reset_btn_label"
+                    type="text"
+                    default="Reset"
+                    class="jufilter-show_reset_btn-1"
+                    label="COM_JUFORM_FIELD_RESET_BTN_LABEL"
+                    description="COM_JUFORM_FIELD_RESET_BTN_DESC"
+                    />
+
+            <field
+                    name="reset_btn_attributes"
+                    type="textarea"
+                    default="class=&quot;btn btn-default&quot;"
+                    class="jufilter-show_reset_btn-1"
+                    label="COM_JUFORM_FIELD_RESET_BTN_ATTRIBUTES_LABEL"
+                    description="COM_JUFORM_FIELD_RESET_BTN_ATTRIBUTES_DESC"
+                    />
+        </fieldset>
+    </config>
+</extension>

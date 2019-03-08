@@ -1,0 +1,3374 @@
+Visitas;VI;CRM Comercial
+Mapas definidos de Visitas, Cabeçalhos;VIDEFC;CRM Comercial
+Mapas definidos de Visitas, Linhas;VIDEFL;CRM Comercial
+Mapas desenhados de Visitas, Cabeçalhos;VIMDC;CRM Comercial
+Mapas desenhados de Visitas, Linhas;VIMDL;CRM Comercial
+Mapas desenhados de Visitas, Linhas (Modo;VIMDTXT;CRM Comercial
+Mapas de Etiquetas de Visitas, Cabeçalhos;VILBLMDC;CRM Comercial
+Mapas de Etiquetas de Visitas, Linhas;VILBLMDL;CRM Comercial
+Impressão de registo de Visitas, Cabeçalhos;VIIMC;CRM Comercial
+Impressão de registo de Visitas, Linhas;VIIML;CRM Comercial
+Impressão de registo de Visitas, Linhas (Modo;VIIMTXT;CRM Comercial
+Ficheiro de filtro de Visitas;FLTVI;CRM Comercial
+Ficheiro de linhas de filtro de Visitas;LIFLTVI;CRM Comercial
+Negócios;NG;CRM Comercial
+Mapas definidos de Negócios, Cabeçalhos;NGDEFC;CRM Comercial
+Mapas definidos de Negócios, Linhas;NGDEFL;CRM Comercial
+Mapas desenhados de Negócios, Cabeçalhos;NGMDC;CRM Comercial
+Mapas desenhados de Negócios, Linhas;NGMDL;CRM Comercial
+Mapas desenhados de Negócios, Linhas;NGMDTXT;CRM Comercial
+Mapas de Etiquetas de Negócios, Cabeçalhos;NGLBLMDC;CRM Comercial
+Mapas de Etiquetas de Negócios, Linhas;NGLBLMDL;CRM Comercial
+Impressão de registo de Negócios,;NGIMC;CRM Comercial
+Impressão de registo de Negócios, Linhas;NGIML;CRM Comercial
+Impressão de registo de Negócios, Linhas;NGIMTXT;CRM Comercial
+Ficheiro de filtro de Negócios;FLTNG;CRM Comercial
+Ficheiro de linhas de filtro de Negócios;LIFLTNG;CRM Comercial
+Status de negócios;NGSTATUS;CRM Comercial
+Mapas definidos de Status de negócios,;NGSTATUSDEFC;CRM Comercial
+Mapas definidos de Status de negócios, Linhas;NGSTATUSDEFL;CRM Comercial
+Mapas desenhados de Status de negócios,;NGSTATUSMDC;CRM Comercial
+Mapas desenhados de Status de negócios,;NGSTATUSMDL;CRM Comercial
+Mapas desenhados de Status de negócios,;NGSTATUSMDTXT;CRM Comercial
+Mapas de Etiquetas de Status de negócios,;NGSTATUSLBLMD;CRM Comercial
+Mapas de Etiquetas de Status de negócios,;NGSTATUSLBLMD;CRM Comercial
+Impressão de registo de Status de negócios,;NGSTATUSIMC;CRM Comercial
+Impressão de registo de Status de negócios,;NGSTATUSIML;CRM Comercial
+Impressão de registo de Status de negócios,;NGSTATUSIMTXT;CRM Comercial
+Ficheiro de filtro de Status de negócios;FLTNGSTATUS;CRM Comercial
+Ficheiro de linhas de filtro de Status de;LIFLTNGSTATUS;CRM Comercial
+Eventos de CRM;CEV;CRM Comercial
+Mapas definidos de Eventos de CRM,;CEVDEFC;CRM Comercial
+Mapas definidos de Eventos de CRM, Linhas;CEVDEFL;CRM Comercial
+Impressões definidas de Eventos de CRM,;CEVIDUC;CRM Comercial
+Impressões definidas de Eventos de CRM,;CEVIDUL;CRM Comercial
+Impressões definidas de Eventos de CRM,;CEVIDUTXT;CRM Comercial
+Mapas desenhados de Eventos de CRM,;CEVMDC;CRM Comercial
+Mapas desenhados de Eventos de CRM,;CEVMDL;CRM Comercial
+Mapas desenhados de Eventos de CRM,;CEVMDTXT;CRM Comercial
+Mapas de Etiquetas de Eventos de CRM,;CEVLBLMDC;CRM Comercial
+Mapas de Etiquetas de Eventos de CRM,;CEVLBLMDL;CRM Comercial
+Impressão de registo de Eventos de CRM,;CEVIMC;CRM Comercial
+Impressão de registo de Eventos de CRM,;CEVIML;CRM Comercial
+Impressão de registo de Eventos de CRM,;CEVIMTXT;CRM Comercial
+Ficheiro de filtro de Eventos de CRM;FLTCEV;CRM Comercial
+Ficheiro de linhas de filtro de Eventos de CRM;LIFLTCEV;CRM Comercial
+Inscrições para Eventos de CRM;CEVI;CRM Comercial
+Mapas definidos de Inscrições para Eventos;CEVIDEFC;CRM Comercial
+Mapas definidos de Inscrições para Eventos;CEVIDEFL;CRM Comercial
+Impressões definidas de Inscrições para;CEVIIDUC;CRM Comercial
+Impressões definidas de Inscrições para;CEVIIDUL;CRM Comercial
+Impressões definidas de Inscrições para;CEVIIDUTXT;CRM Comercial
+Mapas desenhados de Inscrições para;CEVIMDC;CRM Comercial
+Mapas desenhados de Inscrições para;CEVIMDL;CRM Comercial
+Mapas desenhados de Inscrições para;CEVIMDTXT;CRM Comercial
+Mapas de Etiquetas de Inscrições para;CEVILBLMDC;CRM Comercial
+Mapas de Etiquetas de Inscrições para;CEVILBLMDL;CRM Comercial
+Impressão de registo de Inscrições para;CEVIIMC;CRM Comercial
+Impressão de registo de Inscrições para;CEVIIML;CRM Comercial
+Impressão de registo de Inscrições para;CEVIIMTXT;CRM Comercial
+Ficheiro de filtro de Inscrições para Eventos de;FLTCEVI;CRM Comercial
+Ficheiro de linhas de filtro de Inscrições para;LIFLTCEVI;CRM Comercial
+Clientes potenciais do CRM;CLP;CRM Comercial
+Mapas definidos de Clientes potenciais do;CLPDEFC;CRM Comercial
+Mapas definidos de Clientes potenciais do;CLPDEFL;CRM Comercial
+Mapas desenhados de Clientes potenciais do;CLPMDC;CRM Comercial
+Mapas desenhados de Clientes potenciais do;CLPMDL;CRM Comercial
+Mapas desenhados de Clientes potenciais do;CLPMDTXT;CRM Comercial
+Mapas de Etiquetas de Clientes potenciais do;CLPLBLMDC;CRM Comercial
+Mapas de Etiquetas de Clientes potenciais do;CLPLBLMDL;CRM Comercial
+Impressão de registo de Clientes potenciais do;CLPIMC;CRM Comercial
+Impressão de registo de Clientes potenciais do;CLPIML;CRM Comercial
+Impressão de registo de Clientes potenciais do;CLPIMTXT;CRM Comercial
+Ficheiro de filtro de Clientes potenciais do;FLTCLP;CRM Comercial
+Ficheiro de linhas de filtro de Clientes;LIFLTCLP;CRM Comercial
+Competidores;CPT;CRM Comercial
+Mapas definidos de Competidores,;CPTDEFC;CRM Comercial
+Mapas definidos de Competidores, Linhas;CPTDEFL;CRM Comercial
+Mapas desenhados de Competidores,;CPTMDC;CRM Comercial
+Mapas desenhados de Competidores, Linhas;CPTMDL;CRM Comercial
+Mapas desenhados de Competidores, Linhas;CPTMDTXT;CRM Comercial
+Mapas de Etiquetas de Competidores,;CPTLBLMDC;CRM Comercial
+Mapas de Etiquetas de Competidores, Linhas;CPTLBLMDL;CRM Comercial
+Impressão de registo de Competidores,;CPTIMC;CRM Comercial
+Impressão de registo de Competidores, Linhas;CPTIML;CRM Comercial
+Impressão de registo de Competidores, Linhas;CPTIMTXT;CRM Comercial
+Ficheiro de filtro de Competidores;FLTCPT;CRM Comercial
+Ficheiro de linhas de filtro de Competidores;LIFLTCPT;CRM Comercial
+Negócios de competidores;CPTNG;CRM Comercial
+Clientes potenciais que são competidores;CPTCLP;CRM Comercial
+Artigos de competidores;CPTST;CRM Comercial
+Condições para campanhas;CAMVEN;CRM Comercial
+Mapas definidos de Condições para;CAMVENDEFC;CRM Comercial
+Mapas definidos de Condições para;CAMVENDEFL;CRM Comercial
+Mapas desenhados de Condições para;CAMVENMDC;CRM Comercial
+Mapas desenhados de Condições para;CAMVENMDL;CRM Comercial
+Mapas desenhados de Condições para;CAMVENMDTXT;CRM Comercial
+Mapas de Etiquetas de Condições para;CAMVENLBLMDC;CRM Comercial
+Mapas de Etiquetas de Condições para;CAMVENLBLMDL;CRM Comercial
+Ficheiro de filtro de Condições para;FLTCAMVEN;CRM Comercial
+Ficheiro de linhas de filtro de Condições para;LIFLTCAMVEN;CRM Comercial
+Vendedores para distribuição proporcional de;CAMVENLIST;CRM Comercial
+Mapas definidos de Vendedores para;CAMVENLISTDEF;CRM Comercial
+Mapas definidos de Vendedores para;CAMVENLISTDEFL;CRM Comercial
+Mapas desenhados de Vendedores para;CAMVENLISTMDC;CRM Comercial
+Mapas desenhados de Vendedores para;CAMVENLISTMDL;CRM Comercial
+Mapas desenhados de Vendedores para;CAMVENLISTMDT;CRM Comercial
+Mapas de Etiquetas de Vendedores para;CAMVENLISTLBLM;CRM Comercial
+Mapas de Etiquetas de Vendedores para;CAMVENLISTLBLM;CRM Comercial
+Ficheiro de filtro de Vendedores para;FLTCAMVENLIST;CRM Comercial
+Ficheiro de linhas de filtro de Vendedores para;LIFLTCAMVENLIST;CRM Comercial
+Contactos;EM;CRM Comercial
+Mapas definidos de Contactos, Cabeçalhos;EMDEFC;CRM Comercial
+Mapas definidos de Contactos, Linhas;EMDEFL;CRM Comercial
+Mapas desenhados de Contactos, Cabeçalhos;EMMDC;CRM Comercial
+Mapas desenhados de Contactos, Linhas;EMMDL;CRM Comercial
+Mapas desenhados de Contactos, Linhas;EMMDTXT;CRM Comercial
+Mapas de Etiquetas de Contactos, Cabeçalhos;EMLBLMDC;CRM Comercial
+Mapas de Etiquetas de Contactos, Linhas;EMLBLMDL;CRM Comercial
+Impressão de registo de Contactos,;EMIMC;CRM Comercial
+Impressão de registo de Contactos, Linhas;EMIML;CRM Comercial
+Impressão de registo de Contactos, Linhas;EMIMTXT;CRM Comercial
+Ficheiro de filtro de Contactos;FLTEM;CRM Comercial
+Ficheiro de linhas de filtro de Contactos;LIFLTEM;CRM Comercial
+Pessoas;CTS;CRM Comercial
+Mapas definidos de Pessoas, Cabeçalhos;CTSDEFC;CRM Comercial
+Mapas definidos de Pessoas, Linhas;CTSDEFL;CRM Comercial
+Mapas desenhados de Pessoas, Cabeçalhos;CTSMDC;CRM Comercial
+Mapas desenhados de Pessoas, Linhas;CTSMDL;CRM Comercial
+Mapas desenhados de Pessoas, Linhas (Modo;CTSMDTXT;CRM Comercial
+Mapas de Etiquetas de Pessoas, Cabeçalhos;CTSLBLMDC;CRM Comercial
+Mapas de Etiquetas de Pessoas, Linhas;CTSLBLMDL;CRM Comercial
+Impressão de registo de Pessoas, Cabeçalhos;CTSIMC;CRM Comercial
+Impressão de registo de Pessoas, Linhas;CTSIML;CRM Comercial
+Impressão de registo de Pessoas, Linhas;CTSIMTXT;CRM Comercial
+Ficheiro de filtro de Pessoas;FLTCTS;CRM Comercial
+Ficheiro de linhas de filtro de Pessoas;LIFLTCTS;CRM Comercial
+Listas de Marketing;LMKT;CRM Comercial
+Mapas definidos de Listas de Marketing,;LMKTDEFC;CRM Comercial
+Mapas definidos de Listas de Marketing,;LMKTDEFL;CRM Comercial
+Mapas desenhados de Listas de Marketing,;LMKTMDC;CRM Comercial
+Mapas desenhados de Listas de Marketing,;LMKTMDL;CRM Comercial
+Mapas desenhados de Listas de Marketing,;LMKTMDTXT;CRM Comercial
+Mapas de Etiquetas de Listas de Marketing,;LMKTLBLMDC;CRM Comercial
+Mapas de Etiquetas de Listas de Marketing,;LMKTLBLMDL;CRM Comercial
+Ficheiro de filtro de Listas de Marketing;FLTLMKT;CRM Comercial
+Ficheiro de linhas de filtro de Listas de;LIFLTLMKT;CRM Comercial
+Linhas de Listas de Marketing;LMKTI;CRM Comercial
+Mapas definidos de Linhas de Listas de;LMKTIDEFC;CRM Comercial
+Mapas definidos de Linhas de Listas de;LMKTIDEFL;CRM Comercial
+Mapas desenhados de Linhas de Listas de;LMKTIMDC;CRM Comercial
+Mapas desenhados de Linhas de Listas de;LMKTIMDL;CRM Comercial
+Mapas desenhados de Linhas de Listas de;LMKTIMDTXT;CRM Comercial
+Mapas de Etiquetas de Linhas de Listas de;LMKTILBLMDC;CRM Comercial
+Mapas de Etiquetas de Linhas de Listas de;LMKTILBLMDL;CRM Comercial
+Ficheiro de filtro de Linhas de Listas de;FLTLMKTI;CRM Comercial
+Ficheiro de linhas de filtro de Linhas de Listas;LIFLTLMKTI;CRM Comercial
+Campanhas;CAM;CRM Comercial
+Mapas definidos de Campanhas, Cabeçalhos;CAMDEFC;CRM Comercial
+Mapas definidos de Campanhas, Linhas;CAMDEFL;CRM Comercial
+Mapas desenhados de Campanhas,;CAMMDC;CRM Comercial
+Mapas desenhados de Campanhas, Linhas;CAMMDL;CRM Comercial
+Mapas desenhados de Campanhas, Linhas;CAMMDTXT;CRM Comercial
+Mapas de Etiquetas de Campanhas,;CAMLBLMDC;CRM Comercial
+Mapas de Etiquetas de Campanhas, Linhas;CAMLBLMDL;CRM Comercial
+Ficheiro de filtro de Campanhas;FLTCAM;CRM Comercial
+Ficheiro de linhas de filtro de Campanhas;LIFLTCAM;CRM Comercial
+Visitas de Campanhas;CAMVI;CRM Comercial
+Mapas definidos de Visitas de Campanhas,;CAMVIDEFC;CRM Comercial
+Mapas definidos de Visitas de Campanhas,;CAMVIDEFL;CRM Comercial
+Mapas desenhados de Visitas de Campanhas,;CAMVIMDC;CRM Comercial
+Mapas desenhados de Visitas de Campanhas,;CAMVIMDL;CRM Comercial
+Mapas desenhados de Visitas de Campanhas,;CAMVIMDTXT;CRM Comercial
+Mapas de Etiquetas de Visitas de Campanhas,;CAMVILBLMDC;CRM Comercial
+Mapas de Etiquetas de Visitas de Campanhas,;CAMVILBLMDL;CRM Comercial
+Ficheiro de filtro de Visitas de Campanhas;FLTCAMVI;CRM Comercial
+Ficheiro de linhas de filtro de Visitas de;LIFLTCAMVI;CRM Comercial
+Listas de Marketing de Campanhas;CAMLMKT;CRM Comercial
+Mapas definidos de Listas de Marketing de;CAMLMKTDEFC;CRM Comercial
+Mapas definidos de Listas de Marketing de;CAMLMKTDEFL;CRM Comercial
+Mapas desenhados de Listas de Marketing de;CAMLMKTMDC;CRM Comercial
+Mapas desenhados de Listas de Marketing de;CAMLMKTMDL;CRM Comercial
+Mapas desenhados de Listas de Marketing de;CAMLMKTMDTXT;CRM Comercial
+Mapas de Etiquetas de Listas de Marketing de;CAMLMKTLBLMDC;CRM Comercial
+Mapas de Etiquetas de Listas de Marketing de;CAMLMKTLBLMDL;CRM Comercial
+Ficheiro de filtro de Listas de Marketing de;FLTCAMLMKT;CRM Comercial
+Ficheiro de linhas de filtro de Listas de;LIFLTCAMLMKT;CRM Comercial
+Plano de Contas;PC;Contabilidade
+Mapas definidos de Plano de Contas,;PCDEFC;Contabilidade
+Mapas definidos de Plano de Contas, Linhas;PCDEFL;Contabilidade
+Mapas desenhados de Plano de Contas,;PCMDC;Contabilidade
+Mapas desenhados de Plano de Contas,;PCMDL;Contabilidade
+Mapas desenhados de Plano de Contas,;PCMDTXT;Contabilidade
+Mapas de Etiquetas de Plano de Contas,;PCLBLMDC;Contabilidade
+Mapas de Etiquetas de Plano de Contas,;PCLBLMDL;Contabilidade
+Impressão de registo de Plano de Contas,;PCIMC;Contabilidade
+Impressão de registo de Plano de Contas,;PCIML;Contabilidade
+Impressão de registo de Plano de Contas,;PCIMTXT;Contabilidade
+Ficheiro de filtro de Plano de Contas;FLTPC;Contabilidade
+Ficheiro de linhas de filtro de Plano de Contas;LIFLTPC;Contabilidade
+Plano de Contas Paralelo;PP;Contabilidade
+Plano de Contas - Saldos;PCSA;Contabilidade
+Contabilidade Orçamental;MC;Contabilidade
+Mapas definidos de Contabilidade Orçamental,;MCDEFC;Contabilidade
+Mapas definidos de Contabilidade Orçamental,;MCDEFL;Contabilidade
+Mapas desenhados de Contabilidade;MCMDC;Contabilidade
+Mapas desenhados de Contabilidade;MCMDL;Contabilidade
+Mapas desenhados de Contabilidade;MCMDTXT;Contabilidade
+Mapas de Etiquetas de Contabilidade;MCLBLMDC;Contabilidade
+Mapas de Etiquetas de Contabilidade;MCLBLMDL;Contabilidade
+Ficheiro de filtro de Contabilidade Orçamental;FLTMC;Contabilidade
+Ficheiro de linhas de filtro de Contabilidade;LIFLTMC;Contabilidade
+Diários;DI;Contabilidade
+Mapas definidos de Diários, Cabeçalhos;DIDEFC;Contabilidade
+Mapas definidos de Diários, Linhas;DIDEFL;Contabilidade
+Mapas desenhados de Diários, Cabeçalhos;DIMDC;Contabilidade
+Mapas desenhados de Diários, Linhas;DIMDL;Contabilidade
+Mapas desenhados de Diários, Linhas (Modo;DIMDTXT;Contabilidade
+Mapas de Etiquetas de Diários, Cabeçalhos;DILBLMDC;Contabilidade
+Mapas de Etiquetas de Diários, Linhas;DILBLMDL;Contabilidade
+Impressão de registo de Diários, Cabeçalhos;DIIMC;Contabilidade
+Impressão de registo de Diários, Linhas;DIIML;Contabilidade
+Impressão de registo de Diários, Linhas (Modo;DIIMTXT;Contabilidade
+Ficheiro de filtro de Diários;FLTDI;Contabilidade
+Ficheiro de linhas de filtro de Diários;LIFLTDI;Contabilidade
+Movimentos Contabilisticos;ML;Contabilidade
+Mapas definidos de Movimentos;MLDEFC;Contabilidade
+Mapas definidos de Movimentos;MLDEFL;Contabilidade
+Mapas desenhados de Movimentos;MLMDC;Contabilidade
+Mapas desenhados de Movimentos;MLMDL;Contabilidade
+Mapas desenhados de Movimentos;MLMDTXT;Contabilidade
+Mapas de Etiquetas de Movimentos;MLLBLMDC;Contabilidade
+Mapas de Etiquetas de Movimentos;MLLBLMDL;Contabilidade
+Ficheiro de filtro de Movimentos Contabilisticos;FLTML;Contabilidade
+Ficheiro de linhas de filtro de Movimentos;LIFLTML;Contabilidade
+Documentos Contabilisticos;DO;Contabilidade
+Mapas definidos de Documentos;DODEFC;Contabilidade
+Mapas definidos de Documentos;DODEFL;Contabilidade
+Impressões definidas de Documentos;DOIDUC;Contabilidade
+Impressões definidas de Documentos;DOIDUL;Contabilidade
+Impressões definidas de Documentos;DOIDUTXT;Contabilidade
+Mapas desenhados de Documentos;DOMDC;Contabilidade
+Mapas desenhados de Documentos;DOMDL;Contabilidade
+Mapas desenhados de Documentos;DOMDTXT;Contabilidade
+Mapas de Etiquetas de Documentos;DOLBLMDC;Contabilidade
+Mapas de Etiquetas de Documentos;DOLBLMDL;Contabilidade
+Ficheiro de filtro de Documentos;FLTDO;Contabilidade
+Ficheiro de linhas de filtro de Documentos;LIFLTDO;Contabilidade
+Códigos de IVA;IV;Contabilidade
+Mapas definidos de Códigos de IVA,;IVDEFC;Contabilidade
+Mapas definidos de Códigos de IVA, Linhas;IVDEFL;Contabilidade
+Mapas desenhados de Códigos de IVA,;IVMDC;Contabilidade
+Mapas desenhados de Códigos de IVA, Linhas;IVMDL;Contabilidade
+Mapas desenhados de Códigos de IVA, Linhas;IVMDTXT;Contabilidade
+Mapas de Etiquetas de Códigos de IVA,;IVLBLMDC;Contabilidade
+Mapas de Etiquetas de Códigos de IVA, Linhas;IVLBLMDL;Contabilidade
+Ficheiro de filtro de Códigos de IVA;FLTIV;Contabilidade
+Ficheiro de linhas de filtro de Códigos de IVA;LIFLTIV;Contabilidade
+Centros de Custo da Contabilidade;CU;Contabilidade
+Mapas definidos de Centros de Custo da;CUDEFC;Contabilidade
+Mapas definidos de Centros de Custo da;CUDEFL;Contabilidade
+Mapas desenhados de Centros de Custo da;CUMDC;Contabilidade
+Mapas desenhados de Centros de Custo da;CUMDL;Contabilidade
+Mapas desenhados de Centros de Custo da;CUMDTXT;Contabilidade
+Mapas de Etiquetas de Centros de Custo da;CULBLMDC;Contabilidade
+Mapas de Etiquetas de Centros de Custo da;CULBLMDL;Contabilidade
+Ficheiro de filtro de Centros de Custo da;FLTCU;Contabilidade
+Ficheiro de linhas de filtro de Centros de Custo;LIFLTCU;Contabilidade
+Naturezas do Plano;NP;Contabilidade
+Imputações de Centros de Custo;CI;Contabilidade
+Mapas definidos de Imputações de Centros de;CIDEFC;Contabilidade
+Mapas definidos de Imputações de Centros de;CIDEFL;Contabilidade
+Mapas desenhados de Imputações de Centros;CIMDC;Contabilidade
+Mapas desenhados de Imputações de Centros;CIMDL;Contabilidade
+Mapas desenhados de Imputações de Centros;CIMDTXT;Contabilidade
+Mapas de Etiquetas de Imputações de Centros;CILBLMDC;Contabilidade
+Mapas de Etiquetas de Imputações de Centros;CILBLMDL;Contabilidade
+Ficheiro de filtro de Imputações de Centros de;FLTCI;Contabilidade
+Ficheiro de linhas de filtro de Imputações de;LIFLTCI;Contabilidade
+Linhas Imputações de Centros de Custo;IL;Contabilidade
+Imputações de Naturezas;NI;Contabilidade
+Linhas Imputações de Naturezas;NL;Contabilidade
+Imputações de Contas;C9;Contabilidade
+Mapas definidos de Imputações de Contas,;C9DEFC;Contabilidade
+Mapas definidos de Imputações de Contas,;C9DEFL;Contabilidade
+Mapas desenhados de Imputações de Contas,;C9MDC;Contabilidade
+Mapas desenhados de Imputações de Contas,;C9MDL;Contabilidade
+Mapas desenhados de Imputações de Contas,;C9MDTXT;Contabilidade
+Mapas de Etiquetas de Imputações de Contas,;C9LBLMDC;Contabilidade
+Mapas de Etiquetas de Imputações de Contas,;C9LBLMDL;Contabilidade
+Ficheiro de filtro de Imputações de Contas;FLTC9;Contabilidade
+Ficheiro de linhas de filtro de Imputações de;LIFLTC9;Contabilidade
+Linhas de Imputações de Contas;L9;Contabilidade
+Apuramento de Resultados;RS;Contabilidade
+Mapas definidos de Apuramento de;RSDEFC;Contabilidade
+Mapas definidos de Apuramento de;RSDEFL;Contabilidade
+Impressão de registo de Apuramento de;RSIMC;Contabilidade
+Impressão de registo de Apuramento de;RSIML;Contabilidade
+Impressão de registo de Apuramento de;RSIMTXT;Contabilidade
+Ficheiro de filtro de Apuramento de Resultados;FLTRS;Contabilidade
+Ficheiro de linhas de filtro de Apuramento de;LIFLTRS;Contabilidade
+Apuramento de IVA;RV;Contabilidade
+Mapas definidos de Apuramento de IVA,;RVDEFC;Contabilidade
+Mapas definidos de Apuramento de IVA,;RVDEFL;Contabilidade
+Impressão de registo de Apuramento de IVA,;RVIMC;Contabilidade
+Impressão de registo de Apuramento de IVA,;RVIML;Contabilidade
+Impressão de registo de Apuramento de IVA,;RVIMTXT;Contabilidade
+Ficheiro de filtro de Apuramento de IVA;FLTRV;Contabilidade
+Ficheiro de linhas de filtro de Apuramento de;LIFLTRV;Contabilidade
+Apuramento de CEV;EV;Contabilidade
+Fórmulas dos Mapas de Gestão;CE;Contabilidade
+Mapas de Gestão, Cabeçalhos;MGE1MDC;Contabilidade
+Mapas de Gestão, Linhas;MGE1MDL;Contabilidade
+Mapas de Gestão, Linhas (Modo Texto);MGE1MDTXT;Contabilidade
+Códigos de Interligação de Stocks;CPSL;Contabilidade
+Mapas definidos de Códigos de Interligação de;CPSLDEFC;Contabilidade
+Mapas definidos de Códigos de Interligação de;CPSLDEFL;Contabilidade
+Mapas desenhados de Códigos de Interligação;CPSLMDC;Contabilidade
+Mapas desenhados de Códigos de Interligação;CPSLMDL;Contabilidade
+Mapas desenhados de Códigos de Interligação;CPSLMDTXT;Contabilidade
+Mapas de Etiquetas de Códigos de;CPSLLBLMDC;Contabilidade
+Mapas de Etiquetas de Códigos de;CPSLLBLMDL;Contabilidade
+Ficheiro de filtro de Códigos de Interligação de;FLTCPSL;Contabilidade
+Ficheiro de linhas de filtro de Códigos de;LIFLTCPSL;Contabilidade
+Livros selados, Cabeçalhos;LASEL;Contabilidade
+Livros selados, Linhas;T6IDU;Contabilidade
+Livros selados - Razão, Linhas;LAS1MDL;Contabilidade
+Livros selados - Razão, Linhas (Modo Texto);LAS1MDTXT;Contabilidade
+Livros selados - Diário, Cabeçalhos;LAS2MDC;Contabilidade
+Livros selados - Diário, Linhas;LAS2MDL;Contabilidade
+Livros selados - Diário, Linhas (Modo Texto);LAS2MDTXT;Contabilidade
+Declaração Periodica de IVA, Cabeçalhos;IVPMDC;Contabilidade
+Declaração Periodica de IVA, Linhas;IVPMDL;Contabilidade
+Declaração Periodica de IVA, Linhas (Modo;IVPMDTXT;Contabilidade
+Declaração Anual de IVA, Cabeçalhos;IVPAMDC;Contabilidade
+Declaração Anual de IVA, Linhas;IVPAMDL;Contabilidade
+Declaração Anual de IVA, Linhas (Modo Texto);IVPAMDTXT;Contabilidade
+Impressões desenhadas de balancetes,;LAB1MDC;Contabilidade
+Impressões desenhadas de balancetes, Linhas;LAB1MDL;Contabilidade
+Impressões desenhadas de balancetes, Linhas;LAB1MDTXT;Contabilidade
+Impressões desenhadas de balancetes de;QCUANAIDUC;Contabilidade
+Impressões desenhadas de balancetes de;QCUANAIDUL;Contabilidade
+Impressões desenhadas de balancetes de;QCUANAIDUTXT;Contabilidade
+Mapas Gestão em Suporte Informático,;MGDISK;Contabilidade
+Mapas Gestão em Suporte Informático, Linhas;MGDISKL;Contabilidade
+Mapas Recapitulativos,Cabeçalhos;TSTIMPIDUC;Contabilidade
+Mapas Recapitulativos,Linhas;TSTIMPIDUL;Contabilidade
+Mapas Recapitulativos,Linhas (Modo Texto);TSTIMPIDULTXT;Contabilidade
+Configuração de colunas a integrar na;CFI;Contabilidade
+Mapas definidos de Configuração de colunas a;CFIDEFC;Contabilidade
+Mapas definidos de Configuração de colunas a;CFIDEFL;Contabilidade
+Impressões definidas de Configuração de;CFIIDUC;Contabilidade
+Impressões definidas de Configuração de;CFIIDUL;Contabilidade
+Impressões definidas de Configuração de;CFIIDUTXT;Contabilidade
+Mapas desenhados de Configuração de;CFIMDC;Contabilidade
+Mapas desenhados de Configuração de;CFIMDL;Contabilidade
+Mapas desenhados de Configuração de;CFIMDTXT;Contabilidade
+Mapas de Etiquetas de Configuração de;CFILBLMDC;Contabilidade
+Mapas de Etiquetas de Configuração de;CFILBLMDL;Contabilidade
+Impressão de registo de Configuração de;CFIIMC;Contabilidade
+Impressão de registo de Configuração de;CFIIML;Contabilidade
+Impressão de registo de Configuração de;CFIIMTXT;Contabilidade
+Ficheiro de filtro de Configuração de colunas a;FLTCFI;Contabilidade
+Ficheiro de linhas de filtro de Configuração de;LIFLTCFI;Contabilidade
+Impressões desenhadas de Análises de;QCIVAANAIDUC;Contabilidade
+Impressões desenhadas de Análises de;QCIVAANAIDUL;Contabilidade
+Impressões desenhadas de Análises de;QCIVAANAIDUTXT;Contabilidade
+Variáveis para Fórmulas dos Mapas de Gestão;CEVAR;Contabilidade
+Códigos de Imposto de Selo;CIS;Contabilidade
+Mapas definidos de Códigos de Imposto de;CISDEFC;Contabilidade
+Mapas definidos de Códigos de Imposto de;CISDEFL;Contabilidade
+Mapas desenhados de Códigos de Imposto de;CISMDC;Contabilidade
+Mapas desenhados de Códigos de Imposto de;CISMDL;Contabilidade
+Mapas desenhados de Códigos de Imposto de;CISMDTXT;Contabilidade
+Mapas de Etiquetas de Códigos de Imposto de;CISLBLMDC;Contabilidade
+Mapas de Etiquetas de Códigos de Imposto de;CISLBLMDL;Contabilidade
+Ficheiro de filtro de Códigos de Imposto de;FLTCIS;Contabilidade
+Ficheiro de linhas de filtro de Códigos de;LIFLTCIS;Contabilidade
+Declaração Periodica de IVA - Relação de;RELCLIVAIDUC;Contabilidade
+Declaração Periodica de IVA - Relação de;RELCLIVAIDUL;Contabilidade
+Declaração Periodica de IVA - Relação de;RELFLIVAIDUC;Contabilidade
+Declaração Periodica de IVA - Relação de;RELFLIVAIDUL;Contabilidade
+Declaração Periodica de IVA - Relação de;RELREGIVAIDUC;Contabilidade
+Declaração Periodica de IVA - Relação de;RELREGIVAIDUL;Contabilidade
+Declaração Periodica de IVA - Relação de;RELCLIVAIDUTXT;Contabilidade
+Declaração Periodica de IVA - Relação de;RELFLIVAIDUTXT;Contabilidade
+Declaração Periodica de IVA - Relação de;RELREGIVAIDUTX;Contabilidade
+Tabela de Mapeamento;MPT;Contabilidade
+Mapas definidos de Tabela de Mapeamento,;MPTDEFC;Contabilidade
+Mapas definidos de Tabela de Mapeamento,;MPTDEFL;Contabilidade
+Mapas desenhados de Tabela de;MPTMDC;Contabilidade
+Mapas desenhados de Tabela de;MPTMDL;Contabilidade
+Mapas desenhados de Tabela de;MPTMDTXT;Contabilidade
+Mapas de Etiquetas de Tabela de;MPTLBLMDC;Contabilidade
+Mapas de Etiquetas de Tabela de;MPTLBLMDL;Contabilidade
+Ficheiro de filtro de Tabela de Mapeamento;FLTMPT;Contabilidade
+Ficheiro de linhas de filtro de Tabela de;LIFLTMPT;Contabilidade
+Grelha de Transição;GT;Contabilidade
+Mapas definidos de Grelha de Transição,;GTDEFC;Contabilidade
+Mapas definidos de Grelha de Transição,;GTDEFL;Contabilidade
+Mapas desenhados de Grelha de Transição,;GTMDC;Contabilidade
+Mapas desenhados de Grelha de Transição,;GTMDL;Contabilidade
+Mapas desenhados de Grelha de Transição,;GTMDTXT;Contabilidade
+Mapas de Etiquetas de Grelha de Transição,;GTLBLMDC;Contabilidade
+Mapas de Etiquetas de Grelha de Transição,;GTLBLMDL;Contabilidade
+Ficheiro de filtro de Grelha de Transição;FLTGT;Contabilidade
+Ficheiro de linhas de filtro de Grelha de;LIFLTGT;Contabilidade
+Movimentos Contabilísticos do Ano Anterior;MCA;Contabilidade
+Mapas definidos de Movimentos;MCADEFC;Contabilidade
+Mapas definidos de Movimentos;MCADEFL;Contabilidade
+Mapas desenhados de Movimentos;MCAMDC;Contabilidade
+Mapas desenhados de Movimentos;MCAMDL;Contabilidade
+Mapas desenhados de Movimentos;MCAMDTXT;Contabilidade
+Mapas de Etiquetas de Movimentos;MCALBLMDC;Contabilidade
+Mapas de Etiquetas de Movimentos;MCALBLMDL;Contabilidade
+Ficheiro de filtro de Movimentos Contabilísticos;FLTMCA;Contabilidade
+Ficheiro de linhas de filtro de Movimentos;LIFLTMCA;Contabilidade
+Diário resumido,Cabeçalhos;DIARIORESIDUC;Contabilidade
+Diário resumido,Linhas;DIARIORESIDUL;Contabilidade
+Perdas em Créditos/Ajustamentos em;CPICAI;Contabilidade
+Movimentos Perdas em Créditos/Ajustamentos;LPICAI;Contabilidade
+Notas às Demonstrações Financeiras;NABDR;Contabilidade
+Mapas definidos de Notas às Demonstrações;NABDRDEFC;Contabilidade
+Mapas definidos de Notas às Demonstrações;NABDRDEFL;Contabilidade
+Impressões definidas de Notas às;NABDRIDUC;Contabilidade
+Impressões definidas de Notas às;NABDRIDUL;Contabilidade
+Impressões definidas de Notas às;NABDRIDUTXT;Contabilidade
+Mapas desenhados de Notas às;NABDRMDC;Contabilidade
+Mapas desenhados de Notas às;NABDRMDL;Contabilidade
+Mapas desenhados de Notas às;NABDRMDTXT;Contabilidade
+Mapas de Etiquetas de Notas às;NABDRLBLMDC;Contabilidade
+Mapas de Etiquetas de Notas às;NABDRLBLMDL;Contabilidade
+Ficheiro de filtro de Notas às Demonstrações;FLTNABDR;Contabilidade
+Ficheiro de linhas de filtro de Notas às;LIFLTNABDR;Contabilidade
+Linhas das Notas às Demonstrações;NABDRL;Contabilidade
+Mapas definidos de Linhas das Notas às;NABDRLDEFC;Contabilidade
+Mapas definidos de Linhas das Notas às;NABDRLDEFL;Contabilidade
+Mapas desenhados de Linhas das Notas às;NABDRLMDC;Contabilidade
+Mapas desenhados de Linhas das Notas às;NABDRLMDL;Contabilidade
+Mapas desenhados de Linhas das Notas às;NABDRLMDTXT;Contabilidade
+Mapas de Etiquetas de Linhas das Notas às;NABDRLLBLMDC;Contabilidade
+Mapas de Etiquetas de Linhas das Notas às;NABDRLLBLMDL;Contabilidade
+Ficheiro de filtro de Linhas das Notas às;FLTNABDRL;Contabilidade
+Ficheiro de linhas de filtro de Linhas das Notas;LIFLTNABDRL;Contabilidade
+Rubricas das Notas às Demonstrações;RN;Contabilidade
+Mapas definidos de Rubricas das Notas às;RNDEFC;Contabilidade
+Mapas definidos de Rubricas das Notas às;RNDEFL;Contabilidade
+Mapas desenhados de Rubricas das Notas às;RNMDC;Contabilidade
+Mapas desenhados de Rubricas das Notas às;RNMDL;Contabilidade
+Mapas desenhados de Rubricas das Notas às;RNMDTXT;Contabilidade
+Mapas de Etiquetas de Rubricas das Notas às;RNLBLMDC;Contabilidade
+Mapas de Etiquetas de Rubricas das Notas às;RNLBLMDL;Contabilidade
+Ficheiro de filtro de Rubricas das Notas às;FLTRN;Contabilidade
+Ficheiro de linhas de filtro de Rubricas das;LIFLTRN;Contabilidade
+Rubricas das Demonstrações Financeiras;RBDR;Contabilidade
+Mapas definidos de Rubricas das;RBDRDEFC;Contabilidade
+Mapas definidos de Rubricas das;RBDRDEFL;Contabilidade
+Impressões definidas de Rubricas das;RBDRIDUC;Contabilidade
+Impressões definidas de Rubricas das;RBDRIDUL;Contabilidade
+Impressões definidas de Rubricas das;RBDRIDUTXT;Contabilidade
+Mapas desenhados de Rubricas das;RBDRMDC;Contabilidade
+Mapas desenhados de Rubricas das;RBDRMDL;Contabilidade
+Mapas desenhados de Rubricas das;RBDRMDTXT;Contabilidade
+Mapas de Etiquetas de Rubricas das;RBDRLBLMDC;Contabilidade
+Mapas de Etiquetas de Rubricas das;RBDRLBLMDL;Contabilidade
+Ficheiro de filtro de Rubricas das;FLTRBDR;Contabilidade
+Ficheiro de linhas de filtro de Rubricas das;LIFLTRBDR;Contabilidade
+Notas pré-definidas;NPD;Contabilidade
+Mapas definidos de Notas pré-definidas,;NPDDEFC;Contabilidade
+Mapas definidos de Notas pré-definidas,;NPDDEFL;Contabilidade
+Impressões definidas de Notas pré-definidas,;NPDIDUC;Contabilidade
+Impressões definidas de Notas pré-definidas,;NPDIDUL;Contabilidade
+Impressões definidas de Notas pré-definidas,;NPDIDUTXT;Contabilidade
+Mapas desenhados de Notas pré-definidas,;NPDMDC;Contabilidade
+Mapas desenhados de Notas pré-definidas,;NPDMDL;Contabilidade
+Mapas desenhados de Notas pré-definidas,;NPDMDTXT;Contabilidade
+Mapas de Etiquetas de Notas pré-definidas,;NPDLBLMDC;Contabilidade
+Mapas de Etiquetas de Notas pré-definidas,;NPDLBLMDL;Contabilidade
+Ficheiro de filtro de Notas pré-definidas;FLTNPD;Contabilidade
+Ficheiro de linhas de filtro de Notas;LIFLTNPD;Contabilidade
+Anexos;ANEXOS;ControlDoc
+Mapas definidos de Anexos, Cabeçalhos;ANEXOSDEFC;ControlDoc
+Mapas definidos de Anexos, Linhas;ANEXOSDEFL;ControlDoc
+Mapas desenhados de Anexos, Cabeçalhos;ANEXOSMDC;ControlDoc
+Mapas desenhados de Anexos, Linhas;ANEXOSMDL;ControlDoc
+Mapas desenhados de Anexos, Linhas (Modo;ANEXOSMDTXT;ControlDoc
+Mapas de Etiquetas de Anexos, Cabeçalhos;ANEXOSLBLMDC;ControlDoc
+Mapas de Etiquetas de Anexos, Linhas;ANEXOSLBLMDL;ControlDoc
+Impressão de registo de Anexos, Cabeçalhos;ANEXOSIMC;ControlDoc
+Impressão de registo de Anexos, Linhas;ANEXOSIML;ControlDoc
+Impressão de registo de Anexos, Linhas (Modo;ANEXOSIMTXT;ControlDoc
+Ficheiro de filtro de Anexos;FLTANEXOS;ControlDoc
+Ficheiro de linhas de filtro de Anexos;LIFLTANEXOS;ControlDoc
+Tabelas que têm anexos;TABAX;ControlDoc
+Mapas definidos de Tabelas que têm anexos,;TABAXDEFC;ControlDoc
+Mapas definidos de Tabelas que têm anexos,;TABAXDEFL;ControlDoc
+Mapas desenhados de Tabelas que têm;TABAXMDC;ControlDoc
+Mapas desenhados de Tabelas que têm;TABAXMDL;ControlDoc
+Mapas desenhados de Tabelas que têm;TABAXMDTXT;ControlDoc
+Mapas de Etiquetas de Tabelas que têm;TABAXLBLMDC;ControlDoc
+Mapas de Etiquetas de Tabelas que têm;TABAXLBLMDL;ControlDoc
+Impressão de registo de Tabelas que têm;TABAXIMC;ControlDoc
+Impressão de registo de Tabelas que têm;TABAXIML;ControlDoc
+Impressão de registo de Tabelas que têm;TABAXIMTXT;ControlDoc
+Ficheiro de filtro de Tabelas que têm anexos;FLTTABAX;ControlDoc
+Ficheiro de linhas de filtro de Tabelas que têm;LIFLTTABAX;ControlDoc
+Pasta de anexos;GRUAX;ControlDoc
+Mapas definidos de Pasta de anexos,;GRUAXDEFC;ControlDoc
+Mapas definidos de Pasta de anexos, Linhas;GRUAXDEFL;ControlDoc
+Mapas desenhados de Pasta de anexos,;GRUAXMDC;ControlDoc
+Mapas desenhados de Pasta de anexos,;GRUAXMDL;ControlDoc
+Mapas desenhados de Pasta de anexos,;GRUAXMDTXT;ControlDoc
+Mapas de Etiquetas de Pasta de anexos,;GRUAXLBLMDC;ControlDoc
+Mapas de Etiquetas de Pasta de anexos,;GRUAXLBLMDL;ControlDoc
+Impressão de registo de Pasta de anexos,;GRUAXIMC;ControlDoc
+Impressão de registo de Pasta de anexos,;GRUAXIML;ControlDoc
+Impressão de registo de Pasta de anexos,;GRUAXIMTXT;ControlDoc
+Ficheiro de filtro de Pasta de anexos;FLTGRUAX;ControlDoc
+Ficheiro de linhas de filtro de Pasta de anexos;LIFLTGRUAX;ControlDoc
+Tabela para adicionar emails do outlook;TADE;ControlDoc
+Mapas definidos de Tabela para adicionar;TADEDEFC;ControlDoc
+Mapas definidos de Tabela para adicionar;TADEDEFL;ControlDoc
+Mapas desenhados de Tabela para adicionar;TADEMDC;ControlDoc
+Mapas desenhados de Tabela para adicionar;TADEMDL;ControlDoc
+Mapas desenhados de Tabela para adicionar;TADEMDTXT;ControlDoc
+Mapas de Etiquetas de Tabela para adicionar;TADELBLMDC;ControlDoc
+Mapas de Etiquetas de Tabela para adicionar;TADELBLMDL;ControlDoc
+Impressão de registo de Tabela para adicionar;TADEIMC;ControlDoc
+Impressão de registo de Tabela para adicionar;TADEIML;ControlDoc
+Impressão de registo de Tabela para adicionar;TADEIMTXT;ControlDoc
+Ficheiro de filtro de Tabela para adicionar;FLTTADE;ControlDoc
+Ficheiro de linhas de filtro de Tabela para;LIFLTTADE;ControlDoc
+Configuração da sincronização dos emails ao;CSO;ControlDoc
+Pilhas/Acumuladores Artigos;ECOP;Ecovalor
+Mapas definidos de Pilhas/Acumuladores;ECOPDEFC;Ecovalor
+Mapas definidos de Pilhas/Acumuladores;ECOPDEFL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPMDC;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPMDL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPMDTXT;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores;ECOPLBLMDC;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores;ECOPLBLMDL;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPIMC;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPIML;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPIMTXT;Ecovalor
+Ficheiro de filtro de Pilhas/Acumuladores;FLTECOP;Ecovalor
+Ficheiro de linhas de filtro de;LIFLTECOP;Ecovalor
+Pilhas/Acumuladores;ECOPT;Ecovalor
+Mapas definidos de Pilhas/Acumuladores,;ECOPTDEFC;Ecovalor
+Mapas definidos de Pilhas/Acumuladores,;ECOPTDEFL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores,;ECOPTMDC;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores,;ECOPTMDL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores,;ECOPTMDTXT;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores,;ECOPTLBLMDC;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores,;ECOPTLBLMDL;Ecovalor
+Impressão de registo de Pilhas/Acumuladores,;ECOPTIMC;Ecovalor
+Impressão de registo de Pilhas/Acumuladores,;ECOPTIML;Ecovalor
+Impressão de registo de Pilhas/Acumuladores,;ECOPTIMTXT;Ecovalor
+Ficheiro de filtro de Pilhas/Acumuladores;FLTECOPT;Ecovalor
+Ficheiro de linhas de filtro de;LIFLTECOPT;Ecovalor
+Pilhas/Acumuladores Tipos;ECOPTP;Ecovalor
+Mapas definidos de Pilhas/Acumuladores;ECOPTPDEFC;Ecovalor
+Mapas definidos de Pilhas/Acumuladores;ECOPTPDEFL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPTPMDC;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPTPMDL;Ecovalor
+Mapas desenhados de Pilhas/Acumuladores;ECOPTPMDTXT;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores;ECOPTPLBLMDC;Ecovalor
+Mapas de Etiquetas de Pilhas/Acumuladores;ECOPTPLBLMDL;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPTPIMC;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPTPIML;Ecovalor
+Impressão de registo de Pilhas/Acumuladores;ECOPTPIMTXT;Ecovalor
+Ficheiro de filtro de Pilhas/Acumuladores Tipos;FLTECOPTP;Ecovalor
+Ficheiro de linhas de filtro de;LIFLTECOPTP;Ecovalor
+Embalagens Artigos;ECOE;Ecovalor
+Mapas definidos de Embalagens Artigos,;ECOEDEFC;Ecovalor
+Mapas definidos de Embalagens Artigos,;ECOEDEFL;Ecovalor
+Mapas desenhados de Embalagens Artigos,;ECOEMDC;Ecovalor
+Mapas desenhados de Embalagens Artigos,;ECOEMDL;Ecovalor
+Mapas desenhados de Embalagens Artigos,;ECOEMDTXT;Ecovalor
+Mapas de Etiquetas de Embalagens Artigos,;ECOELBLMDC;Ecovalor
+Mapas de Etiquetas de Embalagens Artigos,;ECOELBLMDL;Ecovalor
+Impressão de registo de Embalagens Artigos,;ECOEIMC;Ecovalor
+Impressão de registo de Embalagens Artigos,;ECOEIML;Ecovalor
+Impressão de registo de Embalagens Artigos,;ECOEIMTXT;Ecovalor
+Ficheiro de filtro de Embalagens Artigos;FLTECOE;Ecovalor
+Ficheiro de linhas de filtro de Embalagens;LIFLTECOE;Ecovalor
+Embalagens Tipos;ECOET;Ecovalor
+Mapas definidos de Embalagens Tipos,;ECOETDEFC;Ecovalor
+Mapas definidos de Embalagens Tipos, Linhas;ECOETDEFL;Ecovalor
+Mapas desenhados de Embalagens Tipos,;ECOETMDC;Ecovalor
+Mapas desenhados de Embalagens Tipos,;ECOETMDL;Ecovalor
+Mapas desenhados de Embalagens Tipos,;ECOETMDTXT;Ecovalor
+Mapas de Etiquetas de Embalagens Tipos,;ECOETLBLMDC;Ecovalor
+Mapas de Etiquetas de Embalagens Tipos,;ECOETLBLMDL;Ecovalor
+Impressão de registo de Embalagens Tipos,;ECOETIMC;Ecovalor
+Impressão de registo de Embalagens Tipos,;ECOETIML;Ecovalor
+Impressão de registo de Embalagens Tipos,;ECOETIMTXT;Ecovalor
+Ficheiro de filtro de Embalagens Tipos;FLTECOET;Ecovalor
+Ficheiro de linhas de filtro de Embalagens;LIFLTECOET;Ecovalor
+Ecovalores dos Dossiers Internos;BOECO;Ecovalor
+Ecovalores dos Documentos de Facturação;FTECO;Ecovalor
+Viaturas;VA;Frota
+Mapas definidos de Viaturas, Cabeçalhos;VADEFC;Frota
+Mapas definidos de Viaturas, Linhas;VADEFL;Frota
+Mapas desenhados de Viaturas, Cabeçalhos;VAMDC;Frota
+Mapas desenhados de Viaturas, Linhas;VAMDL;Frota
+Mapas desenhados de Viaturas, Linhas (Modo;VAMDTXT;Frota
+Mapas de Etiquetas de Viaturas, Cabeçalhos;VALBLMDC;Frota
+Mapas de Etiquetas de Viaturas, Linhas;VALBLMDL;Frota
+Ficheiro de filtro de Viaturas;FLTVA;Frota
+Ficheiro de linhas de filtro de Viaturas;LIFLTVA;Frota
+Gastos;IT;Frota
+Mapas definidos de Gastos, Cabeçalhos;ITDEFC;Frota
+Mapas definidos de Gastos, Linhas;ITDEFL;Frota
+Mapas desenhados de Gastos, Cabeçalhos;ITMDC;Frota
+Mapas desenhados de Gastos, Linhas;ITMDL;Frota
+Mapas desenhados de Gastos, Linhas (Modo;ITMDTXT;Frota
+Mapas de Etiquetas de Gastos, Cabeçalhos;ITLBLMDC;Frota
+Mapas de Etiquetas de Gastos, Linhas;ITLBLMDL;Frota
+Ficheiro de filtro de Gastos;FLTIT;Frota
+Ficheiro de linhas de filtro de Gastos;LIFLTIT;Frota
+Acessórios de Frota;VC;Frota
+Mapas definidos de Acessórios de Frota,;VCDEFC;Frota
+Mapas definidos de Acessórios de Frota,;VCDEFL;Frota
+Mapas desenhados de Acessórios de Frota,;VCMDC;Frota
+Mapas desenhados de Acessórios de Frota,;VCMDL;Frota
+Mapas desenhados de Acessórios de Frota,;VCMDTXT;Frota
+Mapas de Etiquetas de Acessórios de Frota,;VCLBLMDC;Frota
+Mapas de Etiquetas de Acessórios de Frota,;VCLBLMDL;Frota
+Ficheiro de filtro de Acessórios de Frota;FLTVC;Frota
+Ficheiro de linhas de filtro de Acessórios de;LIFLTVC;Frota
+Manutenções;MT;Frota
+Mapas definidos de Manutenções, Cabeçalhos;MTDEFC;Frota
+Mapas definidos de Manutenções, Linhas;MTDEFL;Frota
+Mapas desenhados de Manutenções,;MTMDC;Frota
+Mapas desenhados de Manutenções, Linhas;MTMDL;Frota
+Mapas desenhados de Manutenções, Linhas;MTMDTXT;Frota
+Mapas de Etiquetas de Manutenções,;MTLBLMDC;Frota
+Mapas de Etiquetas de Manutenções, Linhas;MTLBLMDL;Frota
+Ficheiro de filtro de Manutenções;FLTMT;Frota
+Ficheiro de linhas de filtro de Manutenções;LIFLTMT;Frota
+Motoristas;MO;Frota
+Mapas definidos de Motoristas, Cabeçalhos;MODEFC;Frota
+Mapas definidos de Motoristas, Linhas;MODEFL;Frota
+Mapas desenhados de Motoristas, Cabeçalhos;MOMDC;Frota
+Mapas desenhados de Motoristas, Linhas;MOMDL;Frota
+Mapas desenhados de Motoristas, Linhas;MOMDTXT;Frota
+Mapas de Etiquetas de Motoristas, Cabeçalhos;MOLBLMDC;Frota
+Mapas de Etiquetas de Motoristas, Linhas;MOLBLMDL;Frota
+Ficheiro de filtro de Motoristas;FLTMO;Frota
+Ficheiro de linhas de filtro de Motoristas;LIFLTMO;Frota
+Sinistros;SIN;Frota
+Mapas definidos de Sinistros, Cabeçalhos;SINDEFC;Frota
+Mapas definidos de Sinistros, Linhas;SINDEFL;Frota
+Mapas desenhados de Sinistros, Cabeçalhos;SINMDC;Frota
+Mapas desenhados de Sinistros, Linhas;SINMDL;Frota
+Mapas desenhados de Sinistros, Linhas (Modo;SINMDTXT;Frota
+Mapas de Etiquetas de Sinistros, Cabeçalhos;SINLBLMDC;Frota
+Mapas de Etiquetas de Sinistros, Linhas;SINLBLMDL;Frota
+Ficheiro de filtro de Sinistros;FLTSIN;Frota
+Ficheiro de linhas de filtro de Sinistros;LIFLTSIN;Frota
+Referências de Grupos e Tipos de Gastos;ITREF;Frota
+Mapas definidos de Referências de Grupos e;ITREFDEFC;Frota
+Mapas definidos de Referências de Grupos e;ITREFDEFL;Frota
+Mapas desenhados de Referências de Grupos;ITREFMDC;Frota
+Mapas desenhados de Referências de Grupos;ITREFMDL;Frota
+Mapas desenhados de Referências de Grupos;ITREFMDTXT;Frota
+Mapas de Etiquetas de Referências de Grupos;ITREFLBLMDC;Frota
+Mapas de Etiquetas de Referências de Grupos;ITREFLBLMDL;Frota
+Ficheiro de filtro de Referências de Grupos e;FLTITREF;Frota
+Ficheiro de linhas de filtro de Referências de;LIFLTITREF;Frota
+Objectivos de Vendas;OV;Gestão
+Mapas definidos de Objectivos de Vendas,;OVDEFC;Gestão
+Mapas definidos de Objectivos de Vendas,;OVDEFL;Gestão
+Mapas desenhados de Objectivos de Vendas,;OVMDC;Gestão
+Mapas desenhados de Objectivos de Vendas,;OVMDL;Gestão
+Mapas desenhados de Objectivos de Vendas,;OVMDTXT;Gestão
+Mapas de Etiquetas de Objectivos de Vendas,;OVLBLMDC;Gestão
+Mapas de Etiquetas de Objectivos de Vendas,;OVLBLMDL;Gestão
+Impressão de registo de Objectivos de;OVIMC;Gestão
+Impressão de registo de Objectivos de;OVIML;Gestão
+Impressão de registo de Objectivos de;OVIMTXT;Gestão
+Ficheiro de filtro de Objectivos de Vendas;FLTOV;Gestão
+Ficheiro de linhas de filtro de Objectivos de;LIFLTOV;Gestão
+Promoções;SP;Gestão
+Mapas definidos de Promoções, Cabeçalhos;SPDEFC;Gestão
+Mapas definidos de Promoções, Linhas;SPDEFL;Gestão
+Mapas desenhados de Promoções,;SPMDC;Gestão
+Mapas desenhados de Promoções, Linhas;SPMDL;Gestão
+Mapas desenhados de Promoções, Linhas;SPMDTXT;Gestão
+Mapas de Etiquetas de Promoções,;SPLBLMDC;Gestão
+Mapas de Etiquetas de Promoções, Linhas;SPLBLMDL;Gestão
+Impressão de registo de Promoções,;SPIMC;Gestão
+Impressão de registo de Promoções, Linhas;SPIML;Gestão
+Impressão de registo de Promoções, Linhas;SPIMTXT;Gestão
+Ficheiro de filtro de Promoções;FLTSP;Gestão
+Ficheiro de linhas de filtro de Promoções;LIFLTSP;Gestão
+Lotes;SE;Gestão
+Mapas definidos de Lotes, Cabeçalhos;SEDEFC;Gestão
+Mapas definidos de Lotes, Linhas;SEDEFL;Gestão
+Mapas desenhados de Lotes, Cabeçalhos;SEMDC;Gestão
+Mapas desenhados de Lotes, Linhas;SEMDL;Gestão
+Mapas desenhados de Lotes, Linhas (Modo;SEMDTXT;Gestão
+Mapas de Etiquetas de Lotes, Cabeçalhos;SELBLMDC;Gestão
+Mapas de Etiquetas de Lotes, Linhas;SELBLMDL;Gestão
+Impressão de registo de Lotes, Cabeçalhos;SEIMC;Gestão
+Impressão de registo de Lotes, Linhas;SEIML;Gestão
+Impressão de registo de Lotes, Linhas (Modo;SEIMTXT;Gestão
+Ficheiro de filtro de Lotes;FLTSE;Gestão
+Ficheiro de linhas de filtro de Lotes;LIFLTSE;Gestão
+Cobranças a Clientes;CO;Gestão
+Mapas definidos de Cobranças a Clientes,;CODEFC;Gestão
+Mapas definidos de Cobranças a Clientes,;CODEFL;Gestão
+Mapas desenhados de Cobranças a Clientes,;COMDC;Gestão
+Mapas desenhados de Cobranças a Clientes,;COMDL;Gestão
+Mapas desenhados de Cobranças a Clientes,;COMDTXT;Gestão
+Mapas de Etiquetas de Cobranças a Clientes,;COLBLMDC;Gestão
+Mapas de Etiquetas de Cobranças a Clientes,;COLBLMDL;Gestão
+Ficheiro de filtro de Cobranças a Clientes;FLTCO;Gestão
+Ficheiro de linhas de filtro de Cobranças a;LIFLTCO;Gestão
+Contratos de Rappel a Clientes;RPCL;Gestão
+Mapas definidos de Contratos de Rappel a;RPCLDEFC;Gestão
+Mapas definidos de Contratos de Rappel a;RPCLDEFL;Gestão
+Impressões definidas de Contratos de Rappel;RPCLIDUC;Gestão
+Impressões definidas de Contratos de Rappel;RPCLIDUL;Gestão
+Impressões definidas de Contratos de Rappel;RPCLIDUTXT;Gestão
+Mapas desenhados de Contratos de Rappel a;RPCLMDC;Gestão
+Mapas desenhados de Contratos de Rappel a;RPCLMDL;Gestão
+Mapas desenhados de Contratos de Rappel a;RPCLMDTXT;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;RPCLLBLMDC;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;RPCLLBLMDL;Gestão
+Ficheiro de filtro de Contratos de Rappel a;FLTRPCL;Gestão
+Ficheiro de linhas de filtro de Contratos de;LIFLTRPCL;Gestão
+Contratos de Rappel a Clientes (escalões);ESCCL;Gestão
+Mapas definidos de Contratos de Rappel a;ESCCLDEFC;Gestão
+Mapas definidos de Contratos de Rappel a;ESCCLDEFL;Gestão
+Mapas desenhados de Contratos de Rappel a;ESCCLMDC;Gestão
+Mapas desenhados de Contratos de Rappel a;ESCCLMDL;Gestão
+Mapas desenhados de Contratos de Rappel a;ESCCLMDTXT;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;ESCCLLBLMDC;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;ESCCLLBLMDL;Gestão
+Ficheiro de filtro de Contratos de Rappel a;FLTESCCL;Gestão
+Ficheiro de linhas de filtro de Contratos de;LIFLTESCCL;Gestão
+Cobranças via Banco;CBB;Gestão
+Mapas definidos de Cobranças via Banco,;CBBDEFC;Gestão
+Mapas definidos de Cobranças via Banco,;CBBDEFL;Gestão
+Impressões definidas de Cobranças via Banco,;CBBIDUC;Gestão
+Impressões definidas de Cobranças via Banco,;CBBIDUL;Gestão
+Impressões definidas de Cobranças via Banco,;CBBIDUTXT;Gestão
+Impressão de registo de Cobranças via Banco,;CBBIMC;Gestão
+Impressão de registo de Cobranças via Banco,;CBBIML;Gestão
+Impressão de registo de Cobranças via Banco,;CBBIMTXT;Gestão
+Ficheiro de filtro de Cobranças via Banco;FLTCBB;Gestão
+Ficheiro de linhas de filtro de Cobranças via;LIFLTCBB;Gestão
+Movimentos de Cobranças via Banco;CBBL;Gestão
+Ficheiro de filtro de Movimentos de Cobranças;FLTCBBL;Gestão
+Ficheiro de linhas de filtro de Movimentos de;LIFLTCBBL;Gestão
+Contas Correntes de Fornecedores;FC;Gestão
+Mapas definidos de Contas Correntes de;FCDEFC;Gestão
+Mapas definidos de Contas Correntes de;FCDEFL;Gestão
+Mapas desenhados de Contas Correntes de;FCMDC;Gestão
+Mapas desenhados de Contas Correntes de;FCMDL;Gestão
+Mapas desenhados de Contas Correntes de;FCMDTXT;Gestão
+Mapas de Etiquetas de Contas Correntes de;FCLBLMDC;Gestão
+Mapas de Etiquetas de Contas Correntes de;FCLBLMDL;Gestão
+Ficheiro de filtro de Contas Correntes de;FLTFC;Gestão
+Ficheiro de linhas de filtro de Contas Correntes;LIFLTFC;Gestão
+Compras a Fornecedores;FO;Gestão
+Mapas definidos de Compras a Fornecedores,;FODEFC;Gestão
+Mapas definidos de Compras a Fornecedores,;FODEFL;Gestão
+Impressões definidas de Compras a;FOIDUC;Gestão
+Impressões definidas de Compras a;FOIDUL;Gestão
+Impressões definidas de Compras a;FOIDUTXT;Gestão
+Mapas desenhados de Compras a;FOMDC;Gestão
+Mapas desenhados de Compras a;FOMDL;Gestão
+Mapas desenhados de Compras a;FOMDTXT;Gestão
+Mapas de Etiquetas de Compras a;FOLBLMDC;Gestão
+Mapas de Etiquetas de Compras a;FOLBLMDL;Gestão
+Ficheiro de filtro de Compras a Fornecedores;FLTFO;Gestão
+Ficheiro de linhas de filtro de Compras a;LIFLTFO;Gestão
+Compras a Fornecedores - Outros Dados;FO2;Gestão
+Pagamentos de Documentos de Compra;FOFC;Gestão
+Etiquetas de Compras a Fornecedores,;FOLBLIDUC;Gestão
+Etiquetas de Compras a Fornecedores, Linhas;FOLBLIDUL;Gestão
+Linhas de Compras a Fornecedores;FN;Gestão
+Mapas definidos de Linhas de Compras a;FNDEFC;Gestão
+Mapas definidos de Linhas de Compras a;FNDEFL;Gestão
+Mapas desenhados de Linhas de Compras a;FNMDC;Gestão
+Mapas desenhados de Linhas de Compras a;FNMDL;Gestão
+Mapas desenhados de Linhas de Compras a;FNMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Compras a;FNLBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Compras a;FNLBLMDL;Gestão
+Ficheiro de filtro de Linhas de Compras a;FLTFN;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTFN;Gestão
+Adiantamentos de Documentos de Compra;FOPD;Gestão
+Pagamentos a Fornecedores;PO;Gestão
+Mapas definidos de Pagamentos a;PODEFC;Gestão
+Mapas definidos de Pagamentos a;PODEFL;Gestão
+Impressões definidas de Pagamentos a;POIDUC;Gestão
+Impressões definidas de Pagamentos a;POIDUL;Gestão
+Impressões definidas de Pagamentos a;POIDUTXT;Gestão
+Mapas desenhados de Pagamentos a;POMDC;Gestão
+Mapas desenhados de Pagamentos a;POMDL;Gestão
+Mapas desenhados de Pagamentos a;POMDTXT;Gestão
+Mapas de Etiquetas de Pagamentos a;POLBLMDC;Gestão
+Mapas de Etiquetas de Pagamentos a;POLBLMDL;Gestão
+Ficheiro de filtro de Pagamentos a;FLTPO;Gestão
+Ficheiro de linhas de filtro de Pagamentos a;LIFLTPO;Gestão
+Adiantamentos a Fornecedores;PD;Gestão
+Mapas definidos de Adiantamentos a;PDDEFC;Gestão
+Mapas definidos de Adiantamentos a;PDDEFL;Gestão
+Mapas desenhados de Adiantamentos a;PDMDC;Gestão
+Mapas desenhados de Adiantamentos a;PDMDL;Gestão
+Mapas desenhados de Adiantamentos a;PDMDTXT;Gestão
+Mapas de Etiquetas de Adiantamentos a;PDLBLMDC;Gestão
+Mapas de Etiquetas de Adiantamentos a;PDLBLMDL;Gestão
+Impressão de registo de Adiantamentos a;PDIMC;Gestão
+Impressão de registo de Adiantamentos a;PDIML;Gestão
+Impressão de registo de Adiantamentos a;PDIMTXT;Gestão
+Ficheiro de filtro de Adiantamentos a;FLTPD;Gestão
+Ficheiro de linhas de filtro de Adiantamentos a;LIFLTPD;Gestão
+Linhas de Pagamentos a Fornecedores;PL;Gestão
+Mapas definidos de Linhas de Pagamentos a;PLDEFC;Gestão
+Mapas definidos de Linhas de Pagamentos a;PLDEFL;Gestão
+Mapas desenhados de Linhas de Pagamentos;PLMDC;Gestão
+Mapas desenhados de Linhas de Pagamentos;PLMDL;Gestão
+Mapas desenhados de Linhas de Pagamentos;PLMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Pagamentos;PLLBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Pagamentos;PLLBLMDL;Gestão
+Ficheiro de filtro de Linhas de Pagamentos a;FLTPL;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTPL;Gestão
+Contratos de Rappel a Fornecedores;RPFL;Gestão
+Mapas definidos de Contratos de Rappel a;RPFLDEFC;Gestão
+Mapas definidos de Contratos de Rappel a;RPFLDEFL;Gestão
+Impressões definidas de Contratos de Rappel;RPFLIDUC;Gestão
+Impressões definidas de Contratos de Rappel;RPFLIDUL;Gestão
+Impressões definidas de Contratos de Rappel;RPFLIDUTXT;Gestão
+Mapas desenhados de Contratos de Rappel a;RPFLMDC;Gestão
+Mapas desenhados de Contratos de Rappel a;RPFLMDL;Gestão
+Mapas desenhados de Contratos de Rappel a;RPFLMDTXT;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;RPFLLBLMDC;Gestão
+Mapas de Etiquetas de Contratos de Rappel a;RPFLLBLMDL;Gestão
+Ficheiro de filtro de Contratos de Rappel a;FLTRPFL;Gestão
+Ficheiro de linhas de filtro de Contratos de;LIFLTRPFL;Gestão
+Etiquetas de Documentos de Facturação,;FTLBLIDUC;Gestão
+Etiquetas de Documentos de Facturação,;FTLBLIDUL;Gestão
+Pagamentos de Documentos de Facturação;FTCC;Gestão
+Recibos de adiantamentos;RD;Gestão
+Mapas definidos de Recibos de;RDDEFC;Gestão
+Mapas definidos de Recibos de;RDDEFL;Gestão
+Mapas desenhados de Recibos de;RDMDC;Gestão
+Mapas desenhados de Recibos de;RDMDL;Gestão
+Mapas desenhados de Recibos de;RDMDTXT;Gestão
+Mapas de Etiquetas de Recibos de;RDLBLMDC;Gestão
+Mapas de Etiquetas de Recibos de;RDLBLMDL;Gestão
+Impressão de registo de Recibos de;RDIMC;Gestão
+Impressão de registo de Recibos de;RDIML;Gestão
+Impressão de registo de Recibos de;RDIMTXT;Gestão
+Ficheiro de filtro de Recibos de adiantamentos;FLTRD;Gestão
+Ficheiro de linhas de filtro de Recibos de;LIFLTRD;Gestão
+Configuração de Recibos de adiantamento;TSRD;Gestão
+Mapas definidos de Configuração de Recibos;TSRDDEFC;Gestão
+Mapas definidos de Configuração de Recibos;TSRDDEFL;Gestão
+Impressão de registo de Configuração de;TSRDIMC;Gestão
+Impressão de registo de Configuração de;TSRDIML;Gestão
+Impressão de registo de Configuração de;TSRDIMTXT;Gestão
+Ficheiro de filtro de Configuração de Recibos;FLTTSRD;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTTSRD;Gestão
+Documentos de tesouraria;OW;Gestão
+Mapas definidos de Documentos de tesouraria,;OWDEFC;Gestão
+Mapas definidos de Documentos de tesouraria,;OWDEFL;Gestão
+Impressões definidas de Documentos de;OWIDUC;Gestão
+Impressões definidas de Documentos de;OWIDUL;Gestão
+Impressões definidas de Documentos de;OWIDUTXT;Gestão
+Mapas desenhados de Documentos de;OWMDC;Gestão
+Mapas desenhados de Documentos de;OWMDL;Gestão
+Mapas desenhados de Documentos de;OWMDTXT;Gestão
+Mapas de Etiquetas de Documentos de;OWLBLMDC;Gestão
+Mapas de Etiquetas de Documentos de;OWLBLMDL;Gestão
+Ficheiro de filtro de Documentos de tesouraria;FLTOW;Gestão
+Ficheiro de linhas de filtro de Documentos de;LIFLTOW;Gestão
+Linhas de Documentos de tesouraria;OWLI;Gestão
+Processos de tesouraria;OZ;Gestão
+Previsões de Tesouraria;OD;Gestão
+Mapas definidos de Previsões de Tesouraria,;ODDEFC;Gestão
+Mapas definidos de Previsões de Tesouraria,;ODDEFL;Gestão
+Mapas desenhados de Previsões de;ODMDC;Gestão
+Mapas desenhados de Previsões de;ODMDL;Gestão
+Mapas desenhados de Previsões de;ODMDTXT;Gestão
+Mapas de Etiquetas de Previsões de;ODLBLMDC;Gestão
+Mapas de Etiquetas de Previsões de;ODLBLMDL;Gestão
+Ficheiro de filtro de Previsões de Tesouraria;FLTOD;Gestão
+Ficheiro de linhas de filtro de Previsões de;LIFLTOD;Gestão
+Movimentos Constantes de Tesouraria;OM;Gestão
+Mapas definidos de Movimentos Constantes;OMDEFC;Gestão
+Mapas definidos de Movimentos Constantes;OMDEFL;Gestão
+Mapas desenhados de Movimentos;OMMDC;Gestão
+Mapas desenhados de Movimentos;OMMDL;Gestão
+Mapas desenhados de Movimentos;OMMDTXT;Gestão
+Mapas de Etiquetas de Movimentos;OMLBLMDC;Gestão
+Mapas de Etiquetas de Movimentos;OMLBLMDL;Gestão
+Ficheiro de filtro de Movimentos Constantes de;FLTOM;Gestão
+Ficheiro de linhas de filtro de Movimentos;LIFLTOM;Gestão
+Orçamento de Tesouraria;OP;Gestão
+Mapas definidos de Orçamento de Tesouraria,;OPDEFC;Gestão
+Mapas definidos de Orçamento de Tesouraria,;OPDEFL;Gestão
+Mapas desenhados de Orçamento de;OPMDC;Gestão
+Mapas desenhados de Orçamento de;OPMDL;Gestão
+Mapas desenhados de Orçamento de;OPMDTXT;Gestão
+Mapas de Etiquetas de Orçamento de;OPLBLMDC;Gestão
+Mapas de Etiquetas de Orçamento de;OPLBLMDL;Gestão
+Ficheiro de filtro de Orçamento de Tesouraria;FLTOP;Gestão
+Ficheiro de linhas de filtro de Orçamento de;LIFLTOP;Gestão
+Talões de Depósito;OX;Gestão
+Mapas definidos de Talões de Depósito,;OXDEFC;Gestão
+Mapas definidos de Talões de Depósito,;OXDEFL;Gestão
+Impressões definidas de Talões de Depósito,;OXIDUC;Gestão
+Impressões definidas de Talões de Depósito,;OXIDUL;Gestão
+Impressões definidas de Talões de Depósito,;OXIDUTXT;Gestão
+Mapas desenhados de Talões de Depósito,;OXMDC;Gestão
+Mapas desenhados de Talões de Depósito,;OXMDL;Gestão
+Mapas desenhados de Talões de Depósito,;OXMDTXT;Gestão
+Mapas de Etiquetas de Talões de Depósito,;OXLBLMDC;Gestão
+Mapas de Etiquetas de Talões de Depósito,;OXLBLMDL;Gestão
+Ficheiro de filtro de Talões de Depósito;FLTOX;Gestão
+Ficheiro de linhas de filtro de Talões de;LIFLTOX;Gestão
+Linhas de Talões de Depósitos;OY;Gestão
+Mapas definidos de Linhas de Talões de;OYDEFC;Gestão
+Mapas definidos de Linhas de Talões de;OYDEFL;Gestão
+Mapas desenhados de Linhas de Talões de;OYMDC;Gestão
+Mapas desenhados de Linhas de Talões de;OYMDL;Gestão
+Mapas desenhados de Linhas de Talões de;OYMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Talões de;OYLBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Talões de;OYLBLMDL;Gestão
+Ficheiro de filtro de Linhas de Talões de;FLTOY;Gestão
+Ficheiro de linhas de filtro de Linhas de Talões;LIFLTOY;Gestão
+Trf. Conta-Caixa;OLBC;Gestão
+Mapas definidos de Trf. Conta-Caixa,;OLBCDEFC;Gestão
+Mapas definidos de Trf. Conta-Caixa, Linhas;OLBCDEFL;Gestão
+Mapas desenhados de Trf. Conta-Caixa,;OLBCMDC;Gestão
+Mapas desenhados de Trf. Conta-Caixa,;OLBCMDL;Gestão
+Mapas desenhados de Trf. Conta-Caixa,;OLBCMDTXT;Gestão
+Mapas de Etiquetas de Trf. Conta-Caixa,;OLBCLBLMDC;Gestão
+Mapas de Etiquetas de Trf. Conta-Caixa,;OLBCLBLMDL;Gestão
+Impressão de registo de Trf. Conta-Caixa,;OLBCIMC;Gestão
+Impressão de registo de Trf. Conta-Caixa,;OLBCIML;Gestão
+Impressão de registo de Trf. Conta-Caixa,;OLBCIMTXT;Gestão
+Ficheiro de filtro de Trf. Conta-Caixa;FLTOLBC;Gestão
+Ficheiro de linhas de filtro de Trf. Conta-Caixa;LIFLTOLBC;Gestão
+Cheques de Trf. Conta-Caixa, cabeçalhos;OLBCCHIMC;Gestão
+Cheques de Trf. Conta-Caixa, linhas;OLBCCHIML;Gestão
+Trf. Conta-Conta;OLBB;Gestão
+Mapas definidos de Trf. Conta-Conta,;OLBBDEFC;Gestão
+Mapas definidos de Trf. Conta-Conta, Linhas;OLBBDEFL;Gestão
+Mapas desenhados de Trf. Conta-Conta,;OLBBMDC;Gestão
+Mapas desenhados de Trf. Conta-Conta,;OLBBMDL;Gestão
+Mapas desenhados de Trf. Conta-Conta,;OLBBMDTXT;Gestão
+Mapas de Etiquetas de Trf. Conta-Conta,;OLBBLBLMDC;Gestão
+Mapas de Etiquetas de Trf. Conta-Conta,;OLBBLBLMDL;Gestão
+Impressão de registo de Trf. Conta-Conta,;OLBBIMC;Gestão
+Impressão de registo de Trf. Conta-Conta,;OLBBIML;Gestão
+Impressão de registo de Trf. Conta-Conta,;OLBBIMTXT;Gestão
+Ficheiro de filtro de Trf. Conta-Conta;FLTOLBB;Gestão
+Ficheiro de linhas de filtro de Trf. Conta-Conta;LIFLTOLBB;Gestão
+Cheques de Trf. Conta-Conta, cabeçalhos;OLBBCHIMC;Gestão
+Cheques de Trf. Conta-Conta, linhas;OLBBCHIML;Gestão
+Descontos por Artigo / Cliente;DFCL;Gestão
+Mapas definidos de Descontos por Artigo /;DFCLDEFC;Gestão
+Mapas definidos de Descontos por Artigo /;DFCLDEFL;Gestão
+Ficheiro de filtro de Descontos por Artigo /;FLTDFCL;Gestão
+Ficheiro de linhas de filtro de Descontos por;LIFLTDFCL;Gestão
+Descontos por Familia / Fornecedor;DFFL;Gestão
+Mapas definidos de Descontos por Familia /;DFFLDEFC;Gestão
+Mapas definidos de Descontos por Familia /;DFFLDEFL;Gestão
+Ficheiro de filtro de Descontos por Familia /;FLTDFFL;Gestão
+Ficheiro de linhas de filtro de Descontos por;LIFLTDFFL;Gestão
+Extractos Bancários;BX;Gestão
+Mapas definidos de Extractos Bancários,;BXDEFC;Gestão
+Mapas definidos de Extractos Bancários,;BXDEFL;Gestão
+Mapas desenhados de Extractos Bancários,;BXMDC;Gestão
+Mapas desenhados de Extractos Bancários,;BXMDL;Gestão
+Mapas desenhados de Extractos Bancários,;BXMDTXT;Gestão
+Mapas de Etiquetas de Extractos Bancários,;BXLBLMDC;Gestão
+Mapas de Etiquetas de Extractos Bancários,;BXLBLMDL;Gestão
+Impressão de registo de Extractos Bancários,;BXIMC;Gestão
+Impressão de registo de Extractos Bancários,;BXIML;Gestão
+Impressão de registo de Extractos Bancários,;BXIMTXT;Gestão
+Ficheiro de filtro de Extractos Bancários;FLTBX;Gestão
+Ficheiro de linhas de filtro de Extractos;LIFLTBX;Gestão
+Descontos por Quantidade / Valor;DQ;Gestão
+Mailing de Contas Correntes de clientes,;CCWOMDC;Gestão
+Mailing de Contas Correntes de clientes,;CCWOMDL;Gestão
+Mailing de Contas Correntes de clientes,;CCWOMDTXT;Gestão
+Inventário Fisico;STIC;Gestão
+Ficheiro de filtro de Inventário Fisico;FLTSTIC;Gestão
+Ficheiro de linhas de filtro de Inventário Fisico;LIFLTSTIC;Gestão
+Linhas de Inventário Fisico;STIL;Gestão
+Ficheiro de filtro de Linhas de Inventário Fisico;FLTSTIL;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTSTIL;Gestão
+Cheques de Pagamentos a Fornecedores,;POCHIMC;Gestão
+Cheques de Pagamentos a Fornecedores,;POCHIML;Gestão
+Cheques de Pagamentos a Fornecedores,;POCHIMTXT;Gestão
+Etiquetas de inventários de Stock, Cabeçalhos;STINVLBLIDUC;Gestão
+Etiquetas de inventários de Stock, Linhas;STINVLBLIDUL;Gestão
+Motivos de Isenção de Imposto;MISEIMP;Gestão
+Mapas definidos de Motivos de Isenção de;MISEIMPDEFC;Gestão
+Mapas definidos de Motivos de Isenção de;MISEIMPDEFL;Gestão
+Mapas desenhados de Motivos de Isenção de;MISEIMPMDC;Gestão
+Mapas desenhados de Motivos de Isenção de;MISEIMPMDL;Gestão
+Mapas desenhados de Motivos de Isenção de;MISEIMPMDTXT;Gestão
+Mapas de Etiquetas de Motivos de Isenção de;MISEIMPLBLMDC;Gestão
+Mapas de Etiquetas de Motivos de Isenção de;MISEIMPLBLMDL;Gestão
+Impressão de registo de Motivos de Isenção de;MISEIMPIMC;Gestão
+Impressão de registo de Motivos de Isenção de;MISEIMPIML;Gestão
+Impressão de registo de Motivos de Isenção de;MISEIMPIMTXT;Gestão
+Ficheiro de filtro de Motivos de Isenção de;FLTMISEIMP;Gestão
+Ficheiro de linhas de filtro de Motivos de;LIFLTMISEIMP;Gestão
+Regularizações de Títulos de Dívida a Receber;LE;Gestão
+Mapas definidos de Regularizações de Títulos;LEDEFC;Gestão
+Mapas definidos de Regularizações de Títulos;LEDEFL;Gestão
+Impressões definidas de Regularizações de;LEIDUC;Gestão
+Impressões definidas de Regularizações de;LEIDUL;Gestão
+Impressões definidas de Regularizações de;LEIDUTXT;Gestão
+Mapas desenhados de Regularizações de;LEMDC;Gestão
+Mapas desenhados de Regularizações de;LEMDL;Gestão
+Mapas desenhados de Regularizações de;LEMDTXT;Gestão
+Mapas de Etiquetas de Regularizações de;LELBLMDC;Gestão
+Mapas de Etiquetas de Regularizações de;LELBLMDL;Gestão
+Ficheiro de filtro de Regularizações de Títulos;FLTLE;Gestão
+Ficheiro de linhas de filtro de Regularizações;LIFLTLE;Gestão
+Regularizações de Títulos de Dívida a;LI;Gestão
+Mapas definidos de Regularizações de Títulos;LIDEFC;Gestão
+Mapas definidos de Regularizações de Títulos;LIDEFL;Gestão
+Ficheiro de filtro de Regularizações de Títulos;FLTLI;Gestão
+Ficheiro de linhas de filtro de Regularizações;LIFLTLI;Gestão
+Títulos de Dívida a Receber;LR;Gestão
+Mapas definidos de Títulos de Dívida a;LRDEFC;Gestão
+Mapas definidos de Títulos de Dívida a;LRDEFL;Gestão
+Impressões definidas de Títulos de Dívida a;LRIDUC;Gestão
+Impressões definidas de Títulos de Dívida a;LRIDUL;Gestão
+Impressões definidas de Títulos de Dívida a;LRIDUTXT;Gestão
+Mapas desenhados de Títulos de Dívida a;LRMDC;Gestão
+Mapas desenhados de Títulos de Dívida a;LRMDL;Gestão
+Mapas desenhados de Títulos de Dívida a;LRMDTXT;Gestão
+Mapas de Etiquetas de Títulos de Dívida a;LRLBLMDC;Gestão
+Mapas de Etiquetas de Títulos de Dívida a;LRLBLMDL;Gestão
+Ficheiro de filtro de Títulos de Dívida a;FLTLR;Gestão
+Ficheiro de linhas de filtro de Títulos de Dívida;LIFLTLR;Gestão
+Títulos de Dívida a Receber, linhas;LM;Gestão
+Mapas definidos de Títulos de Dívida a;LMDEFC;Gestão
+Mapas definidos de Títulos de Dívida a;LMDEFL;Gestão
+Ficheiro de filtro de Títulos de Dívida a;FLTLM;Gestão
+Ficheiro de linhas de filtro de Títulos de Dívida;LIFLTLM;Gestão
+Regularizações de Títulos de Dívida a Pagar;LG;Gestão
+Mapas definidos de Regularizações de Títulos;LGDEFC;Gestão
+Mapas definidos de Regularizações de Títulos;LGDEFL;Gestão
+Impressões definidas de Regularizações de;LGIDUC;Gestão
+Impressões definidas de Regularizações de;LGIDUL;Gestão
+Impressões definidas de Regularizações de;LGIDUTXT;Gestão
+Mapas desenhados de Regularizações de;LGMDC;Gestão
+Mapas desenhados de Regularizações de;LGMDL;Gestão
+Mapas desenhados de Regularizações de;LGMDTXT;Gestão
+Mapas de Etiquetas de Regularizações de;LGLBLMDC;Gestão
+Mapas de Etiquetas de Regularizações de;LGLBLMDL;Gestão
+Ficheiro de filtro de Regularizações de Títulos;FLTLG;Gestão
+Ficheiro de linhas de filtro de Regularizações;LIFLTLG;Gestão
+Regularizações de Títulos de Dívida a;LL;Gestão
+Mapas definidos de Regularizações de Títulos;LLDEFC;Gestão
+Mapas definidos de Regularizações de Títulos;LLDEFL;Gestão
+Ficheiro de filtro de Regularizações de Títulos;FLTLL;Gestão
+Ficheiro de linhas de filtro de Regularizações;LIFLTLL;Gestão
+Títulos de Dívida a Pagar;LP;Gestão
+Mapas definidos de Títulos de Dívida a Pagar,;LPDEFC;Gestão
+Mapas definidos de Títulos de Dívida a Pagar,;LPDEFL;Gestão
+Impressões definidas de Títulos de Dívida a;LPIDUC;Gestão
+Impressões definidas de Títulos de Dívida a;LPIDUL;Gestão
+Impressões definidas de Títulos de Dívida a;LPIDUTXT;Gestão
+Mapas desenhados de Títulos de Dívida a;LPMDC;Gestão
+Mapas desenhados de Títulos de Dívida a;LPMDL;Gestão
+Mapas desenhados de Títulos de Dívida a;LPMDTXT;Gestão
+Mapas de Etiquetas de Títulos de Dívida a;LPLBLMDC;Gestão
+Mapas de Etiquetas de Títulos de Dívida a;LPLBLMDL;Gestão
+Ficheiro de filtro de Títulos de Dívida a Pagar;FLTLP;Gestão
+Ficheiro de linhas de filtro de Títulos de Dívida;LIFLTLP;Gestão
+Títulos de Dívida a Pagar,linhas;LO;Gestão
+Mapas definidos de Títulos de Dívida a;LODEFC;Gestão
+Mapas definidos de Títulos de Dívida a;LODEFL;Gestão
+Ficheiro de filtro de Títulos de Dívida a;FLTLO;Gestão
+Ficheiro de linhas de filtro de Títulos de Dívida;LIFLTLO;Gestão
+Imposto de selo de títulos de dívida;SO;Gestão
+Configuração de Títulos de Dívida;STT;Gestão
+Mapas definidos de Configuração de Títulos de;STTDEFC;Gestão
+Mapas definidos de Configuração de Títulos de;STTDEFL;Gestão
+Impressão de registo de Configuração de;STTIMC;Gestão
+Impressão de registo de Configuração de;STTIML;Gestão
+Impressão de registo de Configuração de;STTIMTXT;Gestão
+Ficheiro de filtro de Configuração de Títulos de;FLTSTT;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTSTT;Gestão
+Movimentos de tesouraria;OL;Gestão
+Mapas definidos de Movimentos de tesouraria,;OLDEFC;Gestão
+Mapas definidos de Movimentos de tesouraria,;OLDEFL;Gestão
+Mapas desenhados de Movimentos de;OLMDC;Gestão
+Mapas desenhados de Movimentos de;OLMDL;Gestão
+Mapas desenhados de Movimentos de;OLMDTXT;Gestão
+Mapas de Etiquetas de Movimentos de;OLLBLMDC;Gestão
+Mapas de Etiquetas de Movimentos de;OLLBLMDL;Gestão
+Ficheiro de filtro de Movimentos de tesouraria;FLTOL;Gestão
+Ficheiro de linhas de filtro de Movimentos de;LIFLTOL;Gestão
+Títulos de Movimentos de Tesouraria,;OLCHIMC;Gestão
+Títulos de Movimentos de Tesouraria, Linhas;OLCHIML;Gestão
+Títulos de Movimentos de Tesouraria, Linhas;OLCHIMTXT;Gestão
+Contas de Tesouraria;BL;Gestão
+Mapas definidos de Contas de Tesouraria,;BLDEFC;Gestão
+Mapas definidos de Contas de Tesouraria,;BLDEFL;Gestão
+Mapas desenhados de Contas de Tesouraria,;BLMDC;Gestão
+Mapas desenhados de Contas de Tesouraria,;BLMDL;Gestão
+Mapas desenhados de Contas de Tesouraria,;BLMDTXT;Gestão
+Mapas de Etiquetas de Contas de Tesouraria,;BLLBLMDC;Gestão
+Mapas de Etiquetas de Contas de Tesouraria,;BLLBLMDL;Gestão
+Impressão de registo de Contas de Tesouraria,;BLIMC;Gestão
+Impressão de registo de Contas de Tesouraria,;BLIML;Gestão
+Impressão de registo de Contas de Tesouraria,;BLIMTXT;Gestão
+Ficheiro de filtro de Contas de Tesouraria;FLTBL;Gestão
+Ficheiro de linhas de filtro de Contas de;LIFLTBL;Gestão
+Movimentos em Contas de Tesouraria;BA;Gestão
+Mapas definidos de Movimentos em Contas de;BADEFC;Gestão
+Mapas definidos de Movimentos em Contas de;BADEFL;Gestão
+Mapas desenhados de Movimentos em Contas;BAMDC;Gestão
+Mapas desenhados de Movimentos em Contas;BAMDL;Gestão
+Mapas desenhados de Movimentos em Contas;BAMDTXT;Gestão
+Mapas de Etiquetas de Movimentos em;BALBLMDC;Gestão
+Mapas de Etiquetas de Movimentos em;BALBLMDL;Gestão
+Ficheiro de filtro de Movimentos em Contas de;FLTBA;Gestão
+Ficheiro de linhas de filtro de Movimentos em;LIFLTBA;Gestão
+Fechos de caixa;FE;Gestão
+C/Correntes Clientes e Entidades;CC;Gestão
+Mapas definidos de C/Correntes Clientes e;CCDEFC;Gestão
+Mapas definidos de C/Correntes Clientes e;CCDEFL;Gestão
+Mapas desenhados de C/Correntes Clientes e;CCMDC;Gestão
+Mapas desenhados de C/Correntes Clientes e;CCMDL;Gestão
+Mapas desenhados de C/Correntes Clientes e;CCMDTXT;Gestão
+Mapas de Etiquetas de C/Correntes Clientes e;CCLBLMDC;Gestão
+Mapas de Etiquetas de C/Correntes Clientes e;CCLBLMDL;Gestão
+Ficheiro de filtro de C/Correntes Clientes e;FLTCC;Gestão
+Ficheiro de linhas de filtro de C/Correntes;LIFLTCC;Gestão
+Recibos para Clientes;RE;Gestão
+Mapas definidos de Recibos para Clientes,;REDEFC;Gestão
+Mapas definidos de Recibos para Clientes,;REDEFL;Gestão
+Impressões definidas de Recibos para;REIDUC;Gestão
+Impressões definidas de Recibos para;REIDUL;Gestão
+Impressões definidas de Recibos para;REIDUTXT;Gestão
+Mapas desenhados de Recibos para Clientes,;REMDC;Gestão
+Mapas desenhados de Recibos para Clientes,;REMDL;Gestão
+Mapas desenhados de Recibos para Clientes,;REMDTXT;Gestão
+Mapas de Etiquetas de Recibos para Clientes,;RELBLMDC;Gestão
+Mapas de Etiquetas de Recibos para Clientes,;RELBLMDL;Gestão
+Ficheiro de filtro de Recibos para Clientes;FLTRE;Gestão
+Ficheiro de linhas de filtro de Recibos para;LIFLTRE;Gestão
+Configuração de Recibos de c/c para Clientes;TSRE;Gestão
+Mapas definidos de Configuração de Recibos;TSREDEFC;Gestão
+Mapas definidos de Configuração de Recibos;TSREDEFL;Gestão
+Impressão de registo de Configuração de;TSREIMC;Gestão
+Impressão de registo de Configuração de;TSREIML;Gestão
+Impressão de registo de Configuração de;TSREIMTXT;Gestão
+Ficheiro de filtro de Configuração de Recibos;FLTTSRE;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTTSRE;Gestão
+Linhas de Recibos para Clientes;RL;Gestão
+Mapas definidos de Linhas de Recibos para;RLDEFC;Gestão
+Mapas definidos de Linhas de Recibos para;RLDEFL;Gestão
+Mapas desenhados de Linhas de Recibos para;RLMDC;Gestão
+Mapas desenhados de Linhas de Recibos para;RLMDL;Gestão
+Mapas desenhados de Linhas de Recibos para;RLMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Recibos;RLLBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Recibos;RLLBLMDL;Gestão
+Ficheiro de filtro de Linhas de Recibos para;FLTRL;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTRL;Gestão
+Títulos de Recibos para Clientes;RECH;Gestão
+Garantias Bancárias (Tesouraria);BG;Gestão
+Mapas definidos de Garantias Bancárias;BGDEFC;Gestão
+Mapas definidos de Garantias Bancárias;BGDEFL;Gestão
+Mapas desenhados de Garantias Bancárias;BGMDC;Gestão
+Mapas desenhados de Garantias Bancárias;BGMDL;Gestão
+Mapas desenhados de Garantias Bancárias;BGMDTXT;Gestão
+Mapas de Etiquetas de Garantias Bancárias;BGLBLMDC;Gestão
+Mapas de Etiquetas de Garantias Bancárias;BGLBLMDL;Gestão
+Impressão de registo de Garantias Bancárias;BGIMC;Gestão
+Impressão de registo de Garantias Bancárias;BGIML;Gestão
+Impressão de registo de Garantias Bancárias;BGIMTXT;Gestão
+Movimentos Bancários Importados;BR;Gestão
+Mapas definidos de Movimentos Bancários;BRDEFC;Gestão
+Mapas definidos de Movimentos Bancários;BRDEFL;Gestão
+Mapas desenhados de Movimentos Bancários;BRMDC;Gestão
+Mapas desenhados de Movimentos Bancários;BRMDL;Gestão
+Mapas desenhados de Movimentos Bancários;BRMDTXT;Gestão
+Mapas de Etiquetas de Movimentos Bancários;BRLBLMDC;Gestão
+Mapas de Etiquetas de Movimentos Bancários;BRLBLMDL;Gestão
+Ficheiro de filtro de Movimentos Bancários;FLTBR;Gestão
+Ficheiro de linhas de filtro de Movimentos;LIFLTBR;Gestão
+Códigos de movimentos de stocks;CM2;Gestão
+Mapas definidos de Códigos de movimentos;CM2DEFC;Gestão
+Mapas definidos de Códigos de movimentos;CM2DEFL;Gestão
+Ficheiro de filtro de Códigos de movimentos de;FLTCM2;Gestão
+Ficheiro de linhas de filtro de Códigos de;LIFLTCM2;Gestão
+Códigos de movimentos de c/c;CM1;Gestão
+Tipos de Despesa;TDESP;Gestão
+Regularizações de Documentos de Facturação;FTREG;Gestão
+Tabela de títulos de Tesouraria;CH;Gestão
+Mapas definidos de Tabela de títulos de;CHDEFC;Gestão
+Mapas definidos de Tabela de títulos de;CHDEFL;Gestão
+Mapas desenhados de Tabela de títulos de;CHMDC;Gestão
+Mapas desenhados de Tabela de títulos de;CHMDL;Gestão
+Mapas desenhados de Tabela de títulos de;CHMDTXT;Gestão
+Mapas de Etiquetas de Tabela de títulos de;CHLBLMDC;Gestão
+Mapas de Etiquetas de Tabela de títulos de;CHLBLMDL;Gestão
+Ficheiro de filtro de Tabela de títulos de;FLTCH;Gestão
+Ficheiro de linhas de filtro de Tabela de títulos;LIFLTCH;Gestão
+Condições de Pagamento;TP;Gestão
+Mapas definidos de Condições de Pagamento,;TPDEFC;Gestão
+Mapas definidos de Condições de Pagamento,;TPDEFL;Gestão
+Mapas desenhados de Condições de;TPMDC;Gestão
+Mapas desenhados de Condições de;TPMDL;Gestão
+Mapas desenhados de Condições de;TPMDTXT;Gestão
+Mapas de Etiquetas de Condições de;TPLBLMDC;Gestão
+Mapas de Etiquetas de Condições de;TPLBLMDL;Gestão
+Impressão de registo de Condições de;TPIMC;Gestão
+Impressão de registo de Condições de;TPIML;Gestão
+Impressão de registo de Condições de;TPIMTXT;Gestão
+Ficheiro de filtro de Condições de Pagamento;FLTTP;Gestão
+Ficheiro de linhas de filtro de Condições de;LIFLTTP;Gestão
+Condições de Pagamento para;TPL;Gestão
+Documentos de Facturação;FT;Gestão
+Mapas definidos de Documentos de;FTDEFC;Gestão
+Mapas definidos de Documentos de;FTDEFL;Gestão
+Impressões definidas de Documentos de;FTIDUC;Gestão
+Impressões definidas de Documentos de;FTIDUL;Gestão
+Impressões definidas de Documentos de;FTIDUTXT;Gestão
+Mapas desenhados de Documentos de;FTMDC;Gestão
+Mapas desenhados de Documentos de;FTMDL;Gestão
+Mapas desenhados de Documentos de;FTMDTXT;Gestão
+Mapas de Etiquetas de Documentos de;FTLBLMDC;Gestão
+Mapas de Etiquetas de Documentos de;FTLBLMDL;Gestão
+Ficheiro de filtro de Documentos de;FLTFT;Gestão
+Ficheiro de linhas de filtro de Documentos de;LIFLTFT;Gestão
+Documentos de Facturação - Outros Dados;FT2;Gestão
+Totais dos documentos de facturação;FTT;Gestão
+Linhas de Documentos de Facturação;FI;Gestão
+Mapas definidos de Linhas de Documentos de;FIDEFC;Gestão
+Mapas definidos de Linhas de Documentos de;FIDEFL;Gestão
+Mapas desenhados de Linhas de Documentos;FIMDC;Gestão
+Mapas desenhados de Linhas de Documentos;FIMDL;Gestão
+Mapas desenhados de Linhas de Documentos;FIMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Documentos;FILBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Documentos;FILBLMDL;Gestão
+Ficheiro de filtro de Linhas de Documentos de;FLTFI;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTFI;Gestão
+Outras ligações das linhas de documentos de;OUTROSFI;Gestão
+Mapas definidos de Outras ligações das linhas;OUTROSFIDEFC;Gestão
+Mapas definidos de Outras ligações das linhas;OUTROSFIDEFL;Gestão
+Mapas desenhados de Outras ligações das;OUTROSFIMDC;Gestão
+Mapas desenhados de Outras ligações das;OUTROSFIMDL;Gestão
+Mapas desenhados de Outras ligações das;OUTROSFIMDTXT;Gestão
+Mapas de Etiquetas de Outras ligações das;OUTROSFILBLMD;Gestão
+Mapas de Etiquetas de Outras ligações das;OUTROSFILBLMDL;Gestão
+Ficheiro de filtro de Outras ligações das linhas;FLTOUTROSFI;Gestão
+Ficheiro de linhas de filtro de Outras ligações;LIFLTOUTROSFI;Gestão
+Regularização de Documentos de Facturação;FTRD;Gestão
+Configuração de Documentos de Facturação;TD;Gestão
+Mapas definidos de Configuração de;TDDEFC;Gestão
+Mapas definidos de Configuração de;TDDEFL;Gestão
+Impressão de registo de Configuração de;TDIMC;Gestão
+Impressão de registo de Configuração de;TDIML;Gestão
+Impressão de registo de Configuração de;TDIMTXT;Gestão
+Ficheiro de filtro de Configuração de;FLTTD;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTTD;Gestão
+C/Correntes Vendedores;VY;Gestão
+Mapas definidos de C/Correntes Vendedores,;VYDEFC;Gestão
+Mapas definidos de C/Correntes Vendedores,;VYDEFL;Gestão
+Mapas desenhados de C/Correntes;VYMDC;Gestão
+Mapas desenhados de C/Correntes;VYMDL;Gestão
+Mapas desenhados de C/Correntes;VYMDTXT;Gestão
+Mapas de Etiquetas de C/Correntes;VYLBLMDC;Gestão
+Mapas de Etiquetas de C/Correntes;VYLBLMDL;Gestão
+Ficheiro de filtro de C/Correntes Vendedores;FLTVY;Gestão
+Ficheiro de linhas de filtro de C/Correntes;LIFLTVY;Gestão
+Pagamentos a Vendedores;VZ;Gestão
+Mapas definidos de Pagamentos a;VZDEFC;Gestão
+Mapas definidos de Pagamentos a;VZDEFL;Gestão
+Impressões definidas de Pagamentos a;VZIDUC;Gestão
+Impressões definidas de Pagamentos a;VZIDUL;Gestão
+Impressões definidas de Pagamentos a;VZIDUTXT;Gestão
+Mapas desenhados de Pagamentos a;VZMDC;Gestão
+Mapas desenhados de Pagamentos a;VZMDL;Gestão
+Mapas desenhados de Pagamentos a;VZMDTXT;Gestão
+Mapas de Etiquetas de Pagamentos a;VZLBLMDC;Gestão
+Mapas de Etiquetas de Pagamentos a;VZLBLMDL;Gestão
+Ficheiro de filtro de Pagamentos a Vendedores;FLTVZ;Gestão
+Ficheiro de linhas de filtro de Pagamentos a;LIFLTVZ;Gestão
+Documentos de C/Correntes Vendedores;VYDOC;Gestão
+Mapas definidos de Documentos de;VYDOCDEFC;Gestão
+Mapas definidos de Documentos de;VYDOCDEFL;Gestão
+Mapas desenhados de Documentos de;VYDOCMDC;Gestão
+Mapas desenhados de Documentos de;VYDOCMDL;Gestão
+Mapas desenhados de Documentos de;VYDOCMDTXT;Gestão
+Mapas de Etiquetas de Documentos de;VYDOCLBLMDC;Gestão
+Mapas de Etiquetas de Documentos de;VYDOCLBLMDL;Gestão
+Ficheiro de filtro de Documentos de;FLTVYDOC;Gestão
+Ficheiro de linhas de filtro de Documentos de;LIFLTVYDOC;Gestão
+Linhas de Pagamentos a Vendedores;VL;Gestão
+Mapas definidos de Linhas de Pagamentos a;VLDEFC;Gestão
+Mapas definidos de Linhas de Pagamentos a;VLDEFL;Gestão
+Mapas desenhados de Linhas de Pagamentos;VLMDC;Gestão
+Mapas desenhados de Linhas de Pagamentos;VLMDL;Gestão
+Mapas desenhados de Linhas de Pagamentos;VLMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Pagamentos;VLLBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Pagamentos;VLLBLMDL;Gestão
+Ficheiro de filtro de Linhas de Pagamentos a;FLTVL;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTVL;Gestão
+Grupos de Sincronização Externos;GSEC;Gestão
+Ficheiro de filtro de Grupos de Sincronização;FLTGSEC;Gestão
+Ficheiro de linhas de filtro de Grupos de;LIFLTGSEC;Gestão
+Grupos de Sincronização Externos (Linhas);GSEL;Gestão
+Grupos de Sincronização Externos (Linhas 2);GSELN;Gestão
+Dossiers Internos;BO;Gestão
+Mapas definidos de Dossiers Internos,;BODEFC;Gestão
+Mapas definidos de Dossiers Internos, Linhas;BODEFL;Gestão
+Impressões definidas de Dossiers Internos,;BOIDUC;Gestão
+Impressões definidas de Dossiers Internos,;BOIDUL;Gestão
+Impressões definidas de Dossiers Internos,;BOIDUTXT;Gestão
+Mapas desenhados de Dossiers Internos,;BOMDC;Gestão
+Mapas desenhados de Dossiers Internos,;BOMDL;Gestão
+Mapas desenhados de Dossiers Internos,;BOMDTXT;Gestão
+Mapas de Etiquetas de Dossiers Internos,;BOLBLMDC;Gestão
+Mapas de Etiquetas de Dossiers Internos,;BOLBLMDL;Gestão
+Ficheiro de filtro de Dossiers Internos;FLTBO;Gestão
+Ficheiro de linhas de filtro de Dossiers Internos;LIFLTBO;Gestão
+Dossiers Internos - Outros Dados;BO2;Gestão
+Totais dos dossiers internos;BOT;Gestão
+Etiquetas de Dossiers Internos, Cabeçalhos;BOLBLIDUC;Gestão
+Etiquetas de Dossiers Internos, Linhas;BOLBLIDUL;Gestão
+Linhas de Dossiers Internos;BI;Gestão
+Mapas definidos de Linhas de Dossiers;BIDEFC;Gestão
+Mapas definidos de Linhas de Dossiers;BIDEFL;Gestão
+Mapas desenhados de Linhas de Dossiers;BIMDC;Gestão
+Mapas desenhados de Linhas de Dossiers;BIMDL;Gestão
+Mapas desenhados de Linhas de Dossiers;BIMDTXT;Gestão
+Mapas de Etiquetas de Linhas de Dossiers;BILBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Dossiers;BILBLMDL;Gestão
+Ficheiro de filtro de Linhas de Dossiers;FLTBI;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTBI;Gestão
+Linhas de Dossiers Internos - Outros Dados;BI2;Gestão
+Mapas definidos de Linhas de Dossiers;BI2DEFC;Gestão
+Mapas definidos de Linhas de Dossiers;BI2DEFL;Gestão
+Mapas desenhados de Linhas de Dossiers;BI2MDC;Gestão
+Mapas desenhados de Linhas de Dossiers;BI2MDL;Gestão
+Mapas desenhados de Linhas de Dossiers;BI2MDTXT;Gestão
+Mapas de Etiquetas de Linhas de Dossiers;BI2LBLMDC;Gestão
+Mapas de Etiquetas de Linhas de Dossiers;BI2LBLMDL;Gestão
+Ficheiro de filtro de Linhas de Dossiers;FLTBI2;Gestão
+Ficheiro de linhas de filtro de Linhas de;LIFLTBI2;Gestão
+Linhas de Pré-Cativos de Dossiers Internos;BIPRECAT;Gestão
+Configuração de Dossiers Internos;TS;Gestão
+Mapas definidos de Configuração de Dossiers;TSDEFC;Gestão
+Mapas definidos de Configuração de Dossiers;TSDEFL;Gestão
+Impressão de registo de Configuração de;TSIMC;Gestão
+Impressão de registo de Configuração de;TSIML;Gestão
+Impressão de registo de Configuração de;TSIMTXT;Gestão
+Ficheiro de filtro de Configuração de Dossiers;FLTTS;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTTS;Gestão
+Configuração de Dossiers Internos - Outros;TS2;Gestão
+Mapas definidos de Configuração de Dossiers;TS2DEFC;Gestão
+Mapas definidos de Configuração de Dossiers;TS2DEFL;Gestão
+Impressão de registo de Configuração de;TS2IMC;Gestão
+Impressão de registo de Configuração de;TS2IML;Gestão
+Impressão de registo de Configuração de;TS2IMTXT;Gestão
+Ficheiro de filtro de Configuração de Dossiers;FLTTS2;Gestão
+Ficheiro de linhas de filtro de Configuração de;LIFLTTS2;Gestão
+Stocks e Serviços;ST;Gestão
+Mapas definidos de Stocks e Serviços,;STDEFC;Gestão
+Mapas definidos de Stocks e Serviços, Linhas;STDEFL;Gestão
+Mapas desenhados de Stocks e Serviços,;STMDC;Gestão
+Mapas desenhados de Stocks e Serviços,;STMDL;Gestão
+Mapas desenhados de Stocks e Serviços,;STMDTXT;Gestão
+Mapas de Etiquetas de Stocks e Serviços,;STLBLMDC;Gestão
+Mapas de Etiquetas de Stocks e Serviços,;STLBLMDL;Gestão
+Impressão de registo de Stocks e Serviços,;STIMC;Gestão
+Impressão de registo de Stocks e Serviços,;STIML;Gestão
+Impressão de registo de Stocks e Serviços,;STIMTXT;Gestão
+Ficheiro de filtro de Stocks e Serviços;FLTST;Gestão
+Ficheiro de linhas de filtro de Stocks e;LIFLTST;Gestão
+Tabelas de preços;TBPR;Gestão
+Linhas das Tabelas de preços;TBPRI;Gestão
+Etiquetas de Stocks e Serviços, Cabeçalhos;STLBLIDUC;Gestão
+Etiquetas de Stocks e Serviços, Linhas;STLBLIDUL;Gestão
+Códigos de Barras;BC;Gestão
+Mapas definidos de Códigos de Barras,;BCDEFC;Gestão
+Mapas definidos de Códigos de Barras, Linhas;BCDEFL;Gestão
+Mapas desenhados de Códigos de Barras,;BCMDC;Gestão
+Mapas desenhados de Códigos de Barras,;BCMDL;Gestão
+Mapas desenhados de Códigos de Barras,;BCMDTXT;Gestão
+Mapas de Etiquetas de Códigos de Barras,;BCLBLMDC;Gestão
+Mapas de Etiquetas de Códigos de Barras,;BCLBLMDL;Gestão
+Ficheiro de filtro de Códigos de Barras;FLTBC;Gestão
+Ficheiro de linhas de filtro de Códigos de;LIFLTBC;Gestão
+Observações de Stocks e Serviços;STOBS;Gestão
+Stock por Armazém;SA;Gestão
+Mapas definidos de Stock por Armazém,;SADEFC;Gestão
+Mapas definidos de Stock por Armazém,;SADEFL;Gestão
+Stock por Armazém Global;SAX;Gestão
+Mapas definidos de Stock por Armazém;SAXDEFC;Gestão
+Mapas definidos de Stock por Armazém;SAXDEFL;Gestão
+Stock por Armazém, Cor e Tamanho Global;SXX;Gestão
+Mapas definidos de Stock por Armazém, Cor e;SXXDEFC;Gestão
+Mapas definidos de Stock por Armazém, Cor e;SXXDEFL;Gestão
+Stock por Lote/Armazém;SAL;Gestão
+Mapas definidos de Stock por Lote/Armazém,;SALDEFC;Gestão
+Mapas definidos de Stock por Lote/Armazém,;SALDEFL;Gestão
+Famílias de Artigos;STFAMI;Gestão
+Mapas definidos de Famílias de Artigos,;STFAMIDEFC;Gestão
+Mapas definidos de Famílias de Artigos,;STFAMIDEFL;Gestão
+Mapas desenhados de Famílias de Artigos,;STFAMIMDC;Gestão
+Mapas desenhados de Famílias de Artigos,;STFAMIMDL;Gestão
+Mapas desenhados de Famílias de Artigos,;STFAMIMDTXT;Gestão
+Mapas de Etiquetas de Famílias de Artigos,;STFAMILBLMDC;Gestão
+Mapas de Etiquetas de Famílias de Artigos,;STFAMILBLMDL;Gestão
+Ficheiro de filtro de Famílias de Artigos;FLTSTFAMI;Gestão
+Ficheiro de linhas de filtro de Famílias de;LIFLTSTFAMI;Gestão
+Artigos Alternativos;RT;Gestão
+Mapas definidos de Artigos Alternativos,;RTDEFC;Gestão
+Mapas definidos de Artigos Alternativos,;RTDEFL;Gestão
+Mapas desenhados de Artigos Alternativos,;RTMDC;Gestão
+Mapas desenhados de Artigos Alternativos,;RTMDL;Gestão
+Mapas desenhados de Artigos Alternativos,;RTMDTXT;Gestão
+Mapas de Etiquetas de Artigos Alternativos,;RTLBLMDC;Gestão
+Mapas de Etiquetas de Artigos Alternativos,;RTLBLMDL;Gestão
+Ficheiro de filtro de Artigos Alternativos;FLTRT;Gestão
+Ficheiro de linhas de filtro de Artigos;LIFLTRT;Gestão
+Artigos Compostos;SC;Gestão
+Mapas definidos de Artigos Compostos,;SCDEFC;Gestão
+Mapas definidos de Artigos Compostos, Linhas;SCDEFL;Gestão
+Movimentos de Stock;SL;Gestão
+Mapas definidos de Movimentos de Stock,;SLDEFC;Gestão
+Mapas definidos de Movimentos de Stock,;SLDEFL;Gestão
+Mapas desenhados de Movimentos de Stock,;SLMDC;Gestão
+Mapas desenhados de Movimentos de Stock,;SLMDL;Gestão
+Mapas desenhados de Movimentos de Stock,;SLMDTXT;Gestão
+Mapas de Etiquetas de Movimentos de Stock,;SLLBLMDC;Gestão
+Mapas de Etiquetas de Movimentos de Stock,;SLLBLMDL;Gestão
+Ficheiro de filtro de Movimentos de Stock;FLTSL;Gestão
+Ficheiro de linhas de filtro de Movimentos de;LIFLTSL;Gestão
+Movimentos de Valor em Stock;SV;Gestão
+Mapas definidos de Movimentos de Valor em;SVDEFC;Gestão
+Mapas definidos de Movimentos de Valor em;SVDEFL;Gestão
+Mapas desenhados de Movimentos de Valor;SVMDC;Gestão
+Mapas desenhados de Movimentos de Valor;SVMDL;Gestão
+Mapas desenhados de Movimentos de Valor;SVMDTXT;Gestão
+Mapas de Etiquetas de Movimentos de Valor;SVLBLMDC;Gestão
+Mapas de Etiquetas de Movimentos de Valor;SVLBLMDL;Gestão
+Ficheiro de filtro de Movimentos de Valor em;FLTSV;Gestão
+Ficheiro de linhas de filtro de Movimentos de;LIFLTSV;Gestão
+Nomes de Armazéns;SZ;Gestão
+Mapas definidos de Nomes de Armazéns,;SZDEFC;Gestão
+Mapas definidos de Nomes de Armazéns,;SZDEFL;Gestão
+Ficheiro de filtro de Nomes de Armazéns;FLTSZ;Gestão
+Ficheiro de linhas de filtro de Nomes de;LIFLTSZ;Gestão
+Grelhas dos artigos - cores;SGC;Gestão
+Grelhas dos artigos - tamanhos;SGT;Gestão
+Grelhas tipo - cores;SFCOR;Gestão
+Grelhas tipo - tamanhos;SFTAM;Gestão
+Informação por cor e tamanho;SX;Gestão
+Mapas definidos de Informação por cor e;SXDEFC;Gestão
+Mapas definidos de Informação por cor e;SXDEFL;Gestão
+Ficheiro de filtro de Informação por cor e;FLTSX;Gestão
+Ficheiro de linhas de filtro de Informação por;LIFLTSX;Gestão
+Tabela de Grelhas Tipo de Tamanhos;SFTNOME;Gestão
+Tabela de Grelhas Tipo de Cores;SFCNOME;Gestão
+Taxas de conversão para o Euro;CB;Gestão
+Mapas definidos de Taxas de conversão para;CBDEFC;Gestão
+Mapas definidos de Taxas de conversão para;CBDEFL;Gestão
+Mapas desenhados de Taxas de conversão;CBMDC;Gestão
+Mapas desenhados de Taxas de conversão;CBMDL;Gestão
+Mapas desenhados de Taxas de conversão;CBMDTXT;Gestão
+Mapas de Etiquetas de Taxas de conversão;CBLBLMDC;Gestão
+Mapas de Etiquetas de Taxas de conversão;CBLBLMDL;Gestão
+Ficheiro de filtro de Taxas de conversão para o;FLTCB;Gestão
+Ficheiro de linhas de filtro de Taxas de;LIFLTCB;Gestão
+Códigos de Retorno PS2;CODRET;Gestão
+Mapas definidos de Códigos de Retorno PS2,;CODRETDEFC;Gestão
+Mapas definidos de Códigos de Retorno PS2,;CODRETDEFL;Gestão
+Mapas desenhados de Códigos de Retorno;CODRETMDC;Gestão
+Mapas desenhados de Códigos de Retorno;CODRETMDL;Gestão
+Mapas desenhados de Códigos de Retorno;CODRETMDTXT;Gestão
+Mapas de Etiquetas de Códigos de Retorno;CODRETLBLMDC;Gestão
+Mapas de Etiquetas de Códigos de Retorno;CODRETLBLMDL;Gestão
+Ficheiro de filtro de Códigos de Retorno PS2;FLTCODRET;Gestão
+Ficheiro de linhas de filtro de Códigos de;LIFLTCODRET;Gestão
+Histórico de Códigos de Retorno;HCODRET;Gestão
+Intervalos de Saldos de Cliente;CLINT;Gestão
+Ficheiro de filtro de Intervalos de Saldos de;FLTCLINT;Gestão
+Ficheiro de linhas de filtro de Intervalos de;LIFLTCLINT;Gestão
+Intervalos de Saldos de Fornecedor;FLINT;Gestão
+Ficheiro de filtro de Intervalos de Saldos de;FLTFLINT;Gestão
+Ficheiro de linhas de filtro de Intervalos de;LIFLTFLINT;Gestão
+Regimes de IVA;REGIVA;Gestão
+Mapas definidos de Regimes de IVA,;REGIVADEFC;Gestão
+Mapas definidos de Regimes de IVA, Linhas;REGIVADEFL;Gestão
+Mapas desenhados de Regimes de IVA,;REGIVAMDC;Gestão
+Mapas desenhados de Regimes de IVA,;REGIVAMDL;Gestão
+Mapas desenhados de Regimes de IVA,;REGIVAMDTXT;Gestão
+Mapas de Etiquetas de Regimes de IVA,;REGIVALBLMDC;Gestão
+Mapas de Etiquetas de Regimes de IVA,;REGIVALBLMDL;Gestão
+Impressão de registo de Regimes de IVA,;REGIVAIMC;Gestão
+Impressão de registo de Regimes de IVA,;REGIVAIML;Gestão
+Impressão de registo de Regimes de IVA,;REGIVAIMTXT;Gestão
+Ficheiro de filtro de Regimes de IVA;FLTREGIVA;Gestão
+Ficheiro de linhas de filtro de Regimes de IVA;LIFLTREGIVA;Gestão
+Activos;BE;Imobilizado
+Mapas definidos de Activos, Cabeçalhos;BEDEFC;Imobilizado
+Mapas definidos de Activos, Linhas;BEDEFL;Imobilizado
+Mapas desenhados de Activos, Cabeçalhos;BEMDC;Imobilizado
+Mapas desenhados de Activos, Linhas;BEMDL;Imobilizado
+Mapas desenhados de Activos, Linhas (Modo;BEMDTXT;Imobilizado
+Mapas de Etiquetas de Activos, Cabeçalhos;BELBLMDC;Imobilizado
+Mapas de Etiquetas de Activos, Linhas;BELBLMDL;Imobilizado
+Impressão de registo de Activos, Cabeçalhos;BEIMC;Imobilizado
+Impressão de registo de Activos, Linhas;BEIML;Imobilizado
+Impressão de registo de Activos, Linhas (Modo;BEIMTXT;Imobilizado
+Ficheiro de filtro de Activos;FLTBE;Imobilizado
+Ficheiro de linhas de filtro de Activos;LIFLTBE;Imobilizado
+Etiquetas da Tabela de Bens, Cabeçalhos;BELBLIDUC;Imobilizado
+Etiquetas da Tabela de Bens, Linhas;BELBLIDUL;Imobilizado
+Códigos de Amortização;TZ;Imobilizado
+Mapas definidos de Códigos de Amortização,;TZDEFC;Imobilizado
+Mapas definidos de Códigos de Amortização,;TZDEFL;Imobilizado
+Mapas desenhados de Códigos de;TZMDC;Imobilizado
+Mapas desenhados de Códigos de;TZMDL;Imobilizado
+Mapas desenhados de Códigos de;TZMDTXT;Imobilizado
+Mapas de Etiquetas de Códigos de;TZLBLMDC;Imobilizado
+Mapas de Etiquetas de Códigos de;TZLBLMDL;Imobilizado
+Ficheiro de filtro de Códigos de Amortização;FLTTZ;Imobilizado
+Ficheiro de linhas de filtro de Códigos de;LIFLTTZ;Imobilizado
+Decretos Lei de Reavaliações;TL;Imobilizado
+Mapas definidos de Decretos Lei de;TLDEFC;Imobilizado
+Mapas definidos de Decretos Lei de;TLDEFL;Imobilizado
+Mapas desenhados de Decretos Lei de;TLMDC;Imobilizado
+Mapas desenhados de Decretos Lei de;TLMDL;Imobilizado
+Mapas desenhados de Decretos Lei de;TLMDTXT;Imobilizado
+Mapas de Etiquetas de Decretos Lei de;TLLBLMDC;Imobilizado
+Mapas de Etiquetas de Decretos Lei de;TLLBLMDL;Imobilizado
+Ficheiro de filtro de Decretos Lei de;FLTTL;Imobilizado
+Ficheiro de linhas de filtro de Decretos Lei de;LIFLTTL;Imobilizado
+Ajustes Fiscais;JT;Imobilizado
+Mapas definidos de Ajustes Fiscais,;JTDEFC;Imobilizado
+Mapas definidos de Ajustes Fiscais, Linhas;JTDEFL;Imobilizado
+Mapas desenhados de Ajustes Fiscais,;JTMDC;Imobilizado
+Mapas desenhados de Ajustes Fiscais, Linhas;JTMDL;Imobilizado
+Mapas desenhados de Ajustes Fiscais, Linhas;JTMDTXT;Imobilizado
+Mapas de Etiquetas de Ajustes Fiscais,;JTLBLMDC;Imobilizado
+Mapas de Etiquetas de Ajustes Fiscais, Linhas;JTLBLMDL;Imobilizado
+Ficheiro de filtro de Ajustes Fiscais;FLTJT;Imobilizado
+Ficheiro de linhas de filtro de Ajustes Fiscais;LIFLTJT;Imobilizado
+Coeficientes Anuais;CF;Imobilizado
+Mapas definidos de Coeficientes Anuais,;CFDEFC;Imobilizado
+Mapas definidos de Coeficientes Anuais,;CFDEFL;Imobilizado
+Mapas desenhados de Coeficientes Anuais,;CFMDC;Imobilizado
+Mapas desenhados de Coeficientes Anuais,;CFMDL;Imobilizado
+Mapas desenhados de Coeficientes Anuais,;CFMDTXT;Imobilizado
+Mapas de Etiquetas de Coeficientes Anuais,;CFLBLMDC;Imobilizado
+Mapas de Etiquetas de Coeficientes Anuais,;CFLBLMDL;Imobilizado
+Ficheiro de filtro de Coeficientes Anuais;FLTCF;Imobilizado
+Ficheiro de linhas de filtro de Coeficientes;LIFLTCF;Imobilizado
+Plano Financeiro;LS;Imobilizado
+Mapas definidos de Plano Financeiro,;LSDEFC;Imobilizado
+Mapas definidos de Plano Financeiro, Linhas;LSDEFL;Imobilizado
+Mapas desenhados de Plano Financeiro,;LSMDC;Imobilizado
+Mapas desenhados de Plano Financeiro,;LSMDL;Imobilizado
+Mapas desenhados de Plano Financeiro,;LSMDTXT;Imobilizado
+Mapas de Etiquetas de Plano Financeiro,;LSLBLMDC;Imobilizado
+Mapas de Etiquetas de Plano Financeiro,;LSLBLMDL;Imobilizado
+Ficheiro de filtro de Plano Financeiro;FLTLS;Imobilizado
+Ficheiro de linhas de filtro de Plano Financeiro;LIFLTLS;Imobilizado
+Plano Analítico;BEANA;Imobilizado
+Mapas definidos de Plano Analítico,;BEANADEFC;Imobilizado
+Mapas definidos de Plano Analítico, Linhas;BEANADEFL;Imobilizado
+Mapas desenhados de Plano Analítico,;BEANAMDC;Imobilizado
+Mapas desenhados de Plano Analítico, Linhas;BEANAMDL;Imobilizado
+Mapas desenhados de Plano Analítico, Linhas;BEANAMDTXT;Imobilizado
+Mapas de Etiquetas de Plano Analítico,;BEANALBLMDC;Imobilizado
+Mapas de Etiquetas de Plano Analítico, Linhas;BEANALBLMDL;Imobilizado
+Ficheiro de filtro de Plano Analítico;FLTBEANA;Imobilizado
+Ficheiro de linhas de filtro de Plano Analítico;LIFLTBEANA;Imobilizado
+Ficheiro de Depreciações;BT;Imobilizado
+Mapas definidos de Ficheiro de Depreciações,;BTDEFC;Imobilizado
+Mapas definidos de Ficheiro de Depreciações,;BTDEFL;Imobilizado
+Ficheiro de filtro de Ficheiro de Depreciações;FLTBT;Imobilizado
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTBT;Imobilizado
+Ficheiro de Reavaliações;BV;Imobilizado
+Mapas definidos de Ficheiro de Reavaliações,;BVDEFC;Imobilizado
+Mapas definidos de Ficheiro de Reavaliações,;BVDEFL;Imobilizado
+Ficheiro de filtro de Ficheiro de Reavaliações;FLTBV;Imobilizado
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTBV;Imobilizado
+Correcções Monetárias;CM;Imobilizado
+Mapas de Depreciações de Bens;BEFRX;Imobilizado
+Mapas de Reavaliações de Bens;BVFRX;Imobilizado
+Mapas de Activos;MAPAS;Imobilizado
+Inventário Fisico de Activos;BEIC;Imobilizado
+Ficheiro de filtro de Inventário Fisico de Activos;FLTBEIC;Imobilizado
+Ficheiro de linhas de filtro de Inventário Fisico;LIFLTBEIC;Imobilizado
+Linhas de Inventário Fisico de Activos;BEIL;Imobilizado
+Ficheiro de filtro de Linhas de Inventário Fisico;FLTBEIL;Imobilizado
+Ficheiro de linhas de filtro de Linhas de;LIFLTBEIL;Imobilizado
+Imparidade;IMP;Imobilizado
+Mapas definidos de Imparidade, Cabeçalhos;IMPDEFC;Imobilizado
+Mapas definidos de Imparidade, Linhas;IMPDEFL;Imobilizado
+Mapas desenhados de Imparidade,;IMPMDC;Imobilizado
+Mapas desenhados de Imparidade, Linhas;IMPMDL;Imobilizado
+Mapas desenhados de Imparidade, Linhas;IMPMDTXT;Imobilizado
+Mapas de Etiquetas de Imparidade,;IMPLBLMDC;Imobilizado
+Mapas de Etiquetas de Imparidade, Linhas;IMPLBLMDL;Imobilizado
+Impressão de registo de Imparidade,;IMPIMC;Imobilizado
+Impressão de registo de Imparidade, Linhas;IMPIML;Imobilizado
+Impressão de registo de Imparidade, Linhas;IMPIMTXT;Imobilizado
+Ficheiro de filtro de Imparidade;FLTIMP;Imobilizado
+Ficheiro de linhas de filtro de Imparidade;LIFLTIMP;Imobilizado
+Revalorizações;REV;Imobilizado
+Mapas definidos de Revalorizações,;REVDEFC;Imobilizado
+Mapas definidos de Revalorizações, Linhas;REVDEFL;Imobilizado
+Mapas desenhados de Revalorizações,;REVMDC;Imobilizado
+Mapas desenhados de Revalorizações, Linhas;REVMDL;Imobilizado
+Mapas desenhados de Revalorizações, Linhas;REVMDTXT;Imobilizado
+Mapas de Etiquetas de Revalorizações,;REVLBLMDC;Imobilizado
+Mapas de Etiquetas de Revalorizações, Linhas;REVLBLMDL;Imobilizado
+Impressão de registo de Revalorizações,;REVIMC;Imobilizado
+Impressão de registo de Revalorizações,;REVIML;Imobilizado
+Impressão de registo de Revalorizações,;REVIMTXT;Imobilizado
+Ficheiro de filtro de Revalorizações;FLTREV;Imobilizado
+Ficheiro de linhas de filtro de Revalorizações;LIFLTREV;Imobilizado
+Tarefas Agendadas;AGT;InterOp
+Mapas definidos de Tarefas Agendadas,;AGTDEFC;InterOp
+Mapas definidos de Tarefas Agendadas,;AGTDEFL;InterOp
+Mapas desenhados de Tarefas Agendadas,;AGTMDC;InterOp
+Mapas desenhados de Tarefas Agendadas,;AGTMDL;InterOp
+Mapas desenhados de Tarefas Agendadas,;AGTMDTXT;InterOp
+Mapas de Etiquetas de Tarefas Agendadas,;AGTLBLMDC;InterOp
+Mapas de Etiquetas de Tarefas Agendadas,;AGTLBLMDL;InterOp
+Impressão de registo de Tarefas Agendadas,;AGTIMC;InterOp
+Impressão de registo de Tarefas Agendadas,;AGTIML;InterOp
+Impressão de registo de Tarefas Agendadas,;AGTIMTXT;InterOp
+Ficheiro de filtro de Tarefas Agendadas;FLTAGT;InterOp
+Ficheiro de linhas de filtro de Tarefas;LIFLTAGT;InterOp
+Mapas/Processamentos das Sociedades em;AGEC;InterOp
+Processos Interop;RPEC;InterOp
+Mapas definidos de Processos Interop,;RPECDEFC;InterOp
+Mapas definidos de Processos Interop, Linhas;RPECDEFL;InterOp
+Mapas desenhados de Processos Interop,;RPECMDC;InterOp
+Mapas desenhados de Processos Interop,;RPECMDL;InterOp
+Mapas desenhados de Processos Interop,;RPECMDTXT;InterOp
+Mapas de Etiquetas de Processos Interop,;RPECLBLMDC;InterOp
+Mapas de Etiquetas de Processos Interop,;RPECLBLMDL;InterOp
+Impressão de registo de Processos Interop,;RPECIMC;InterOp
+Impressão de registo de Processos Interop,;RPECIML;InterOp
+Impressão de registo de Processos Interop,;RPECIMTXT;InterOp
+Ficheiro de filtro de Processos Interop;FLTRPEC;InterOp
+Ficheiro de linhas de filtro de Processos;LIFLTRPEC;InterOp
+Artigos de Custo;STC;InterOp
+Mapas definidos de Artigos de Custo,;STCDEFC;InterOp
+Mapas definidos de Artigos de Custo, Linhas;STCDEFL;InterOp
+Mapas desenhados de Artigos de Custo,;STCMDC;InterOp
+Mapas desenhados de Artigos de Custo,;STCMDL;InterOp
+Mapas desenhados de Artigos de Custo,;STCMDTXT;InterOp
+Mapas de Etiquetas de Artigos de Custo,;STCLBLMDC;InterOp
+Mapas de Etiquetas de Artigos de Custo,;STCLBLMDL;InterOp
+Impressão de registo de Artigos de Custo,;STCIMC;InterOp
+Impressão de registo de Artigos de Custo,;STCIML;InterOp
+Impressão de registo de Artigos de Custo,;STCIMTXT;InterOp
+Ficheiro de filtro de Artigos de Custo;FLTSTC;InterOp
+Ficheiro de linhas de filtro de Artigos de Custo;LIFLTSTC;InterOp
+Artigos de Custo das Tarefas Agendadas;AGSTC;InterOp
+Documentos de Facturação suspensos;FPOSC;POS
+Impressões definidas de Documentos de;FPOSCIDUC;POS
+Impressões definidas de Documentos de;FPOSCIDUL;POS
+Impressões definidas de Documentos de;FPOSCIDUTXT;POS
+Totais dos documentos de facturação;FPOST;POS
+Linhas Documentos de Facturação suspensos;FPOSL;POS
+Regularização de documentos suspensos;FPOSRD;POS
+Ecovalores em documentos suspensos;FPOSECO;POS
+Nºs Série em documentos suspensos;FPOSMA;POS
+Configuração dos Terminais de Vendas;POS;POS
+Mapas definidos de Configuração dos;POSDEFC;POS
+Mapas definidos de Configuração dos;POSDEFL;POS
+Mapas desenhados de Configuração dos;POSMDC;POS
+Mapas desenhados de Configuração dos;POSMDL;POS
+Mapas desenhados de Configuração dos;POSMDTXT;POS
+Mapas de Etiquetas de Configuração dos;POSLBLMDC;POS
+Mapas de Etiquetas de Configuração dos;POSLBLMDL;POS
+Impressão de registo de Configuração dos;POSIMC;POS
+Impressão de registo de Configuração dos;POSIML;POS
+Impressão de registo de Configuração dos;POSIMTXT;POS
+Ficheiro de filtro de Configuração dos;FLTPOS;POS
+Ficheiro de linhas de filtro de Configuração dos;LIFLTPOS;POS
+Artigos visíveis no Terminais de Vendas;STPOS;POS
+Mapas definidos de Artigos visíveis no;STPOSDEFC;POS
+Mapas definidos de Artigos visíveis no;STPOSDEFL;POS
+Mapas desenhados de Artigos visíveis no;STPOSMDC;POS
+Mapas desenhados de Artigos visíveis no;STPOSMDL;POS
+Mapas desenhados de Artigos visíveis no;STPOSMDTXT;POS
+Mapas de Etiquetas de Artigos visíveis no;STPOSLBLMDC;POS
+Mapas de Etiquetas de Artigos visíveis no;STPOSLBLMDL;POS
+Impressão de registo de Artigos visíveis no;STPOSIMC;POS
+Impressão de registo de Artigos visíveis no;STPOSIML;POS
+Impressão de registo de Artigos visíveis no;STPOSIMTXT;POS
+Ficheiro de filtro de Artigos visíveis no;FLTSTPOS;POS
+Ficheiro de linhas de filtro de Artigos visíveis;LIFLTSTPOS;POS
+Configuração dos Terminais de Vendas -;POSSS;POS
+Configuração dos Terminais de Vendas -;POSCX;POS
+Configuração dos Terminais de Vendas -;POSRCX;POS
+Configuração dos Terminais de Vendas -;POSTD;POS
+Configuração dos Terminais de Vendas -;POSTS;POS
+Históricos de Caixa;CX;POS
+Mapas definidos de Históricos de Caixa,;CXDEFC;POS
+Mapas definidos de Históricos de Caixa,;CXDEFL;POS
+Mapas desenhados de Históricos de Caixa,;CXMDC;POS
+Mapas desenhados de Históricos de Caixa,;CXMDL;POS
+Mapas desenhados de Históricos de Caixa,;CXMDTXT;POS
+Mapas de Etiquetas de Históricos de Caixa,;CXLBLMDC;POS
+Mapas de Etiquetas de Históricos de Caixa,;CXLBLMDL;POS
+Impressão de registo de Históricos de Caixa,;CXIMC;POS
+Impressão de registo de Históricos de Caixa,;CXIML;POS
+Impressão de registo de Históricos de Caixa,;CXIMTXT;POS
+Ficheiro de filtro de Históricos de Caixa;FLTCX;POS
+Ficheiro de linhas de filtro de Históricos de;LIFLTCX;POS
+Sessões de Caixa;SS;POS
+Mapas definidos de Sessões de Caixa,;SSDEFC;POS
+Mapas definidos de Sessões de Caixa, Linhas;SSDEFL;POS
+Mapas desenhados de Sessões de Caixa,;SSMDC;POS
+Mapas desenhados de Sessões de Caixa,;SSMDL;POS
+Mapas desenhados de Sessões de Caixa,;SSMDTXT;POS
+Mapas de Etiquetas de Sessões de Caixa,;SSLBLMDC;POS
+Mapas de Etiquetas de Sessões de Caixa,;SSLBLMDL;POS
+Impressão de registo de Sessões de Caixa,;SSIMC;POS
+Impressão de registo de Sessões de Caixa,;SSIML;POS
+Impressão de registo de Sessões de Caixa,;SSIMTXT;POS
+Ficheiro de filtro de Sessões de Caixa;FLTSS;POS
+Ficheiro de linhas de filtro de Sessões de;LIFLTSS;POS
+Abertura e Fecho de Caixa;FCX;POS
+Mapas definidos de Abertura e Fecho de;FCXDEFC;POS
+Mapas definidos de Abertura e Fecho de;FCXDEFL;POS
+Mapas desenhados de Abertura e Fecho de;FCXMDC;POS
+Mapas desenhados de Abertura e Fecho de;FCXMDL;POS
+Mapas desenhados de Abertura e Fecho de;FCXMDTXT;POS
+Mapas de Etiquetas de Abertura e Fecho de;FCXLBLMDC;POS
+Mapas de Etiquetas de Abertura e Fecho de;FCXLBLMDL;POS
+Impressão de registo de Abertura e Fecho de;FCXIMC;POS
+Impressão de registo de Abertura e Fecho de;FCXIML;POS
+Impressão de registo de Abertura e Fecho de;FCXIMTXT;POS
+Ficheiro de filtro de Abertura e Fecho de Caixa;FLTFCX;POS
+Ficheiro de linhas de filtro de Abertura e Fecho;LIFLTFCX;POS
+Transferências entre Caixas;MV;POS
+Mapas definidos de Transferências entre;MVDEFC;POS
+Mapas definidos de Transferências entre;MVDEFL;POS
+Mapas desenhados de Transferências entre;MVMDC;POS
+Mapas desenhados de Transferências entre;MVMDL;POS
+Mapas desenhados de Transferências entre;MVMDTXT;POS
+Mapas de Etiquetas de Transferências entre;MVLBLMDC;POS
+Mapas de Etiquetas de Transferências entre;MVLBLMDL;POS
+Impressão de registo de Transferências entre;MVIMC;POS
+Impressão de registo de Transferências entre;MVIML;POS
+Impressão de registo de Transferências entre;MVIMTXT;POS
+Ficheiro de filtro de Transferências entre;FLTMV;POS
+Ficheiro de linhas de filtro de Transferências;LIFLTMV;POS
+Análise de terminais de vendas - Relatório de;LOPR1IDUC;POS
+Análise de terminais de vendas - Relatório de;LOPR1IDUL;POS
+Análise de terminais de vendas - Relatório de;LOPR1IDUTXT;POS
+Análise de terminais de vendas - Relatório de;LOPR2IDUC;POS
+Análise de terminais de vendas - Relatório de;LOPR2IDUL;POS
+Análise de terminais de vendas - Relatório de;LOPR2IDUTXT;POS
+Análise de terminais de vendas - Relatório de;LOPR3IDUC;POS
+Análise de terminais de vendas - Relatório de;LOPR3IDUL;POS
+Análise de terminais de vendas - Relatório de;LOPR3IDUTXT;POS
+Análise de terminais de vendas - Relatório de;LOPR4IDUC;POS
+Análise de terminais de vendas - Relatório de;LOPR4IDUL;POS
+Análise de terminais de vendas - Relatório de;LOPR4IDUTXT;POS
+Análise de terminais de vendas - Relatório de;LOPR5IDUC;POS
+Análise de terminais de vendas - Relatório de;LOPR5IDUL;POS
+Análise de terminais de vendas - Relatório de;LOPR5IDUTXT;POS
+Análise de terminais de vendas - Listagem X1,;LOPR6IDUC;POS
+Análise de terminais de vendas - Listagem X1,;LOPR6IDUL;POS
+Análise de terminais de vendas - Listagem X1,;LOPR6IDUTXT;POS
+Análise de terminais de vendas - Listagem X2,;LOPR7IDUC;POS
+Análise de terminais de vendas - Listagem X2,;LOPR7IDUL;POS
+Análise de terminais de vendas - Listagem X2,;LOPR7IDUTXT;POS
+Análise de terminais de vendas - Listagem Z,;LOPR8IDUC;POS
+Análise de terminais de vendas - Listagem Z,;LOPR8IDUL;POS
+Análise de terminais de vendas - Listagem Z,;LOPR8IDUTXT;POS
+Análise de terminais de vendas - Folha de;LOPR9IDUC;POS
+Análise de terminais de vendas - Folha de;LOPR9IDUL;POS
+Análise de terminais de vendas - Folha de;LOPR9IDUTXT;POS
+Análise de terminais de vendas - Diário de;LOPR10IDUC;POS
+Análise de terminais de vendas - Diário de;LOPR10IDUL;POS
+Análise de terminais de vendas - Diário de;LOPR10IDUTXT;POS
+Análise de terminais de vendas -;LOPR11IDUC;POS
+Análise de terminais de vendas -;LOPR11IDUL;POS
+Análise de terminais de vendas - Diário de;LOPR11IDUTXT;POS
+Opções das zonas do Touch;BTNZN;POS
+Mapas definidos de Opções das zonas do;BTNZNDEFC;POS
+Mapas definidos de Opções das zonas do;BTNZNDEFL;POS
+Mapas desenhados de Opções das zonas do;BTNZNMDC;POS
+Mapas desenhados de Opções das zonas do;BTNZNMDL;POS
+Mapas desenhados de Opções das zonas do;BTNZNMDTXT;POS
+Mapas de Etiquetas de Opções das zonas do;BTNZNLBLMDC;POS
+Mapas de Etiquetas de Opções das zonas do;BTNZNLBLMDL;POS
+Impressão de registo de Opções das zonas do;BTNZNIMC;POS
+Impressão de registo de Opções das zonas do;BTNZNIML;POS
+Impressão de registo de Opções das zonas do;BTNZNIMTXT;POS
+Ficheiro de filtro de Opções das zonas do;FLTBTNZN;POS
+Ficheiro de linhas de filtro de Opções das;LIFLTBTNZN;POS
+Opções das zonas do Touch (Linhas);BTNZNL;POS
+Acessos a campos de grelhas do POS;POSA;POS
+Acessos a campos da grelha dos dossiers;POSD;POS
+Documentos de Facturação Suspensos -;FPOSFT2;POS
+Sectores do Terminal;POSRSECTOR;POS
+Centros de Preparação do Terminal;POSCPIDU;POS
+Fecho do terminal de pagamento automático -;TPAFECHOIDUC;POS
+Fecho do terminal de pagamento automático -;TPAFECHOIDUL;POS
+Fecho do terminal de pagamento automático -;TPAFECHOIDUTXT;POS
+Tabela de Lojas;LV;POS
+Mapas definidos de Tabela de Lojas,;LVDEFC;POS
+Mapas definidos de Tabela de Lojas, Linhas;LVDEFL;POS
+Mapas desenhados de Tabela de Lojas,;LVMDC;POS
+Mapas desenhados de Tabela de Lojas,;LVMDL;POS
+Mapas desenhados de Tabela de Lojas,;LVMDTXT;POS
+Mapas de Etiquetas de Tabela de Lojas,;LVLBLMDC;POS
+Mapas de Etiquetas de Tabela de Lojas,;LVLBLMDL;POS
+Impressão de registo de Tabela de Lojas,;LVIMC;POS
+Impressão de registo de Tabela de Lojas,;LVIML;POS
+Impressão de registo de Tabela de Lojas,;LVIMTXT;POS
+Ficheiro de filtro de Tabela de Lojas;FLTLV;POS
+Ficheiro de linhas de filtro de Tabela de Lojas;LIFLTLV;POS
+Centros de Preparação da Loja;LVCPIDU;POS
+Funcionários;PE;Pessoal
+Mapas definidos de Funcionários, Cabeçalhos;PEDEFC;Pessoal
+Mapas definidos de Funcionários, Linhas;PEDEFL;Pessoal
+Mapas desenhados de Funcionários,;PEMDC;Pessoal
+Mapas desenhados de Funcionários, Linhas;PEMDL;Pessoal
+Mapas desenhados de Funcionários, Linhas;PEMDTXT;Pessoal
+Mapas de Etiquetas de Funcionários,;PELBLMDC;Pessoal
+Mapas de Etiquetas de Funcionários, Linhas;PELBLMDL;Pessoal
+Impressão de registo de Funcionários,;PEIMC;Pessoal
+Impressão de registo de Funcionários, Linhas;PEIML;Pessoal
+Impressão de registo de Funcionários, Linhas;PEIMTXT;Pessoal
+Ficheiro de filtro de Funcionários;FLTPE;Pessoal
+Ficheiro de linhas de filtro de Funcionários;LIFLTPE;Pessoal
+Funcionários - Outros Dados;PE2;Pessoal
+Recibos de Vencimento;PR;Pessoal
+Mapas definidos de Recibos de Vencimento,;PRDEFC;Pessoal
+Mapas definidos de Recibos de Vencimento,;PRDEFL;Pessoal
+Impressões definidas de Recibos de;PRIDUC;Pessoal
+Impressões definidas de Recibos de;PRIDUL;Pessoal
+Impressões definidas de Recibos de;PRIDUTXT;Pessoal
+Mapas desenhados de Recibos de;PRMDC;Pessoal
+Mapas desenhados de Recibos de;PRMDL;Pessoal
+Mapas desenhados de Recibos de;PRMDTXT;Pessoal
+Mapas de Etiquetas de Recibos de;PRLBLMDC;Pessoal
+Mapas de Etiquetas de Recibos de;PRLBLMDL;Pessoal
+Impressão de registo de Recibos de;PRIMC;Pessoal
+Impressão de registo de Recibos de;PRIML;Pessoal
+Impressão de registo de Recibos de;PRIMTXT;Pessoal
+Ficheiro de filtro de Recibos de Vencimento;FLTPR;Pessoal
+Ficheiro de linhas de filtro de Recibos de;LIFLTPR;Pessoal
+Recibos de Vencimento - descontos;PRDE;Pessoal
+Mapas definidos de Recibos de Vencimento -;PRDEDEFC;Pessoal
+Mapas definidos de Recibos de Vencimento -;PRDEDEFL;Pessoal
+Ficheiro de filtro de Recibos de Vencimento -;FLTPRDE;Pessoal
+Ficheiro de linhas de filtro de Recibos de;LIFLTPRDE;Pessoal
+Recibos de Vencimento - remunerações;PRRE;Pessoal
+Mapas definidos de Recibos de Vencimento -;PRREDEFC;Pessoal
+Mapas definidos de Recibos de Vencimento -;PRREDEFL;Pessoal
+Ficheiro de filtro de Recibos de Vencimento -;FLTPRRE;Pessoal
+Ficheiro de linhas de filtro de Recibos de;LIFLTPRRE;Pessoal
+Recibos de Vencimento - faltas;PRF;Pessoal
+Recibos de Vencimento - horas extra;PRH;Pessoal
+Tabela de Status de Funcionários;FS;Pessoal
+Mapas definidos de Tabela de Status de;FSDEFC;Pessoal
+Mapas definidos de Tabela de Status de;FSDEFL;Pessoal
+Impressão de registo de Tabela de Status de;FSIMC;Pessoal
+Impressão de registo de Tabela de Status de;FSIML;Pessoal
+Impressão de registo de Tabela de Status de;FSIMTXT;Pessoal
+Tabela de Classificação Nacional de;PW;Pessoal
+Mapas definidos de Tabela de Classificação;PWDEFC;Pessoal
+Mapas definidos de Tabela de Classificação;PWDEFL;Pessoal
+Impressão de registo de Tabela de;PWIMC;Pessoal
+Impressão de registo de Tabela de;PWIML;Pessoal
+Impressão de registo de Tabela de;PWIMTXT;Pessoal
+Tabela de Habilitações Escolares;HB;Pessoal
+Mapas definidos de Tabela de Habilitações;HBDEFC;Pessoal
+Mapas definidos de Tabela de Habilitações;HBDEFL;Pessoal
+Impressão de registo de Tabela de;HBIMC;Pessoal
+Impressão de registo de Tabela de;HBIML;Pessoal
+Impressão de registo de Tabela de;HBIMTXT;Pessoal
+Outros Profissionais;VS;Pessoal
+Mapas definidos de Outros Profissionais,;VSDEFC;Pessoal
+Mapas definidos de Outros Profissionais,;VSDEFL;Pessoal
+Mapas desenhados de Outros Profissionais,;VSMDC;Pessoal
+Mapas desenhados de Outros Profissionais,;VSMDL;Pessoal
+Mapas desenhados de Outros Profissionais,;VSMDTXT;Pessoal
+Mapas de Etiquetas de Outros Profissionais,;VSLBLMDC;Pessoal
+Mapas de Etiquetas de Outros Profissionais,;VSLBLMDL;Pessoal
+Impressão de registo de Outros Profissionais,;VSIMC;Pessoal
+Impressão de registo de Outros Profissionais,;VSIML;Pessoal
+Impressão de registo de Outros Profissionais,;VSIMTXT;Pessoal
+Ficheiro de filtro de Outros Profissionais;FLTVS;Pessoal
+Ficheiro de linhas de filtro de Outros;LIFLTVS;Pessoal
+Ficheiro de Recibos de Outros Rendimentos;VR;Pessoal
+Mapas definidos de Ficheiro de Recibos de;VRDEFC;Pessoal
+Mapas definidos de Ficheiro de Recibos de;VRDEFL;Pessoal
+Mapas desenhados de Ficheiro de Recibos de;VRMDC;Pessoal
+Mapas desenhados de Ficheiro de Recibos de;VRMDL;Pessoal
+Mapas desenhados de Ficheiro de Recibos de;VRMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Recibos de;VRLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Recibos de;VRLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Recibos;VRIMC;Pessoal
+Impressão de registo de Ficheiro de Recibos;VRIML;Pessoal
+Impressão de registo de Ficheiro de Recibos;VRIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Recibos de;FLTVR;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTVR;Pessoal
+Ficheiro de Tabelas de I.R.S., Cabeçalhos;TIRS;Pessoal
+Impressões definidas de Ficheiro de Tabelas;TIRSIDUC;Pessoal
+Impressões definidas de Ficheiro de Tabelas;TIRSIDUL;Pessoal
+Impressões definidas de Ficheiro de Tabelas;TIRSIDUTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Tabelas de;FLTTIRS;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTTIRS;Pessoal
+Ficheiro de Tabelas de I.R.S., Linhas;IRS;Pessoal
+Ficheiro de Códigos da Segurança Social;CM7;Pessoal
+Ficheiro de Recibos Diversos;FR;Pessoal
+Mapas definidos de Ficheiro de Recibos;FRDEFC;Pessoal
+Mapas definidos de Ficheiro de Recibos;FRDEFL;Pessoal
+Mapas desenhados de Ficheiro de Recibos;FRMDC;Pessoal
+Mapas desenhados de Ficheiro de Recibos;FRMDL;Pessoal
+Mapas desenhados de Ficheiro de Recibos;FRMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Recibos;FRLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Recibos;FRLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Recibos;FRIMC;Pessoal
+Impressão de registo de Ficheiro de Recibos;FRIML;Pessoal
+Impressão de registo de Ficheiro de Recibos;FRIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Recibos;FLTFR;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTFR;Pessoal
+Ficheiro de Moedas;TM;Pessoal
+Ficheiro de Categorias Profissionais;CG;Pessoal
+Mapas definidos de Ficheiro de Categorias;CGDEFC;Pessoal
+Mapas definidos de Ficheiro de Categorias;CGDEFL;Pessoal
+Ficheiro de filtro de Ficheiro de Categorias;FLTCG;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTCG;Pessoal
+Ficheiro de Situações Profissionais;SI;Pessoal
+Mapas definidos de Ficheiro de Situações;SIDEFC;Pessoal
+Mapas definidos de Ficheiro de Situações;SIDEFL;Pessoal
+Ficheiro de filtro de Ficheiro de Situações;FLTSI;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTSI;Pessoal
+Ficheiro de Instrumentos de Regulamentação;IR;Pessoal
+Mapas definidos de Ficheiro de Instrumentos;IRDEFC;Pessoal
+Mapas definidos de Ficheiro de Instrumentos;IRDEFL;Pessoal
+Ficheiro de filtro de Ficheiro de Instrumentos;FLTIR;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTIR;Pessoal
+Ficheiro de Cadastro de Funcionários;FD;Pessoal
+Mapas definidos de Ficheiro de Cadastro de;FDDEFC;Pessoal
+Mapas definidos de Ficheiro de Cadastro de;FDDEFL;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;FDMDC;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;FDMDL;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;FDMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Cadastro;FDLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Cadastro;FDLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Cadastro;FDIMC;Pessoal
+Impressão de registo de Ficheiro de Cadastro;FDIML;Pessoal
+Impressão de registo de Ficheiro de Cadastro;FDIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Cadastro de;FLTFD;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTFD;Pessoal
+Ficheiro de Horas de Funcionários;HS;Pessoal
+Mapas definidos de Ficheiro de Horas de;HSDEFC;Pessoal
+Mapas definidos de Ficheiro de Horas de;HSDEFL;Pessoal
+Mapas desenhados de Ficheiro de Horas de;HSMDC;Pessoal
+Mapas desenhados de Ficheiro de Horas de;HSMDL;Pessoal
+Mapas desenhados de Ficheiro de Horas de;HSMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Horas de;HSLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Horas de;HSLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Horas de;HSIMC;Pessoal
+Impressão de registo de Ficheiro de Horas de;HSIML;Pessoal
+Impressão de registo de Ficheiro de Horas de;HSIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Horas de;FLTHS;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de Horas;LIFLTHS;Pessoal
+Ficheiro de Cadastro do Balanço Social;HP;Pessoal
+Mapas definidos de Ficheiro de Cadastro do;HPDEFC;Pessoal
+Mapas definidos de Ficheiro de Cadastro do;HPDEFL;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;HPMDC;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;HPMDL;Pessoal
+Mapas desenhados de Ficheiro de Cadastro;HPMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Cadastro;HPLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Cadastro;HPLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Cadastro;HPIMC;Pessoal
+Impressão de registo de Ficheiro de Cadastro;HPIML;Pessoal
+Impressão de registo de Ficheiro de Cadastro;HPIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Cadastro do;FLTHP;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTHP;Pessoal
+Ficheiro de Tipos de Horas Extraordinárias;HSHE;Pessoal
+Ficheiro de Férias de Funcionários;FP;Pessoal
+Transferências Bancárias, Cabeçalhos;PRWOMDC;Pessoal
+Transferências Bancárias, Linhas;PRWOMDL;Pessoal
+Transferências Bancárias, Linhas (Modo;PRWOMDTXT;Pessoal
+Guia de Pagamento IRS / IRC, Cabeçalhos;IRSPIMC;Pessoal
+Guia de Pagamento IRS / IRC, Linhas;IRSPIML;Pessoal
+Guia de Pagamento IRS / IRC, Linhas (Modo;IRSPIMTXT;Pessoal
+Guia de Pagamento Segurança Social,;PRSEGSOCIMC;Pessoal
+Guia de Pagamento Segurança Social, Linhas;PRSEGSOCIML;Pessoal
+Guia de Pagamento Segurança Social, Linhas;PRSEGSOCIMTXT;Pessoal
+Mapas de Férias dos Funcionários,;FPPMDC;Pessoal
+Mapas de Férias dos Funcionários, Linhas;FPPMDL;Pessoal
+Mapas de Férias dos Funcionários, Linhas;FPPMDTXT;Pessoal
+Ficheiro de Transferências Bancárias;TB;Pessoal
+Mapas definidos de Ficheiro de Transferências;TBDEFC;Pessoal
+Mapas definidos de Ficheiro de Transferências;TBDEFL;Pessoal
+Mapas desenhados de Ficheiro de;TBMDC;Pessoal
+Mapas desenhados de Ficheiro de;TBMDL;Pessoal
+Mapas desenhados de Ficheiro de;TBMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de;TBLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de;TBLBLMDL;Pessoal
+Impressão de registo de Ficheiro de;TBIMC;Pessoal
+Impressão de registo de Ficheiro de;TBIML;Pessoal
+Impressão de registo de Ficheiro de;TBIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Transferências;FLTTB;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTTB;Pessoal
+Ficheiro de Pagamentos de Contribuições;GPC;Pessoal
+Mapas definidos de Ficheiro de Pagamentos;GPCDEFC;Pessoal
+Mapas definidos de Ficheiro de Pagamentos;GPCDEFL;Pessoal
+Mapas desenhados de Ficheiro de;GPCMDC;Pessoal
+Mapas desenhados de Ficheiro de;GPCMDL;Pessoal
+Mapas desenhados de Ficheiro de;GPCMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de;GPCLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de;GPCLBLMDL;Pessoal
+Impressão de registo de Ficheiro de;GPCIMC;Pessoal
+Impressão de registo de Ficheiro de;GPCIML;Pessoal
+Impressão de registo de Ficheiro de;GPCIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Pagamentos;FLTGPC;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTGPC;Pessoal
+Mapas de Segurança Social, Cabeçalhos;PRSEGIDUC;Pessoal
+Mapas de Segurança Social, Linhas;PRSEGIDUL;Pessoal
+Mapas de Segurança Social, Linhas (Modo;PRSEGIDUTXT;Pessoal
+Mapa de IRS Modelo 10, Cabeçalhos;PRW2MDC;Pessoal
+Nova Folha de Remunerações, Cabeçalhos;PRSSIDUC;Pessoal
+Nova Folha de Remunerações, Linhas;PRSSIDUL;Pessoal
+Quadro de Pessoal para o Mapa de Seguros,;PRSEGURMDC;Pessoal
+Quadro de Pessoal para o Mapa de Seguros,;PRSEGURMDL;Pessoal
+Nova Folha de Remunerações, Linhas (Modo;PRSSIDUTXT;Pessoal
+Mapa de IRS Modelo 10, Linhas;PRW2MDL;Pessoal
+Mapa de IRS Modelo 10, Linhas (Modo Texto);PRW2MDTXT;Pessoal
+Títulos de Recibos Diversos, Cabeçalhos;FRCHIMC;Pessoal
+Títulos de Recibos Diversos, Linhas;FRCHIML;Pessoal
+Títulos de Recibos Diversos, Linhas (Modo;FRCHIMTXT;Pessoal
+Títulos de Recibos de Ordenados, Cabeçalhos;PRCHIMC;Pessoal
+Títulos de Recibos de Ordenados, Linhas;PRCHIML;Pessoal
+Títulos de Recibos de Ordenados, Linhas;PRCHIMTXT;Pessoal
+Títulos de Recibos de Outros Rendimentos,;VRCHIMC;Pessoal
+Títulos de Recibos de Outros Rendimentos,;VRCHIML;Pessoal
+Títulos de Recibos de Outros Rendimentos,;VRCHIMTXT;Pessoal
+Declaração de IRS, Cabeçalhos;NIRSMDC;Pessoal
+Declaração de IRS, Linhas;NIRSMDL;Pessoal
+Declaração de IRS, Linhas (Modo Texto);NIRSTXT;Pessoal
+Cadastro Completo do Funcionário,;PECMDC;Pessoal
+Cadastro Completo do Funcionário, Linhas;PECMDL;Pessoal
+Cadastro Completo do Funcionário, Linhas;PECMDTXT;Pessoal
+Folha de rosto do mapa para o Ministério do;PEMTRMDC;Pessoal
+Folha de rosto do mapa para o Ministério do;PEMTRMDL;Pessoal
+Folha de rosto do mapa para o Ministério do;PEMTRMDTXT;Pessoal
+Folhas Intercalares do Mapa para o Ministério;PEMTMDC;Pessoal
+Folhas Intercalares do Mapa para o Ministério;PEMTMDL;Pessoal
+Folhas Intercalares do Mapa para o Ministério;PEMTMDTXT;Pessoal
+Nova guia de pagamento para a Segurança;PRGPIMC;Pessoal
+Nova guia de pagamento para a Segurança;PRGPIML;Pessoal
+Nova guia de pagamento para a Segurança;PRGPIMTXT;Pessoal
+Paises de Funcionários;PEPS;Pessoal
+Mapas definidos de Paises de Funcionários,;PEPSDEFC;Pessoal
+Mapas definidos de Paises de Funcionários,;PEPSDEFL;Pessoal
+Ficheiro de filtro de Paises de Funcionários;FLTPEPS;Pessoal
+Ficheiro de linhas de filtro de Paises de;LIFLTPEPS;Pessoal
+Regime de duração do trabalho;PERD;Pessoal
+Mapas definidos de Regime de duração do;PERDDEFC;Pessoal
+Mapas definidos de Regime de duração do;PERDDEFL;Pessoal
+Ficheiro de filtro de Regime de duração do;FLTPERD;Pessoal
+Ficheiro de linhas de filtro de Regime de;LIFLTPERD;Pessoal
+Distribuição de Horas de Funcionários por;PECC;Pessoal
+Mapas definidos de Distribuição de Horas de;PECCDEFC;Pessoal
+Mapas definidos de Distribuição de Horas de;PECCDEFL;Pessoal
+Ficheiro de filtro de Distribuição de Horas de;FLTPECC;Pessoal
+Ficheiro de linhas de filtro de Distribuição de;LIFLTPECC;Pessoal
+Distribuição por Centro de Custo nos Recibos;PRCC;Pessoal
+Ficheiro de Tipos de Faltas;TY;Pessoal
+Mapas definidos de Ficheiro de Tipos de;TYDEFC;Pessoal
+Mapas definidos de Ficheiro de Tipos de;TYDEFL;Pessoal
+Ficheiro de filtro de Ficheiro de Tipos de Faltas;FLTTY;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de Tipos;LIFLTTY;Pessoal
+Ficheiro de Tipos de Despesas;TDS;Pessoal
+Mapas definidos de Ficheiro de Tipos de;TDSDEFC;Pessoal
+Mapas definidos de Ficheiro de Tipos de;TDSDEFL;Pessoal
+Mapas desenhados de Ficheiro de Tipos de;TDSMDC;Pessoal
+Mapas desenhados de Ficheiro de Tipos de;TDSMDL;Pessoal
+Mapas desenhados de Ficheiro de Tipos de;TDSMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Tipos de;TDSLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Tipos de;TDSLBLMDL;Pessoal
+Ficheiro de filtro de Ficheiro de Tipos de;FLTTDS;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de Tipos;LIFLTTDS;Pessoal
+Ficheiro de Despesas, Cabeçalhos;DS;Pessoal
+Mapas definidos de Ficheiro de Despesas,;DSDEFC;Pessoal
+Mapas definidos de Ficheiro de Despesas,;DSDEFL;Pessoal
+Mapas desenhados de Ficheiro de Despesas,;DSMDC;Pessoal
+Mapas desenhados de Ficheiro de Despesas,;DSMDL;Pessoal
+Mapas desenhados de Ficheiro de Despesas,;DSMDTXT;Pessoal
+Mapas de Etiquetas de Ficheiro de Despesas,;DSLBLMDC;Pessoal
+Mapas de Etiquetas de Ficheiro de Despesas,;DSLBLMDL;Pessoal
+Impressão de registo de Ficheiro de Despesas,;DSIMC;Pessoal
+Impressão de registo de Ficheiro de Despesas,;DSIML;Pessoal
+Impressão de registo de Ficheiro de Despesas,;DSIMTXT;Pessoal
+Ficheiro de filtro de Ficheiro de Despesas,;FLTDS;Pessoal
+Ficheiro de linhas de filtro de Ficheiro de;LIFLTDS;Pessoal
+Ficheiro de Despesas, Detalhes;DL;Pessoal
+Tabela de Subsídio de Refeição;SUBR;Pessoal
+Mapas definidos de Tabela de Subsídio de;SUBRDEFC;Pessoal
+Mapas definidos de Tabela de Subsídio de;SUBRDEFL;Pessoal
+Mapas desenhados de Tabela de Subsídio de;SUBRMDC;Pessoal
+Mapas desenhados de Tabela de Subsídio de;SUBRMDL;Pessoal
+Mapas desenhados de Tabela de Subsídio de;SUBRMDTXT;Pessoal
+Mapas de Etiquetas de Tabela de Subsídio de;SUBRLBLMDC;Pessoal
+Mapas de Etiquetas de Tabela de Subsídio de;SUBRLBLMDL;Pessoal
+Ficheiro de filtro de Tabela de Subsídio de;FLTSUBR;Pessoal
+Ficheiro de linhas de filtro de Tabela de;LIFLTSUBR;Pessoal
+Marcação de Faltas;ABS;Pessoal
+Mapas definidos de Marcação de Faltas,;ABSDEFC;Pessoal
+Mapas definidos de Marcação de Faltas,;ABSDEFL;Pessoal
+Impressões definidas de Marcação de Faltas,;ABSIDUC;Pessoal
+Impressões definidas de Marcação de Faltas,;ABSIDUL;Pessoal
+Impressões definidas de Marcação de Faltas,;ABSIDUTXT;Pessoal
+Mapas desenhados de Marcação de Faltas,;ABSMDC;Pessoal
+Mapas desenhados de Marcação de Faltas,;ABSMDL;Pessoal
+Mapas desenhados de Marcação de Faltas,;ABSMDTXT;Pessoal
+Mapas de Etiquetas de Marcação de Faltas,;ABSLBLMDC;Pessoal
+Mapas de Etiquetas de Marcação de Faltas,;ABSLBLMDL;Pessoal
+Impressão de registo de Marcação de Faltas,;ABSIMC;Pessoal
+Impressão de registo de Marcação de Faltas,;ABSIML;Pessoal
+Impressão de registo de Marcação de Faltas,;ABSIMTXT;Pessoal
+Ficheiro de filtro de Marcação de Faltas;FLTABS;Pessoal
+Ficheiro de linhas de filtro de Marcação de;LIFLTABS;Pessoal
+Faltas a abater em Férias;ABSFP;Pessoal
+Horários de Funcionários;HR;Pessoal
+Histórico de Dias de Férias Acrescidos;PEACR;Pessoal
+Associações de Empregadores;AE;Pessoal
+Inscrições em Associações de Empregadores;IAE;Pessoal
+Duração do tempo de trabalho;DURACAOTRAB;Pessoal
+Organização do tempo de trabalho;ORGANIZATRAB;Pessoal
+Motivos de Entrada;MOTIVOSENTR;Pessoal
+Mapas definidos de Motivos de Entrada,;MOTIVOSENTRDE;Pessoal
+Mapas definidos de Motivos de Entrada,;MOTIVOSENTRDE;Pessoal
+Impressões definidas de Motivos de Entrada,;MOTIVOSENTRIDU;Pessoal
+Impressões definidas de Motivos de Entrada,;MOTIVOSENTRIDU;Pessoal
+Impressões definidas de Motivos de Entrada,;MOTIVOSENTRIDU;Pessoal
+Mapas desenhados de Motivos de Entrada,;MOTIVOSENTRMD;Pessoal
+Mapas desenhados de Motivos de Entrada,;MOTIVOSENTRMD;Pessoal
+Mapas desenhados de Motivos de Entrada,;MOTIVOSENTRMD;Pessoal
+Mapas de Etiquetas de Motivos de Entrada,;MOTIVOSENTRLB;Pessoal
+Mapas de Etiquetas de Motivos de Entrada,;MOTIVOSENTRLB;Pessoal
+Impressão de registo de Motivos de Entrada,;MOTIVOSENTRIM;Pessoal
+Impressão de registo de Motivos de Entrada,;MOTIVOSENTRIML;Pessoal
+Impressão de registo de Motivos de Entrada,;MOTIVOSENTRIMT;Pessoal
+Ficheiro de filtro de Motivos de Entrada;FLTMOTIVOSENT;Pessoal
+Ficheiro de linhas de filtro de Motivos de;LIFLTMOTIVOSEN;Pessoal
+Motivos de Saída;MOTIVOSSAID;Pessoal
+Mapas definidos de Motivos de Saída,;MOTIVOSSAIDDEF;Pessoal
+Mapas definidos de Motivos de Saída, Linhas;MOTIVOSSAIDDEF;Pessoal
+Impressões definidas de Motivos de Saída,;MOTIVOSSAIDIDU;Pessoal
+Impressões definidas de Motivos de Saída,;MOTIVOSSAIDIDU;Pessoal
+Impressões definidas de Motivos de Saída,;MOTIVOSSAIDIDU;Pessoal
+Mapas desenhados de Motivos de Saída,;MOTIVOSSAIDMD;Pessoal
+Mapas desenhados de Motivos de Saída,;MOTIVOSSAIDMDL;Pessoal
+Mapas desenhados de Motivos de Saída,;MOTIVOSSAIDMDT;Pessoal
+Mapas de Etiquetas de Motivos de Saída,;MOTIVOSSAIDLBL;Pessoal
+Mapas de Etiquetas de Motivos de Saída,;MOTIVOSSAIDLBL;Pessoal
+Impressão de registo de Motivos de Saída,;MOTIVOSSAIDIMC;Pessoal
+Impressão de registo de Motivos de Saída,;MOTIVOSSAIDIML;Pessoal
+Impressão de registo de Motivos de Saída,;MOTIVOSSAIDIMT;Pessoal
+Ficheiro de filtro de Motivos de Saída;FLTMOTIVOSSAID;Pessoal
+Ficheiro de linhas de filtro de Motivos de Saída;LIFLTMOTIVOSSAI;Pessoal
+Códigos de Greve;CODIGOSGREVE;Pessoal
+Mapas definidos de Códigos de Greve,;CODIGOSGREVED;Pessoal
+Mapas definidos de Códigos de Greve, Linhas;CODIGOSGREVED;Pessoal
+Impressões definidas de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Impressões definidas de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Impressões definidas de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Mapas desenhados de Códigos de Greve,;CODIGOSGREVEM;Pessoal
+Mapas desenhados de Códigos de Greve,;CODIGOSGREVEM;Pessoal
+Mapas desenhados de Códigos de Greve,;CODIGOSGREVEM;Pessoal
+Mapas de Etiquetas de Códigos de Greve,;CODIGOSGREVEL;Pessoal
+Mapas de Etiquetas de Códigos de Greve,;CODIGOSGREVEL;Pessoal
+Impressão de registo de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Impressão de registo de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Impressão de registo de Códigos de Greve,;CODIGOSGREVEI;Pessoal
+Ficheiro de filtro de Códigos de Greve;FLTCODIGOSGRE;Pessoal
+Ficheiro de linhas de filtro de Códigos de;LIFLTCODIGOSGR;Pessoal
+Reivindicações;REIVINDICACOES;Pessoal
+Mapas definidos de Reivindicações,;REIVINDICACOES;Pessoal
+Mapas definidos de Reivindicações, Linhas;REIVINDICACOES;Pessoal
+Impressões definidas de Reivindicações,;REIVINDICACOESI;Pessoal
+Impressões definidas de Reivindicações,;REIVINDICACOESI;Pessoal
+Impressões definidas de Reivindicações,;REIVINDICACOESI;Pessoal
+Mapas desenhados de Reivindicações,;REIVINDICACOES;Pessoal
+Mapas desenhados de Reivindicações, Linhas;REIVINDICACOES;Pessoal
+Mapas desenhados de Reivindicações, Linhas;REIVINDICACOES;Pessoal
+Mapas de Etiquetas de Reivindicações,;REIVINDICACOES;Pessoal
+Mapas de Etiquetas de Reivindicações, Linhas;REIVINDICACOES;Pessoal
+Impressão de registo de Reivindicações,;REIVINDICACOESI;Pessoal
+Impressão de registo de Reivindicações,;REIVINDICACOESI;Pessoal
+Impressão de registo de Reivindicações,;REIVINDICACOESI;Pessoal
+Ficheiro de filtro de Reivindicações;FLTREIVINDICACO;Pessoal
+Ficheiro de linhas de filtro de Reivindicações;LIFLTREIVINDICAC;Pessoal
+Greves;GREVES;Pessoal
+Mapas definidos de Greves, Cabeçalhos;GREVESDEFC;Pessoal
+Mapas definidos de Greves, Linhas;GREVESDEFL;Pessoal
+Impressões definidas de Greves, Cabeçalhos;GREVESIDUC;Pessoal
+Impressões definidas de Greves, Linhas;GREVESIDUL;Pessoal
+Impressões definidas de Greves, Linhas (Modo;GREVESIDUTXT;Pessoal
+Mapas desenhados de Greves, Cabeçalhos;GREVESMDC;Pessoal
+Mapas desenhados de Greves, Linhas;GREVESMDL;Pessoal
+Mapas desenhados de Greves, Linhas (Modo;GREVESMDTXT;Pessoal
+Mapas de Etiquetas de Greves, Cabeçalhos;GREVESLBLMDC;Pessoal
+Mapas de Etiquetas de Greves, Linhas;GREVESLBLMDL;Pessoal
+Impressão de registo de Greves, Cabeçalhos;GREVESIMC;Pessoal
+Impressão de registo de Greves, Linhas;GREVESIML;Pessoal
+Impressão de registo de Greves, Linhas (Modo;GREVESIMTXT;Pessoal
+Ficheiro de filtro de Greves;FLTGREVES;Pessoal
+Ficheiro de linhas de filtro de Greves;LIFLTGREVES;Pessoal
+Reivindicações de Greves;GREVESLIN;Pessoal
+Datas de Greves;GREVESDATAS;Pessoal
+Aplicabilidade do IRCT;APLICAIRCT;Pessoal
+Nivel de Qualificação;NIVELQUALIF;Pessoal
+Tabela de Códigos para Vencimentos;CM6;Pessoal
+Mapas definidos de Tabela de Códigos para;CM6DEFC;Pessoal
+Mapas definidos de Tabela de Códigos para;CM6DEFL;Pessoal
+Impressão de registo de Tabela de Códigos;CM6IMC;Pessoal
+Impressão de registo de Tabela de Códigos;CM6IML;Pessoal
+Impressão de registo de Tabela de Códigos;CM6IMTXT;Pessoal
+Nova Guia de Pagamento do IRS/IRC e;IRSPNIMC;Pessoal
+Nova Guia de Pagamento do IRS/IRC e;IRSPNIML;Pessoal
+Nova Guia de Pagamento do IRS/IRC e;IRSPNIMTXT;Pessoal
+Sectores;RSECTOR;Restauração
+Mapas definidos de Sectores, Cabeçalhos;RSECTORDEFC;Restauração
+Mapas definidos de Sectores, Linhas;RSECTORDEFL;Restauração
+Mapas desenhados de Sectores, Cabeçalhos;RSECTORMDC;Restauração
+Mapas desenhados de Sectores, Linhas;RSECTORMDL;Restauração
+Mapas desenhados de Sectores, Linhas (Modo;RSECTORMDTXT;Restauração
+Mapas de Etiquetas de Sectores, Cabeçalhos;RSECTORLBLMDC;Restauração
+Mapas de Etiquetas de Sectores, Linhas;RSECTORLBLMDL;Restauração
+Impressão de registo de Sectores, Cabeçalhos;RSECTORIMC;Restauração
+Impressão de registo de Sectores, Linhas;RSECTORIML;Restauração
+Impressão de registo de Sectores, Linhas;RSECTORIMTXT;Restauração
+Ficheiro de filtro de Sectores;FLTRSECTOR;Restauração
+Ficheiro de linhas de filtro de Sectores;LIFLTRSECTOR;Restauração
+Mesas;MESAS;Restauração
+Mapas definidos de Mesas, Cabeçalhos;MESASDEFC;Restauração
+Mapas definidos de Mesas, Linhas;MESASDEFL;Restauração
+Mapas desenhados de Mesas, Cabeçalhos;MESASMDC;Restauração
+Mapas desenhados de Mesas, Linhas;MESASMDL;Restauração
+Mapas desenhados de Mesas, Linhas (Modo;MESASMDTXT;Restauração
+Mapas de Etiquetas de Mesas, Cabeçalhos;MESASLBLMDC;Restauração
+Mapas de Etiquetas de Mesas, Linhas;MESASLBLMDL;Restauração
+Impressão de registo de Mesas, Cabeçalhos;MESASIMC;Restauração
+Impressão de registo de Mesas, Linhas;MESASIML;Restauração
+Impressão de registo de Mesas, Linhas (Modo;MESASIMTXT;Restauração
+Ficheiro de filtro de Mesas;FLTMESAS;Restauração
+Ficheiro de linhas de filtro de Mesas;LIFLTMESAS;Restauração
+Mesas de contas;FPOSMESAS;Restauração
+Mesas de documentos de facturação;FTMESAS;Restauração
+Hierarquia de Referências;STHQ;Restauração
+Mapas definidos de Hierarquia de Referências,;STHQDEFC;Restauração
+Mapas definidos de Hierarquia de Referências,;STHQDEFL;Restauração
+Impressões definidas de Hierarquia de;STHQIDUC;Restauração
+Impressões definidas de Hierarquia de;STHQIDUL;Restauração
+Impressões definidas de Hierarquia de;STHQIDUTXT;Restauração
+Mapas desenhados de Hierarquia de;STHQMDC;Restauração
+Mapas desenhados de Hierarquia de;STHQMDL;Restauração
+Mapas desenhados de Hierarquia de;STHQMDTXT;Restauração
+Mapas de Etiquetas de Hierarquia de;STHQLBLMDC;Restauração
+Mapas de Etiquetas de Hierarquia de;STHQLBLMDL;Restauração
+Ficheiro de filtro de Hierarquia de Referências;FLTSTHQ;Restauração
+Ficheiro de linhas de filtro de Hierarquia de;LIFLTSTHQ;Restauração
+Hierarquia de Referências (linhas);STHQL;Restauração
+Mapas definidos de Hierarquia de Referências;STHQLDEFC;Restauração
+Mapas definidos de Hierarquia de Referências;STHQLDEFL;Restauração
+Impressões definidas de Hierarquia de;STHQLIDUC;Restauração
+Impressões definidas de Hierarquia de;STHQLIDUL;Restauração
+Impressões definidas de Hierarquia de;STHQLIDUTXT;Restauração
+Mapas desenhados de Hierarquia de;STHQLMDC;Restauração
+Mapas desenhados de Hierarquia de;STHQLMDL;Restauração
+Mapas desenhados de Hierarquia de;STHQLMDTXT;Restauração
+Mapas de Etiquetas de Hierarquia de;STHQLLBLMDC;Restauração
+Mapas de Etiquetas de Hierarquia de;STHQLLBLMDL;Restauração
+Ficheiro de filtro de Hierarquia de Referências;FLTSTHQL;Restauração
+Ficheiro de linhas de filtro de Hierarquia de;LIFLTSTHQL;Restauração
+Reservas;RRS;Restauração
+Mapas desenhados de Reservas, Cabeçalhos;RRSMDC;Restauração
+Mapas desenhados de Reservas, Linhas;RRSMDL;Restauração
+Mapas desenhados de Reservas, Linhas;RRSMDTXT;Restauração
+Mapas de Etiquetas de Reservas, Cabeçalhos;RRSLBLMDC;Restauração
+Mapas de Etiquetas de Reservas, Linhas;RRSLBLMDL;Restauração
+Ficheiro de filtro de Reservas;FLTRRS;Restauração
+Ficheiro de linhas de filtro de Reservas;LIFLTRRS;Restauração
+Reservas (Mesas);RRSL;Restauração
+Impressões definidas da Restauração,;RESTIDUC;Restauração
+Impressões definidas da Restauração, Linhas;RESTIDUL;Restauração
+Impressões definidas da Restauração, Linhas;RESTIDUTXT;Restauração
+Descritivos de Referências;TXTREF;Restauração
+Mapas definidos de Descritivos de;TXTREFDEFC;Restauração
+Mapas definidos de Descritivos de;TXTREFDEFL;Restauração
+Impressões definidas de Descritivos de;TXTREFIDUC;Restauração
+Impressões definidas de Descritivos de;TXTREFIDUL;Restauração
+Impressões definidas de Descritivos de;TXTREFIDUTXT;Restauração
+Mapas desenhados de Descritivos de;TXTREFMDC;Restauração
+Mapas desenhados de Descritivos de;TXTREFMDL;Restauração
+Mapas desenhados de Descritivos de;TXTREFMDTXT;Restauração
+Mapas de Etiquetas de Descritivos de;TXTREFLBLMDC;Restauração
+Mapas de Etiquetas de Descritivos de;TXTREFLBLMDL;Restauração
+Ficheiro de filtro de Descritivos de Referências;FLTTXTREF;Restauração
+Ficheiro de linhas de filtro de Descritivos de;LIFLTTXTREF;Restauração
+Descritivos de Referências (linhas);TXTREFL;Restauração
+Pedidos para Monitor de cozinha;PDD;Restauração
+Dados Estatísticos de Pedidos para Monitor de;PDDSTATS;Restauração
+Configurações para Monitor de Cozinha;CZN;Restauração
+Mapas definidos de Configurações para;CZNDEFC;Restauração
+Mapas definidos de Configurações para;CZNDEFL;Restauração
+Mapas desenhados de Configurações para;CZNMDC;Restauração
+Mapas desenhados de Configurações para;CZNMDL;Restauração
+Mapas desenhados de Configurações para;CZNMDTXT;Restauração
+Mapas de Etiquetas de Configurações para;CZNLBLMDC;Restauração
+Mapas de Etiquetas de Configurações para;CZNLBLMDL;Restauração
+Impressão de registo de Configurações para;CZNIMC;Restauração
+Impressão de registo de Configurações para;CZNIML;Restauração
+Impressão de registo de Configurações para;CZNIMTXT;Restauração
+Ficheiro de filtro de Configurações para;FLTCZN;Restauração
+Ficheiro de linhas de filtro de Configurações;LIFLTCZN;Restauração
+Campos a vizualizar no Monitor por;CZNFLD;Restauração
+Preços de Artigo por Horário;RESTST;Restauração
+Mapas definidos de Preços de Artigo por;RESTSTDEFC;Restauração
+Mapas definidos de Preços de Artigo por;RESTSTDEFL;Restauração
+Mapas desenhados de Preços de Artigo por;RESTSTMDC;Restauração
+Mapas desenhados de Preços de Artigo por;RESTSTMDL;Restauração
+Mapas desenhados de Preços de Artigo por;RESTSTMDTXT;Restauração
+Mapas de Etiquetas de Preços de Artigo por;RESTSTLBLMDC;Restauração
+Mapas de Etiquetas de Preços de Artigo por;RESTSTLBLMDL;Restauração
+Impressão de registo de Preços de Artigo por;RESTSTIMC;Restauração
+Impressão de registo de Preços de Artigo por;RESTSTIML;Restauração
+Impressão de registo de Preços de Artigo por;RESTSTIMTXT;Restauração
+Ficheiro de filtro de Preços de Artigo por;FLTRESTST;Restauração
+Ficheiro de linhas de filtro de Preços de Artigo;LIFLTRESTST;Restauração
+Tabelas do utilizador;TU;Sistema
+Mapas definidos de Tabelas do utilizador,;TUDEFC;Sistema
+Mapas definidos de Tabelas do utilizador,;TUDEFL;Sistema
+Impressão de registo de Tabelas do utilizador,;TUIMC;Sistema
+Impressão de registo de Tabelas do utilizador,;TUIML;Sistema
+Impressão de registo de Tabelas do utilizador,;TUIMTXT;Sistema
+Ficheiro de filtro de Tabelas do utilizador;FLTTU;Sistema
+Ficheiro de linhas de filtro de Tabelas do;LIFLTTU;Sistema
+ecrãs do utilizador;TUFO;Sistema
+Mapas definidos de ecrãs do utilizador,;TUFODEFC;Sistema
+Mapas definidos de ecrãs do utilizador, Linhas;TUFODEFL;Sistema
+Impressão de registo de ecrãs do utilizador,;TUFOIMC;Sistema
+Impressão de registo de ecrãs do utilizador,;TUFOIML;Sistema
+Impressão de registo de ecrãs do utilizador,;TUFOIMTXT;Sistema
+Ficheiro de filtro de ecrãs do utilizador;FLTTUFO;Sistema
+Ficheiro de linhas de filtro de ecrãs do;LIFLTTUFO;Sistema
+Tabelas do utilizador - campos;TUCA;Sistema
+Listagens rápidas de utilizador para ecrãs;ULE;Sistema
+Ficheiro de filtro de Listagens rápidas de;FLTULE;Sistema
+Ficheiro de linhas de filtro de Listagens rápidas;LIFLTULE;Sistema
+Listagens rápidas de utilizador para ecrãs;ULEL;Sistema
+Parâmetros do Sistema;PARA1;Sistema
+Toolbars de utilizador;USRT;Sistema
+Campos de tabelas;CAMPOS;Sistema
+Mapas definidos de Campos de tabelas,;CAMPOSDEFC;Sistema
+Mapas definidos de Campos de tabelas,;CAMPOSDEFL;Sistema
+Impressão de registo de Campos de tabelas,;CAMPOSIMC;Sistema
+Impressão de registo de Campos de tabelas,;CAMPOSIML;Sistema
+Impressão de registo de Campos de tabelas,;CAMPOSIMTXT;Sistema
+Ficheiro de filtro de Campos de tabelas;FLTCAMPOS;Sistema
+Ficheiro de linhas de filtro de Campos de;LIFLTCAMPOS;Sistema
+Últimas Versões;EXEV;Sistema
+Eventos;EVENTOS;Sistema
+Mapas definidos de Eventos, Cabeçalhos;EVENTOSDEFC;Sistema
+Mapas definidos de Eventos, Linhas;EVENTOSDEFL;Sistema
+Mapas desenhados de Eventos, Cabeçalhos;EVENTOSMDC;Sistema
+Mapas desenhados de Eventos, Linhas;EVENTOSMDL;Sistema
+Mapas desenhados de Eventos, Linhas (Modo;EVENTOSMDTXT;Sistema
+Mapas de Etiquetas de Eventos, Cabeçalhos;EVENTOSLBLMDC;Sistema
+Mapas de Etiquetas de Eventos, Linhas;EVENTOSLBLMDL;Sistema
+Impressão de registo de Eventos, Cabeçalhos;EVENTOSIMC;Sistema
+Impressão de registo de Eventos, Linhas;EVENTOSIML;Sistema
+Impressão de registo de Eventos, Linhas;EVENTOSIMTXT;Sistema
+Ficheiro de filtro de Eventos;FLTEVENTOS;Sistema
+Ficheiro de linhas de filtro de Eventos;LIFLTEVENTOS;Sistema
+Refª Interna;FREF;Sistema
+Mapas definidos de Refª Interna, Cabeçalhos;FREFDEFC;Sistema
+Mapas definidos de Refª Interna, Linhas;FREFDEFL;Sistema
+Mapas desenhados de Refª Interna,;FREFMDC;Sistema
+Mapas desenhados de Refª Interna, Linhas;FREFMDL;Sistema
+Mapas desenhados de Refª Interna, Linhas;FREFMDTXT;Sistema
+Mapas de Etiquetas de Refª Interna,;FREFLBLMDC;Sistema
+Mapas de Etiquetas de Refª Interna, Linhas;FREFLBLMDL;Sistema
+Impressão de registo de Refª Interna,;FREFIMC;Sistema
+Impressão de registo de Refª Interna, Linhas;FREFIML;Sistema
+Impressão de registo de Refª Interna, Linhas;FREFIMTXT;Sistema
+Ficheiro de filtro de Refª Interna;FLTFREF;Sistema
+Ficheiro de linhas de filtro de Refª Interna;LIFLTFREF;Sistema
+Centros de Custo Geral;CCT;Sistema
+Ligações entre tabelas;LT;Sistema
+Mapas definidos de Ligações entre tabelas,;LTDEFC;Sistema
+Mapas definidos de Ligações entre tabelas,;LTDEFL;Sistema
+Mapas desenhados de Ligações entre tabelas,;LTMDC;Sistema
+Mapas desenhados de Ligações entre tabelas,;LTMDL;Sistema
+Mapas desenhados de Ligações entre tabelas,;LTMDTXT;Sistema
+Mapas de Etiquetas de Ligações entre tabelas,;LTLBLMDC;Sistema
+Mapas de Etiquetas de Ligações entre tabelas,;LTLBLMDL;Sistema
+Ficheiro de filtro de Ligações entre tabelas;FLTLT;Sistema
+Ficheiro de linhas de filtro de Ligações entre;LIFLTLT;Sistema
+Linhas de Ligações entre tabelas;LTLI;Sistema
+Mapas definidos de Linhas de Ligações entre;LTLIDEFC;Sistema
+Mapas definidos de Linhas de Ligações entre;LTLIDEFL;Sistema
+Mapas desenhados de Linhas de Ligações;LTLIMDC;Sistema
+Mapas desenhados de Linhas de Ligações;LTLIMDL;Sistema
+Mapas desenhados de Linhas de Ligações;LTLIMDTXT;Sistema
+Mapas de Etiquetas de Linhas de Ligações;LTLILBLMDC;Sistema
+Mapas de Etiquetas de Linhas de Ligações;LTLILBLMDL;Sistema
+Ficheiro de filtro de Linhas de Ligações entre;FLTLTLI;Sistema
+Ficheiro de linhas de filtro de Linhas de;LIFLTLTLI;Sistema
+Regras do utilizador;BRULE;Sistema
+Mapas definidos de Regras do utilizador,;BRULEDEFC;Sistema
+Mapas definidos de Regras do utilizador,;BRULEDEFL;Sistema
+Impressão de registo de Regras do utilizador,;BRULEIMC;Sistema
+Impressão de registo de Regras do utilizador,;BRULEIML;Sistema
+Impressão de registo de Regras do utilizador,;BRULEIMTXT;Sistema
+Ficheiro de filtro de Regras do utilizador;FLTBRULE;Sistema
+Ficheiro de linhas de filtro de Regras do;LIFLTBRULE;Sistema
+Valores por defeito;UDEFS;Sistema
+Mapas definidos de Valores por defeito,;UDEFSDEFC;Sistema
+Mapas definidos de Valores por defeito, Linhas;UDEFSDEFL;Sistema
+Impressão de registo de Valores por defeito,;UDEFSIMC;Sistema
+Impressão de registo de Valores por defeito,;UDEFSIML;Sistema
+Impressão de registo de Valores por defeito,;UDEFSIMTXT;Sistema
+Ficheiro de filtro de Valores por defeito;FLTUDEFS;Sistema
+Ficheiro de linhas de filtro de Valores por;LIFLTUDEFS;Sistema
+Análises do utilizador;USQL;Sistema
+Mapas definidos de Análises do utilizador,;USQLDEFC;Sistema
+Mapas definidos de Análises do utilizador,;USQLDEFL;Sistema
+Mapas desenhados de Análises do utilizador,;USQLMDC;Sistema
+Mapas desenhados de Análises do utilizador,;USQLMDL;Sistema
+Mapas desenhados de Análises do utilizador,;USQLMDTXT;Sistema
+Mapas de Etiquetas de Análises do utilizador,;USQLLBLMDC;Sistema
+Mapas de Etiquetas de Análises do utilizador,;USQLLBLMDL;Sistema
+Impressão de registo de Análises do utilizador,;USQLIMC;Sistema
+Impressão de registo de Análises do utilizador,;USQLIML;Sistema
+Impressão de registo de Análises do utilizador,;USQLIMTXT;Sistema
+Ficheiro de filtro de Análises do utilizador;FLTUSQL;Sistema
+Ficheiro de linhas de filtro de Análises do;LIFLTUSQL;Sistema
+Análises do Utilizador - Linhas de Gráfico;USQLLG;Sistema
+Impressões definidas de Resultados de;IDUUSQLMDC;Sistema
+Impressões definidas de Resultados de;IDUUSQLMDL;Sistema
+Impressões definidas de Etiquetas de Análises;IDUUSQLLBLIDUC;Sistema
+Impressões definidas de Etiquetas de Análises;IDUUSQLLBLIDUL;Sistema
+Análises multi-dimensionais;NC;Sistema
+Mapas definidos de Análises;NCDEFC;Sistema
+Mapas definidos de Análises;NCDEFL;Sistema
+Impressão de registo de Análises;NCIMC;Sistema
+Impressão de registo de Análises;NCIML;Sistema
+Impressão de registo de Análises;NCIMTXT;Sistema
+Ficheiro de filtro de Análises;FLTNC;Sistema
+Ficheiro de linhas de filtro de Análises;LIFLTNC;Sistema
+Análises multi-dimensionais - dimensões;NCDI;Sistema
+Análises multi-dimensionais - medidas;NCME;Sistema
+Variáveis de Análises do utilizador;USQLV;Sistema
+Utilizadores de Análises;USQLU;Sistema
+Ecrãs Personalizados;FORMB;Sistema
+Mapas definidos de Ecrãs Personalizados,;FORMBDEFC;Sistema
+Mapas definidos de Ecrãs Personalizados,;FORMBDEFL;Sistema
+Mapas desenhados de Ecrãs Personalizados,;FORMBMDC;Sistema
+Mapas desenhados de Ecrãs Personalizados,;FORMBMDL;Sistema
+Mapas desenhados de Ecrãs Personalizados,;FORMBMDTXT;Sistema
+Mapas de Etiquetas de Ecrãs Personalizados,;FORMBLBLMDC;Sistema
+Mapas de Etiquetas de Ecrãs Personalizados,;FORMBLBLMDL;Sistema
+Impressão de registo de Ecrãs Personalizados,;FORMBIMC;Sistema
+Impressão de registo de Ecrãs Personalizados,;FORMBIML;Sistema
+Impressão de registo de Ecrãs Personalizados,;FORMBIMTXT;Sistema
+Ficheiro de filtro de Ecrãs Personalizados;FLTFORMB;Sistema
+Ficheiro de linhas de filtro de Ecrãs;LIFLTFORMB;Sistema
+Ecrãs Personalizados (Linhas);FORMC;Sistema
+Histórico de Utilizadores;USHIST;Sistema
+Utilizadores;US;Sistema
+Mapas definidos de Utilizadores, Cabeçalhos;USDEFC;Sistema
+Mapas definidos de Utilizadores, Linhas;USDEFL;Sistema
+Impressão de registo de Utilizadores,;USIMC;Sistema
+Impressão de registo de Utilizadores, Linhas;USIML;Sistema
+Impressão de registo de Utilizadores, Linhas;USIMTXT;Sistema
+Ficheiro de filtro de Utilizadores;FLTUS;Sistema
+Ficheiro de linhas de filtro de Utilizadores;LIFLTUS;Sistema
+Grupos de Utilizadores;UG;Sistema
+Mapas definidos de Grupos de Utilizadores,;UGDEFC;Sistema
+Mapas definidos de Grupos de Utilizadores,;UGDEFL;Sistema
+Impressão de registo de Grupos de;UGIMC;Sistema
+Impressão de registo de Grupos de;UGIML;Sistema
+Impressão de registo de Grupos de;UGIMTXT;Sistema
+Ficheiro de filtro de Grupos de Utilizadores;FLTUG;Sistema
+Ficheiro de linhas de filtro de Grupos de;LIFLTUG;Sistema
+Programas de Grupos de Utilizadores;UGPROG;Sistema
+Funções de Utilizadores;USF;Sistema
+Validações de Programas de Grupos de;UGVAL;Sistema
+Acessos dos Grupos de Utilizadores;GMENU;Sistema
+Acessos disponíveis;VMENU;Sistema
+Acessos dos Utilizadores;UMENU;Sistema
+Opções especiais disponíveis;OMENU;Sistema
+Acessos especiais dos Utilizadores;AMENU;Sistema
+Códigos postais;CP_3;Sistema
+Ficha completa da Empresa;E1;Sistema
+Mapas definidos de Ficha completa da;E1DEFC;Sistema
+Mapas definidos de Ficha completa da;E1DEFL;Sistema
+Impressão de registo de Ficha completa da;E1IMC;Sistema
+Impressão de registo de Ficha completa da;E1IML;Sistema
+Impressão de registo de Ficha completa da;E1IMTXT;Sistema
+Ficheiro de filtro de Ficha completa da;FLTE1;Sistema
+Ficheiro de linhas de filtro de Ficha completa;LIFLTE1;Sistema
+Dados da Empresa para o Balanço Social;E3;Sistema
+Mapas definidos de Dados da Empresa para o;E3DEFC;Sistema
+Mapas definidos de Dados da Empresa para o;E3DEFL;Sistema
+Mapas desenhados de Dados da Empresa;E3MDC;Sistema
+Mapas desenhados de Dados da Empresa;E3MDL;Sistema
+Mapas desenhados de Dados da Empresa;E3MDTXT;Sistema
+Mapas de Etiquetas de Dados da Empresa;E3LBLMDC;Sistema
+Mapas de Etiquetas de Dados da Empresa;E3LBLMDL;Sistema
+Impressão de registo de Dados da Empresa;E3IMC;Sistema
+Impressão de registo de Dados da Empresa;E3IML;Sistema
+Impressão de registo de Dados da Empresa;E3IMTXT;Sistema
+Ficheiro de filtro de Dados da Empresa para o;FLTE3;Sistema
+Ficheiro de linhas de filtro de Dados da;LIFLTE3;Sistema
+Dados Contabilísticos da Empresa;E2;Sistema
+Variáveis Cabeçalho;E1CA;Sistema
+Variáveis Linhas;E1LI;Sistema
+Tabela de Feriados;FF;Sistema
+Tabela Tipos de Feriados;TPFF;Sistema
+Mensagens inter-utilizadores;MG;Sistema
+Mapas definidos de Mensagens;MGDEFC;Sistema
+Mapas definidos de Mensagens;MGDEFL;Sistema
+Mapas desenhados de Mensagens;MGMDC;Sistema
+Mapas desenhados de Mensagens;MGMDL;Sistema
+Mapas desenhados de Mensagens;MGMDTXT;Sistema
+Mapas de Etiquetas de Mensagens;MGLBLMDC;Sistema
+Mapas de Etiquetas de Mensagens;MGLBLMDL;Sistema
+Impressão de registo de Mensagens;MGIMC;Sistema
+Impressão de registo de Mensagens;MGIML;Sistema
+Impressão de registo de Mensagens;MGIMTXT;Sistema
+Ficheiro de filtro de Mensagens;FLTMG;Sistema
+Ficheiro de linhas de filtro de Mensagens;LIFLTMG;Sistema
+Configuração de Ficheiros;FASC;Sistema
+Mapas definidos de Configuração de Ficheiros,;FASCDEFC;Sistema
+Mapas definidos de Configuração de Ficheiros,;FASCDEFL;Sistema
+Impressão de registo de Configuração de;FASCIMC;Sistema
+Impressão de registo de Configuração de;FASCIML;Sistema
+Impressão de registo de Configuração de;FASCIMTXT;Sistema
+Ficheiro de filtro de Configuração de Ficheiros;FLTFASC;Sistema
+Ficheiro de linhas de filtro de Configuração de;LIFLTFASC;Sistema
+Campos de ficheiros ASCII;FASCL;Sistema
+Exportações para POS;POSEXP;Sistema
+Exportações de Documentos;GESTEXP;Sistema
+Log de Utilizadores;NLOG;Sistema
+Dicionário de dados;DIC;Sistema
+Ligações entre Tabelas do Dicionário de dados;DTL;Sistema
+Log de Erros;LOGS;Sistema
+Configurações de Impressora;PRNC;Sistema
+Mapas definidos de Configurações de;PRNCDEFC;Sistema
+Mapas definidos de Configurações de;PRNCDEFL;Sistema
+Impressões definidas de Configurações de;PRNCIDUC;Sistema
+Impressões definidas de Configurações de;PRNCIDUL;Sistema
+Impressões definidas de Configurações de;PRNCIDUTXT;Sistema
+Ficheiro de filtro de Configurações de;FLTPRNC;Sistema
+Ficheiro de linhas de filtro de Configurações de;LIFLTPRNC;Sistema
+Configurações de Impressora, Linhas;PRNL;Sistema
+Configuração de documentos XML;XD;Sistema
+Linhas de Documentos XML;XDL;Sistema
+Exportação de Tabelas;XE;Sistema
+Log de Erros Internos;LOGERR;Sistema
+Teclas do utilizador;TC;Sistema
+Mapas definidos de Teclas do utilizador,;TCDEFC;Sistema
+Mapas definidos de Teclas do utilizador,;TCDEFL;Sistema
+Mapas desenhados de Teclas do utilizador,;TCMDC;Sistema
+Mapas desenhados de Teclas do utilizador,;TCMDL;Sistema
+Mapas desenhados de Teclas do utilizador,;TCMDTXT;Sistema
+Mapas de Etiquetas de Teclas do utilizador,;TCLBLMDC;Sistema
+Mapas de Etiquetas de Teclas do utilizador,;TCLBLMDL;Sistema
+Ficheiro de filtro de Teclas do utilizador;FLTTC;Sistema
+Ficheiro de linhas de filtro de Teclas do;LIFLTTC;Sistema
+Teclas do utilizador (linhas);TI;Sistema
+Mapas definidos de Teclas do utilizador;TIDEFC;Sistema
+Mapas definidos de Teclas do utilizador;TIDEFL;Sistema
+Mapas desenhados de Teclas do utilizador;TIMDC;Sistema
+Mapas desenhados de Teclas do utilizador;TIMDL;Sistema
+Mapas desenhados de Teclas do utilizador;TIMDTXT;Sistema
+Mapas de Etiquetas de Teclas do utilizador;TILBLMDC;Sistema
+Mapas de Etiquetas de Teclas do utilizador;TILBLMDL;Sistema
+Ficheiro de filtro de Teclas do utilizador (linhas);FLTTI;Sistema
+Ficheiro de linhas de filtro de Teclas do;LIFLTTI;Sistema
+Questionários;QUC;Sistema
+Mapas definidos de Questionários, Cabeçalhos;QUCDEFC;Sistema
+Mapas definidos de Questionários, Linhas;QUCDEFL;Sistema
+Impressão de registo de Questionários,;QUCIMC;Sistema
+Impressão de registo de Questionários, Linhas;QUCIML;Sistema
+Impressão de registo de Questionários, Linhas;QUCIMTXT;Sistema
+Ficheiro de filtro de Questionários;FLTQUC;Sistema
+Ficheiro de linhas de filtro de Questionários;LIFLTQUC;Sistema
+Perguntas dos Questionários;QUP;Sistema
+Mapas definidos de Perguntas dos;QUPDEFC;Sistema
+Mapas definidos de Perguntas dos;QUPDEFL;Sistema
+Impressão de registo de Perguntas dos;QUPIMC;Sistema
+Impressão de registo de Perguntas dos;QUPIML;Sistema
+Impressão de registo de Perguntas dos;QUPIMTXT;Sistema
+Ficheiro de filtro de Perguntas dos;FLTQUP;Sistema
+Ficheiro de linhas de filtro de Perguntas dos;LIFLTQUP;Sistema
+Respostas aos Questionários;QUR;Sistema
+Mapas definidos de Respostas aos;QURDEFC;Sistema
+Mapas definidos de Respostas aos;QURDEFL;Sistema
+Impressão de registo de Respostas aos;QURIMC;Sistema
+Impressão de registo de Respostas aos;QURIML;Sistema
+Impressão de registo de Respostas aos;QURIMTXT;Sistema
+Ficheiro de filtro de Respostas aos;FLTQUR;Sistema
+Ficheiro de linhas de filtro de Respostas aos;LIFLTQUR;Sistema
+Impressões definidas de Introdução de;QUINTROIDUC;Sistema
+Impressões definidas de Introdução de;QUINTROIDUL;Sistema
+Impressões definidas de Introdução de;QUINTROIDUTXT;Sistema
+Perfis de Acesso;PF;Sistema
+Impressão de registo de Perfis de Acesso,;PFIMC;Sistema
+Impressão de registo de Perfis de Acesso,;PFIML;Sistema
+Impressão de registo de Perfis de Acesso,;PFIMTXT;Sistema
+Ficheiro de filtro de Perfis de Acesso;FLTPF;Sistema
+Ficheiro de linhas de filtro de Perfis de Acesso;LIFLTPF;Sistema
+Utilizadores de Perfis de Acesso;PFU;Sistema
+Grupos de Utilizadores de Perfis de Acesso;PFG;Sistema
+Integração de Dados;CIE;Sistema
+Mapas definidos de Integração de Dados,;CIEDEFC;Sistema
+Mapas definidos de Integração de Dados,;CIEDEFL;Sistema
+Impressão de registo de Integração de Dados,;CIEIMC;Sistema
+Impressão de registo de Integração de Dados,;CIEIML;Sistema
+Impressão de registo de Integração de Dados,;CIEIMTXT;Sistema
+Ficheiro de filtro de Integração de Dados;FLTCIE;Sistema
+Ficheiro de linhas de filtro de Integração de;LIFLTCIE;Sistema
+Triggers ou Indices do utilizador;USTR;Sistema
+Mapas definidos de Triggers ou Indices do;USTRDEFC;Sistema
+Mapas definidos de Triggers ou Indices do;USTRDEFL;Sistema
+Mapas desenhados de Triggers ou Indices do;USTRMDC;Sistema
+Mapas desenhados de Triggers ou Indices do;USTRMDL;Sistema
+Mapas desenhados de Triggers ou Indices do;USTRMDTXT;Sistema
+Mapas de Etiquetas de Triggers ou Indices do;USTRLBLMDC;Sistema
+Mapas de Etiquetas de Triggers ou Indices do;USTRLBLMDL;Sistema
+Impressão de registo de Triggers ou Indices do;USTRIMC;Sistema
+Impressão de registo de Triggers ou Indices do;USTRIML;Sistema
+Impressão de registo de Triggers ou Indices do;USTRIMTXT;Sistema
+Ficheiro de filtro de Triggers ou Indices do;FLTUSTR;Sistema
+Ficheiro de linhas de filtro de Triggers ou;LIFLTUSTR;Sistema
+Instruções Internas;INTU;Sistema
+Mapas definidos de Instruções Internas,;INTUDEFC;Sistema
+Mapas definidos de Instruções Internas, Linhas;INTUDEFL;Sistema
+Mapas desenhados de Instruções Internas,;INTUMDC;Sistema
+Mapas desenhados de Instruções Internas,;INTUMDL;Sistema
+Mapas desenhados de Instruções Internas,;INTUMDTXT;Sistema
+Mapas de Etiquetas de Instruções Internas,;INTULBLMDC;Sistema
+Mapas de Etiquetas de Instruções Internas,;INTULBLMDL;Sistema
+Impressão de registo de Instruções Internas,;INTUIMC;Sistema
+Impressão de registo de Instruções Internas,;INTUIML;Sistema
+Impressão de registo de Instruções Internas,;INTUIMTXT;Sistema
+Ficheiro de filtro de Instruções Internas;FLTINTU;Sistema
+Ficheiro de linhas de filtro de Instruções;LIFLTINTU;Sistema
+Ligações entre IDUs;IDUJOIN;Sistema
+Filtros de Utilizador;FEU;Sistema
+Mapas definidos de Filtros de Utilizador,;FEUDEFC;Sistema
+Mapas definidos de Filtros de Utilizador,;FEUDEFL;Sistema
+Mapas desenhados de Filtros de Utilizador,;FEUMDC;Sistema
+Mapas desenhados de Filtros de Utilizador,;FEUMDL;Sistema
+Mapas desenhados de Filtros de Utilizador,;FEUMDTXT;Sistema
+Mapas de Etiquetas de Filtros de Utilizador,;FEULBLMDC;Sistema
+Mapas de Etiquetas de Filtros de Utilizador,;FEULBLMDL;Sistema
+Impressão de registo de Filtros de Utilizador,;FEUIMC;Sistema
+Impressão de registo de Filtros de Utilizador,;FEUIML;Sistema
+Impressão de registo de Filtros de Utilizador,;FEUIMTXT;Sistema
+Ficheiro de filtro de Filtros de Utilizador;FLTFEU;Sistema
+Ficheiro de linhas de filtro de Filtros de;LIFLTFEU;Sistema
+Funções TSQL do Utilizador;FTU;Sistema
+Mapas definidos de Funções TSQL do;FTUDEFC;Sistema
+Mapas definidos de Funções TSQL do;FTUDEFL;Sistema
+Mapas desenhados de Funções TSQL do;FTUMDC;Sistema
+Mapas desenhados de Funções TSQL do;FTUMDL;Sistema
+Mapas desenhados de Funções TSQL do;FTUMDTXT;Sistema
+Mapas de Etiquetas de Funções TSQL do;FTULBLMDC;Sistema
+Mapas de Etiquetas de Funções TSQL do;FTULBLMDL;Sistema
+Impressão de registo de Funções TSQL do;FTUIMC;Sistema
+Impressão de registo de Funções TSQL do;FTUIML;Sistema
+Impressão de registo de Funções TSQL do;FTUIMTXT;Sistema
+Ficheiro de filtro de Funções TSQL do;FLTFTU;Sistema
+Ficheiro de linhas de filtro de Funções TSQL;LIFLTFTU;Sistema
+IDUs já impressos;IDUAIL;Sistema
+Nomes das Páginas dos Mapas de Gestão;IDUPNM;Sistema
+Templates;TT;Sistema
+Impressão de registo de Templates,;TTIMC;Sistema
+Impressão de registo de Templates, Linhas;TTIML;Sistema
+Impressão de registo de Templates, Linhas;TTIMTXT;Sistema
+Ficheiro de filtro de Templates;FLTTT;Sistema
+Ficheiro de linhas de filtro de Templates;LIFLTTT;Sistema
+Registos de Templates;TTL;Sistema
+Acessos a Packages Digitais para os;USPD;Sistema
+Datas do Calendário PHC;CALFIS;Sistema
+Mapas definidos de Datas do Calendário PHC,;CALFISDEFC;Sistema
+Mapas definidos de Datas do Calendário PHC,;CALFISDEFL;Sistema
+Impressão de registo de Datas do Calendário;CALFISIMC;Sistema
+Impressão de registo de Datas do Calendário;CALFISIML;Sistema
+Impressão de registo de Datas do Calendário;CALFISIMTXT;Sistema
+Ficheiro de filtro de Datas do Calendário PHC;FLTCALFIS;Sistema
+Ficheiro de linhas de filtro de Datas do;LIFLTCALFIS;Sistema
+Procedimentos Internos;PIN;Sistema
+Mapas definidos de Procedimentos Internos,;PINDEFC;Sistema
+Mapas definidos de Procedimentos Internos,;PINDEFL;Sistema
+Impressões definidas de Procedimentos;PINIDUC;Sistema
+Impressões definidas de Procedimentos;PINIDUL;Sistema
+Impressões definidas de Procedimentos;PINIDUTXT;Sistema
+Mapas desenhados de Procedimentos;PINMDC;Sistema
+Mapas desenhados de Procedimentos;PINMDL;Sistema
+Mapas desenhados de Procedimentos;PINMDTXT;Sistema
+Mapas de Etiquetas de Procedimentos;PINLBLMDC;Sistema
+Mapas de Etiquetas de Procedimentos;PINLBLMDL;Sistema
+Impressão de registo de Procedimentos;PINIMC;Sistema
+Impressão de registo de Procedimentos;PINIML;Sistema
+Impressão de registo de Procedimentos;PINIMTXT;Sistema
+Ficheiro de filtro de Procedimentos Internos;FLTPIN;Sistema
+Ficheiro de linhas de filtro de Procedimentos;LIFLTPIN;Sistema
+Imagens e outros ficheiros internos;IFL;Sistema
+Notificações;NTF;Sistema
+Mapas definidos de Notificações, Cabeçalhos;NTFDEFC;Sistema
+Mapas definidos de Notificações, Linhas;NTFDEFL;Sistema
+Impressão de registo de Notificações,;NTFIMC;Sistema
+Impressão de registo de Notificações, Linhas;NTFIML;Sistema
+Impressão de registo de Notificações, Linhas;NTFIMTXT;Sistema
+Ficheiro de filtro de Notificações;FLTNTF;Sistema
+Ficheiro de linhas de filtro de Notificações;LIFLTNTF;Sistema
+Explorador de dados;EXPLORADOR;Sistema
+Campos de cálculo do explorador de dados;EXPLORADORCM;Sistema
+Linhas de filtro do explorador de dados;EXPLORADORFIL;Sistema
+Linhas de ordenação do explorador de dados;EXPLORADOROR;Sistema
+Linhas de agrupamento do explorador de;EXPLORADORGR;Sistema
+Linhas de totalizadores do explorador de;EXPLORADORTOT;Sistema
+Configuração de Análises;ANAMULTC;Sistema
+Configuração de Análises;ANAMULTL;Sistema
+Produtos por grupo de acesso;PFPROG;Sistema
+IPs a Negar Autorizações PHC Digital e FX;DSEGIP;Sistema
+Marcas e Modelos;MM;Suporte
+Mapas definidos de Marcas e Modelos,;MMDEFC;Suporte
+Mapas definidos de Marcas e Modelos, Linhas;MMDEFL;Suporte
+Mapas desenhados de Marcas e Modelos,;MMMDC;Suporte
+Mapas desenhados de Marcas e Modelos,;MMMDL;Suporte
+Mapas desenhados de Marcas e Modelos,;MMMDTXT;Suporte
+Mapas de Etiquetas de Marcas e Modelos,;MMLBLMDC;Suporte
+Mapas de Etiquetas de Marcas e Modelos,;MMLBLMDL;Suporte
+Ficheiro de filtro de Marcas e Modelos;FLTMM;Suporte
+Ficheiro de linhas de filtro de Marcas e;LIFLTMM;Suporte
+Técnicos;CM4;Suporte
+Mapas definidos de Técnicos, Cabeçalhos;CM4DEFC;Suporte
+Mapas definidos de Técnicos, Linhas;CM4DEFL;Suporte
+Mapas desenhados de Técnicos, Cabeçalhos;CM4MDC;Suporte
+Mapas desenhados de Técnicos, Linhas;CM4MDL;Suporte
+Mapas desenhados de Técnicos, Linhas (Modo;CM4MDTXT;Suporte
+Mapas de Etiquetas de Técnicos, Cabeçalhos;CM4LBLMDC;Suporte
+Mapas de Etiquetas de Técnicos, Linhas;CM4LBLMDL;Suporte
+Impressão de registo de Técnicos, Cabeçalhos;CM4IMC;Suporte
+Impressão de registo de Técnicos, Linhas;CM4IML;Suporte
+Impressão de registo de Técnicos, Linhas;CM4IMTXT;Suporte
+Ficheiro de filtro de Técnicos;FLTCM4;Suporte
+Ficheiro de linhas de filtro de Técnicos;LIFLTCM4;Suporte
+Detalhes da Categoria de Equipamento do;TDCT;Suporte
+Detalhes do Técnico;TDTC;Suporte
+Acessórios;MAAC;Suporte
+Instalações;SN;Suporte
+Mapas definidos de Instalações, Cabeçalhos;SNDEFC;Suporte
+Mapas definidos de Instalações, Linhas;SNDEFL;Suporte
+Mapas desenhados de Instalações,;SNMDC;Suporte
+Mapas desenhados de Instalações, Linhas;SNMDL;Suporte
+Mapas desenhados de Instalações, Linhas;SNMDTXT;Suporte
+Mapas de Etiquetas de Instalações,;SNLBLMDC;Suporte
+Mapas de Etiquetas de Instalações, Linhas;SNLBLMDL;Suporte
+Impressão de registo de Instalações,;SNIMC;Suporte
+Impressão de registo de Instalações, Linhas;SNIML;Suporte
+Impressão de registo de Instalações, Linhas;SNIMTXT;Suporte
+Ficheiro de filtro de Instalações;FLTSN;Suporte
+Ficheiro de linhas de filtro de Instalações;LIFLTSN;Suporte
+Pedidos de Assistência;PA;Suporte
+Mapas definidos de Pedidos de Assistência,;PADEFC;Suporte
+Mapas definidos de Pedidos de Assistência,;PADEFL;Suporte
+Mapas desenhados de Pedidos de;PAMDC;Suporte
+Mapas desenhados de Pedidos de;PAMDL;Suporte
+Mapas desenhados de Pedidos de;PAMDTXT;Suporte
+Mapas de Etiquetas de Pedidos de;PALBLMDC;Suporte
+Mapas de Etiquetas de Pedidos de;PALBLMDL;Suporte
+Impressão de registo de Pedidos de;PAIMC;Suporte
+Impressão de registo de Pedidos de;PAIML;Suporte
+Impressão de registo de Pedidos de;PAIMTXT;Suporte
+Ficheiro de filtro de Pedidos de Assistência;FLTPA;Suporte
+Ficheiro de linhas de filtro de Pedidos de;LIFLTPA;Suporte
+Intervenções Técnicas;MH;Suporte
+Mapas definidos de Intervenções Técnicas,;MHDEFC;Suporte
+Mapas definidos de Intervenções Técnicas,;MHDEFL;Suporte
+Mapas desenhados de Intervenções Técnicas,;MHMDC;Suporte
+Mapas desenhados de Intervenções Técnicas,;MHMDL;Suporte
+Mapas desenhados de Intervenções Técnicas,;MHMDTXT;Suporte
+Mapas de Etiquetas de Intervenções Técnicas,;MHLBLMDC;Suporte
+Mapas de Etiquetas de Intervenções Técnicas,;MHLBLMDL;Suporte
+Impressão de registo de Intervenções;MHIMC;Suporte
+Impressão de registo de Intervenções;MHIML;Suporte
+Impressão de registo de Intervenções;MHIMTXT;Suporte
+Ficheiro de filtro de Intervenções Técnicas;FLTMH;Suporte
+Ficheiro de linhas de filtro de Intervenções;LIFLTMH;Suporte
+Sugestões;SU;Suporte
+Acções de sugestão;SUAC;Suporte
+Controlo de tempo;CTT;Suporte
+Linhas de Controlo de Tempo;CTTL;Suporte
+Tarefas;TF;Suporte
+Diálogos de Tarefas;TFD;Suporte
+Autorizações PHC Digital;DSEG;Suporte
+Base de Dados técnica;KB;Suporte
+Mapas definidos de Base de Dados técnica,;KBDEFC;Suporte
+Mapas definidos de Base de Dados técnica,;KBDEFL;Suporte
+Impressões definidas de Base de Dados;KBIDUC;Suporte
+Impressões definidas de Base de Dados;KBIDUL;Suporte
+Impressões definidas de Base de Dados;KBIDUTXT;Suporte
+Mapas desenhados de Base de Dados técnica,;KBMDC;Suporte
+Mapas desenhados de Base de Dados técnica,;KBMDL;Suporte
+Mapas desenhados de Base de Dados técnica,;KBMDTXT;Suporte
+Mapas de Etiquetas de Base de Dados;KBLBLMDC;Suporte
+Mapas de Etiquetas de Base de Dados;KBLBLMDL;Suporte
+Impressão de registo de Base de Dados;KBIMC;Suporte
+Impressão de registo de Base de Dados;KBIML;Suporte
+Impressão de registo de Base de Dados;KBIMTXT;Suporte
+Ficheiro de filtro de Base de Dados técnica;FLTKB;Suporte
+Ficheiro de linhas de filtro de Base de Dados;LIFLTKB;Suporte
+Sugestões temporárias;ISU;Suporte
+Contadores;CT;Suporte
+Mapas definidos de Contadores, Cabeçalhos;CTDEFC;Suporte
+Mapas definidos de Contadores, Linhas;CTDEFL;Suporte
+Mapas desenhados de Contadores,;CTMDC;Suporte
+Mapas desenhados de Contadores, Linhas;CTMDL;Suporte
+Mapas desenhados de Contadores, Linhas;CTMDTXT;Suporte
+Mapas de Etiquetas de Contadores,;CTLBLMDC;Suporte
+Mapas de Etiquetas de Contadores, Linhas;CTLBLMDL;Suporte
+Impressão de registo de Contadores,;CTIMC;Suporte
+Impressão de registo de Contadores, Linhas;CTIML;Suporte
+Impressão de registo de Contadores, Linhas;CTIMTXT;Suporte
+Ficheiro de filtro de Contadores;FLTCT;Suporte
+Ficheiro de linhas de filtro de Contadores;LIFLTCT;Suporte
+Contadores da Marca e do Modelo;MMCT;Suporte
+Contadores dos Equipamentos;MACT;Suporte
+Contadores das Intervenções;MHCT;Suporte
+Ausência de Técnicos;TATC;Suporte
+Contratos Suporte;CSUP;Suporte
+Mapas definidos de Contratos Suporte,;CSUPDEFC;Suporte
+Mapas definidos de Contratos Suporte, Linhas;CSUPDEFL;Suporte
+Impressões definidas de Contratos Suporte,;CSUPIDUC;Suporte
+Impressões definidas de Contratos Suporte,;CSUPIDUL;Suporte
+Impressões definidas de Contratos Suporte,;CSUPIDUTXT;Suporte
+Mapas desenhados de Contratos Suporte,;CSUPMDC;Suporte
+Mapas desenhados de Contratos Suporte,;CSUPMDL;Suporte
+Mapas desenhados de Contratos Suporte,;CSUPMDTXT;Suporte
+Mapas de Etiquetas de Contratos Suporte,;CSUPLBLMDC;Suporte
+Mapas de Etiquetas de Contratos Suporte,;CSUPLBLMDL;Suporte
+Impressão de registo de Contratos Suporte,;CSUPIMC;Suporte
+Impressão de registo de Contratos Suporte,;CSUPIML;Suporte
+Impressão de registo de Contratos Suporte,;CSUPIMTXT;Suporte
+Ficheiro de filtro de Contratos Suporte;FLTCSUP;Suporte
+Ficheiro de linhas de filtro de Contratos;LIFLTCSUP;Suporte
+Lista de Equipamentos Incluídos no Contrato;CDEQ;Suporte
+Mapas definidos de Lista de Equipamentos;CDEQDEFC;Suporte
+Mapas definidos de Lista de Equipamentos;CDEQDEFL;Suporte
+Mapas desenhados de Lista de Equipamentos;CDEQMDC;Suporte
+Mapas desenhados de Lista de Equipamentos;CDEQMDL;Suporte
+Mapas desenhados de Lista de Equipamentos;CDEQMDTXT;Suporte
+Mapas de Etiquetas de Lista de Equipamentos;CDEQLBLMDC;Suporte
+Mapas de Etiquetas de Lista de Equipamentos;CDEQLBLMDL;Suporte
+Impressão de registo de Lista de;CDEQIMC;Suporte
+Impressão de registo de Lista de;CDEQIML;Suporte
+Impressão de registo de Lista de;CDEQIMTXT;Suporte
+Ficheiro de filtro de Lista de Equipamentos;FLTCDEQ;Suporte
+Ficheiro de linhas de filtro de Lista de;LIFLTCDEQ;Suporte
+Contadores Incluídos no Contrato;CSUPCT;Suporte
+Impressões Definidas Contratos do;CSUPLIDUC;Suporte
+Impressões Definidas Contratos do;CSUPLIDUL;Suporte
+Impressões Definidas Contratos do;CSUPCTLIDUC;Suporte
+Impressões Definidas Contratos do;CSUPCTLIDUL;Suporte
+Nºs de série de docs. facturação;FTMA;Suporte
+Nºs de série de docs. compra;FOMA;Suporte
+Nºs de série de dossiers;BOMA;Suporte
+Equipamentos;MA;Suporte
+Mapas definidos de Equipamentos,;MADEFC;Suporte
+Mapas definidos de Equipamentos, Linhas;MADEFL;Suporte
+Impressões definidas de Equipamentos,;MAIDUC;Suporte
+Impressões definidas de Equipamentos,;MAIDUL;Suporte
+Impressões definidas de Equipamentos,;MAIDUTXT;Suporte
+Mapas desenhados de Equipamentos,;MAMDC;Suporte
+Mapas desenhados de Equipamentos, Linhas;MAMDL;Suporte
+Mapas desenhados de Equipamentos, Linhas;MAMDTXT;Suporte
+Mapas de Etiquetas de Equipamentos,;MALBLMDC;Suporte
+Mapas de Etiquetas de Equipamentos, Linhas;MALBLMDL;Suporte
+Ficheiro de filtro de Equipamentos;FLTMA;Suporte
+Ficheiro de linhas de filtro de Equipamentos;LIFLTMA;Suporte
+Tabelas do utilizador - Configuração de;U_VASILHAMES;Tabelas do Utilizador
+Tabelas do utilizador - Encomendas de;U_ENCCAB;Tabelas do Utilizador
+Mapas definidos de Tabelas do utilizador -;U_ENCCABDEFC;Tabelas do Utilizador
+Mapas definidos de Tabelas do utilizador -;U_ENCCABDEFL;Tabelas do Utilizador
+Mapas desenhados de Tabelas do utilizador -;U_ENCCABMDC;Tabelas do Utilizador
+Mapas desenhados de Tabelas do utilizador -;U_ENCCABMDL;Tabelas do Utilizador
+Mapas desenhados de Tabelas do utilizador -;U_ENCCABMDTXT;Tabelas do Utilizador
+Mapas de Etiquetas de Tabelas do utilizador -;U_ENCCABLBLMD;Tabelas do Utilizador
+Mapas de Etiquetas de Tabelas do utilizador -;U_ENCCABLBLMD;Tabelas do Utilizador
+Impressão de registo de Tabelas do utilizador -;U_ENCCABIMC;Tabelas do Utilizador
+Impressão de registo de Tabelas do utilizador -;U_ENCCABIML;Tabelas do Utilizador
+Impressão de registo de Tabelas do utilizador -;U_ENCCABIMTXT;Tabelas do Utilizador
+Ficheiro de filtro de Tabelas do utilizador -;FLTU_ENCCAB;Tabelas do Utilizador
+Ficheiro de linhas de filtro de Tabelas do;LIFLTU_ENCCAB;Tabelas do Utilizador
+Tabelas do utilizador - Encomendas de;U_ENCLIN;Tabelas do Utilizador
+Diálogos;GTXT;TeamControl
+Projectos;TPO;TeamControl
+Mapas definidos de Projectos, Cabeçalhos;TPODEFC;TeamControl
+Mapas definidos de Projectos, Linhas;TPODEFL;TeamControl
+Mapas desenhados de Projectos, Cabeçalhos;TPOMDC;TeamControl
+Mapas desenhados de Projectos, Linhas;TPOMDL;TeamControl
+Mapas desenhados de Projectos, Linhas;TPOMDTXT;TeamControl
+Mapas de Etiquetas de Projectos, Cabeçalhos;TPOLBLMDC;TeamControl
+Mapas de Etiquetas de Projectos, Linhas;TPOLBLMDL;TeamControl
+Impressão de registo de Projectos,;TPOIMC;TeamControl
+Impressão de registo de Projectos, Linhas;TPOIML;TeamControl
+Impressão de registo de Projectos, Linhas;TPOIMTXT;TeamControl
+Ficheiro de filtro de Projectos;FLTTPO;TeamControl
+Ficheiro de linhas de filtro de Projectos;LIFLTTPO;TeamControl
+Exemplos de Projectos;TEX;TeamControl
+Mapas definidos de Exemplos de Projectos,;TEXDEFC;TeamControl
+Mapas definidos de Exemplos de Projectos,;TEXDEFL;TeamControl
+Mapas desenhados de Exemplos de Projectos,;TEXMDC;TeamControl
+Mapas desenhados de Exemplos de Projectos,;TEXMDL;TeamControl
+Mapas desenhados de Exemplos de Projectos,;TEXMDTXT;TeamControl
+Mapas de Etiquetas de Exemplos de;TEXLBLMDC;TeamControl
+Mapas de Etiquetas de Exemplos de;TEXLBLMDL;TeamControl
+Impressão de registo de Exemplos de;TEXIMC;TeamControl
+Impressão de registo de Exemplos de;TEXIML;TeamControl
+Impressão de registo de Exemplos de;TEXIMTXT;TeamControl
+Ficheiro de filtro de Exemplos de Projectos;FLTTEX;TeamControl
+Ficheiro de linhas de filtro de Exemplos de;LIFLTTEX;TeamControl
+Tarefas de Exemplos de Projectos;TEXTA;TeamControl
+Mapas definidos de Tarefas de Exemplos de;TEXTADEFC;TeamControl
+Mapas definidos de Tarefas de Exemplos de;TEXTADEFL;TeamControl
+Mapas desenhados de Tarefas de Exemplos;TEXTAMDC;TeamControl
+Mapas desenhados de Tarefas de Exemplos;TEXTAMDL;TeamControl
+Mapas desenhados de Tarefas de Exemplos;TEXTAMDTXT;TeamControl
+Mapas de Etiquetas de Tarefas de Exemplos;TEXTALBLMDC;TeamControl
+Mapas de Etiquetas de Tarefas de Exemplos;TEXTALBLMDL;TeamControl
+Impressão de registo de Tarefas de Exemplos;TEXTAIMC;TeamControl
+Impressão de registo de Tarefas de Exemplos;TEXTAIML;TeamControl
+Impressão de registo de Tarefas de Exemplos;TEXTAIMTXT;TeamControl
+Ficheiro de filtro de Tarefas de Exemplos de;FLTTEXTA;TeamControl
+Ficheiro de linhas de filtro de Tarefas de;LIFLTTEXTA;TeamControl
+Tarefas;TTA;TeamControl
+Mapas definidos de Tarefas, Cabeçalhos;TTADEFC;TeamControl
+Mapas definidos de Tarefas, Linhas;TTADEFL;TeamControl
+Mapas desenhados de Tarefas, Cabeçalhos;TTAMDC;TeamControl
+Mapas desenhados de Tarefas, Linhas;TTAMDL;TeamControl
+Mapas desenhados de Tarefas, Linhas (Modo;TTAMDTXT;TeamControl
+Mapas de Etiquetas de Tarefas, Cabeçalhos;TTALBLMDC;TeamControl
+Mapas de Etiquetas de Tarefas, Linhas;TTALBLMDL;TeamControl
+Impressão de registo de Tarefas, Cabeçalhos;TTAIMC;TeamControl
+Impressão de registo de Tarefas, Linhas;TTAIML;TeamControl
+Impressão de registo de Tarefas, Linhas (Modo;TTAIMTXT;TeamControl
+Ficheiro de filtro de Tarefas;FLTTTA;TeamControl
+Ficheiro de linhas de filtro de Tarefas;LIFLTTTA;TeamControl
+Fases;TFA;TeamControl
+Mapas definidos de Fases, Cabeçalhos;TFADEFC;TeamControl
+Mapas definidos de Fases, Linhas;TFADEFL;TeamControl
+Mapas desenhados de Fases, Cabeçalhos;TFAMDC;TeamControl
+Mapas desenhados de Fases, Linhas;TFAMDL;TeamControl
+Mapas desenhados de Fases, Linhas (Modo;TFAMDTXT;TeamControl
+Mapas de Etiquetas de Fases, Cabeçalhos;TFALBLMDC;TeamControl
+Mapas de Etiquetas de Fases, Linhas;TFALBLMDL;TeamControl
+Impressão de registo de Fases, Cabeçalhos;TFAIMC;TeamControl
+Impressão de registo de Fases, Linhas;TFAIML;TeamControl
+Impressão de registo de Fases, Linhas (Modo;TFAIMTXT;TeamControl
+Ficheiro de filtro de Fases;FLTTFA;TeamControl
+Ficheiro de linhas de filtro de Fases;LIFLTTFA;TeamControl
+Valores Reais;TMR;TeamControl
+Mapas definidos de Valores Reais,;TMRDEFC;TeamControl
+Mapas definidos de Valores Reais, Linhas;TMRDEFL;TeamControl
+Mapas desenhados de Valores Reais,;TMRMDC;TeamControl
+Mapas desenhados de Valores Reais, Linhas;TMRMDL;TeamControl
+Mapas desenhados de Valores Reais, Linhas;TMRMDTXT;TeamControl
+Mapas de Etiquetas de Valores Reais,;TMRLBLMDC;TeamControl
+Mapas de Etiquetas de Valores Reais, Linhas;TMRLBLMDL;TeamControl
+Impressão de registo de Valores Reais,;TMRIMC;TeamControl
+Impressão de registo de Valores Reais, Linhas;TMRIML;TeamControl
+Impressão de registo de Valores Reais, Linhas;TMRIMTXT;TeamControl
+Ficheiro de filtro de Valores Reais;FLTTMR;TeamControl
+Ficheiro de linhas de filtro de Valores Reais;LIFLTTMR;TeamControl
+Budget;TBU;TeamControl
+Mapas definidos de Budget, Cabeçalhos;TBUDEFC;TeamControl
+Mapas definidos de Budget, Linhas;TBUDEFL;TeamControl
+Mapas desenhados de Budget, Cabeçalhos;TBUMDC;TeamControl
+Mapas desenhados de Budget, Linhas;TBUMDL;TeamControl
+Mapas desenhados de Budget, Linhas (Modo;TBUMDTXT;TeamControl
+Mapas de Etiquetas de Budget, Cabeçalhos;TBULBLMDC;TeamControl
+Mapas de Etiquetas de Budget, Linhas;TBULBLMDL;TeamControl
+Impressão de registo de Budget, Cabeçalhos;TBUIMC;TeamControl
+Impressão de registo de Budget, Linhas;TBUIML;TeamControl
+Impressão de registo de Budget, Linhas (Modo;TBUIMTXT;TeamControl
+Ficheiro de filtro de Budget;FLTTBU;TeamControl
+Ficheiro de linhas de filtro de Budget;LIFLTTBU;TeamControl
+Códigos Financeiros;TBC;TeamControl
+Mapas definidos de Códigos Financeiros,;TBCDEFC;TeamControl
+Mapas definidos de Códigos Financeiros,;TBCDEFL;TeamControl
+Mapas desenhados de Códigos Financeiros,;TBCMDC;TeamControl
+Mapas desenhados de Códigos Financeiros,;TBCMDL;TeamControl
+Mapas desenhados de Códigos Financeiros,;TBCMDTXT;TeamControl
+Mapas de Etiquetas de Códigos Financeiros,;TBCLBLMDC;TeamControl
+Mapas de Etiquetas de Códigos Financeiros,;TBCLBLMDL;TeamControl
+Impressão de registo de Códigos Financeiros,;TBCIMC;TeamControl
+Impressão de registo de Códigos Financeiros,;TBCIML;TeamControl
+Impressão de registo de Códigos Financeiros,;TBCIMTXT;TeamControl
+Ficheiro de filtro de Códigos Financeiros;FLTTBC;TeamControl
+Ficheiro de linhas de filtro de Códigos;LIFLTTBC;TeamControl
+Passos de tarefas;TTAPA;TeamControl
+Mapas definidos de Passos de tarefas,;TTAPADEFC;TeamControl
+Mapas definidos de Passos de tarefas, Linhas;TTAPADEFL;TeamControl
+Mapas desenhados de Passos de tarefas,;TTAPAMDC;TeamControl
+Mapas desenhados de Passos de tarefas,;TTAPAMDL;TeamControl
+Mapas desenhados de Passos de tarefas,;TTAPAMDTXT;TeamControl
+Mapas de Etiquetas de Passos de tarefas,;TTAPALBLMDC;TeamControl
+Mapas de Etiquetas de Passos de tarefas,;TTAPALBLMDL;TeamControl
+Impressão de registo de Passos de tarefas,;TTAPAIMC;TeamControl
+Impressão de registo de Passos de tarefas,;TTAPAIML;TeamControl
+Impressão de registo de Passos de tarefas,;TTAPAIMTXT;TeamControl
+Ficheiro de filtro de Passos de tarefas;FLTTTAPA;TeamControl
+Ficheiro de linhas de filtro de Passos de;LIFLTTTAPA;TeamControl
+Utilizadores de Projectos;TPOUS;TeamControl
+Mapas definidos de Utilizadores de Projectos,;TPOUSDEFC;TeamControl
+Mapas definidos de Utilizadores de Projectos,;TPOUSDEFL;TeamControl
+Mapas desenhados de Utilizadores de;TPOUSMDC;TeamControl
+Mapas desenhados de Utilizadores de;TPOUSMDL;TeamControl
+Mapas desenhados de Utilizadores de;TPOUSMDTXT;TeamControl
+Mapas de Etiquetas de Utilizadores de;TPOUSLBLMDC;TeamControl
+Mapas de Etiquetas de Utilizadores de;TPOUSLBLMDL;TeamControl
+Impressão de registo de Utilizadores de;TPOUSIMC;TeamControl
+Impressão de registo de Utilizadores de;TPOUSIML;TeamControl
+Impressão de registo de Utilizadores de;TPOUSIMTXT;TeamControl
+Ficheiro de filtro de Utilizadores de Projectos;FLTTPOUS;TeamControl
+Ficheiro de linhas de filtro de Utilizadores de;LIFLTTPOUS;TeamControl
+Fórum de Projectos;TFO;TeamControl
+Mapas definidos de Fórum de Projectos,;TFODEFC;TeamControl
+Mapas definidos de Fórum de Projectos,;TFODEFL;TeamControl
+Mapas desenhados de Fórum de Projectos,;TFOMDC;TeamControl
+Mapas desenhados de Fórum de Projectos,;TFOMDL;TeamControl
+Mapas desenhados de Fórum de Projectos,;TFOMDTXT;TeamControl
+Mapas de Etiquetas de Fórum de Projectos,;TFOLBLMDC;TeamControl
+Mapas de Etiquetas de Fórum de Projectos,;TFOLBLMDL;TeamControl
+Impressão de registo de Fórum de Projectos,;TFOIMC;TeamControl
+Impressão de registo de Fórum de Projectos,;TFOIML;TeamControl
+Impressão de registo de Fórum de Projectos,;TFOIMTXT;TeamControl
+Ficheiro de filtro de Fórum de Projectos;FLTTFO;TeamControl
+Ficheiro de linhas de filtro de Fórum de;LIFLTTFO;TeamControl
+Datas de Projectos;TDA;TeamControl
+Mapas definidos de Datas de Projectos,;TDADEFC;TeamControl
+Mapas definidos de Datas de Projectos, Linhas;TDADEFL;TeamControl
+Mapas desenhados de Datas de Projectos,;TDAMDC;TeamControl
+Mapas desenhados de Datas de Projectos,;TDAMDL;TeamControl
+Mapas desenhados de Datas de Projectos,;TDAMDTXT;TeamControl
+Mapas de Etiquetas de Datas de Projectos,;TDALBLMDC;TeamControl
+Mapas de Etiquetas de Datas de Projectos,;TDALBLMDL;TeamControl
+Impressão de registo de Datas de Projectos,;TDAIMC;TeamControl
+Impressão de registo de Datas de Projectos,;TDAIML;TeamControl
+Impressão de registo de Datas de Projectos,;TDAIMTXT;TeamControl
+Ficheiro de filtro de Datas de Projectos;FLTTDA;TeamControl
+Ficheiro de linhas de filtro de Datas de;LIFLTTDA;TeamControl
+Utilizadores de datas de projectos;TDAUS;TeamControl
+Mapas definidos de Utilizadores de datas de;TDAUSDEFC;TeamControl
+Mapas definidos de Utilizadores de datas de;TDAUSDEFL;TeamControl
+Mapas desenhados de Utilizadores de datas;TDAUSMDC;TeamControl
+Mapas desenhados de Utilizadores de datas;TDAUSMDL;TeamControl
+Mapas desenhados de Utilizadores de datas;TDAUSMDTXT;TeamControl
+Mapas de Etiquetas de Utilizadores de datas;TDAUSLBLMDC;TeamControl
+Mapas de Etiquetas de Utilizadores de datas;TDAUSLBLMDL;TeamControl
+Impressão de registo de Utilizadores de datas;TDAUSIMC;TeamControl
+Impressão de registo de Utilizadores de datas;TDAUSIML;TeamControl
+Impressão de registo de Utilizadores de datas;TDAUSIMTXT;TeamControl
+Ficheiro de filtro de Utilizadores de datas de;FLTTDAUS;TeamControl
+Ficheiro de linhas de filtro de Utilizadores de;LIFLTTDAUS;TeamControl
+Ligações de Projectos;TLI;TeamControl
+Mapas definidos de Ligações de Projectos,;TLIDEFC;TeamControl
+Mapas definidos de Ligações de Projectos,;TLIDEFL;TeamControl
+Mapas desenhados de Ligações de Projectos,;TLIMDC;TeamControl
+Mapas desenhados de Ligações de Projectos,;TLIMDL;TeamControl
+Mapas desenhados de Ligações de Projectos,;TLIMDTXT;TeamControl
+Mapas de Etiquetas de Ligações de Projectos,;TLILBLMDC;TeamControl
+Mapas de Etiquetas de Ligações de Projectos,;TLILBLMDL;TeamControl
+Impressão de registo de Ligações de;TLIIMC;TeamControl
+Impressão de registo de Ligações de;TLIIML;TeamControl
+Impressão de registo de Ligações de;TLIIMTXT;TeamControl
+Ficheiro de filtro de Ligações de Projectos;FLTTLI;TeamControl
+Ficheiro de linhas de filtro de Ligações de;LIFLTTLI;TeamControl
+Notícias de Projectos;TNO;TeamControl
+Mapas definidos de Notícias de Projectos,;TNODEFC;TeamControl
+Mapas definidos de Notícias de Projectos,;TNODEFL;TeamControl
+Mapas desenhados de Notícias de Projectos,;TNOMDC;TeamControl
+Mapas desenhados de Notícias de Projectos,;TNOMDL;TeamControl
+Mapas desenhados de Notícias de Projectos,;TNOMDTXT;TeamControl
+Mapas de Etiquetas de Notícias de Projectos,;TNOLBLMDC;TeamControl
+Mapas de Etiquetas de Notícias de Projectos,;TNOLBLMDL;TeamControl
+Impressão de registo de Notícias de Projectos,;TNOIMC;TeamControl
+Impressão de registo de Notícias de Projectos,;TNOIML;TeamControl
+Impressão de registo de Notícias de Projectos,;TNOIMTXT;TeamControl
+Ficheiro de filtro de Notícias de Projectos;FLTTNO;TeamControl
+Ficheiro de linhas de filtro de Notícias de;LIFLTTNO;TeamControl
+Itens de Projectos;TIT;TeamControl
+Mapas definidos de Itens de Projectos,;TITDEFC;TeamControl
+Mapas definidos de Itens de Projectos, Linhas;TITDEFL;TeamControl
+Mapas desenhados de Itens de Projectos,;TITMDC;TeamControl
+Mapas desenhados de Itens de Projectos,;TITMDL;TeamControl
+Mapas desenhados de Itens de Projectos,;TITMDTXT;TeamControl
+Mapas de Etiquetas de Itens de Projectos,;TITLBLMDC;TeamControl
+Mapas de Etiquetas de Itens de Projectos,;TITLBLMDL;TeamControl
+Impressão de registo de Itens de Projectos,;TITIMC;TeamControl
+Impressão de registo de Itens de Projectos,;TITIML;TeamControl
+Impressão de registo de Itens de Projectos,;TITIMTXT;TeamControl
+Ficheiro de filtro de Itens de Projectos;FLTTIT;TeamControl
+Ficheiro de linhas de filtro de Itens de;LIFLTTIT;TeamControl
+Correspondência;CR;Vários
+Mapas definidos de Correspondência,;CRDEFC;Vários
+Mapas definidos de Correspondência, Linhas;CRDEFL;Vários
+Mapas desenhados de Correspondência,;CRMDC;Vários
+Mapas desenhados de Correspondência,;CRMDL;Vários
+Mapas desenhados de Correspondência,;CRMDTXT;Vários
+Mapas de Etiquetas de Correspondência,;CRLBLMDC;Vários
+Mapas de Etiquetas de Correspondência,;CRLBLMDL;Vários
+Impressão de registo de Correspondência,;CRIMC;Vários
+Impressão de registo de Correspondência,;CRIML;Vários
+Impressão de registo de Correspondência,;CRIMTXT;Vários
+Ficheiro de filtro de Correspondência;FLTCR;Vários
+Ficheiro de linhas de filtro de Correspondência;LIFLTCR;Vários
+Textos rápidos para campos de texto (memo);TR;Vários
+Mapas definidos de Textos rápidos para;TRDEFC;Vários
+Mapas definidos de Textos rápidos para;TRDEFL;Vários
+Mapas desenhados de Textos rápidos para;TRMDC;Vários
+Mapas desenhados de Textos rápidos para;TRMDL;Vários
+Mapas desenhados de Textos rápidos para;TRMDTXT;Vários
+Mapas de Etiquetas de Textos rápidos para;TRLBLMDC;Vários
+Mapas de Etiquetas de Textos rápidos para;TRLBLMDL;Vários
+Impressão de registo de Textos rápidos para;TRIMC;Vários
+Impressão de registo de Textos rápidos para;TRIML;Vários
+Impressão de registo de Textos rápidos para;TRIMTXT;Vários
+Ficheiro de filtro de Textos rápidos para;FLTTR;Vários
+Ficheiro de linhas de filtro de Textos rápidos;LIFLTTR;Vários
+Sociedades;EC;Vários
+Mapas definidos de Sociedades, Cabeçalhos;ECDEFC;Vários
+Mapas definidos de Sociedades, Linhas;ECDEFL;Vários
+Mapas desenhados de Sociedades,;ECMDC;Vários
+Mapas desenhados de Sociedades, Linhas;ECMDL;Vários
+Mapas desenhados de Sociedades, Linhas;ECMDTXT;Vários
+Mapas de Etiquetas de Sociedades,;ECLBLMDC;Vários
+Mapas de Etiquetas de Sociedades, Linhas;ECLBLMDL;Vários
+Impressão de registo de Sociedades,;ECIMC;Vários
+Impressão de registo de Sociedades, Linhas;ECIML;Vários
+Impressão de registo de Sociedades, Linhas;ECIMTXT;Vários
+Ficheiro de filtro de Sociedades;FLTEC;Vários
+Ficheiro de linhas de filtro de Sociedades;LIFLTEC;Vários
+Sociedades Participantes;ECL;Vários
+Ajustamentos das Sociedades;ECLAJ;Vários
+Mapas das Sociedades;MEC;Vários
+Processamentos das Sociedades;PREC;Vários
+Utilizadores das Sociedades;ECGS;Vários
+Códigos de Tesouraria;OC;Vários
+Mapas definidos de Códigos de Tesouraria,;OCDEFC;Vários
+Mapas definidos de Códigos de Tesouraria,;OCDEFL;Vários
+Ficheiro de filtro de Códigos de Tesouraria;FLTOC;Vários
+Ficheiro de linhas de filtro de Códigos de;LIFLTOC;Vários
+Fornecedores;FL;Vários
+Mapas definidos de Fornecedores, Cabeçalhos;FLDEFC;Vários
+Mapas definidos de Fornecedores, Linhas;FLDEFL;Vários
+Mapas desenhados de Fornecedores,;FLMDC;Vários
+Mapas desenhados de Fornecedores, Linhas;FLMDL;Vários
+Mapas desenhados de Fornecedores, Linhas;FLMDTXT;Vários
+Mapas de Etiquetas de Fornecedores,;FLLBLMDC;Vários
+Mapas de Etiquetas de Fornecedores, Linhas;FLLBLMDL;Vários
+Impressão de registo de Fornecedores,;FLIMC;Vários
+Impressão de registo de Fornecedores, Linhas;FLIML;Vários
+Impressão de registo de Fornecedores, Linhas;FLIMTXT;Vários
+Ficheiro de filtro de Fornecedores;FLTFL;Vários
+Ficheiro de linhas de filtro de Fornecedores;LIFLTFL;Vários
+Tipos de Artigos de Qualidade de;QFLL;Vários
+Mapas definidos de Tipos de Artigos de;QFLLDEFC;Vários
+Mapas definidos de Tipos de Artigos de;QFLLDEFL;Vários
+Mapas desenhados de Tipos de Artigos de;QFLLMDC;Vários
+Mapas desenhados de Tipos de Artigos de;QFLLMDL;Vários
+Mapas desenhados de Tipos de Artigos de;QFLLMDTXT;Vários
+Mapas de Etiquetas de Tipos de Artigos de;QFLLLBLMDC;Vários
+Mapas de Etiquetas de Tipos de Artigos de;QFLLLBLMDL;Vários
+Impressão de registo de Tipos de Artigos de;QFLLIMC;Vários
+Impressão de registo de Tipos de Artigos de;QFLLIML;Vários
+Impressão de registo de Tipos de Artigos de;QFLLIMTXT;Vários
+Ficheiro de filtro de Tipos de Artigos de;FLTQFLL;Vários
+Ficheiro de linhas de filtro de Tipos de Artigos;LIFLTQFLL;Vários
+Produtos vendidos;PN;Vários
+Mapas definidos de Produtos vendidos,;PNDEFC;Vários
+Mapas definidos de Produtos vendidos, Linhas;PNDEFL;Vários
+Mapas desenhados de Produtos vendidos,;PNMDC;Vários
+Mapas desenhados de Produtos vendidos,;PNMDL;Vários
+Mapas desenhados de Produtos vendidos,;PNMDTXT;Vários
+Mapas de Etiquetas de Produtos vendidos,;PNLBLMDC;Vários
+Mapas de Etiquetas de Produtos vendidos,;PNLBLMDL;Vários
+Impressão de registo de Produtos vendidos,;PNIMC;Vários
+Impressão de registo de Produtos vendidos,;PNIML;Vários
+Impressão de registo de Produtos vendidos,;PNIMTXT;Vários
+Ficheiro de filtro de Produtos vendidos;FLTPN;Vários
+Ficheiro de linhas de filtro de Produtos;LIFLTPN;Vários
+Tabela de Comissões;ECOM;Vários
+Mapas definidos de Tabela de Comissões,;ECOMDEFC;Vários
+Mapas definidos de Tabela de Comissões,;ECOMDEFL;Vários
+Mapas desenhados de Tabela de Comissões,;ECOMMDC;Vários
+Mapas desenhados de Tabela de Comissões,;ECOMMDL;Vários
+Mapas desenhados de Tabela de Comissões,;ECOMMDTXT;Vários
+Mapas de Etiquetas de Tabela de Comissões,;ECOMLBLMDC;Vários
+Mapas de Etiquetas de Tabela de Comissões,;ECOMLBLMDL;Vários
+Impressão de registo de Tabela de Comissões,;ECOMIMC;Vários
+Impressão de registo de Tabela de Comissões,;ECOMIML;Vários
+Impressão de registo de Tabela de Comissões,;ECOMIMTXT;Vários
+Ficheiro de filtro de Tabela de Comissões;FLTECOM;Vários
+Ficheiro de linhas de filtro de Tabela de;LIFLTECOM;Vários
+Assistente de Email e SMS;MAIL;Vários
+Clientes;CL;Vários
+Mapas definidos de Clientes, Cabeçalhos;CLDEFC;Vários
+Mapas definidos de Clientes, Linhas;CLDEFL;Vários
+Mapas desenhados de Clientes, Cabeçalhos;CLMDC;Vários
+Mapas desenhados de Clientes, Linhas;CLMDL;Vários
+Mapas desenhados de Clientes, Linhas (Modo;CLMDTXT;Vários
+Mapas de Etiquetas de Clientes, Cabeçalhos;CLLBLMDC;Vários
+Mapas de Etiquetas de Clientes, Linhas;CLLBLMDL;Vários
+Impressão de registo de Clientes, Cabeçalhos;CLIMC;Vários
+Impressão de registo de Clientes, Linhas;CLIML;Vários
+Impressão de registo de Clientes, Linhas;CLIMTXT;Vários
+Ficheiro de filtro de Clientes;FLTCL;Vários
+Ficheiro de linhas de filtro de Clientes;LIFLTCL;Vários
+Tipo de Empresa;TIPOEMP;Vários
+Mapas definidos de Tipo de Empresa,;TIPOEMPDEFC;Vários
+Mapas definidos de Tipo de Empresa, Linhas;TIPOEMPDEFL;Vários
+Mapas desenhados de Tipo de Empresa,;TIPOEMPMDC;Vários
+Mapas desenhados de Tipo de Empresa,;TIPOEMPMDL;Vários
+Mapas desenhados de Tipo de Empresa,;TIPOEMPMDTXT;Vários
+Mapas de Etiquetas de Tipo de Empresa,;TIPOEMPLBLMDC;Vários
+Mapas de Etiquetas de Tipo de Empresa,;TIPOEMPLBLMDL;Vários
+Ficheiro de filtro de Tipo de Empresa;FLTTIPOEMP;Vários
+Ficheiro de linhas de filtro de Tipo de Empresa;LIFLTTIPOEMP;Vários
+Entidades;AG;Vários
+Mapas definidos de Entidades, Cabeçalhos;AGDEFC;Vários
+Mapas definidos de Entidades, Linhas;AGDEFL;Vários
+Mapas desenhados de Entidades, Cabeçalhos;AGMDC;Vários
+Mapas desenhados de Entidades, Linhas;AGMDL;Vários
+Mapas desenhados de Entidades, Linhas;AGMDTXT;Vários
+Mapas de Etiquetas de Entidades, Cabeçalhos;AGLBLMDC;Vários
+Mapas de Etiquetas de Entidades, Linhas;AGLBLMDL;Vários
+Impressão de registo de Entidades,;AGIMC;Vários
+Impressão de registo de Entidades, Linhas;AGIML;Vários
+Impressão de registo de Entidades, Linhas;AGIMTXT;Vários
+Ficheiro de filtro de Entidades;FLTAG;Vários
+Ficheiro de linhas de filtro de Entidades;LIFLTAG;Vários
+Taxas de IVA;TAXASIVA;Vários
+Mapas definidos de Taxas de IVA, Cabeçalhos;TAXASIVADEFC;Vários
+Mapas definidos de Taxas de IVA, Linhas;TAXASIVADEFL;Vários
+Mapas desenhados de Taxas de IVA,;TAXASIVAMDC;Vários
+Mapas desenhados de Taxas de IVA, Linhas;TAXASIVAMDL;Vários
+Mapas desenhados de Taxas de IVA, Linhas;TAXASIVAMDTXT;Vários
+Mapas de Etiquetas de Taxas de IVA,;TAXASIVALBLMDC;Vários
+Mapas de Etiquetas de Taxas de IVA, Linhas;TAXASIVALBLMDL;Vários
+Impressão de registo de Taxas de IVA,;TAXASIVAIMC;Vários
+Impressão de registo de Taxas de IVA, Linhas;TAXASIVAIML;Vários
+Impressão de registo de Taxas de IVA, Linhas;TAXASIVAIMTXT;Vários
+Ficheiro de filtro de Taxas de IVA;FLTTAXASIVA;Vários
+Ficheiro de linhas de filtro de Taxas de IVA;LIFLTTAXASIVA;Vários
+Marcações;MX;Vários
+Mapas definidos de Marcações, Cabeçalhos;MXDEFC;Vários
+Mapas definidos de Marcações, Linhas;MXDEFL;Vários
+Mapas desenhados de Marcações,;MXMDC;Vários
+Mapas desenhados de Marcações, Linhas;MXMDL;Vários
+Mapas desenhados de Marcações, Linhas;MXMDTXT;Vários
+Mapas de Etiquetas de Marcações,;MXLBLMDC;Vários
+Mapas de Etiquetas de Marcações, Linhas;MXLBLMDL;Vários
+Ficheiro de filtro de Marcações;FLTMX;Vários
+Ficheiro de linhas de filtro de Marcações;LIFLTMX;Vários
+Utilizadores de marcações;MXUS;Vários
+Áreas de Marcações;MXDV;Vários
+Mapas definidos de Áreas de Marcações,;MXDVDEFC;Vários
+Mapas definidos de Áreas de Marcações,;MXDVDEFL;Vários
+Mapas desenhados de Áreas de Marcações,;MXDVMDC;Vários
+Mapas desenhados de Áreas de Marcações,;MXDVMDL;Vários
+Mapas desenhados de Áreas de Marcações,;MXDVMDTXT;Vários
+Mapas de Etiquetas de Áreas de Marcações,;MXDVLBLMDC;Vários
+Mapas de Etiquetas de Áreas de Marcações,;MXDVLBLMDL;Vários
+Ficheiro de filtro de Áreas de Marcações;FLTMXDV;Vários
+Ficheiro de linhas de filtro de Áreas de;LIFLTMXDV;Vários
+Chamadas telefónicas;TN;Vários
+Mapas definidos de Chamadas telefónicas,;TNDEFC;Vários
+Mapas definidos de Chamadas telefónicas,;TNDEFL;Vários
+Ficheiro de filtro de Chamadas telefónicas;FLTTN;Vários
+Ficheiro de linhas de filtro de Chamadas;LIFLTTN;Vários
+Vendedores;CM3;Vários
+Mapas definidos de Vendedores, Cabeçalhos;CM3DEFC;Vários
+Mapas definidos de Vendedores, Linhas;CM3DEFL;Vários
+Mapas desenhados de Vendedores,;CM3MDC;Vários
+Mapas desenhados de Vendedores, Linhas;CM3MDL;Vários
+Mapas desenhados de Vendedores, Linhas;CM3MDTXT;Vários
+Mapas de Etiquetas de Vendedores,;CM3LBLMDC;Vários
+Mapas de Etiquetas de Vendedores, Linhas;CM3LBLMDL;Vários
+Impressão de registo de Vendedores,;CM3IMC;Vários
+Impressão de registo de Vendedores, Linhas;CM3IML;Vários
+Impressão de registo de Vendedores, Linhas;CM3IMTXT;Vários
+Ficheiro de filtro de Vendedores;FLTCM3;Vários
+Ficheiro de linhas de filtro de Vendedores;LIFLTCM3;Vários
+Relação zona do Cliente - Fornecedor;VZF;Vários
+Tabela de Países;PAISES;Vários
+Tabelas Auxiliares;DYTABLE;Vários
+Chamadas Telefónicas a Entrar;CHAMADAS;Vários
+Tipos de contrato;TPCONTRATO;Vários
+Códigos de Integração de Vendas;CPOC;Vários
+Mapas definidos de Códigos de Integração de;CPOCDEFC;Vários
+Mapas definidos de Códigos de Integração de;CPOCDEFL;Vários
+Mapas desenhados de Códigos de Integração;CPOCMDC;Vários
+Mapas desenhados de Códigos de Integração;CPOCMDL;Vários
+Mapas desenhados de Códigos de Integração;CPOCMDTXT;Vários
+Mapas de Etiquetas de Códigos de Integração;CPOCLBLMDC;Vários
+Mapas de Etiquetas de Códigos de Integração;CPOCLBLMDL;Vários
+Ficheiro de filtro de Códigos de Integração de;FLTCPOC;Vários
+Ficheiro de linhas de filtro de Códigos de;LIFLTCPOC;Vários
+Códigos de Integração de Compras;CPOO;Vários
+Mapas definidos de Códigos de Integração de;CPOODEFC;Vários
+Mapas definidos de Códigos de Integração de;CPOODEFL;Vários
+Mapas desenhados de Códigos de Integração;CPOOMDC;Vários
+Mapas desenhados de Códigos de Integração;CPOOMDL;Vários
+Mapas desenhados de Códigos de Integração;CPOOMDTXT;Vários
+Mapas de Etiquetas de Códigos de Integração;CPOOLBLMDC;Vários
+Mapas de Etiquetas de Códigos de Integração;CPOOLBLMDL;Vários
+Ficheiro de filtro de Códigos de Integração de;FLTCPOO;Vários
+Ficheiro de linhas de filtro de Códigos de;LIFLTCPOO;Vários
+Códigos de Integração de Compras - Outros;CPOO2;Vários
+Documentos pré-definidos;DC;Vários
+Mapas definidos de Documentos pré-definidos,;DCDEFC;Vários
+Mapas definidos de Documentos pré-definidos,;DCDEFL;Vários
+Mapas desenhados de Documentos;DCMDC;Vários
+Mapas desenhados de Documentos;DCMDL;Vários
+Mapas desenhados de Documentos;DCMDTXT;Vários
+Mapas de Etiquetas de Documentos;DCLBLMDC;Vários
+Mapas de Etiquetas de Documentos;DCLBLMDL;Vários
+Impressão de registo de Documentos;DCIMC;Vários
+Impressão de registo de Documentos;DCIML;Vários
+Impressão de registo de Documentos;DCIMTXT;Vários
+Ficheiro de filtro de Documentos pré-definidos;FLTDC;Vários
+Ficheiro de linhas de filtro de Documentos;LIFLTDC;Vários
+Documentos pré-definidos , linhas;DCLI;Vários

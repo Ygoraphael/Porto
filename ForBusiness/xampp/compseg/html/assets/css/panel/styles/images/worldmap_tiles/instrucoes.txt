@@ -1,0 +1,27 @@
+http://omarriott.com/aux/leaflet-js-non-geographical-imagery/
+
+instalar o tileup: https://github.com/rktjmp/tileup
+
+se houver problemas ao instalar:
+	- clone o repo
+	- mudar o gemrspec para o rmagick mais recente
+		- exemplo: spec.add_runtime_dependency "rmagick", ["~> 2.15.4"]
+	- gem build tileup.gemspec
+	- rename do ficheiro gerado...
+	- mv tileup-0.1.5pre.gem tileup.gem
+	- instalar a gem (nao saltar passo anterior..)
+	- sudo gem install --local tileup.gem
+
+quando o comando tileup estiver a funcionar:
+
+onde mapa_interactivo.png e o mapa grande original, gerar tiles com :
+tileup --in mapa_interactivo.png --prefix world --auto-zoom 4
+
+vai criar 4 pastas, 20,19,18 e 17, com as imagens la dentro.
+
+como estava com um bug no leaflet onde os niveis de zoom nao estavam
+mostrar as imagens correctamente, mudar o nome das pastas:
+mv 17 14
+mv 18 15
+mv 19 16
+mv 20 17

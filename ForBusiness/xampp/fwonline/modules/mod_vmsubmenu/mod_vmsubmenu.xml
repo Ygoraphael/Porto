@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>VMSubmenu</name>
+	<author>Linelab.org</author>
+	<creationDate>20.2.2015</creationDate>
+	<copyright>Copyright (C) 2015 Linelab.org. All rights reserved.</copyright>
+	<license>GNU General Public License version 3</license>
+	<authorEmail>linelab@linelab.org</authorEmail>
+	<authorUrl>www.linelab.org</authorUrl>
+	<version>1.0</version>
+	<description>VirtueMart Sub-Menu Module</description>  
+	<files>
+		<filename module="mod_vmsubmenu">mod_vmsubmenu.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_vmsubmenu.xml</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.mod_vmsubmenu.ini</language>
+		<language tag="en-GB">en-GB.mod_vmsubmenu.sys.ini</language>
+	</languages>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_VMSUBMENU" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="menutype"
+					type="menu"
+					label="MOD_VMSUBMENU_FIELD_VMSUBMENUTYPE_LABEL"
+					description="MOD_VMSUBMENU_FIELD_VMSUBMENUTYPE_DESC" />
+				<field
+					name="startLevel"
+					type="list"
+					default="1"
+					label="MOD_VMSUBMENU_FIELD_STARTLEVEL_LABEL"
+					description="MOD_VMSUBMENU_FIELD_STARTLEVEL_DESC"
+				>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field
+					name="endLevel"
+					type="list"
+					default="0"
+					label="MOD_VMSUBMENU_FIELD_ENDLEVEL_LABEL"
+					description="MOD_VMSUBMENU_FIELD_ENDLEVEL_DESC"
+					>
+					<option value="0">JALL</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field
+					name="showAllChildren"
+					type="list"
+					default="0"
+					label="MOD_VMSUBMENU_FIELD_ALLCHILDREN_LABEL"
+					description="MOD_VMSUBMENU_FIELD_ALLCHILDREN_DESC">
+					<option
+						value="0">JNO</option>
+					<option
+						value="1">JYES</option>
+				</field>
+				<field
+					name="showVirtueMartCategoryDescription"
+					type="list"
+					default="1"
+					label="MOD_VMSUBMENU_FIELD_VIRTUEMARTCATEGORYDESC_LABEL"
+					description="MOD_VMSUBMENU_FIELD_VIRTUEMARTCATEGORYDESC_DESC">
+					<option
+						value="0">JNO</option>
+					<option
+						value="1">JYES</option>
+				</field>
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="tag_id"
+					type="text"
+					label="MOD_VMSUBMENU_FIELD_TAG_ID_LABEL"
+					description="MOD_VMSUBMENU_FIELD_TAG_ID_DESC" />
+				<field
+					name="class_sfx"
+					type="text"
+					label="MOD_VMSUBMENU_FIELD_CLASS_LABEL"
+					description="MOD_VMSUBMENU_FIELD_CLASS_DESC" />
+				<field
+					name="window_open"
+					type="text"
+					label="MOD_VMSUBMENU_FIELD_TARGET_LABEL"
+					description="MOD_VMSUBMENU_FIELD_TARGET_DESC" />
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid">
+					<option
+						value="itemid"></option>
+				</field>
+				<field type="spacer" name="spacer1" label="Advanced parameters" hr="true"/> 
+				<field	name="subzindex" id="subzindex" type="text" default="999999" maxlength="10" label="Sub-Menu Z-index" description="Sub-Menu Z-index" />
+				<field	name="subvertleft" type="text" default="0" maxlength="3" label="Vertical Sub-Menu Left" description="Vertical Sub-Menu Left" />
+				<field	name="subverttop" type="text" default="0" maxlength="3" label="Vertical Sub-Menu Top" description="Vertical Sub-Menu Top" />
+				<field	name="subvertwidth" type="text" default="100" maxlength="4" label="Vertical Sub-Menu Width" description="Vertical Sub-Menu Width" />
+				<field name="subvertwidthpar" type="list" default="%" label="Vertical Sub-Menu Width %/px" description="Vertical Sub-Menu Width %/px">
+					<option value="%">Percentage</option>
+					<option value="px">Pixels</option>
+				</field>
+				
+				<field	name="submobile" type="text" default="590" maxlength="4" label="Sub-Menu Mobile" description="Sub-Menu Mobile Breakpoint" />
+				<field	name="subfont" type="text" default="13" maxlength="2" label="Sub-Menu Font Size" description="Sub-Menu Font Size" />
+					<field name="subcol" type="list" default="5" label="MOD_VMSUBMENU_FIELD_SUBCOLUMN_LABEL" description="MOD_VMSUBMENU_FIELD_SUBCOLUMN_DESC">
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+				</field>
+					<field name="subalign" type="list" default="left" label="MOD_VMSUBMENUALIGN_FIELD_SUBCOLUMN_LABEL" description="MOD_VMSUBMENUALIGN_FIELD_SUBCOLUMN_DESC">
+					<option value="left">left</option>
+					<option value="right">right</option>
+				</field>
+					<field name="subcolmod" type="list" default="1" label="MOD_VMSUBMENUMOD_FIELD_SUBCOLUMN_LABEL" description="MOD_VMSUBMENUMOD_FIELD_SUBCOLUMN_DESC">
+					<option value="1">Bottom</option>
+					<option value="x">Right</option>
+				</field>
+				<field name="subulbgimg" type="media" label="Sub-Menu background image" description="Sub-Menu Background Image" />
+				<field name="subulbg" type="color" default="#eee" label="MOD_VMSUBMENUULBG_FIELD_COLOR_LABEL" description="MOD_VMSUBMENUULBG_FIELD_COLOR_DESC" />
+				<field name="subforceulbg" type="list" default="!important" label="MOD_VMSUBMENUULBG_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENUULBG_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subul" type="color" default="#000" label="MOD_VMSUBMENUUL_FIELD_COLOR_LABEL" description="MOD_VMSUBMENUUL_FIELD_COLOR_DESC" />
+				<field name="subforceul" type="list" default="!important" label="MOD_VMSUBMENUUL_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENUUL_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value=" ">JNO</option>
+				</field>
+				<field type="spacer" name="spacer2" label="Menu Items" hr="true"/>
+				<field	name="subheight" type="text" default="40" maxlength="3" label="Menu Item Height" description="Menu Item Height" />
+				<field name="sublibg" type="color" default="#eee" label="MOD_VMSUBMENULIBG_FIELD_COLOR_LABEL" description="MOD_VMSUBMENULIBG_FIELD_COLOR_DESC" />
+				<field name="subforcelibg" type="list" default="!important" label="MOD_VMSUBMENULIBG_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENULIBG_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subli" type="color" default="#000" label="MOD_VMSUBMENULI_FIELD_COLOR_LABEL" description="MOD_VMSUBMENULI_FIELD_COLOR_DESC" />
+				<field name="subforceli" type="list" default="!important" label="MOD_VMSUBMENULI_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENULI_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="lipadt" type="text" maxlength="3" default="0" label="Item - Padding Top" description="Item - Padding Top" />
+				<field name="lipadr" type="text" maxlength="3" default="5" label="Item - Padding Right" description="Item - Padding Right" />
+				<field name="lipadb" type="text" maxlength="3" default="0" label="Item - Padding Bottom" description="Item - Padding Bottom" />
+				<field name="lipadl" type="text" maxlength="3" default="5" label="Item - Padding Left" description="Item - Padding Left" />
+				<field type="spacer" name="spacer3" label="Menu Links" hr="true"/>
+                <field name="subabg" type="color" default="#eee" label="Link background color" description="Link background color" />
+                
+				<field name="subforceabg" type="list" default="!important" label="MOD_VMSUBMENUABG_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENUABG_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="suba" type="color" default="#666" label="Link color" description="Link color" />
+				<field name="subforcea" type="list" default="!important" label="Force Link color" description="Force Link color">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subabgh" type="color" default="#666" label="Link background HOVER" description="Link background HOVER" />
+				<field name="subforceabgh" type="list" default="!important" label="Force Link background HOVER" description="Force Link background HOVER">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subah" type="color" default="#f1f1f1" label="Link color HOVER" description="Link color HOVER" />
+				<field name="subforceah" type="list" default="!important" label="Force Link color HOVER" description="Force Link color HOVER">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subfoh" type="list" default="bold" label="Font Weight HOVER" description="Font Weight HOVER">
+				<option value="normal">Normal</option>
+				<option value="bold">Bold</option>
+				</field>
+				<field name="subforcfoh" type="list" default="!important" label="Force Font Weight HOVER" description="Force Font Weight HOVER">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>	
+				<field name="subabr" type="color" default="#cfcfcf" label="Border Color" description="Border Color" />
+				<field name="subforceabr" type="list" default="!important" label="MOD_VMSUBMENLIBR_FIELD_SUBOFRCE_LABEL" description="MOD_VMSUBMENLIBR_FIELD_SUBOFRCE_DESC">
+				<option value="!important">JYES</option>
+				<option value="">JNO</option>
+				</field>
+				<field name="subbrt" type="text" maxlength="3" default="0" label="Border Top" description="Border Top" />
+				<field name="subbrr" type="text" maxlength="3" default="0" label="Border Right" description="Border Right" />
+				<field name="subbrb" type="text" maxlength="3" default="1" label="Border Bottom" description="Border Bottom" />
+				<field name="subbrl" type="text" maxlength="3" default="0" label="Border Left" description="Border Left" />
+				<field name="apadt" type="text" maxlength="3" default="0" label="Link - Padding Top" description="Link - Padding Top" />
+				<field name="apadr" type="text" maxlength="3" default="0" label="Link - Padding Right" description="Link - Padding Right" />
+                <field name="apadb" type="text" maxlength="3" default="0" label="Link - Padding Bottom" description="Link - Padding Bottom" />
+                <field name="apadl" type="text" maxlength="3" default="15" label="Link - Padding Left" description="Link - Padding Left" />
+                
+                <field name="apadtm" type="text" maxlength="3" default="15" label="Module - Padding Top" description="Module - Padding Top" />
+				<field name="apadrm" type="text" maxlength="3" default="15" label="Module - Padding Right" description="Module - Padding Right" />
+                <field name="apadbm" type="text" maxlength="3" default="15" label="Module - Padding Bottom" description="Module - Padding Bottom" />
+                <field name="apadlm" type="text" maxlength="3" default="15" label="Module - Padding Left" description="Module - Padding Left" />
+                <field name="botfix" type="list" default="block" label="Bootstrap Fix" description="Bootstrap Fix">
+				<option value="block">Block</option>
+				<option value="inline-block">Inline-Block</option>
+				<option value="inline">Inline</option>
+				<option value="table">Table</option>
+				</field>
+				<field type="spacer" name="spacer4" label="Others" hr="true"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

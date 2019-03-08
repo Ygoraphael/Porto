@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NCPonto">
+</Property><Property Name="Solution File" Value="C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto.sln">
+</Property><Property Name="User Options File" Value="C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\NCPonto.suo">
+</Property><Property Name="Date" Value="Monday, July 27, 2015">
+</Property><Property Name="Time" Value="10:04">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NCPonto.sln" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NCPonto.suo" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto.suo">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\NCPonto.csproj" Description="Project file successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\NCPonto.csproj">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\NCPonto.csproj.user" Description="Project user file successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\NCPonto.csproj.user">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Classes\PicoFO.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Classes\PicoFO.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Classes\FO.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Classes\FO.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Classes\Pico.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Classes\Pico.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicarFO.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicarFO.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicarFO.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicarFO.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmFO.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmFO.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmFO.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmFO.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMain.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMain.designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMain.designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMDI.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMDI.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMDI.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMDI.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicar.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicar.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicar.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicar.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Program.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Program.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmConfig.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmConfig.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmConfig.Designer.cs" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmConfig.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Properties\Settings.settings" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Resources\imgentrar.jpg" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Resources\imgentrar.jpg">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\2leftarrow.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\2leftarrow.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\advancedsettings.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\advancedsettings.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\advancedsettingsX.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\advancedsettingsX.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\advancedsettingsXX.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\advancedsettingsXX.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\AIM22.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\AIM22.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\AIM AQUA.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\AIM AQUA.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\button_cancel.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\button_cancel.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\app.config" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\app.config">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Imagens\editdelete.png" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Imagens\editdelete.png">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicarFO.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicarFO.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmFO.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmFO.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMain.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmMDI.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmMDI.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmPicar.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmPicar.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\Properties\Resources.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\frmConfig.resx" Description="File successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\NCPonto\frmConfig.resx">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\NCPonto.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NCPonto" Source="NCPonto\NCPonto.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Setup.vdproj" Source="Setup\Setup.vdproj" Description="Project file successfully backed up as C:\Users\tml\Documents\Visual Studio 2010\Projects\NCPonto\Backup\Setup\Setup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="NCPonto.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NCPonto.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NCPonto" Source="NCPonto\NCPonto.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

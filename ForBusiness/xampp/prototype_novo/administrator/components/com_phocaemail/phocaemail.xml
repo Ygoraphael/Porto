@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="2.5.0">
+	<name>com_phocaemail</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>12/03/2012</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>2.0.1</version>
+	<description>Phoca Email</description>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<installfile>install.phocaemail.php</installfile>
+
+	<uninstallfile>uninstall.phocaemail.php</uninstallfile>
+
+	<languages>
+		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocaemail.ini</language>
+		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocaemail.sys.ini</language>
+	</languages>
+
+	<administration>
+		<menu img="components/com_phocaemail/assets/images/icon-16-pe-menu.png" link="option=com_phocaemail">COM_PHOCAEMAIL</menu>
+		<submenu>
+			<menu img="components/com_phocaemail/assets/images/icon-16-pe-menu-cp.png" alt="COM_PHOCAEMAIL_CONTROL_PANEL" view="phocaemailcp" link="option=com_phocaemail">COM_PHOCAEMAIL_CONTROL_PANEL</menu>
+			<menu img="components/com_phocaemail/assets/images/icon-16-pe-menu-write.png" alt="COM_PHOCAEMAIL_WRITE" view="phocaemailwrite" link="option=com_phocaemail&amp;view=phocaemailwrite">COM_PHOCAEMAIL_WRITE</menu>
+			<menu img="components/com_phocaemail/assets/images/icon-16-pe-menu-info.png" alt="COM_PHOCAEMAIL_INFO" view="phocaemailinfo" link="option=com_phocaemail&amp;view=phocaemailinfo">COM_PHOCAEMAIL_INFO</menu>
+		</submenu>
+
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.bak.sql</filename>
+			<filename>install.phocaemail.php</filename>
+			<filename>install.sql</filename>
+			<filename>phocaemail.php</filename>
+			<filename>phocaemail.xml</filename>
+			<filename>uninstall.phocaemail.php</filename>
+			<filename>uninstall.sql</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>help</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.com_phocaemail.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_phocaemail.sys.ini</language>
+		</languages>
+
+	</administration>
+</extension>

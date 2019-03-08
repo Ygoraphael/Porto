@@ -1,0 +1,7 @@
+string Server = "ftp://novoscanais.com";
+string User = "albergaria@novoscanais.com";
+string Password = "albergaria123";
+
+string Server = "ftp://novoscanais.com";
+string User = "agetrade@novoscanais.com";
+string Password = "age2030!+";

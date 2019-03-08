@@ -1,0 +1,338 @@
+
+@height: 450px;
+.flightboard_buy_tickets {
+  .panel;
+  overflow: hidden;
+  position: relative;
+  min-height: @height;
+  .flights_tableWrapper{
+	height: @height - 155px !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	&::-webkit-scrollbar {
+	  width: 12px;
+	}
+	&::-webkit-scrollbar-track {
+	  box-shadow: inset 0 0 6px rgba(137, 137, 137, 0.3);
+	  border-radius: 10px;
+	}
+	&::-webkit-scrollbar-thumb {
+	  border-radius: 10px;
+	  box-shadow: inset 0 0 8px rgba(137, 137, 137, 1);
+	}
+
+  }
+  //background: linear-gradient(0deg, #000000 0%, #1d1d1d 100%);
+  padding: 0;
+  button{
+	min-width: 146px;
+	height: 39px;
+  }
+  .flightboard_buy_tickets_scroller > div{
+	position:relative;
+  }
+  .cancelButton{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+  }
+  .flightboard_buy_tickets_scroller {
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	& > div {
+	  float: left;
+	  height: @height;
+	  padding: 12px;
+	}
+  }
+  h1 {
+	text-align: center;
+	margin-top: -10px;
+	padding: 0;
+  }
+  .caixa {
+	display: inline-block;
+	color: #f3e1b2;
+	font: 700 18px / 34px Roboto;
+	background: url(images/linkListHeaderBackground.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 55px;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	padding-top: 8px;
+  }
+
+  .airplane_seats {
+	width:80px;
+	position: relative;
+	margin-left: e('calc(50% - 40px)');
+	.isImg {
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	}
+	.plane-cabin {
+	  .isImg;
+	  background: url(images/buy_tickets/plane_front.png);
+	  width: 100%;
+	  height: 132px;
+	}
+	.plane-row {
+	  .isImg;
+	  background: url(images/buy_tickets/plane_middle.png);
+	  width: 100%;
+	  height: 19px;
+	  padding-left:2px;
+	  padding-right:2px;
+	  clear: both;
+	  &:hover{
+		background-color: rgba(255,0,0,0.3);
+	  }
+	}
+	.plane-seat {
+	  .isImg;
+	  width: 15px;
+	  height: 19px;
+	  float: left;
+	  cursor: pointer;
+	}
+	.plane-row-letters{
+	  .plane-row;
+	  &:hover{
+		background-color: rgba(0,0,0,0);
+	  }
+	}
+	.plane-column-name{
+	  .plane-seat;
+	  padding-left:2px;
+	}
+	.plane-row-number{
+	  position: absolute;
+	  left:-33px;
+	  padding-top: 3px;
+	  text-align: right;
+	  width:30px;
+	}
+	.plane-seat-available{
+	  background: url(images/buy_tickets/seat.png);
+	  .plane-seat;
+	  &:hover{
+		background: url(images/buy_tickets/seat_highlight.png);
+	  }
+	}
+	.plane-seat-selected{
+	  background: url(images/buy_tickets/seat_selected.png);
+	  .plane-seat;
+	}
+	.plane-seat-taken{
+	  background: url(images/buy_tickets/seat_taken.png);
+	  .plane-seat;
+	}
+	.plane-corridor {
+	  height: 20px;
+	  width: 15px;
+	  float: left;
+	}
+	.plane-front-divider {
+	  .isImg;
+	  background: url(images/buy_tickets/plane_middle_end_inverted.png);
+	  width: 100%;
+	  height: 13px;
+	}
+	.plane-tail-divider {
+	  .isImg;
+	  background: url(images/buy_tickets/plane_middle_end.png);
+	  width: 100%;
+	  height: 13px;
+	}
+  }
+
+  .fb_row{
+	width: 100%;
+	position: relative;
+	height: 40px;
+	padding-top: 15px;
+  }
+  .chooseDate{
+	float:right;
+  }
+  .chooseFlight{
+	position:absolute;
+	right:0px;
+	top: 3px;
+  }
+  .chooseSeat{
+	float: right;
+  }
+
+  .ticket{
+	margin-left: auto;
+	margin-right: auto;
+	background: url(images/buy_tickets/ticket.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 482px;
+	height: 217px;
+	position: relative;
+	.info{
+	  color: #1a1814;
+	  font-weight: bold;
+	  position: absolute;
+	  top: 58px;
+	  left: 112px;
+	  td{
+		height: 23px;
+	  	padding-right:15px;
+	  }
+	}
+	.info2{
+	  position: absolute;
+	  top:50px;
+	  left: 360px;
+	  & > div{
+		color: #1a1814;
+		font-weight: bold;
+	  }
+	  .precoLabel{
+		position: absolute;
+		left:28px;
+		top: 30px;
+	  }
+	  .precoAmount{
+		position: absolute;
+		left:25px;
+		top: 60px;
+		text-align: right;
+		font-size: 30px;
+		.greenText;
+		text-shadow: 2px 2px #1a1814;
+	  }
+	  .ticketNumber{
+		position: absolute;
+		left:0px;
+		top: 110px;
+		width: 83px;
+		text-align: right;
+	  }
+	}
+  }
+
+}
+
+
+.flightboard_spinner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+  .back{
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+	z-index: -1;
+  }
+  .mid{
+	//border: 1px solid red;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	margin: e('calc(50% - 150px)');
+	margin-top: e('calc(50% - 250px)');
+	position: relative;
+  }
+  .logo{
+	position: relative;
+	width: 300px;
+	height: 150px;
+	//border: 1px solid blue;
+	overflow: hidden;
+  }
+  .logo_img{
+	position: absolute;
+	top:-35px;
+	width: 300px;
+	height: 300px;
+	background: url(images/buy_tickets/plane_logo.png);
+	background-size: cover;
+  }
+  .logo_rot{
+	position: absolute;
+	top: 12px;
+	left: 25px;
+	width: 250px;
+	height: 250px;
+	//border: 1px solid pink;
+	background: url(images/buy_tickets/plane_rotating.png);
+	background-size: cover;
+	animation-name: spin;
+	animation-duration: 8000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  .calc{
+	margin-top: 0px;
+	font-size: 30px;
+	line-height: 30px;
+  }
+
+  @keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+  }
+
+}
+
+/*
+.flightboard_panel{
+  table {
+	width: 100%;
+  }
+
+  thead, tbody, tr, td, th { display: block; }
+
+  tr:after {
+	content: ' ';
+	display: block;
+	visibility: hidden;
+	clear: both;
+  }
+
+  thead th {
+	height: 30px;
+
+	//text-align: left;
+  }
+
+  tbody {
+	height: @height - 193px !important;
+	overflow-y: auto;
+  }
+
+  thead {
+	//fallback
+  }
+
+
+  tbody td, thead th {
+	//width: 200px;
+	float: left;
+  }
+}
+*/
+
+
+.floatThead-table{
+  background: none;
+  background-color: #1C1C1C;
+}

@@ -1,0 +1,96 @@
+<div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+    <div class="row">
+        <h5></h5>
+    </div>  
+
+    <div id="layout" >
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-2" style="border-right: 1px solid #ccc">
+                <br>
+                <br>
+                %%Theme%%:
+                <br><br><br>
+            </div>
+            <div class="col-md-7">
+                <br>
+                <br>
+                <h4>{{DIALOG->THEMA}}</h4>
+            </div>
+            <div class="col-md-3">
+                <img style="max-height:115px; max-width:300px;" src="/assets/images/dialog/{{DIALOG->IMAGE}}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12 text-justify text1">
+                    <br><br>
+                    <span>
+                        {{DIALOG->FIRST_TEXT}}
+                    </span><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12 text-justify text2">
+                    <br>
+                    <br>
+                    <span>
+                        {{DIALOG->SECOND_TEXT}}
+                    </span>
+                    <br><br>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12 text1">
+                    <div class="col-md-2" style="border-right: 1px solid #ccc">
+                        <br>
+                        %%Date%%
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-md-8" style="border-right: 1px solid #ccc">
+                        <br>
+                        %%Presence%%
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-md-2">
+                        <br>
+                        %%Leader%%
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12 text2">
+                    <div class="col-md-2" style="border-right: 1px solid #ccc">
+                        <br>
+                        {{DATE_ANSWER}}<br>
+                        <br>
+                    </div>
+                    <div class="col-md-8" style="border-right: 1px solid #ccc">
+                        <br>
+                        <input type="text"  style="text-align:center;" required="" id="presencas" class="form-control" name="presencas" />
+                        <br>
+                    </div>
+                    <div class="col-md-2">
+                        <br>
+                        {{USER->NAME}} {{USER->LAST_NAME}}<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel-footer text1">
+            <input type="hidden" name="notification_id" id="notification_id" value="{{NOT_ID}}">
+            <button class="btn btn-success securityDialogSubmit marginTopBottom15">
+                <i class="icon-check2"></i> %%Finish%%
+            </button>
+        </div>
+
+    </div>
+</div>

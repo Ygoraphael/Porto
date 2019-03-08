@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Free Text</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>freetext</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/freetext">
+            <file>freetext.xml</file>
+            <file>freetext.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="config" label="Config">
+            <field
+                    name="text"
+                    type="editor"
+                    default=""
+                    label="COM_JUFORM_FIELD_FREE_TEXT_LABEL"
+                    description="COM_JUFORM_FIELD_FREE_TEXT_DESC"
+                    />
+
+            <field
+                    name="parse_plugin"
+                    type="radio"
+                    default="1"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_PARSE_PLUGIN_LABEL"
+                    description="COM_JUFORM_FIELD_PARSE_PLUGIN_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

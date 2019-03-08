@@ -1,0 +1,44 @@
+
+.bancarou  html, .bancarou  body, .bancarou  div, .bancarou  span, .bancarou  applet, .bancarou  object, .bancarou  iframe,
+.bancarou  h1, .bancarou  h2, .bancarou  h3, .bancarou  h4, .bancarou  h5, .bancarou  h6, .bancarou  p, .bancarou  blockquote, .bancarou  pre,
+.bancarou  a, .bancarou  abbr, .bancarou  acronym, .bancarou  address, .bancarou  big, .bancarou  cite, .bancarou  code,
+.bancarou  del, .bancarou  dfn, .bancarou  em, .bancarou  img, .bancarou  ins, .bancarou  kbd, .bancarou  q, .bancarou  s, .bancarou  samp,
+.bancarou  small, .bancarou  strike, .bancarou  strong, .bancarou  sub, .bancarou  sup, .bancarou  tt, .bancarou  var,
+.bancarou  b, .bancarou  u, .bancarou  i, .bancarou  center,
+.bancarou  dl, .bancarou  dt, .bancarou  dd, .bancarou  ol, .bancarou  ul, .bancarou  li,
+.bancarou  fieldset, .bancarou  form, .bancarou  label, .bancarou  legend,
+.bancarou  table, .bancarou  caption, .bancarou  tbody, .bancarou  tfoot, .bancarou  thead, .bancarou  tr, .bancarou  th, .bancarou  td,
+.bancarou  article, .bancarou  aside, .bancarou  canvas, .bancarou  details, .bancarou  embed, 
+.bancarou  figure, .bancarou  figcaption, .bancarou  footer, .bancarou  header, .bancarou  hgroup, 
+.bancarou  menu, .bancarou  nav, .bancarou  output, .bancarou  ruby, .bancarou  section, .bancarou  summary,
+.bancarou  time, .bancarou  mark, .bancarou  audio, .bancarou  video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.bancarou  article, .bancarou  aside, .bancarou  details, .bancarou  figcaption, .bancarou  figure, 
+.bancarou  footer, .bancarou  header, .bancarou  hgroup, .bancarou  menu, .bancarou  nav, .bancarou  section, .bancarou  main {
+	display: block;
+}
+.bancarou  body {
+	line-height: 1;
+}
+.bancarou  ol, .bancarou  ul {
+	list-style: none;
+}
+.bancarou  blockquote, .bancarou  q {
+	quotes: none;
+}
+.bancarou  > blockquote:before, .bancarou  blockquote:after,
+.bancarou  q:before, .bancarou  q:after {
+	content: '';
+	content: none;
+}
+.bancarou  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

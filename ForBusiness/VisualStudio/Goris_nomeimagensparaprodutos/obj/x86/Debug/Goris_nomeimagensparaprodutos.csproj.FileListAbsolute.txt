@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Goris_nomeimagensparaprodutos\bin\Debug\Goris_nomeimagensparaprodutos.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Goris_nomeimagensparaprodutos\bin\Debug\Goris_nomeimagensparaprodutos.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Goris_nomeimagensparaprodutos\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Goris_nomeimagensparaprodutos\obj\x86\Debug\Goris_nomeimagensparaprodutos.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Goris_nomeimagensparaprodutos\obj\x86\Debug\Goris_nomeimagensparaprodutos.pdb

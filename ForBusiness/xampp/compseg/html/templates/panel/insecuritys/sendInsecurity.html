@@ -1,0 +1,80 @@
+
+<form class="form" method="post" name="Insecurity">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-bullhorn"></i> %%Assign Insecurity%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+                        <div class="row">
+                            <h5></h5>
+                        </div>  
+
+                        <div id="layout" style="display: block;">
+
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-12" style="padding:20px;">
+                                    <div class="col-md-12 text-justify text1" >
+                                        <span>
+                                            <div class="form-group">
+                                                <h4 class="modal-title" id="myModalLabel4"> %%Historic%% %%Insecurity%%</h4>
+                                                <ul class="historico_Insecurity_pc">{{COMMENT}}</ul>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" style="margin-top:5px;">
+                                    <!-- BEGIN BLOCK_USERS -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <select id="user_combox2" name="userIns" class="form-control" required >
+                                                <option value="" selected disabled>%%Select an User%%</option>
+                                                <!-- BEGIN BLOCK_USER -->
+                                                <option value="{{CODE}}" >{{NAME}} {{SURNAME}}</option>
+                                                <!-- END BLOCK_USER -->
+                                            </select>
+                                        </div>
+                                    </div>                  
+                                    <!-- END BLOCK_USERS -->
+                                </div>	
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text2">
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="20" class="form-control" name="comment" placeholder="%%Message%%" required></textarea>
+                                            </div>
+                                        </span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+            <div class="modal-footer">
+                <input type="hidden" name="Insecurity" value="{{Insecurity}}">
+                <input type="hidden" name="comment2" value="{{comment2}}">
+                <div class="row">
+                    <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                        <i class="icon-cross2"></i> %%Cancel%%
+                    </button>
+                    <button type="submit" class="btn btn-success btn-sendInsecurity">
+                        <i class="icon-check2"></i> %%Save%%
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

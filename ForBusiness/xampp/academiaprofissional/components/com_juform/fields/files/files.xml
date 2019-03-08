@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" judirplugintype="field">
+    <name>Files</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>file</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/files">
+            <file>files.xml</file>
+            <file>files.php</file>
+            <file>index.html</file>
+            <folder>assets</folder>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="config" label="Config">
+            <field
+                    name="auto_upload"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_AUTO_UPLOAD_LABEL"
+                    description="COM_JUFORM_FIELD_AUTO_UPLOAD_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="max_files"
+                    type="text"
+                    default="0"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_MAX_FILES_LABEL"
+                    description="COM_JUFORM_FIELD_MAX_FILES_DESC"
+                    />
+
+            <field
+                    name="max_size"
+                    type="text"
+                    size="50"
+                    default="2048"
+                    class="validate-numeric"
+                    label="COM_JUFORM_FIELD_MAX_SIZE_LABEL"
+                    description="COM_JUFORM_FIELD_MAX_SIZE_DESC"
+                    />
+
+            <field
+                    name="extensions"
+                    type="textarea"
+                    cols="20"
+                    rows="5"
+                    default="bmp,csv,doc,gif,ico,jpg,jpeg,odg,odp,ods,odt,pdf,png,ppt,swf,txt,xcf,xls,zip,rar"
+                    label="COM_JUFORM_FIELD_LEGAL_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_EXTENSIONS_DESC"
+                    />
+
+            <field name="spacer1"
+                   type="spacer"
+                   hr="true"
+                    />
+
+            <field
+                    name="check_mimetype"
+                    type="radio"
+                    default="1"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_CHECK_MIME_LABEL"
+                    description="COM_JUFORM_FIELD_CHECK_MIME_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="image_extensions"
+                    type="text"
+                    size="50"
+                    default="bmp,gif,jpg,png"
+                    label="COM_JUFORM_FIELD_LEGAL_IMAGE_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_IMAGE_EXTENSIONS_DESC"
+                    />
+
+            <field
+                    name="ignored_extensions"
+                    type="text"
+                    size="50"
+                    label="COM_JUFORM_FIELD_IGNORED_EXTENSIONS_LABEL"
+                    description="COM_JUFORM_FIELD_IGNORED_EXTENSIONS_DESC"
+                    />
+
+            <field
+                    name="mimetypes"
+                    type="textarea"
+                    cols="20"
+                    rows="5"
+                    default="image/jpeg,image/gif,image/png,image/bmp,application/x-shockwave-flash,application/msword,application/excel,application/pdf,application/powerpoint,text/plain,application/zip"
+                    label="COM_JUFORM_FIELD_LEGAL_MIME_TYPES_LABEL"
+                    description="COM_JUFORM_FIELD_LEGAL_MIME_TYPES_DESC"
+                    />
+
+            <field name="spacer2"
+                   type="spacer"
+                   hr="true"
+                    />
+
+            <field name="email_attachment_mode"
+                   type="list"
+                   default="link"
+                   label="COM_JUFORM_FIELD_FILE_ATTACHMENT_MODE_LABEL"
+                   description="COM_JUFORM_FIELD_FILE_ATTACHMENT_MODE_DESC">
+                <option value="link">Link</option>
+                <option value="attach">Email attachment</option>
+            </field>
+
+            <field name="spacer3"
+                   type="spacer"
+                   hr="true"
+            />
+
+            <field
+                    name="show_download_counter_output"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_SHOW_DOWNLOAD_COUNTER_IN_OUTPUT_HTML_LABEL"
+                    description="COM_JUFORM_FIELD_SHOW_DOWNLOAD_COUNTER_IN_OUTPUT_HTML_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

@@ -1,0 +1,52 @@
+@media (min-width: 576px) {
+  .card-header .fa {
+transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 767px) {
+#customFOO {
+text-align: center;
+}
+#customFOO .row {
+margin: 0;
+}
+}
+.content{
+flex: 1 0 auto;
+-webkit-flex: 1 0 auto;
+min-height: 200px;
+}
+#customFOO{
+flex: 0 0 auto;
+-webkit-flex: 0 0 auto;
+}
+#customFOO h5{
+}
+.carousel-item{
+width: 100%;
+height:300px;
+}
+}
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
+.rcorners1 {
+border-radius: 100%;
+background: #73AD21;
+width: 6px;
+height: 6px;
+margin:3px;
+}
+.rcorners2 {
+border-radius: 100%;
+background: red;
+width: 6px;
+height: 6px;
+margin:3px;
+}
+.cenas{
+font-size:8px;
+}

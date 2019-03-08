@@ -1,0 +1,161 @@
+@url_base:"https://mafialocal.cosmosdigital.pt";
+.logo-front{
+    background: url("@{url_base}/assets/img/Logo.png");
+    width: 424px;
+    box-shadow: 2px 4px 9px 0px #000000;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bigNav{
+    .navbar .nav,
+    .navbar .nav > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+        *zoom:1; /* hasLayout ie7 trigger */
+        vertical-align: top;
+    }
+    .navbar{
+        text-align:center;
+        margin-top: 2px;
+        background: url("@{url_base}/assets/img/navbar.png") center center;
+        border: 1px solid rgba(0,0,0,0);
+        height: 40px;
+        .nav{
+            margin-left: auto;
+            margin-right: auto;
+            li{
+                margin-left: 131px/2;
+                &:first-child { margin-left: 0; }
+                a{
+                    padding-top: 0;
+                    .beigeText;
+                    font: 700 18px / 32px Roboto;
+                    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.75);
+                    &:hover{
+                        color: #94cc1a !important;
+                    }
+                }
+            }
+        }
+        margin-bottom: -15px !important;
+    }
+}
+
+#smallNav{
+    .navbar{
+        z-index: 99999;
+        text-align:center;
+        margin-top: 2px;
+        background: url("@{url_base}/assets/img/navbar.png") center center;
+        border: 1px solid rgba(0,0,0,0);
+        height: 40px;
+        margin-left: -15px;
+        margin-right: -15px;
+        #smallNavInner{
+            border: 0px;
+            background: url("@{url_base}/assets/img/panel-small.png");
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+            li{
+                &:first-child { margin-left: 0; }
+                margin: 0;
+                padding: 0;
+                a{
+                    margin: 5px;
+                    padding: 0;
+                    .beigeText;
+                    font: 700 18px / 32px Roboto;
+                    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.75);
+                    &:hover{
+                        color: #94cc1a !important;
+                    }
+                }
+            }
+        }
+        margin-bottom: -15px !important;
+    }
+    .navlogo {
+        img{
+            height: 47px;
+        }
+    }
+}
+
+
+
+
+
+
+#bigNav-interior {
+    background: url("@{url_base}/assets/img/bignavinterior.png");
+    height: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    .navbar .nav,
+    .navbar .nav > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+        *zoom:1; /* hasLayout ie7 trigger */
+        vertical-align: top;
+    }
+    .navbar{
+        text-align:center;
+        background:none;
+        //margin-top: 2px;
+        //background: url(/html/assets/img/bignavinterior.png);
+        border: 0px solid rgba(0,0,0,0);
+        height: 30px !important;
+        .nav{
+            margin-left: auto;
+            margin-right: auto;
+            li{
+                margin-left: 131px/2;
+                &:first-child { margin-left: 0; }
+                a{
+                    padding-top: 0;
+                    .beigeText;
+                    font: 700 18px / 32px Roboto;
+                    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.75);
+                    &:hover{
+                        color: #94cc1a !important;
+                    }
+                }
+            }
+        }
+        margin-bottom: -15px !important;
+    }
+    .links{
+        padding-top: 5px;
+        li{
+            display: inline-block;
+            text-decoration: none;
+            font: 300 11px / 32px Roboto;
+            margin-right: 14px;
+        }
+        a{
+            .beigeText;
+            &:hover{
+                color: #94cc1a !important;
+            }
+        }
+    }
+    .logo-top-interior{
+        background: url("@{url_base}/assets/img/Logo.png") center center no-repeat;
+        background-size: 100% 100%;
+        height: 31px;
+        width: 122px;
+
+        @media(min-width: @screen-desktop) {
+            position: absolute;
+            left: e("calc(50% - 56px)");
+        }
+        @media(max-width: @screen-desktop) {
+            position: static;
+            margin-right: 50px;
+            float:right;
+        }
+    }
+}

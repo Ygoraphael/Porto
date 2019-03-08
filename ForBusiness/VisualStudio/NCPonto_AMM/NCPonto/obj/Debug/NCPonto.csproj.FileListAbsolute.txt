@@ -1,0 +1,14 @@
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Debug\NCPonto.exe
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Debug\NCPonto.pdb
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\ResolveAssemblyReference.cache
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.Properties.Resources.resources
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.csproj.GenerateResource.Cache
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.exe
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.pdb
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.frmPicar.resources
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.frmMDI.resources
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.frmMain.resources
+D:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\bin\Debug\NCPonto.exe.config
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.frmFO.resources
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto.frmPicarFO.resources
+d:\_Produção de Software e Outros\SW NCPonto\NCPonto\NCPonto\obj\Debug\NCPonto._frmConfig.resources

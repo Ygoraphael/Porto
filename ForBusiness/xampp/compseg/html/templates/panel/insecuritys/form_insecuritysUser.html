@@ -1,0 +1,278 @@
+<form class="form pc" enctype="multipart/form-data" method="post" name="Insecurity"  action="/insecurity/new_insecurity">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-file-text2"></i> %%New Insecurity%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+                        <div class="row">
+                            <h5></h5>
+                        </div>  
+
+                        <div id="layout" style="display: block;">
+
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-2" style="border-right: 1px solid #ccc;">
+                                    <br>
+                                    <br>
+                                    %%Resume%%:
+                                    <br><br><br>
+                                </div>
+                                <div class="col-md-10" >
+                                    <h3 >
+                                        <input  type="text" name="Resumo" style="margin-top:30px;"  class="form-control" placeholder="%%Insecurity%%" required>
+                                    </h3>
+									<label for="imgInp2" id="LabelForBtnFile">%%Upload a photo%%</label>
+									<input onchange="readURL(this);" name="file_name" type="file" id="imgInp2" style="width: 150px; " accept="image/*; capture=camera" class="BtnFile"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <div class="form-group">
+                                            <img style="display:block; margin: 0 auto;" id="blah2" src="#" width="80%" height="auto" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text2">
+                                        <br>
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="5" class="form-control" name="comment" placeholder="%%Description%%" required></textarea>
+                                            </div>
+                                        </span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc">
+                                            <br>
+                                            %%Date%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            %%Company%%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text2">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc;">
+                                            <div class="form-group" style=" margin-top:15px;">
+                                                <input type="date" style="text-align:center; font-size:14px;" value="{{DATE_EXPIRED}}" id="date-expired" class="form-control" name="start" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div style="margin-top:15px;">
+                                                <!-- BEGIN BLOCK_COMPANY4 -->
+                                                <input type="text"  value="{{NAME2}}"  style="background-color:#ccc; height:35px; border: 1px solid #ccc; text-align:center;" disabled>
+                                                <input type="hidden" id="company_input2" name="company2" value="{{VALUE2}}">
+                                                <!-- END BLOCK_COMPANY4 -->
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc">
+                                            <br>
+                                            %%Factory%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            %%Sector%%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" >
+                                    <div class="col-md-6" style="border-right: 1px solid #ccc;" >
+                                        <div class="form-group" style="margin-top:15px;">
+                                            <select id="factory_combox3" name="factory" class="form-control" required>
+                                                <option disabled="" selected="" >%%Select Factory%%</option>
+                                                <!-- BEGIN BLOCK_FACTORY -->
+                                                <option value="{{VALUE}}+{{COMPANY}}" >{{TEXT}}</option>
+                                                <!-- END BLOCK_FACTORY -->
+                                            </select >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" id="sector_listing_form_user2" style="margin-top:15px;"></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+            <div class="modal-footer">
+                <div class="row">
+                    <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                        <i class="icon-cross2"></i> %%Cancel%%
+                    </button>
+                    <button  class="btn btn-success  btn-Insecurit">
+                        <i class="icon-check2"></i> %%Save%%
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+<form class="form phone" enctype="multipart/form-data" method="post" name="Insecurity"  action="/insecurity/new_insecurity">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-file-text2"></i> %%New Insecurity%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+                        <div class="row">
+                            <h5></h5>
+                        </div>  
+                        <div id="layout" style="display: block;">
+
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-2" >
+                                    <br>
+                                    %%Resume%%
+                                    <br>
+                                </div>
+                                <div class="col-md-10" >
+                                    <h3 >
+                                        <input type="text" name="Resumo" style="margin-top:30px; height:50px;"  class="form-control" placeholder="%%Insecurity%%" required>
+                                    </h3>
+									 <label for="imgInp" id="LabelForBtnFile">%%Upload a photo%%</label>
+									<input onchange="readURL(this);" name="file_name" type="file" id="imgInp" style="width: 150px; " accept="image/*; capture=camera" class="BtnFile"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <div class="form-group">
+                                            <img style="display:block; margin: 0 auto;" id="blah" src="#" width="80%" height="auto" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text2">
+                                        <br>
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="5" class="form-control" name="comment" placeholder="%%Description%%" required></textarea>
+                                            </div>
+                                        </span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" >
+                                            <br>
+                                            %%Date%%
+                                            <br>
+                                        </div>
+                                        <div class="col-md-6" >
+                                            <div class="form-group" style=" margin-top:15px;">
+                                                <input type="date" style="text-align:center; font-size:14px;" value="{{DATE_EXPIRED}}" id="date-expired" class="form-control" name="start" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text2">
+                                        <div class="col-md-6">
+                                            <br>
+                                            %%Company%%
+											<br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div style="margin-top:15px;">
+                                                <!-- BEGIN BLOCK_COMPANY5 -->
+                                                <input type="text"  value="{{NAME2}}"  style="background-color:#ccc; height:35px; border: 1px solid #ccc; text-align:center;" disabled>
+                                                <input type="hidden" id="company_input2" name="company2" value="{{VALUE2}}">
+                                                <!-- END BLOCK_COMPANY5 -->
+                                                <br>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" >
+                                            <br>
+                                            %%Factory%%
+                                            <br>
+                                        </div>
+										<div class="col-md-6"  >
+											<div class="form-group" style="margin-top:15px;">
+												<select id="factory_combox4" name="factory" class="form-control" required>
+													<option disabled="" selected="" >%%Select Factory%%</option>
+													<!-- BEGIN BLOCK_FACTORY2 -->
+													<option value="{{VALUE}}+{{COMPANY}}" >{{TEXT}}</option>
+													<!-- END BLOCK_FACTORY2 -->
+												</select >
+											</div>
+										</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" >
+									<div class="col-md-6">
+										<br>
+										%%Sector%%
+										<br>
+									</div>
+                                    <div class="col-md-6" id="sector_listing_form_user3" style="margin-top:15px;"></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+            <div class="modal-footer">
+                <div class="row">
+                    <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                        <i class="icon-cross2"></i> %%Cancel%%
+                    </button>
+                    <button  class="btn btn-success btn-Insecurit ">
+                        <i class="icon-check2"></i> %%Save%%
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

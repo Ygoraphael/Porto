@@ -1,0 +1,19 @@
+.navbarproto li a{
+	color:white !important;
+}
+
+.navbarproto li:not(:last-child){
+	border-right:yellow 2px solid;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	color:black !important;
+}
+
+.in {
+	background:#6a6768;
+}
+
+.collapsing {
+	background:#6a6768;
+}

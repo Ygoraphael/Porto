@@ -1,0 +1,88 @@
+/*------------------------------------------------------------------------
+# Rox Topbar Sliding by http://www.themerox.com
+# ------------------------------------------------------------------------
+# Author    ThemeRox  http://www.themerox.com
+# Copyright (C) 2010 - 2015 http://www.themerox.com All Rights Reserved.
+# @license - GNU/GPL V2 for PHP files. CSS / JS are Copyrighted Commercial
+# Websites: http://www.themerox.com
+-------------------------------------------------------------------------*/
+.pane-sliders .panel { border: none !important; }
+div.panel > h3 { height: 40px!important;padding:0!important; background: #fff!important; border: 1px solid #ccc; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font: bold 12px/30px Arial, Helvetica, sans-serif}
+div.panel > h3 a { color: #333!important;line-height: 40px;text-transform:uppercase}
+div.panel h3.pane-toggler-down{ border-bottom:2px solid #e91d25!important;}
+div.panel h3.pane-toggler-down a { color: #e91d25!important }
+.pane-sliders .content fieldset.panelform input { height: 20px; color: #555; line-height: 20px; padding: 4px 6px; border:1px solid #e0e0e0; box-shadow: 0 0 10px #eee inset; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.pane-sliders .content fieldset.panelform select { height: 26px; color: #555; line-height: 24px; padding: 2px; font-size:11px; border:1px solid #e0e0e0; box-shadow: 0 0 10px #eee inset!important; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+.pane-sliders .content fieldset.panelform select[multiple=multiple] { height: auto!important}
+.fltrt ul.adminformlist li { overflow: hidden; border-bottom: 1px solid #eee; padding: 0 10px; margin: 0}
+div .panel input[type=radio]{margin-top:9px!important}
+.pane-sliders .content .button2-left{margin-top:8px}
+.pane-sliders .content {margin: 4px auto;width: 99%;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.fltrt ul.adminformlist li{border-bottom:none !important}
+
+
+/****----------------------------------------------------------****/
+.wrapper {
+	background-color: white;
+	width: 480px;
+	margin: 40px auto;
+	padding: 50px;
+	box-shadow: 0 0 5px #999;
+}
+.list_carousel {
+	background-color: #ccc;
+	margin: 0 0 30px 60px;
+	width: 360px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	background-color: #eee;
+	border: 5px solid #999;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin: 6px;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	float: left;
+	margin-left: 10px;
+}
+.next {
+	float: right;
+	margin-right: 10px;
+}
+.pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}

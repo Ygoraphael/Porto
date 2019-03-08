@@ -1,0 +1,43 @@
+.message_base {
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.message_base h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.message_red {
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(0deg, #590e0e 0%, #a91616 100%);
+  border: 1px solid #460d0d;
+}
+.message_red h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.message_green {
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(0deg, #0e590e 0%, #16a916 100%);
+  border: 1px solid #0E900E;
+}
+.message_green h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+<form class="form" name="user">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-group"></i> %%Group%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="survey_group">%%Poll Group%%</label>
+                                <select id="survey_group" name="survey_group" class="js-example-basic-single" style="width: 100%; display: block">
+                                    <option disabled selected="" >%%Select group%%</option>
+                                    <!-- BEGIN BLOCK_SURVEY_GROUP -->
+                                    <option value="{{VALUE}}" >{{TEXT}}</option>
+                                    <!-- END BLOCK_SURVEY_GROUP -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".js-example-basic-single").select2();
+    });
+</script>

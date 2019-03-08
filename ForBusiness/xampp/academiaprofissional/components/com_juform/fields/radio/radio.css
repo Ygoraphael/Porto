@@ -1,0 +1,32 @@
+#jform_predefined_values {
+    float: left;
+}
+
+#jform_predefined_values table {
+    margin-top: 5px;
+}
+
+#jform_predefined_values .drag-icon {
+    width: 10px;
+    height: 25px;
+    background: url(images/drag-icon.png) no-repeat left center;
+    float: left;
+}
+
+#jform_predefined_values .add-option {
+    margin-right: 5px;
+}
+
+#jform_predefined_values > table {
+    min-width: 550px;
+}
+
+fieldset.radio {
+    padding: 0;
+}
+
+ul.radio-box {
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+}

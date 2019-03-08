@@ -1,0 +1,17 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\bin\Debug\NCSAFTReader.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\bin\Debug\NCSAFTReader.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.Form1.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.Properties.Resources.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.pdb
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.exe
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.pdb
+D:\Visual Studio 2010\Projects\NCSAFTReader\bin\Debug\NCSAFTReader.exe
+D:\Visual Studio 2010\Projects\NCSAFTReader\bin\Debug\NCSAFTReader.pdb
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.Form1.resources
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.Properties.Resources.resources
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.csproj.GenerateResource.Cache
+D:\Visual Studio 2010\Projects\NCSAFTReader\obj\x86\Debug\NCSAFTReader.csprojResolveAssemblyReference.cache

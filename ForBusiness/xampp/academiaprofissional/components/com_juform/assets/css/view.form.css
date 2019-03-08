@@ -1,0 +1,37 @@
+.jufm-container {
+    clear: both;
+}
+
+.jufm-container .field-group {
+    clear: both;
+}
+
+.jufm-container .field-group ul {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.jufm-container .field-group ul li {
+    list-style: outside none none;
+}
+
+.jufm-container .field-group .help-block {
+    clear: both;
+}
+
+.jufm-container .help-block {
+    clear: both;
+}
+
+.jufm-container .help-block .label:empty {
+    display: none;
+}
+
+.jufm-container .juform-page {
+    display: none;
+}
+
+.jufm-container .juform-page.active {
+    display: block;
+}

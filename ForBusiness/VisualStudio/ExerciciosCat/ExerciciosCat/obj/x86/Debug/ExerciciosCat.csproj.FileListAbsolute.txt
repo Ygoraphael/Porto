@@ -1,0 +1,4 @@
+c:\users\tml\documents\visual studio 2010\Projects\ExerciciosCat\ExerciciosCat\bin\Debug\ExerciciosCat.exe
+c:\users\tml\documents\visual studio 2010\Projects\ExerciciosCat\ExerciciosCat\bin\Debug\ExerciciosCat.pdb
+c:\users\tml\documents\visual studio 2010\Projects\ExerciciosCat\ExerciciosCat\obj\x86\Debug\ExerciciosCat.exe
+c:\users\tml\documents\visual studio 2010\Projects\ExerciciosCat\ExerciciosCat\obj\x86\Debug\ExerciciosCat.pdb

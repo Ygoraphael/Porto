@@ -1,0 +1,4 @@
+c:\users\tml\documents\visual studio 2010\Projects\DefinicoesRegionaisPHC\DefinicoesRegionaisPHC\bin\Debug\DefinicoesRegionaisPHC.exe
+c:\users\tml\documents\visual studio 2010\Projects\DefinicoesRegionaisPHC\DefinicoesRegionaisPHC\bin\Debug\DefinicoesRegionaisPHC.pdb
+c:\users\tml\documents\visual studio 2010\Projects\DefinicoesRegionaisPHC\DefinicoesRegionaisPHC\obj\x86\Debug\DefinicoesRegionaisPHC.exe
+c:\users\tml\documents\visual studio 2010\Projects\DefinicoesRegionaisPHC\DefinicoesRegionaisPHC\obj\x86\Debug\DefinicoesRegionaisPHC.pdb

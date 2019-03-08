@@ -1,0 +1,1967 @@
+/**
+ * @version   $Id: style.less 9769 2013-04-26 17:40:14Z kevin $
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+.hero-unit{
+    background-color: @linkcolor;
+    padding: 10px;
+    color: @buttontextcolor;
+    margin-bottom: 10px;
+}
+
+.well{
+    .border-radius(0);
+    color: @buttontextcolor;
+}
+
+.well.well-small{
+    background-color: @linkcolor;
+    background-color: rgba(red(@linkcolor), green(@linkcolor), blue(@linkcolor),0.5);
+}
+
+.well.well-large{
+    background-color: @linkcolor;
+    background-color: rgba(red(@linkcolor), green(@linkcolor), blue(@linkcolor),0.5);
+}
+
+.ct-safe-showcase-70{
+    position: absolute; 
+    top: 70px; 
+    left: 0;
+}
+
+@media (max-width: 767px) {
+    .ct-safe-showcase-70{
+        position: absolute; 
+        top: 160px; 
+        left: 0;
+    }
+}
+
+.ct-safe-showcase-150{
+    position: absolute; 
+    top: 150px; 
+    left: 0;
+}
+
+@media (max-width: 767px) {
+    .ct-safe-showcase-150{
+        position: absolute; 
+        top: 160px; 
+        left: 0;
+    }
+}
+
+// VIDEO BOX
+
+.ct-icon-f{
+    background: url(../images/icons/f.png) no-repeat center center;
+    background-size: 100%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 5px;
+}
+
+.ct-icon-t{
+    background: url(../images/icons/t.png) no-repeat center center;
+    background-size: 100%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 5px;
+}
+
+.ct-icon-y{
+    background: url(../images/icons/y.png) no-repeat center center;
+    background-size: 100%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 5px;
+}
+
+.ct-content-box{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    display: inline;
+    float:left;
+    background-color: #ffffff;
+    h1,h2,h3,h4,h5,h6{
+        color: #000000;
+    }
+    margin-bottom: 5px;
+    min-height: 300px;
+    color: #000000;
+    position: relative;
+    text-align: left;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.ct-content-box.ct-content-box-100:last-child{
+    margin-right: 0px;
+}
+
+.ct-content-box.ct-content-box-50:last-child{
+    margin-right: -20px;
+}
+
+.ct-content-box.ct-content-box-33:last-child{
+    margin-right: -40px;
+}
+
+.ct-content-box.ct-content-box-25:last-child{
+    margin-right: -60px;
+}
+
+@media (max-width: 767px) {
+    .ct-content-box.ct-content-box-100:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-content-box.ct-content-box-50:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-content-box.ct-content-box-33:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-content-box.ct-content-box-25:last-child{
+        margin-right: 0px;
+    }
+}
+
+.ct-content-box-nobg{
+    background-color: transparent;
+}
+
+@media (max-width: 767px) {
+    .ct-content-box{
+        display:block;
+        margin: 0;
+        margin-bottom: 25px;
+        width: 100% !important;
+        margin-right: 0;
+        float: none;
+    }
+}
+
+.ct-content-box-100{
+    width: 100%;
+}
+
+.ct-content-box-75{
+    width: 75%;
+}
+
+.ct-content-box-50{
+    width: 50%;
+}
+
+.ct-content-box-33{
+    width: 33%;
+}
+
+.ct-content-box-25{
+    width: 25%;
+}
+
+.ct-content-row{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+// SHARP BOX
+
+.ct-sharp-box{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    float:left;
+    display: inline;
+    background-color: #ffffff !important;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-right: 30px;
+    padding: 10px;
+    h1,h2,h3,h4,h5,h6{
+        color: #000000 !important;
+    }
+    min-height: 350px;
+    color: #000000 !important;
+    position: relative;
+}
+
+@media (max-width: 960px) {
+    .ct-sharp-box{
+        display:block;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100% !important;
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+    }
+}
+
+.ct-sharp-box.ct-sharp-box-100:last-child{
+    margin-right: -20px;
+}
+
+.ct-sharp-box.ct-sharp-box-50:last-child{
+    margin-right: -40px;
+}
+
+.ct-sharp-box.ct-sharp-box-33:last-child{
+    margin-right: -60px;
+}
+
+.ct-sharp-box.ct-sharp-box-25:last-child{
+    margin-right: -80px;
+}
+
+@media (max-width: 960px) {
+    .ct-sharp-box.ct-sharp-box-100:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-sharp-box.ct-sharp-box-50:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-sharp-box.ct-sharp-box-33:last-child{
+        margin-right: 0px;
+    }
+
+    .ct-sharp-box.ct-sharp-box-25:last-child{
+        margin-right: 0px;
+    }
+}
+
+.ct-sharp-box-100{
+    width: 100%;
+}
+
+.ct-sharp-box-75{
+    width: 75%;
+}
+
+.ct-sharp-box-50{
+    width: 50%;
+}
+
+.ct-sharp-box-33{
+    width: 33%;
+}
+
+.ct-sharp-box-25{
+    width: 25%;
+}
+
+.ct-sharp-row{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.ct-sharp-row:after{
+    display: block;
+    clear: both;
+}
+
+.ct-sharp-button{
+    width: 30px;
+    height: 30px;
+    background: url(../images/sharp/icon_plus.png) no-repeat center center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    right: 45%;
+}
+
+// SHARP ICONS
+
+.ct-sharp-icon-camera{
+    background: url(../images/sharp/icon2.png) no-repeat center center;
+    background: url(../images/sharp/icon2.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+.ct-sharp-icon-video{
+    background: url(../images/sharp/icon1.png) no-repeat center center;
+    background: url(../images/sharp/icon1.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+.ct-sharp-icon-toggle{
+    background: url(../images/sharp/icon3.png) no-repeat center center;
+    background: url(../images/sharp/icon3.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+.ct-sharp-icon-settings{
+    background: url(../images/sharp/icon4.png) no-repeat center center;
+    background: url(../images/sharp/icon4.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+.ct-sharp-icon-sheet{
+    background: url(../images/sharp/icon5.png) no-repeat center center;
+    background: url(../images/sharp/icon5.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+.ct-sharp-icon-screen{
+    background: url(../images/sharp/icon6.png) no-repeat center center;
+    background: url(../images/sharp/icon6.png) no-repeat center center, url(../images/sharp/diagonal.png);
+    background-size: auto;
+    -webkit-background-size: auto, 100% 100%; /* For WebKit*/
+    -moz-background-size: auto,  100% 100%;    /* Mozilla*/
+    -o-background-size: auto,  100% 100%;      /* Opera*/
+    background-size: auto,  100% 100%;
+}
+
+// SHARP ICONBG COLORS
+
+.ct-sharp-iconbg-red{
+    width: 100%;
+    background-color: #f1592a;
+    height: 100px;
+}
+
+.ct-sharp-iconbg-green{
+    width: 100%;
+    background-color: #45b29d;
+    height: 100px;
+}
+
+.ct-sharp-iconbg-yellow{
+    width: 100%;
+    background-color: #efc94c;
+    height: 100px;
+}
+
+.ct-sharp-iconbg-blue{
+    width: 100%;
+    background-color: lighten(#334d5c, 20%);
+    height: 100px;
+}
+
+.ct-sharp-iconbg-brown{
+    width: 100%;
+    background-color: #e2793f;
+    height: 100px;
+}
+
+.ct-sharp-iconbg-darkgreen{
+    width: 100%;
+    background-color: #00736c;
+    height: 100px;
+}
+
+
+
+body{
+    background-color: @bodybackground;
+}
+
+.margin_top10px{
+    margin-top: 10px;
+}
+
+.margin_top20px{
+    margin-top: 20px;
+}
+
+.margin_top30px{
+    margin-top: 30px;
+}
+
+.margin_top60px{
+    margin-top: 60px;
+}
+
+// Core
+body {
+    color: @bodytext;
+}
+a:hover {
+	color: @linkcolorhover;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: @bodytitle;
+        text-shadow: @titleshadow;
+        text-transform: uppercase;
+}
+
+.title, .component-content h2{
+    text-shadow: @titleshadow;
+}
+
+a, ul.menu li .separator {
+	color: @linkcolor;
+}
+
+#rt-mainbody-surround{
+    margin-top: 45px;
+}
+
+@media (max-width: 767px) {
+    #rt-mainbody-surround{
+        margin-top: 0;
+        padding-top: 95px;
+    }
+}
+
+// FEATURE STYLES
+
+#rt-feature > .rt-container > [class*="rt-grid"] > .rt-block{
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rt-feature > .rt-container > [class*="rt-grid"].rt-omega > .rt-block{
+    margin-right: 0;
+}
+
+#rt-feature > .rt-container .rt-block > .module-surround{
+    h1,h2,h3,h4,h5,h6,.title{
+        color: @featureModulesTitleColor;
+    }
+    color: @featureModulesTextColor;
+    background-color: @darkbackground;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    min-height: @featureModuleHeight;
+}
+
+#rt-feature{
+    padding-top: 15px;
+    background: @featureBackground;
+}
+
+#ct-feature-divider{   
+
+}
+
+// SHOWCASE FIRST
+
+.rt-block.ct-small-showcase{
+    .module-surround{
+        margin-top: 110px;
+    }
+}
+
+.rt-block.ct-large-showcase{
+    .module-surround{
+        margin-top: 220px;
+    }
+}
+
+.rt-block.ct-first-small-showcase{
+    margin: 0;
+    display: block;
+    float: none;
+    background: none;
+    .box-shadow(none);
+    background-color: transparent;
+    text-align: center;
+    
+    .title{
+        text-align: center;
+        font-size: 28pt;
+    }
+
+    .module-surround{
+        margin-top: 110px;
+    }
+}
+
+.rt-block.ct-first-showcase{
+    margin: 0;
+    display: block;
+    float: none;
+    background: none;
+    .box-shadow(none);
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 0;
+
+    .title{
+        text-align: center;
+        font-size: 28pt;
+    }
+}
+
+.rt-showcase-pattern > .rt-container:first-child > .rt-block:first-child > .module-surround:first-child{
+    margin-top: 220px;
+}
+
+.rt-showcase-pattern > .rt-container:first-child > [class^="rt-grid"] > .rt-block:first-child > .module-surround:first-child{
+    margin-top: 220px;
+}
+
+.rt-showcase-pattern > .rt-container:first-child > .rt-block:first-child + [class^="rt-grid"] > .rt-block:first-child > .module-surround:first-child{
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    
+    .rt-showcase-pattern > .rt-container:first-child > .rt-block:first-child > .module-surround:first-child{
+        margin-top: 110px;
+    }
+
+    .rt-showcase-pattern > .rt-container:first-child > [class^="rt-grid"] > .rt-block:first-child > .module-surround:first-child{
+        margin-top: 110px;
+    }
+    
+}
+
+#rt-showcase > .rt-container > [class*="rt-grid"] > .rt-block {
+    margin-left: 3px;
+}
+// FEATURE FIRST
+
+#rt-feature > .rt-container .rt-block.ct-first-feature{
+    display: block;
+    float: none;
+    .border-radius(0);
+    background: none;
+    .box-shadow(none);
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 0;
+
+    .title{
+        text-align: center;
+        font-size: 28pt;
+    }
+}
+
+#rt-feature > .rt-container .rt-block.ct-first-feature > .module-surround{
+    color: @featureFirstTextColor;
+    .title{
+        color: @featureFirstTitleColor;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: @featureFirstTitleColor;
+    }
+}
+
+
+#rt-feature > .rt-container .rt-block.ct-first-feature > .module-surround{
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    .border-radius(0);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#rt-feature > .rt-container > [class*="rt-grid"] > .rt-block {
+    margin-left: 3px;
+}
+
+// BREADCRUMB STYLES
+
+#rt-breadcrumbs{
+    background: @breadcrumbBackgroundColor;
+    text-shadow: none;
+    li {
+        text-shadow: none;
+    }
+}
+
+.breadcrumb{
+    text-shadow: none;
+    background: transparent;
+}
+
+
+// BOTTOM STYLES
+
+#rt-bottom{
+    background: @bottomBackgroundColor;
+}
+
+#rt-bottom > .rt-container > [class*="rt-grid"] > .rt-block{
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rt-bottom > .rt-container > [class*="rt-grid"].rt-omega > .rt-block{
+    margin-right: 0;
+}
+
+#rt-bottom > .rt-container .rt-block{
+
+
+
+}
+
+#rt-bottom > .rt-container .rt-block > .module-surround{
+    h1,h2,h3,h4,h5,h6,.title{
+        color: @bottomModulesTitleColor;
+    }
+    color: @bottomModulesTextColor;
+    background-color: @bottombackground;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+}
+
+#rt-bottom > .rt-container .rt-block > .module-surround .module-content{
+    min-height: @bottomModuleHeight;  
+}
+
+// BOTTOM FIRST
+
+#rt-bottom > .rt-container .rt-block.ct-first-bottom > .module-surround .module-content{
+    height: auto;
+}
+
+#rt-bottom > .rt-container .rt-block.ct-first-bottom{
+    display: block;
+    float: none;
+    .border-radius(0);
+    background: none;
+    .box-shadow(none);
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 0;
+
+    .title{
+        text-align: center;
+        font-size: 28pt;
+    }
+}
+
+#rt-bottom > .rt-container .rt-block.ct-first-bottom > .module-surround{
+    color: @bottomFirstTextColor;
+    .title{
+        color: @bottomFirstTitleColor;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: @bottomFirstTitleColor;
+    }
+}
+
+
+#rt-bottom > .rt-container .rt-block.ct-first-bottom > .module-surround{
+    padding: 0;
+    margin: 0;
+    .border-radius(0);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#rt-bottom > .rt-container .rt-block.ct-first-bottom > .module-surround .module-content{
+    min-height: 0;   
+}
+
+#rt-bottom > .rt-container > [class*="rt-grid"] > .rt-block {
+    margin-left: 3px;
+}
+
+// BOTTOM END
+
+#rt-footer{
+    background: transparent;
+}
+
+// UTILITY STYLES
+
+#rt-utility{
+
+    padding-top: 30px;
+
+    bbackground: @utilityBackgroundColor;
+
+    color: @utilityModulesTextColor;
+
+    > .rt-container > [class*='rt-grid'] .module-title .title {
+        text-align: center;
+        font-size: 28pt;
+        color: @utilityModulesTitleColor;
+    }
+}
+
+#rt-utility > .rt-container > [class*='rt-grid']{
+    float: none;
+    width: 100%;
+}
+
+#rt-utility > .rt-container > [class*='rt-grid'].rt-alpha .rt-block{
+    
+}
+
+#rt-utility > .rt-container > [class*='rt-grid'].rt-omega .rt-block{
+    
+}
+
+#rt-utility > .rt-container > [class*='rt-grid'] .rt-block{
+    padding: 0;
+    margin: 0;
+}
+
+#rt-utility > .rt-container > [class*='rt-grid'] .module-content {
+        
+        background-color: @utilityModulesBackgroundColor;
+        
+}
+
+// UTILITY STYLES END
+
+#rt-extension{
+    background: transparent;
+    .title{
+        
+    }
+}
+
+
+#rt-copyright{
+    
+    border-top: #000000 solid 1px;
+    border-top: rgba(red(#000000), green(#000000), blue(#000000), 0.1) solid 1px;
+
+    background-color: @copyrightBackgroundColor;
+    color: @copyrightTextColor;
+    text-shadow: none;
+    h1,h2,h3,h4,h5,h6,.title{
+        color: @copyrightTitlesColor;
+        text-shadow: none;
+    }
+}
+
+#rt-main{
+
+    padding-top: 20px;
+}
+
+#rt-maintop{
+    color: @maintopTextColor;
+    h1,h2,h3,h4,h5,h6,.title{
+        color: @maintopTitleColor;
+    }
+    background: @maintopGradientLeftColor;
+}
+
+#rt-footer{
+
+    background: @footerBackgroundColor;
+
+    color: @footerModulesTextColor;
+
+    > .rt-container > [class*='rt-grid'] .module-title .title {
+        color: @footerModulesTitleColor;
+        text-shadow: @titleshadowinvert;
+    }
+}
+
+#rt-footer > .rt-container > [class*='rt-grid'] .module-content {
+        
+}
+
+#rt-footer > .rt-container .rt-block > .module-surround .module-content{
+    min-height: @footerModuleHeight;
+}
+
+// Modules
+.title, .component-content h2 {
+	.box-shadow(none);
+}
+.title1 {
+        
+        .title {
+            color: @footerModulesTitleColor;
+            text-shadow: @titleshadowinvert;
+            background: @footerBackgroundColor;
+        }
+        
+}
+.title2 {
+        .title {
+               
+        }
+}
+.title3 {
+        .title {
+               background: @breadcrumbBackgroundColor;
+        }
+}
+.title4 {
+	.title {
+		
+            
+            
+	}
+}
+
+// Module Overrides
+
+.box1 {
+        
+}
+
+.box2 {
+    
+    background: @footerBackgroundColor;
+    
+    color: @footerModulesTextColor;
+
+    h1,h2,h3,h4,h5,h6,.title {
+        color: @footerModulesTitleColor;
+        text-shadow: @titleshadowinvert;
+    }
+}
+
+.box3{
+     
+}
+
+// Menu Modules
+ul.menu {
+	li.active.current, li#current.active {
+		> a, > .item, > .separator {
+			color: @bodytitle;
+		}
+	}
+}
+
+// Buttons and Inputs
+.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	color: @buttontextcolor;
+        text-transform: uppercase;
+        font-weight: normal;
+	&:hover {
+		color: @buttontextcolor;
+	}
+	&:active {
+		
+	}
+}
+
+.readmore {
+	a {
+		color: @buttontextcolor;
+		&:hover {
+			color: @buttontextcolor;
+		}
+	}
+}
+
+.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @linkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @buttontextcolor;
+}
+
+.button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @linkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @buttontextcolor;
+}
+
+.button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+	background-color: @linkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @buttontextcolor;
+}
+
+// resetting Bootstrap buttons
+
+.btn, .btn-primary{
+    background-color: @linkcolor;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: @buttontextcolor;
+    .transition(background-color 0.2s ease-out 0s);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+    background-color: @linkcolorhover;
+    color: @buttontextcolor;
+    .transition(none);
+}
+
+.btn:hover, 
+.btn-primary:hover, 
+.btn:active, 
+.btn-primary:active, 
+.btn.disabled:hover, 
+.btn[disabled]:hover,
+.btn.disabled:active, 
+.btn[disabled]:active {
+    background-color: @linkcolorhover;
+    color: @buttontextcolor;
+    .transition(background-color 0.2s ease-in 0s);
+}
+
+// SHOWCASE BUTTON OVERRIDES
+
+#rt-showcase{
+
+    a, ul.menu li .separator {
+	color: @showcaselinkcolor;
+    }
+
+    a:hover {
+	color: @showcaselinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @showcaselinkcolor;
+        color: @showcasebuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @showcaselinkcolorhover;
+        color: @showcasebuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @showcaselinkcolorhover;
+        color: @showcasebuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @showcasebuttontextcolor;
+		&:hover {
+			color: @showcasebuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @showcaselinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @showcasebuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @showcaselinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @showcasebuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @showcaselinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @showcasebuttontextcolor;
+    }
+}
+
+// FEATURE BUTTON OVERRIDES
+
+#rt-feature{
+
+    a, ul.menu li .separator {
+	color: @featurelinkcolor;
+    }
+
+    a:hover {
+	color: @featurelinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @featurelinkcolor;
+        color: @featurebuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @featurelinkcolorhover;
+        color: @featurebuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @featurelinkcolorhover;
+        color: @featurebuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @featurebuttontextcolor;
+		&:hover {
+			color: @featurebuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @featurelinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @featurebuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @featurelinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @featurebuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @showcaselinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @featurebuttontextcolor;
+    }
+}
+
+// UTILITY BUTTON OVERRIDES
+
+#rt-utility{
+
+    a, ul.menu li .separator {
+	color: @utilitylinkcolor;
+    }
+
+    a:hover {
+	color: @utilitylinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @utilitylinkcolor;
+        color: @utilitybuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @utilitylinkcolorhover;
+        color: @utilitybuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @utilitylinkcolorhover;
+        color: @utilitybuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @utilitybuttontextcolor;
+		&:hover {
+			color: @utilitybuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @utilitylinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @utilitybuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @utilitylinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @utilitybuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @utilitylinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @utilitybuttontextcolor;
+    }
+}
+
+// MAINTOP BUTTON OVERRIDES
+
+#rt-maintop{
+
+    a, ul.menu li .separator {
+	color: @maintoplinkcolor;
+    }
+
+    a:hover {
+	color: @maintoplinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @maintoplinkcolor;
+        color: @maintopbuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @maintoplinkcolorhover;
+        color: @maintopbuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @maintoplinkcolorhover;
+        color: @maintopbuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @maintopbuttontextcolor;
+		&:hover {
+			color: @maintopbuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @maintoplinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @maintopbuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @maintoplinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @maintopbuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @maintoplinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @maintopbuttontextcolor;
+    }
+}
+
+// BOTTOM BUTTON OVERRIDES
+
+#rt-bottom{
+
+    a, ul.menu li .separator {
+	color: @bottomlinkcolor;
+    }
+
+    a:hover {
+	color: @bottomlinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @bottomlinkcolor;
+        color: @bottombuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @bottomlinkcolorhover;
+        color: @bottombuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @bottomlinkcolorhover;
+        color: @bottombuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @bottombuttontextcolor;
+		&:hover {
+			color: @bottombuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @bottomlinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @bottombuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @bottomlinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @bottombuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @bottomlinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @bottombuttontextcolor;
+    }
+}
+
+// FOOTER BUTTON OVERRIDES
+
+#rt-footer, .box2{
+
+    a, ul.menu li .separator {
+	color: @footerlinkcolor;
+    }
+
+    a:hover {
+	color: @footerlinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @footerlinkcolor;
+        color: @footerbuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @footerlinkcolorhover;
+        color: @footerbuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @footerlinkcolorhover;
+        color: @footerbuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @footerbuttontextcolor;
+		&:hover {
+			color: @footerbuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @footerlinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @footerbuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @footerlinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @footerbuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @footerlinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @footerbuttontextcolor;
+    }
+}
+
+// COPYRIGHT BUTTON OVERRIDES
+
+#rt-copyright{
+
+    a, ul.menu li .separator {
+	color: @copyrightlinkcolor;
+    }
+
+    a:hover {
+	color: @copyrightlinkcolorhover;
+    }
+
+    .btn, .btn-primary{
+        background-color: @copyrightlinkcolor;
+        color: @copyrightbuttontextcolor;
+        .transition(background-color 0.2s ease-out 0s);
+    }
+
+    .btn:focus{
+        outline: none;
+    }
+
+    .btn-primary.disabled, .btn-primary[disabled], .btn.disabled, .btn[disabled]{
+        background-color: @copyrightlinkcolorhover;
+        color: @copyrightbuttontextcolor;
+        .transition(none);
+    }
+
+    .btn:hover, 
+    .btn-primary:hover, 
+    .btn:active, 
+    .btn-primary:active, 
+    .btn.disabled:hover, 
+    .btn[disabled]:hover,
+    .btn.disabled:active, 
+    .btn[disabled]:active {
+        background-color: @copyrightlinkcolorhover;
+        color: @copyrightbuttontextcolor;
+        .transition(background-color 0.2s ease-in 0s);
+    }
+
+    .readmore {
+	a {
+		color: @copyrightbuttontextcolor;
+		&:hover {
+			color: @copyrightbuttontextcolor;
+		}
+	}
+    }
+
+    .button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {
+	background-color: @copyrightlinkcolor;
+        .transition(background-color 0.2s ease-out 0s);
+        color: @copyrightbuttontextcolor;
+    }
+    .button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover {
+	background-color: @copyrightlinkcolorhover;
+        .transition(background-color 0.2s ease-in 0s);
+        color: @copyrightbuttontextcolor;
+    }
+
+    .button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {
+            background-color: @copyrightlinkcolorhover;
+            .transition(background-color 0.2s ease-in 0s);
+            color: @copyrightbuttontextcolor;
+    }
+}
+
+// override the above for signaling buttons
+
+.btn-info{
+    background-color: #49afcd;
+}
+
+.btn-info:hover, 
+.btn-info:active{
+    background-color: #2F96B4;
+}
+
+.btn-success{
+    background-color: #5BB75B;
+}
+
+.btn-success:hover, 
+.btn-success:active{
+    background-color: #51A351;
+}
+
+
+.btn-warning{
+    background-color: #FAA732;
+}
+
+.btn-warning:hover, 
+.btn-warning:active{
+    background-color: #F89406;
+}
+
+.btn-danger{
+    background-color: #DA4F49;
+}
+
+.btn-danger:hover, 
+.btn-danger:active{
+    background-color: #BD362F;
+}
+
+.btn-inverse{
+    background-color: @linkcolorhover;
+}
+
+.btn-inverse:hover, 
+.btn-inverse:active{
+    background-color: @linkcolor;
+}
+
+.btn-link{
+    background: none;
+    color: @linkcolor;
+    .transition(color 0.2s ease-out 0s);
+    border: 0;
+}
+
+.btn-link:hover, 
+.btn-link:active{
+    background: none;
+    color: @bodytitle;
+    text-decoration: none;
+    border: 0;
+}
+
+// resetting bootstrap input
+
+select,
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input,
+.component-content .login-fields #username, .login-fields #password, #contact-form dd input, #contact-form dd textarea, #modlgn-username, #modlgn-passwd, #jform_email, #member-registration dd input, #search-searchword, .finder .inputbox {
+    .border-radius(0);
+}
+
+select:focus,
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+.uneditable-input:focus {
+    border-color: @formsBorderFocusColor;
+    outline: 0;
+}
+
+
+.login-fields #username, .login-fields #password, #contact-form dd input, #contact-form dd textarea, #modlgn-username, #modlgn-passwd, #jform_email, #member-registration dd input, #search-searchword, .finder .inputbox, .inputbox {
+    .box-shadow(none);
+}
+
+.login-fields #username:focus, .login-fields #password:focus, #contact-form dd input:focus, #contact-form dd textarea:focus, #modlgn-username:focus, #modlgn-passwd:focus, #jform_email:focus, #member-registration dd input:focus, #search-searchword:focus, .finder .inputbox:focus, .inputbox:focus {
+    .box-shadow(none);
+    border-color: @formsBorderFocusColor;
+}
+
+legend{
+    border-bottom: 1px solid @bodytitle;
+}
+
+
+// Branding
+.powered-by {
+	background: url(../images/logo/powered.png) 0 0 no-repeat;
+        background-size: 100% auto;
+}
+
+// Typography
+.pagenav {
+	li {
+		background: @bodybackground2;
+		border: 1px solid @bodyborder;
+		.box-shadow(none);
+	}
+}
+.login-fields #username, .login-fields #password, #contact-form dd input, #contact-form dd textarea, #modlgn-username, #modlgn-passwd, #jform_email, #member-registration dd input, #search-searchword, .finder .inputbox, .inputbox {
+	border: 1px solid @maintopbackground;
+}
+
+@media (max-width: 767px) {
+    .component-content {
+
+            padding-top: 40px;
+
+            .contact {
+                    .title {
+                    }
+            }
+    }
+}
+.pagination {
+	ul {
+		li {
+			a {
+				#gradient > .vertical(@bodycontrast, @bodyborder2);
+				border: 1px solid @bodyborder;
+				text-shadow: none;
+			}
+			span {
+				background: @bodybackground4;
+				border: 1px solid @bodyborder;
+				color: @bodytextlight;
+			}
+		}
+	}
+}
+.breadcrumbs, .breadcrumb {
+        .border-radius(0);
+	a {
+		&:after {
+			
+		}
+	}
+	.showHere {
+		font-weight: lighter;
+		margin-right: 5px;
+	}
+}
+.article-info {
+	&.muted {
+		color: inherit;
+	}
+	dd:before {
+		text-shadow: none;
+	}
+}
+
+// Extras
+#gantry-totop {
+	background: @bodybackground2;
+	border: 1px solid @bodyborder;
+	.box-shadow(inset 0 0 0 1px @white, 0 1px 2px rgba(0,0,0,0.2));
+	&:active {
+		.box-shadow(0 1px 0 @bodycontrast);
+	}
+}
+.tip-wrap {
+	background: @bodycontrast;
+	.box-shadow(none);
+	color: @bodytext;
+}
+.system-unpublished .system-unpublished {
+	background: @bodycontrast;
+	border-color: @bodyborder;
+}
+
+// Typography
+.tags .label-info {
+	background: darken(@linkcolor, 10%);
+}
+
+// Abbreviations and acronyms
+abbr[title] {
+  border-bottom: 1px dotted @bodyborder;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 5px solid @bodyborder;
+  small {
+    color: @bodytextlight;
+  }
+
+  &.pull-right {
+    border-right: 5px solid @bodyborder;
+  }
+}
+
+// Forms
+legend {
+  color: @linkcolor;
+  border-bottom: 1px solid @linkcolor;
+
+  small {
+    color: @linkcolor;
+  }
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  color: @bodytext;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: lighten(@bodybackground, 25%);
+  border: 1px solid @maintopbackground;
+  .box-shadow(none);
+}
+
+select {
+  border: 1px solid @maintopbackground;
+}
+
+// Uneditable inputs
+.uneditable-input,
+.uneditable-textarea {
+  color: @bodytextlight;
+  background-color: @light-grey;
+  border-color: @maintopbackground;
+  .box-shadow(none);
+}
+
+// Inputs
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  border-color: @maintopbackground;
+  background-color: @light-grey;
+}
+
+.input-prepend,
+.input-append {
+  .add-on {
+    background-color: @bodybackground2;
+    border: 1px solid @maintopbackground;
+  }
+  &.input-append .media-preview {
+  	margin: 0;
+  }
+}
+
+// Form Actions
+.form-actions {
+  background-color: @bodybackground2;
+  border-top: 1px solid @maintopbackground;
+}
+
+.uneditable-input {
+  background-color: @light-grey;
+  border-color: @maintopbackground;
+  .box-shadow(none);
+}
+
+// Help Text
+.help-block,
+.help-inline {
+  color: @gray;
+}
+
+// Extras
+.table-bordered th {
+	background-color: @bodybackground2;
+}
+.well {
+	background-color: transparent;
+	border: none;
+	.box-shadow(none);
+}
+
+.nav-tabs.nav-stacked > li > a {
+        border: 0;
+	background-color: @bodybackground2;
+	&:hover {
+		background-color: @bodybackground4;
+	}
+}
+
+.list-striped, .row-striped {
+    border: 0;
+}
+
+.list-striped li, .list-striped dd, .row-striped .row, .row-striped .row-fluid {
+    border: 0;
+}
+
+.list-striped li:nth-child(odd),
+.list-striped dd:nth-child(odd),
+.row-striped .row:nth-child(odd),
+.row-striped .row-fluid:nth-child(odd),
+.cat-list-row0 {
+	background-color: @bodybackground4;
+}
+
+.list-striped li:hover,
+.list-striped dd:hover,
+.row-striped .row:hover,
+.row-striped .row-fluid:hover,
+.cat-list-row0:hover, .cat-list-row1:hover {
+	background-color: @bodybackground3;
+}
+
+.alert{
+    text-shadow: none;
+}
+
+.filter-search.alert-info {
+	background-color: transparent;
+	border-color: transparent;
+	color: inherit;
+	.inputbox {
+		color: @bodyTextDark;
+	}
+}
+
+// Notice Styles
+p {
+	&.success, &.info, &.error, &.warning {
+		
+		padding: 15px;
+		font-weight: bold;
+		border: 1px solid;
+		a {
+			color: #666 !important;
+			&:hover {
+				color: #000 !important;
+				text-shadow: none;
+			}
+		}			
+	}
+	&.success {
+		background: @successBackground;
+		border-color: @successBorder;
+		color: @successText;
+	}
+	&.info {
+		background: @infoBackground;
+		border-color: @infoBorder;
+		color: @infoText;
+	}
+	&.error {
+		background: @errorBackground;
+		border-color: @errorBorder;
+		color: @errorText;
+	}
+	&.warning {
+		background: @warningBackground;
+		border-color: @warningBorder;
+		color: @warningText;
+	}
+}
+
+
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }	50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulse {
+    0% { -moz-transform: scale(1); }	
+	50% { -moz-transform: scale(1.1); }
+    100% { -moz-transform: scale(1); }
+}
+@-o-keyframes pulse {
+    0% { -o-transform: scale(1); }	
+	50% { -o-transform: scale(1.1); }
+    100% { -o-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }	
+	50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-o-animation-name: pulse;
+	animation-name: pulse;
+}
+@-webkit-keyframes flipInY {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+    
+    40% {
+        -webkit-transform: perspective(400px) rotateY(-10deg);
+    }
+    
+    70% {
+        -webkit-transform: perspective(400px) rotateY(10deg);
+    }
+    
+    100% {
+        -webkit-transform: perspective(400px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+@-moz-keyframes flipInY {
+    0% {
+        -moz-transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+    
+    40% {
+        -moz-transform: perspective(400px) rotateY(-10deg);
+    }
+    
+    70% {
+        -moz-transform: perspective(400px) rotateY(10deg);
+    }
+    
+    100% {
+        -moz-transform: perspective(400px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+@-o-keyframes flipInY {
+    0% {
+        -o-transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+    
+    40% {
+        -o-transform: perspective(400px) rotateY(-10deg);
+    }
+    
+    70% {
+        -o-transform: perspective(400px) rotateY(10deg);
+    }
+    
+    100% {
+        -o-transform: perspective(400px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+@keyframes flipInY {
+    0% {
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+    
+    40% {
+        transform: perspective(400px) rotateY(-10deg);
+    }
+    
+    70% {
+        transform: perspective(400px) rotateY(10deg);
+    }
+    
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.flipInY {
+	-webkit-backface-visibility: visible !important;
+	-webkit-animation-name: flipInY;
+	-moz-backface-visibility: visible !important;
+	-moz-animation-name: flipInY;
+	-o-backface-visibility: visible !important;
+	-o-animation-name: flipInY;
+	backface-visibility: visible !important;
+	animation-name: flipInY;
+}
+

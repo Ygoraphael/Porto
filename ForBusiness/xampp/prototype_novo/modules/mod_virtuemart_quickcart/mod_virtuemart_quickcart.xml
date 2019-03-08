@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>Virtuemart Quickcart</name>
+	<author>Codextension</author>
+	<creationDate>30 May 2012</creationDate>
+    <copyright>Copyright (c) 2004 - 2011 Codextension.Com. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>contact@codextension.com</authorEmail>
+	<authorUrl>http://codextension.com</authorUrl>
+	<version>2.0.0</version>
+	<description>
+	<![CDATA[
+	<style>
+		.jl_description h3{
+			text-transform: uppercase;	margin: 20px 0px 10px 0px;
+		}
+		.jl_description img{
+			float:left;	
+			margin:5px 10px 5px 0px;
+		}
+		.jl_description p{
+			padding:25px 2px;
+		}
+		.jl_description li{
+			padding:2px;
+			list-style: none outside none;
+			clear:both;
+		}
+		.jl_description ul.list-style li{
+			background:url(../modules/mod_virtuemart_quickcart/assets/images/tick.png) 0px 6px no-repeat;	padding-left:30px;	line-height:15px;
+		}
+	</style>
+	<div class="jl_description">
+		<h3>Virtuemart Quickcart Version 2.0.0</h3>
+		<img src="../modules/mod_virtuemart_quickcart/assets/virtuemart_quick_cart.png"/>
+		<p>
+			The Virtuemart Quick Cart Module is as best choice and
+			the most eye-catching way to display featured added product to cart and show product in cart quickly.
+		</p>
+		<br clear="both" />
+		<h3>Features</h3>
+		<ul class="list-style">
+			<li>Support browsers (IE6+, FireFox, Chrome, Opera, Safari, ...)</li> 
+			<li>Compatible with all the 3rd party templates (All framework most popular : T3, Grantry, Yoo...)</li> 
+			<li>Show / Hide title</li> 
+			<li>Show / Hide description.</li> 
+			<li>Show / Hide image.</li> 
+			<li>Show / Hide scrollbar.</li> 
+			<li>Support scrollbar if too much products added to cart.</li>
+			<li>Support opening link in: Current Window or New Window.</li> 
+			<li>Support caching to make website loads faster.</li> 
+			<li>Support Multi-Language.</li>
+		</ul>
+		<h3>Upgrade versions</h3>
+		<p>Your current versions is 2.0.0. <a target="_blank" href="http://codextension.com">Find our latest versions now</a></p>
+		<h3>Userful links</h3>
+		<ul>
+			<li>Video tutorials</li>
+			<li>Report bug</li>
+		</ul>
+		<h3>About Codextension & copyright</h3>
+		<p>Codextension is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization </p>Copyright 2004 - 2011 <a target="_blank" href="http://codextension.com">http://codextension.com</a>
+	</div>]]>
+	</description>
+  <files>
+    <filename module="mod_virtuemart_quickcart">mod_virtuemart_quickcart.php</filename>
+    <filename module="mod_virtuemart_quickcart">index.html</filename>
+	<filename>LICENSE.txt</filename>
+	<filename>helper.php</filename>
+	<filename>mvm_quickcart_ajax.php</filename>
+    <folder module="mod_virtuemart_quickcart">assets</folder>
+    <folder module="mod_virtuemart_quickcart">tmpl</folder>		
+	<folder module="mod_virtuemart_quickcart">libraries</folder>
+	<folder module="mod_virtuemart_quickcart">languages</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">languages/en-GB.mod_virtuemart_quickcart.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="BASICSETTING">
+		<field type="spacer" name="JOOMLA_SETTING" default="JOOMLA_SETTING"/>
+        <field name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX" description="MODULE_CLASS_SUFFIX_DESC" />
+		 <field name="enable_cache" type="list" default="0" label="JL_VIRTUEMART_QUICKCART_CACHE" description="JL_VIRTUEMART_QUICKCART_CACHING_DESC">
+          <option value="1">Use global</option>
+          <option value="0">No caching</option>
+        </field>
+        <field name="cache_time" type="text" default="30" label="JL_VIRTUEMART_QUICKCART_CACHE_TIME" description="JL_VIRTUEMART_QUICKCART_CACHE_TIME_DESC" />
+		<field type="spacer" name="SOURCE_SETTING" default="SOURCE_SETTING"/>		
+		<field name="show_price" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOWPRICE" description="JL_VIRTUEMART_QUICKCART_SHOWPRICE_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>        
+        <field name="count" type="text" default="5" label="JL_VIRTUEMART_QUICKCART_LIMIT_ITEMS" description="JL_VIRTUEMART_QUICKCART_LIMIT_ITEMS_DESC" />
+        <field name="show_title" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOWTITLE" description="JL_VIRTUEMART_QUICKCART_SHOWTITLE_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>    
+        <field name="title_max_chars" type="text" default="25" label="JL_VIRTUEMART_QUICKCART_TITLE_MAX_CHARS" description="JL_VIRTUEMART_QUICKCART_TITLE_MAX_CHARS_DESC" />
+        <field name="show_desc" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOWDESC" description="JL_VIRTUEMART_QUICKCART_SHOWDESC_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="jl_limit_desc" type="text" default="100" label="JL_VIRTUEMART_QUICKCART_DESCIPTION_MAX_CHARS" description="JL_VIRTUEMART_QUICKCART_DESCIPTION_MAX_CHARS_DESC" />
+        <field name="replacer" type="text" default="..." label="JL_VIRTUEMART_QUICKCART_REPLACER" description="JL_VIRTUEMART_QUICKCART_REPLACER_DESC" />
+        <field name="show_attr" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOWATTR" description="JL_VIRTUEMART_QUICKCART_SHOWATTR_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="show_imgs" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOWIMG" description="JL_VIRTUEMART_QUICKCART_SHOWIMG_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="thumbwidth" type="text" default="75" label="JL_VIRTUEMART_QUICKCART_THUMBWIDTH" description="JL_VIRTUEMART_QUICKCART_THUMBWIDTH_DESC" />
+        <field name="thumbheight" type="text" default="61" label="JL_VIRTUEMART_QUICKCART_THUMBHEIGHT" description="JL_VIRTUEMART_QUICKCART_THUMBHEIGHT_DESC" />
+        
+        <field name="widthdropdown" type="text" default="450px" label="JL_VIRTUEMART_QUICKCART_WIDTH_DROPDOWN" description="JL_VIRTUEMART_QUICKCART_WIDTH_DROPDOWN_DESC" />
+        <field name="show_scrollbar" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_SHOW_SCROLLBAR" description="JL_VIRTUEMART_QUICKCART_SHOW_SCROLLBAR_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="height_scrollbar" type="text" default="250" label="JL_VIRTUEMART_QUICKCART_HEIGHT_SCROLLBAR" description="JL_VIRTUEMART_QUICKCART_HEIGHT_SCROLLBAR_DESC" />
+        <field name="target_window" class="jl_switch" type="list" default="1" label="JL_VIRTUEMART_QUICKCART_TARGET_WINDOW" description="JL_VIRTUEMART_QUICKCART_TARGET_WINDOW_DESC">
+          <option value="0">Self</option>
+          <option value="1">Parent</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>

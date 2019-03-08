@@ -1,0 +1,57 @@
+@url_base:"https://mafialocal.cosmosdigital.pt";
+.stats-panel-principal{
+    background: url("@{url_base}/assets/img/stats-panel-principal-background.png");
+    height: 159px;
+    width: e("calc(100% + 30px)");
+    margin-left: -15px;
+    margin-right: -15px;
+    .avatar{
+        float:left;
+        margin-top: 5px;
+    }
+    .icon-stats{
+        min-width: 250px;
+        margin: 16px;
+        float:left;
+        .playerName{
+            color: #f3e1b2;
+            font: 700 18px / 32px Roboto;
+        }
+        .stat{
+            font: 300 14px Roboto;
+            padding-top: 7px;
+            .icon{
+                float:left;
+                width: 32px;
+            }
+            .label{
+                float:left;
+                width: 60px;
+                text-align: left;
+            }
+            .value{
+                float:left;
+            }
+            clear: both;
+        }
+    }
+
+    .bar-stat{
+        float:right;
+        margin-top: 19px;
+        margin-left: 20px;
+        .icon{
+            text-align: center;
+        }
+        .label{
+            text-align: left;
+        }
+        .progressBar{
+        }
+        .progressText{
+            text-align: center;
+            color: #ffffff;
+            font: 300 10px / 22px Roboto;
+        }
+    }
+}

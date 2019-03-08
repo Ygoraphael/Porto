@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Date Time</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>datetime</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/datetime">
+            <file>datetime.xml</file>
+            <file>datetime.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                    name="rule"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_RULE_LABEL"
+                    description="COM_JUFORM_FIELD_RULE_DESC"
+                    >
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="date">COM_JUFORM_JAVASCRIPT_DATE</option>
+                <option value="regex">COM_JUFORM_REGEX</option>
+                <option value="custom">COM_JUFORM_CUSTOM</option>
+            </field>
+
+            <field
+                    name="custom_regex"
+                    type="text"
+                    default=""
+                    class="jufilter-rule-regex"
+                    label="COM_JUFORM_FIELD_CUSTOM_REGEX_LABEL"
+                    description="COM_JUFORM_FIELD_CUSTOM_REGEX_DESC"
+                    />
+
+            <field
+                    name="custom_rule"
+                    type="textarea"
+                    default="function(value, element) {}"
+                    class="jufilter-rule-custom"
+                    rows="10"
+                    label="COM_JUFORM_FIELD_CUSTOM_RULE_LABEL"
+                    description="COM_JUFORM_FIELD_CUSTOM_RULE_DESC"
+                    />
+
+            <field
+                    name="invalid_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_INVALID_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_INVALID_MESSAGE_DESC"
+                    />
+
+            <field
+                    name="required_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_REQUIRED_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_REQUIRED_MESSAGE_DESC"
+                    />
+        </fieldset>
+
+        <fieldset name="config" label="Config">
+            <field name="size"
+                   type="text"
+                   default="32"
+                   class="validate-numeric"
+                   label="COM_JUFORM_FIELD_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SIZE_DESC"
+            />
+
+            <field
+                    name="format"
+                    type="text"
+                    default="m/d/Y H:i:s"
+                    label="COM_JUFORM_FIELD_DATETIME_FORMAT_LABEL"
+                    description="COM_JUFORM_FIELD_DATETIME_FORMAT_DESC"/>
+
+            <field
+                    name="output_format"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_DATETIME_OUTPUT_FORMAT_LABEL"
+                    description="COM_JUFORM_FIELD_DATETIME_OUTPUT_FORMAT_DESC">
+                <option value="">COM_JUFORM_THE_SAME_AS_INPUT</option>
+                <option value="l, d F Y">COM_JUFORM_DATE_FORMAT_LC</option>
+                <option value="l, d F Y">COM_JUFORM_DATE_FORMAT_LC1</option>
+                <option value="l, d F Y H:i">COM_JUFORM_DATE_FORMAT_LC2</option>
+                <option value="d F Y">COM_JUFORM_DATE_FORMAT_LC3</option>
+                <option value="Y-m-d">COM_JUFORM_DATE_FORMAT_LC4</option>
+                <option value="y-m-d">COM_JUFORM_DATE_FORMAT_JS1</option>
+                <option value="custom">COM_JUFORM_CUSTOM</option>
+            </field>
+
+            <field name="custom_dateformat"
+                   type="text"
+                   size="32"
+                   default=""
+                   class="jufilter-output_format-custom"
+                   label="COM_JUFORM_FIELD_CUSTOM_DATE_FORMAT_LABEL"
+                   description="COM_JUFORM_FIELD_CUSTOM_DATE_FORMAT_DESC"
+            />
+
+            <field name="filter"
+                   type="list"
+                   default="USER_UTC"
+                   label="COM_JUFORM_FIELD_FILTER_LABEL"
+                   description="COM_JUFORM_FIELD_FILTER_DESC">
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="USER_UTC">COM_JUFORM_FILTER_USER_UTC</option>
+                <option value="SEVER_UTC">COM_JUFORM_FILTER_SEVER_UTC</option>
+            </field>
+
+            <field name="show_datepicker"
+                   type="list"
+                   default="date"
+                   label="COM_JUFORM_FIELD_DATETIME_PICKER_LABEL"
+                   description="COM_JUFORM_FIELD_DATETIME_PICKER_DESC">
+                <option value="both">COM_JUFORM_OPTION_DATE_AND_TIME</option>
+                <option value="date">COM_JUFORM_OPTION_DATE</option>
+                <option value="time">COM_JUFORM_OPTION_TIME</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

@@ -1,0 +1,113 @@
+<form class="form" name="user">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-user-plus"></i> {{TITLE}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <h4 class="form-section">%%Personal Info%%</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="projectinput1">%%Name%%</label>
+                                <input type="text" id="projectinput1" required class="form-control" placeholder="%%Name%%" name="name" value="{{USER->NAME}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="projectinput2">%%Surname%%</label>
+                                <input type="text" required id="projectinput2" class="form-control" placeholder="%%Surname%%" name="last_name" value="{{USER->LAST_NAME}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="projectinput3">%%Email%%</label>
+                                <input type="email" required id="projectinput3" class="form-control" placeholder="E-mail" name="email" value="{{USER->EMAIL}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="projectinput4">%%Code%%</label>
+                                <input type="text" id="projectinput4" class="form-control" disabled="" value="{{code}}">
+                                <input type="hidden" name="code" value="{{code}}">
+                            </div>
+                        </div>
+                    </div>                 
+                    <h4 class="form-section">%%System%%</h4>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="user_type">%%User Type%%</label>
+                                <select id="user_type" name="user_type" class="form-control select_change combox"  data-controller="permission" data-method="listing" data-id="form_user">
+                                    <option selected="" disabled="">%%Select type%%</option>
+                                    <!-- BEGIN BLOCK_SELECT_LEVEL -->
+                                    <option value="{{VALUE}}" {{select}}>{{TEXT}}</option>
+                                    <!-- END BLOCK_SELECT_LEVEL -->
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+							<div id="profile_listing_form_user">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="company_listing_form_user">
+                </div>
+                <div id="factory_listing_form_user">
+                </div>
+
+                <div id="permission_listing_form_user">
+                    <!-- BEGIN BLOCK_PEMISSIONS -->
+                    <h4 class="form-section">%%Permissions%%</h4>
+                    <!-- BEGIN BLOCK_MENU_PERMISSION -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-9">
+                                <label><b>{{PAGE_MAIN->TITLE}}</b></label>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <label class="display-inline-block custom-control custom-radio ml-1">
+                                            <input type="radio" name="permission[{{PAGE_MAIN->ID}}]" {{permission_true}} value="1" class="custom-control-input">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description ml-0">%%Yes%%</span>
+                                        </label>
+                                        <label class="display-inline-block custom-control custom-radio">
+                                            <input type="radio" name="permission[{{PAGE_MAIN->ID}}]" {{permission_false}} value="0" class="custom-control-input">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description ml-0">%%No%%</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END BLOCK_MENU_PERMISSION -->
+                    <!-- END BLOCK_PEMISSIONS -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                            <input type="hidden" name="id" value="{{USER->ID}}">
+                            <i class="icon-cross2"></i> %%Cancel%%
+                        </button>
+                        <button type="submit" class="btn btn-success {{action}}">
+                            <i class="icon-check2"></i> %%Save%%
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

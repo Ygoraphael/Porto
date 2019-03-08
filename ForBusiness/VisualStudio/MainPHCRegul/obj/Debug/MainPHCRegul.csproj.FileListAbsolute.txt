@@ -1,0 +1,6 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\bin\Debug\MainPHCRegul.dll
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\bin\Debug\MainPHCRegul.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\bin\Debug\MainPHCRegul.tlb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\obj\Debug\MainPHCRegul.dll
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\MainPHCRegul\obj\Debug\MainPHCRegul.pdb

@@ -1,0 +1,106 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-check2"></i> %%All Replies%%</h4>
+                <form class="form" method="get"  name="User" action="/survey/surveys/" >
+                    <div class="row">
+                        <div class="col-md-5">
+                            <ul>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="date-expired">%%Start date%%</label>
+                                        <input onchange="dataLimiteStart(this);" type="date"  id="date-start2" class="form-control" name="s2" max="#"  value="{{datestart}}">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="date-expired">%%End date%%</label>
+                                        <input onchange="dataLimiteEnd(this);" type="date" id="date-end2" class="form-control" name="e2" min="#"  value="{{dateend}}">
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="date-expired">%%Status%%</label>
+                                                <select name="t2" class="form-control" required >
+                                                    <option selected="" >%%All%%</option>
+                                                    <!-- BEGIN BLOCK_STATUS -->
+                                                    <option value="{{TEXTST2}}" {{SELECTED}}>{{TEXTST}}</option>
+                                                    <!-- END BLOCK_STATUS -->
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">	
+                        <div class="col-md-5">
+                            <ul>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="date-expired">%%User%%</label>
+                                                <select name="t" class="form-control" required >
+                                                    <option value="0"  selected="" >%%All%%</option>
+                                                    <!-- BEGIN BLOCK_USER2 -->
+                                                    <option value="{{USERID}}" {{SELECTED2}} >{{NAME_USER}}</option>
+                                                    <!-- END BLOCK_USER2 -->
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-md-1" style="margin-top:30px;">
+                            <button type="submit" class="btn btn-success">%%Search%%</button>
+                        </div>	
+                    </div>
+                </form>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0 exporttable">
+                        <thead>
+                            <tr>
+                                <th>%%User%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Answered At%%</th>
+                                <th>%%Limit Date%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_NOTIFICATION -->
+                            <tr>
+                                <td>{{NOTIFICATION->USER}}</td>
+                                <td><span class="tag tag-{{status_class}}">{{NOTIFICATION->STATUS}}</span></td>
+                                <td>{{NOTIFICATION->ANSWERED_AT}}</td>
+                                <td>{{NOTIFICATION->DATE_LIMIT}}</td>
+                                <td>
+                                    <a class="btn btn-xs btn-warning" href="{{NOTIFICATION->URL}}"><i class="icon-eye"></i></a>    
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_NOTIFICATION -->
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- BEGIN BLOCK_NO_NOTIFICATION -->
+                <div class="col-md-12">
+                    <h4>%%There are no surveys%% </h4>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_NO_NOTIFICATION -->
+            </div>
+        </div>
+    </div>
+</div>

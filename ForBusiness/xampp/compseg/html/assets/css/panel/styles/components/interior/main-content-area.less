@@ -1,0 +1,111 @@
+.col-sm-6-separated{
+  position: relative !important;
+  min-height: 1px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  float:left !important;
+  width: e("calc(50% - 4px)") !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+.full-width-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: e("calc(100% + 30px)");
+}
+
+.panel-background{
+  border: 0;
+  background: none;
+  background-color: #290808;
+  background: linear-gradient(0deg, #260707 0%, #3a0b0b 100%);
+  box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.50);
+  border: 1px solid #460d0d;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.panel {
+  .panel-background;
+  padding: 12px;
+  .panel-header {
+	.beigeText;
+	font: 700 18px / 14.69px Roboto;
+	margin: 12px;
+  }
+  .panel-sub-header {
+	.beigeText;
+	font: 200 16px / 14.69px Roboto;
+	margin: 12px;
+  }
+  p {
+	.beigeText;
+	font: 300 14px / 14.69px Roboto;
+  }
+  img {
+	margin: 10px;
+	margin-top: 0px;
+	border: 1px solid #460d0d;
+	box-shadow: 0px 4px 5px 0.00px rgba(0, 0, 0, 0.50);
+  }
+}
+.panel-invisible{
+  .panel;
+  border:0;
+  background:none;
+  box-shadow: none;
+}
+
+.content-area-header {
+  text-align: center;
+  .links, .main-submenu {
+	float: right;
+	a {
+	  &:hover {
+		text-decoration: none;
+		color: inherit;
+	  }
+	  font-size: 11px;
+	  background: linear-gradient(0deg, #260707 0%, #3a0b0b 100%);
+	  box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.50);
+	  border: 1px solid #460d0d;
+	  padding: 5px;
+	  border-radius: 4px;
+	}
+  }
+  .title {
+	font-size: 20px;
+	font-weight: bold;
+	&:hover {
+	  text-decoration: none;
+	  color: inherit;
+	}
+  }
+  .main-submenu {
+	clear: both;
+	position: absolute;
+	right: 12px;
+	bottom: -30px;
+	a {
+	  position: relative;
+	  padding-left: 27px;
+	  margin-left: 6px;
+	  img {
+		position: absolute;
+		left: -5px;
+		top: 3px;
+		border: 0;
+		box-shadow: none;
+	  }
+	}
+	.active {
+	  box-shadow: 0px 1px 8px 0px rgba(255, 10, 10, 0.49);
+	}
+  }
+}
+

@@ -1,0 +1,150 @@
+.leaflet-container{
+
+  background-color: #290903 !important;
+  .leaflet-tile-pane {
+	img {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  box-shadow: none;
+	}
+  }
+}
+.leaflet-marker-icon{
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.worldmap {
+
+  .panel;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+  .map_image {
+	//1603x903
+	//5501x3270
+	position: relative;
+	background-image: url(images/airport_map.png);
+	width: 5501px;
+	height: 3270px;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: 0;
+  }
+  .icon{
+	cursor: pointer;
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	//transition: width 3s, height 3s;
+  }
+  .airplane_icon {
+	.icon;
+	z-index: 11;
+	background-image: url(images/airplane_icon.png);
+  }
+  .airport_icon {
+	.icon;
+	z-index: 10;
+	background-image: url(images/airport_icon.png);
+  }
+  .zoom1{
+	.airplane_icon{
+	  height: 8px !important;
+	  width: 8px !important;
+	  margin-left: -8px/2 !important;
+	  margin-top: -8px/2 !important;
+	}
+	.airport_icon{
+	  height: 12px !important;
+	  width: 12px !important;
+	  margin-left: -12px/2 !important;
+	  margin-top: -12px/2 !important;
+	}
+  }
+  .zoom2{
+	.airplane_icon{
+	  height: 13px !important;
+	  width: 13px !important;
+	  margin-left: -13px/2 !important;
+	  margin-top: -13px/2 !important;
+	}
+	.airport_icon{
+	  height: 12px !important;
+	  width: 12px !important;
+	  margin-left: -12px/2 !important;
+	  margin-top: -12px/2 !important;
+	}
+  }
+  .zoom3{
+	.airplane_icon{
+	  height: 16px !important;
+	  width: 16px !important;
+	  margin-left: -16px/2 !important;
+	  margin-top: -16px/2 !important;
+	}
+	.airport_icon{
+	  height: 12px !important;
+	  width: 12px !important;
+	  margin-left: -12px/2 !important;
+	  margin-top: -12px/2 !important;
+	}
+  }
+  .zoom4{
+	.airplane_icon{
+	  height: 32px !important;
+	  width: 32px !important;
+	  margin-left: -32px/2 !important;
+	  margin-top: -32px/2 !important;
+	}
+	.airport_icon{
+	  height: 12px !important;
+	  width: 12px !important;
+	  margin-left: -12px/2 !important;
+	  margin-top: -12px/2 !important;
+	}
+  }
+}
+
+.flightboard_map_sidebar{
+  .panel;
+  margin-top:1px;
+  margin-right:1px;
+  padding: 0;
+  padding-left: 1px;
+  padding-right: 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 198px ;
+  .flightboard_panel{
+	border:0;
+	margin: 0;
+  }
+  z-index: 99999;
+}
+.flightboard_map_infolabel{
+  .panel;
+  margin-top:1px;
+  margin-right:1px;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 398px ;
+  overflow-x: hidden;
+  z-index: 99999;
+  font-size: 11px;
+  transition: width 2s;
+}
+
+
+@import 'flightboard_panel.less';
+
+@import 'planetickets.less';
+

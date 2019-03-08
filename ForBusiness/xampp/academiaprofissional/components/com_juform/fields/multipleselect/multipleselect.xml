@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Multiple Select</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>multipleselect</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/multipleselect">
+            <file>multipleselect.xml</file>
+            <file>multipleselect.php</file>
+            <file>multipleselect.css</file>
+            <file>multipleselect.js</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+            <folder>images</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                    name="restrict_type"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_RESTRICT_TYPE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_TYPE_DESC"
+            >
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="min">COM_JUFORM_MIN</option>
+                <option value="max">COM_JUFORM_MAX</option>
+                <option value="range">COM_JUFORM_RANGE</option>
+            </field>
+
+            <field
+                    name="restrict_value"
+                    type="text"
+                    default=""
+                    class="jufilter-restrict_type-min-max-range"
+                    label="COM_JUFORM_FIELD_RESTRICT_VALUE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_VALUE_DESC"
+            />
+
+            <field
+                    name="required_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_REQUIRED_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_REQUIRED_MESSAGE_DESC"
+            />
+        </fieldset>
+
+        <fieldset name="config" label="Config">
+            <field name="size"
+                   type="text"
+                   default="5"
+                   class="validate-numeric"
+                   label="COM_JUFORM_FIELD_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SIZE_DESC"
+            />
+
+            <field
+                    name="search_operator"
+                    type="list"
+                    default="OR"
+                    label="COM_JUFORM_FIELD_SEARCH_OPERATOR_LABEL"
+                    description="COM_JUFORM_FIELD_SEARCH_OPERATOR_DESC"
+                    >
+                <option value="OR">COM_JUFORM_MATCH_ANY</option>
+                <option value="AND">COM_JUFORM_MATCH_ALL</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

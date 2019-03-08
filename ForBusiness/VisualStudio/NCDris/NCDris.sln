@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NCDris", "NCDris\NCDris.vdproj", "{7C2C84D7-8808-4ECB-B775-7A9149DCC60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRIS", "..\DRIS\DRIS\DRIS.csproj", "{0243B3A6-0CD4-48E4-96C3-4166AFA38919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C2C84D7-8808-4ECB-B775-7A9149DCC60D}.Debug|x86.ActiveCfg = Debug
+		{7C2C84D7-8808-4ECB-B775-7A9149DCC60D}.Debug|x86.Build.0 = Debug
+		{7C2C84D7-8808-4ECB-B775-7A9149DCC60D}.Release|x86.ActiveCfg = Release
+		{7C2C84D7-8808-4ECB-B775-7A9149DCC60D}.Release|x86.Build.0 = Release
+		{0243B3A6-0CD4-48E4-96C3-4166AFA38919}.Debug|x86.ActiveCfg = Debug|x86
+		{0243B3A6-0CD4-48E4-96C3-4166AFA38919}.Release|x86.ActiveCfg = Release|x86
+		{0243B3A6-0CD4-48E4-96C3-4166AFA38919}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

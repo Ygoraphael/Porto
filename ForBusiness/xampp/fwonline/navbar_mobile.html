@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>navBar Mobile</title>
+</head>
+<body>
+  <nav id="" class="navbar navbar-expand-md reset-navbar-color navBorder" style="padding:10px 0 0 0;">
+     <div class="container" style="padding:0;">
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <i class="fa fa-bars" aria-hidden="true"></i>
+       </button>
+       <div class="collapse navbar-collapse" id="navbar-collapsed">
+           <ul class="navbar-nav mr-auto reset-nav-bottom">
+              <center><li>
+                 <div class="titleFont">
+                    <a href="<?php echo JURI::ROOT(); ?>"><?php echo JText::_('NOVOSCANAIS_HOME'); ?></a>
+                 </div>
+               </li></center>
+              <li class="sub-menu-parent">
+                 <?php
+                    $lang = JFactory::getLanguage();
+                    if ($lang->getTag() == "en-GB") {
+                        $PVmUrl = "products";
+                    } elseif ($lang->getTag() == "es-ES") {
+                        $PVmUrl = "productos";
+                    } else {
+                        $PVmUrl = "produtos";
+                    }
+                    ?>
+                 <div class="titleFont">
+                    <a href="index.php/<?= $PVmUrl ?>/search?Genero=MASCULINO"><?php echo JText::_('NOVOSCANAIS_MAN'); ?></a>
+                 </div>
+                 <!-- -->
+                 <ul class="sub-menu">
+                    <div class="container">
+                       <div class="row">
+                          <div class="col-md-10">
+                             <div class="row">
+                                <jdoc:include type="modules" name="menu-homem" />
+                             </div>
+                          </div>
+                          <div class="col-md-2">
+                             <div class="row">
+                                <div class="col-md-12" >
+                                   <div class="row">
+                                      <div class="col-md-12 reset-img1">
+                                         <a href="#">
+                                         <img class="img-fluid" src="https://dummyimage.com/224x165/000/fff">
+                                         </a>
+                                      </div>
+                                      <div class="col-md-12 reset-img2">
+                                         <a href="#">
+                                         <img class="img-fluid" src="https://dummyimage.com/224x165/000/fff">
+                                         </a>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <!-- end container man -->
+                 </ul>
+              </li>
+              <li class="sub-menu-parent">
+                 <div class="titleFont">
+                    <a href="index.php/<?= $PVmUrl ?>/search?Genero=FEMININO"><?php echo JText::_('NOVOSCANAIS_WOMAN'); ?></a>
+                 </div>
+                 <!-- -->
+                 <ul class="sub-menu">
+                    <div class="container">
+                       <div class="row">
+                          <div class="col-md-10">
+                             <div class="row">
+                                <jdoc:include type="modules" name="menu-mulher" />
+                             </div>
+                          </div>
+                          <div class="col-md-2">
+                             <div class="row">
+                                <div class="col-md-12" >
+                                   <div class="row">
+                                      <div class="col-md-12 reset-img1">
+                                         <a href="#">
+                                         <img class="img-fluid" src="https://dummyimage.com/224x165/000/fff">
+                                         </a>
+                                      </div>
+                                      <div class="col-md-12 reset-img2">
+                                         <a href="#">
+                                         <img class="img-fluid" src="https://dummyimage.com/224x165/000/fff">
+                                         </a>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <!-- end container woman -->
+                 </ul>
+                 <!-- -->
+              </li>
+              <li class="sub-menu-parent">
+                 <div class="titleFont">
+                    <a href="#"><?php echo JText::_('NOVOSCANAIS_COLECTIONS'); ?></a>
+                 </div>
+                 <ul class="sub-menu">
+                    <div class="container">
+                       <div class="row">
+                          <jdoc:include type="modules" name="menu-colecoes" />
+                       </div>
+                    </div>
+                 </ul>
+              </li>
+              <li>
+                 <div class="titleFont">
+                    <a href="http://fullwear.pt/fw2016/" target="_blank"><?php echo JText::_('NOVOSCANAIS_CUSTOM'); ?></a>
+                 </div>
+              </li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right subnavbar-mobile">
+              <li>
+                 <a href="#langBar" class="globe linkColor" data-toggle="collapse" href="#langBar" aria-expanded="true" aria-controls="langBar">
+                 <i id="globe" class="awesome-color fa fa-globe fa-2x" aria-hidden="true"></i>
+                 </a>
+              </li>
+              <li id="search">
+                 <a class="linkColor d-block awesome-color fa fa-search fa-2x" data-toggle="collapse" href="#searchStuff" aria-expanded="true" aria-controls="searchStuff"></a>
+              </li>
+              <li class="sub-menu-parent" style="cursor:pointer;">
+                 <i class="linkColor awesome-color fa fa-user fa-2x" aria-hidden="true"></i>
+                 <ul class="sub-menu logItem">
+                    <jdoc:include type="modules" name="position-5" />
+                 </ul>
+              </li>
+              <li>
+                 <jdoc:include type="modules" name="position-1" />
+              </li>
+           </ul>
+        </div>
+     </div>
+  </nav>
+</body>
+</html>

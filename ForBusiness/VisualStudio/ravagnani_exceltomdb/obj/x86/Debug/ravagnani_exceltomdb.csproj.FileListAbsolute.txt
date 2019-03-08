@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\ravagnani_exceltomdb\bin\Debug\ravagnani_exceltomdb.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\ravagnani_exceltomdb\bin\Debug\ravagnani_exceltomdb.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\ravagnani_exceltomdb\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\ravagnani_exceltomdb\obj\x86\Debug\ravagnani_exceltomdb.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\ravagnani_exceltomdb\obj\x86\Debug\ravagnani_exceltomdb.pdb

@@ -1,0 +1,94 @@
+div.rox-carousel-hidden{margin-bottom:-81px}
+div.rox-carousel-hidden{background:#fda30e;width:100%;height:70px;padding:10px 0;position: relative;}
+div.caroufredsel_wrapper{overflow:hidden !important}
+div.rox-wrapper{width:100%; margin:0 auto;z-index:100;color:#FFF;}
+div.rox-carousel-left{width:40%;float:left;padding-left:30px;padding-top:12px;line-height: 30px;}
+div.rox-carousel-left1{width:20%;float:left;}
+div.rox-carousel-left2{width:80%;float:left;}
+
+div.rox-carousel-right{width:40%;float:right;margin-right:100px;}
+
+div.rox-carousel-open{width:100%;border-bottom:3px solid #fda30e}
+div.rox-carousel-open p{display: block;width: 39px;height: 37px;text-indent: -999em;position:absolute;right:10px;top:-5px;cursor: pointer;}
+
+/* Enable this to use it in diffrent site or theme
+div.rox-carousel-open p{background:url(../images/sliding_click_close.png)}
+
+div.rox-carousel-open p.active{background: url(../images/sliding_click_open.png) no-repeat 0 100% !important;}
+
+*/
+
+div.rox-carousel-open .rox-wrapper{position:relative}
+
+
+/*********-------------------------------**********/
+.carousel_wrapper {
+	width: 100%;
+	position:relative;
+	padding-top:25px;
+	overflow:hidden !important;
+}
+.list_carousel {
+	width: 100%;
+	padding: 0 27px;
+}
+.list_carousel ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li img{height:35px;}
+.list_carousel li {
+	text-align: center;
+	width: 85px;
+	height: 35px;
+	padding: 0;
+	margin: 0 10px;
+	display:block;
+	float:left;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+div.rox_carousel_pagination{}
+.prev {
+	width: 25px;
+	height: 25px;
+	position:absolute;
+	top: 30px;
+	left:0;
+	background: url(../images/previous.png) no-repeat 0 0%;
+	float: left;
+}
+.next {
+	width: 25px;
+	height: 25px;
+	position:absolute;
+	top: 30px;
+	right:0;
+	background: url(../images/next.png) no-repeat 0 0%;
+	float: right;
+}
+.pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}

@@ -1,0 +1,1 @@
+drop table `#__wdsfacebookkeywords`;drop table `#__wdsfacebookkeywords_select`;

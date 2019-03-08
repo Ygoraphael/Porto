@@ -1,0 +1,5 @@
+c:\users\tml\documents\visual studio 2010\Projects\phcservice\phcservice\bin\Debug\phcservice.exe
+c:\users\tml\documents\visual studio 2010\Projects\phcservice\phcservice\bin\Debug\phcservice.pdb
+c:\users\tml\documents\visual studio 2010\Projects\phcservice\phcservice\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tml\documents\visual studio 2010\Projects\phcservice\phcservice\obj\x86\Debug\phcservice.exe
+c:\users\tml\documents\visual studio 2010\Projects\phcservice\phcservice\obj\x86\Debug\phcservice.pdb

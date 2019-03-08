@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config addfieldpath="/administrator/components/com_juform/models/fields/">
+    <fieldset name="general" label="General">
+        <field name="email_charset"
+               type="list"
+               default="UTF-8"
+               proversion="true"
+               label="COM_JUFORM_CHARSET_LABEL"
+               description="COM_JUFORM_CHARSET_DESC"
+                >
+            <option value="BIG5">BIG5</option>
+            <option value="ISO-8859-1">ISO-8859-1</option>
+            <option value="ISO-8859-2">ISO-8859-2</option>
+            <option value="ISO-8859-3">ISO-8859-3</option>
+            <option value="ISO-8859-4">ISO-8859-4</option>
+            <option value="ISO-8859-5">ISO-8859-5</option>
+            <option value="ISO-8859-6">ISO-8859-6</option>
+            <option value="ISO-8859-7">ISO-8859-7</option>
+            <option value="ISO-8859-8">ISO-8859-8</option>
+            <option value="ISO-8859-9">ISO-8859-9</option>
+            <option value="ISO-8859-10">ISO-8859-10</option>
+            <option value="ISO-8859-13">ISO-8859-13</option>
+            <option value="ISO-8859-14">ISO-8859-14</option>
+            <option value="ISO-8859-15">ISO-8859-15</option>
+            <option value="ISO-2022-JP">ISO-2022-JP</option>
+            <option value="US-ASCII">US-ASCII</option>
+            <option value="UTF-7">UTF-7</option>
+            <option value="UTF-8">UTF-8</option>
+            <option value="Windows-1251">Windows-1251</option>
+            <option value="Windows-1252">Windows-1252</option>
+            <option value="ARMSCII-8">ARMSCII-8</option>
+            <option value="ISO-8859-16">ISO-8859-16</option>
+        </field>
+
+        <field name="email_attachment_mode"
+               type="list"
+               default="link"
+               label="COM_JUFORM_CONFIG_EMAIL_ATTACHMENT_MODE_LABEL"
+               description="COM_JUFORM_CONFIG_EMAIL_ATTACHMENT_MODE_DESC">
+            <option value="link">Link</option>
+            <option value="attach">Email attachment</option>
+        </field>
+
+        <field name="submission_interval"
+               type="text"
+               default="0"
+               label="COM_JUFORM_CONFIG_SUBMISSION_INTERVAL_LABEL"
+               description="COM_JUFORM_CONFIG_SUBMISSION_INTERVAL_DESC"
+                />
+
+        <field name="load_bootstrap"
+               type="list"
+               default="2"
+               label="COM_JUFORM_CONFIG_LOAD_BOOTSTRAP_LABEL"
+               description="COM_JUFORM_CONFIG_LOAD_BOOTSTRAP_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+            <option value="2">COM_JUFORM_AUTO</option>
+        </field>
+    </fieldset>
+
+    <fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+        <field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox"
+               filter="rules" component="com_juform" section="component"/>
+    </fieldset>
+</config>

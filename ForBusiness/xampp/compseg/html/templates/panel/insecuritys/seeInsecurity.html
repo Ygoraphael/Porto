@@ -1,0 +1,149 @@
+
+<form class="form" enctype="multipart/form-data" method="post" name="Insecurity"  action="/insecurity/SaveISCLevel1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-file-text2"></i> %%Insecurity%%</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+                        <div class="row">
+                            <h5></h5>
+                        </div>  
+                        <!-- BEGIN BLOCK_INSECURITY -->
+                        <div id="layout" style="font-family: Verdana; display: block;">
+
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-2" style="border-right: 1px solid #ccc;">
+                                    <br>
+                                    <br>
+                                    %%Resume%%
+                                    <br><br><br>
+                                </div>
+                                <div class="col-md-10" >
+                                    <h3 >
+                                        <input type="text" name="Resumo" style="margin-top:35px;"  class="form-control" value="{{RESUMO}}" disabled>
+                                    </h3>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <div class="form-group">
+                                            <img style="display:block; margin: 0 auto;" src="/assets/images/upload/{{IMG}}" width="80%" height="auto" alt="" />
+                                        </div><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text2">
+                                        <br>
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="5" class="form-control" name="comment1" disabled>{{DESCRIPTION}}</textarea>
+                                            </div>
+                                        </span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc">
+                                            <br>
+                                            %%Date%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            %%Company%%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text2">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc;">
+                                            <div class="form-group" style=" margin-top:15px;">
+                                                <input type="date" style="text-align:center; font-size:14px;" value="{{DATE_RESOLVED}}" id="date-expired" class="form-control" name="start" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div style="margin-top:15px;">
+                                                <input type="text"  value="{{COMPANY}}"  style="background-color:#ccc; height:35px; border: 1px solid #ccc; text-align:center;" disabled>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-6" style="border-right: 1px solid #ccc">
+                                             <br>
+                                            %%Factory%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <br>
+                                            %%Sector%%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" >
+                                    <div class="col-md-6" style="border-right: 1px solid #ccc;" >
+                                        <div style="margin-top:15px;">
+                                            <input type="text"  value="{{FACTORY}}"  style="background-color:#ccc; height:35px; border: 1px solid #ccc; text-align:center;" disabled>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div style="margin-top:15px;">
+                                            <input type="text"  value="{{SECTOR}}"  style="background-color:#ccc; height:35px; border: 1px solid #ccc; text-align:center;" disabled>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:15px;">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="10" class="form-control" name="comment2" placeholder="%%Comments%%" disabled>{{COMMENT}}</textarea>
+                                            </div>
+                                        </span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="id" value="{{ID}}">
+                            <div class="clearfix"></div>
+                        </div><!-- END BLOCK_INSECURITY-->
+                    </div>
+                </div>
+            </div>	
+            <div class="modal-footer">
+                <div class="row">
+                    <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                        <i class="icon-cross2"></i> %%Cancel%%
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

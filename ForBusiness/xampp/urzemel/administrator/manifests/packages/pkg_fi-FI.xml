@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Id: pkg_fi-FI.xml 1511 2011-01-10 17:56:51Z Mortti $ -->
+<extension type="package" version="2.5">
+<name>Suomen kielen paketti</name>
+<packagename>fi-FI</packagename>
+<packager>Joomla! Finnish</packager>
+<packagerurl>www.joomla.fi</packagerurl>
+<version>2.5.9.1</version>
+<creationDate>2013-02-05</creationDate>
+<author>Joomla.fi</author>
+<authorEmail>mortti@joomla.fi</authorEmail>
+<authorUrl>http://www.joomla.fi</authorUrl>
+<description>Joomla! 2.5.9 kielitiedostopaketti sivuston ja ylläpidon puolelle suomeksi</description>
+  <files>
+        <file type="language" client="site" id="fi-FI">site_fi-FI.zip</file>
+        <file type="language" client="administrator" id="fi-FI">admin_fi-FI.zip</file>
+		<file type="file" client="site" id="TinyMCE_fi-FI">fi-FI_TinyMCE_3.5.6.zip</file>
+  </files>
+  <updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+  </updateservers>
+</extension>

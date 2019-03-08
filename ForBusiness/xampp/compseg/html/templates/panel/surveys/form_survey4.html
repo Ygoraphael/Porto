@@ -1,0 +1,94 @@
+<form name="survey" enctype="multipart/form-data" method="post"  action="/survey/editsurvey">
+	<div class="row">
+		<div class="col-lg-12 col-xs-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">{{TITLE}}</h4>
+					<a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+					<div class="heading-elements">
+						<ul class="list-inline mb-0">
+							<li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+							<li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-header">
+					<div class="row">
+						<!-- BEGIN BLOCK_BTN_NEW_SURVEY -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="company">%%Companies%%</label>
+								<select id="company" name="company" class="form-control js-example-basic-multiple"  multiple="multiple">
+									<option value="0">%%All%%</option>
+									<!-- BEGIN BLOCK_SELECT_COMPANY -->
+									<option value="{{VALUE}}">{{NAME}}</option>
+									<!-- END BLOCK_SELECT_COMPANY -->
+								</select>
+							</div>
+						</div>
+						<!-- END BLOCK_BTN_NEW_SURVEY -->
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="qtt">%%Qtt%%</label>
+								<input type="number" required="" id="qtt" class="form-control" placeholder="Nยบ"  min="0" name="qtt" value="{{SURVEY_QTT}}" {{DISALBLE}}>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="type">%%Type%%</label>
+								<select id="type" name="type" class="form-control" {{DISALBLE}}>
+								<option value="" selected="" >%%Select Type%%</option>
+									<!-- BEGIN BLOCK_SELECT_TYPE_DATE -->
+									<option value="{{VALUE}}" {{Selected2}}>{{TEXT}}</option>
+									<!-- END BLOCK_SELECT_TYPE_DATE -->
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="date-expired">%%Start date%%</label>
+								<input type="date" value="{{DATE_START}}" id="date-expired" class="form-control" name="start" {{DISALBLE}}>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="profile">%%Profile%%</label>
+								<select id="profile" name="profile" class="form-control" {{DISALBLE}}>
+								<option value="" selected="" >%%Select Profile%%</option>
+									<!-- BEGIN BLOCK_SELECT_PROFILE -->
+									<option value="{{SELECT_PROFILE->ID}}" {{Selected}}>{{SELECT_PROFILE->NAME}}</option>
+									<!-- END BLOCK_SELECT_PROFILE -->
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- BEGIN BLOCK_BTN_EDIT_SURVEY -->
+				<div class="col-md-6 hidden">
+					<input type="hidden" name="survey_content" id="survey_content" value="{{SURVEY_CONTENT}}" />
+					<input type="hidden" id="survey_qtt" value="{{SURVEY_QTT}}" />
+					<input type="hidden" id="survey_type" value="{{SURVEY_TYPE}}" />
+					<input type="hidden" id="survey_date_start" value="{{SURVEY_DATE_START}}" />
+					<input type="hidden" id="disabled" value="{{DISALBLE}}" />
+					<input type="hidden" name="id" id="id" value="{{NOT_ID}}">
+					
+				</div>
+				<!-- END BLOCK_BTN_EDIT_SURVEY -->
+				<!-- BEGIN BLOCK_SURVEY -->
+				<div class="col-md-6 hidden">
+					<input type="hidden" id="cats" value="{{SURVEY_CATS}}">
+				</div>
+				<div class="row">
+					<div class="col-lg-12 st" id="surveyContainer">
+					<div class="col-lg-10" id="surveyContainer2" ></div>
+					</div>
+				</div>
+				<div class="panel-footer" >
+					<!-- END BLOCK_SURVEY -->
+				</div>
+			</div>
+		</div>
+	</div>
+</form>

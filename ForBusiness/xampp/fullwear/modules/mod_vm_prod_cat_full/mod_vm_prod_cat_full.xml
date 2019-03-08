@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>VirtueMart Full Category List</name>
+	<author>Andrew Patton</author>
+	<creationDate>June 2012</creationDate>
+	<copyright>(C) 2012 Andrew Patton. All rights reserved.</copyright>
+	<license>GNU/GPL, see LICENSE.php</license>
+	<authorEmail>andrew@acusti.ca</authorEmail>
+	<authorUrl>http://www.acusti.ca</authorUrl>
+	<version>1.2.0</version>
+	<description>Displays a list of VirtueMart categories and/or sub-categories in menu style.</description>
+	<files>
+		<filename module="mod_vm_prod_cat_full">mod_vm_prod_cat_full.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_virtuemart/models/fields">
+            	<field name="current_filter" type="list" default="0"
+					label="Filter Menu By Current Category"
+					description="Enable this option to have the menu follow the current selected category when the user is browsing VirtueMart categories. Note that this option also obeys the Start and End Level parameters, if specified. Also, it overrides Filter By Specified Category.">
+					<option
+						value="0">JNO</option>
+					<option
+						value="1">JYES</option>
+				</field>
+            	<field name="cat_filter" type="category"
+					label="Filter By Specified Category"
+					description="Use this drop down to limit the module to displaying only one category (and its subcategories, if applicable). Note that this option also obeys the Start and End Level parameters, if specified and applicable. Also, it is overriden by Filter Menu By Current Category." />
+				<field name="level_start" type="list" default="0"
+					label="Start Level"
+					description="Level at which to start rendering the categories. Selecting “Any” will make it so that the above parameters control at what level the menu begins.">
+					<option value="0">Any</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field name="level_end" type="list" default="0"
+					label="End Level"
+					description="Level at which to stop rendering the categories.">
+					<option value="0">JALL</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field name="menuclass_sfx" type="text"
+					label="Menu Class Suffix"
+					description="A suffix to be applied to the CSS class of the menu items" />
+				<field name="moduleclass_sfx" type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

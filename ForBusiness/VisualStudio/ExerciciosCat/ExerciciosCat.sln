@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosCat", "ExerciciosCat\ExerciciosCat.csproj", "{F01E5D91-A5C7-4E7B-A8C7-13A585238E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F01E5D91-A5C7-4E7B-A8C7-13A585238E95}.Debug|x86.ActiveCfg = Debug|x86
+		{F01E5D91-A5C7-4E7B-A8C7-13A585238E95}.Debug|x86.Build.0 = Debug|x86
+		{F01E5D91-A5C7-4E7B-A8C7-13A585238E95}.Release|x86.ActiveCfg = Release|x86
+		{F01E5D91-A5C7-4E7B-A8C7-13A585238E95}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

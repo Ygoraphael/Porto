@@ -1,0 +1,129 @@
+
+<div class="row phone">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="insecurity" data-method="new_phone_insecurity">%%New Insecurity%%</button>
+    </div>
+</div>
+<div class="row pc">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="insecurity" data-method="new_pc_insecurity">%%New Insecurity%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-bullhorn"></i> %%Insecurities%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="row st" >
+                    <form class="form" method="get"  name="User" action="/panel/insecuritys/" >
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="date-expired">%%Start date%%</label>
+                                <input onchange="dataStart(this);" type="date"  id="date-start" class="form-control" name="s" max="#" value="{{start}}">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="date-expired">%%End date%%</label>
+                                <input onchange="dataEnd(this);" type="date" id="date-end" class="form-control" name="e" min="#" value="{{END2}}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="date-expired">%%Attribution%%</label>
+                                        <select name="u" class="form-control" >
+                                            <option value="" {{SELECTED2}}  >%%All%%</option>
+                                            <option value="No_One" {{SELECTED3}} >%%No one%%</option>
+                                            <!-- BEGIN BLOCK_USER2 -->
+                                            <option value="{{USERID}}" {{SELECTED}}>{{NAME_USER}}</option>
+                                            <!-- END BLOCK_USER2 -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="date-expired">%%Status%%</label>
+                                        <select name="t" class="form-control"  >
+                                            <!-- BEGIN BLOCK_STATUS -->
+                                            <option value="{{VALUEST}}" {{SELECTED2}}>{{TEXTST}}</option>
+                                            <!-- END BLOCK_STATUS -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-md-1" style="margin-top:30px;">
+                            <button type="submit" class="btn btn-success">%%Search%%</button>
+                        </div>
+                    </form>	
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_INSECURITYS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0 exporttable">
+                        <thead>
+                            <tr>
+                                <th>%%Insecurities%%</th>
+                                <th>%%Resume%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Attribution%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_INSECURITY -->
+                            <tr class="name">
+                                <th scope="row" ><img style="display:block; margin:0 auto;" class="img-responsive" src="{{urlimg}}{{IMG}}" alt=""  height="120" width="150" ></th>
+                                <td style=" text-align: -webkit-center; padding: 40px;" >{{RESUMO}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">{{created_at}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span class="tag tag-{{status_class}}">{{status}}</span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span ></span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">
+                                    <a class="btn btn-xs btn-info btn_modal pc" data-controller="insecurity" data-id="{{CODE}}" data-method="see_pc_insecurity" title="%%See Insecurity%%"><i class="icon-eye white"></i></a>
+                                    <a class="btn btn-xs btn-info btn_modal phone" data-controller="insecurity" data-id="{{CODE}}" data-method="see_phone_insecurity" title="%%See Insecurity%%"><i class="icon-eye white"></i></a>
+                                    <a class="btn btn-xs btn-warning btn_modal phone" data-controller="insecurity" data-id="{{CODE}}"  data-method="Close_phone_insecurity" title="%%Close Insecurity%%"><i class="icon-briefcase white" ></i></a>
+                                    <a class="btn btn-xs btn-warning btn_modal pc" data-controller="insecurity" data-id="{{CODE}}"  data-method="Close_pc_insecurity" title="%%Close Insecurity%%"><i class="icon-briefcase white" ></i></a>
+                                    <a class="btn btn-xs btn-success btn_modal" data-controller="insecurity" data-id="{{CODE}}" title="%%Assign Insecurity%%" data-method="sendInsecurity"><i class="icon-mail white"></i></a>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="insecurity" data-id="{{CODE}}" title="%%Delete Insecurity%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_INSECURITY -->
+                        </tbody>
+
+                        <tbody>
+                            <!-- BEGIN BLOCK_INSECURITY2 -->
+                            <tr>
+                                <th scope="row" ><img style="display:block; margin:0 auto;" class="img-responsive" src="{{urlimg}}{{IMG}}" alt=""  height="120" width="150" ></th>
+                                <td style=" text-align: -webkit-center; padding: 40px;" >{{RESUMO}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">{{created_at}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span class="tag tag-{{status_class}}">{{status}}</span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span >{{USER3}} {{USER4}}</span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">
+                                    <a class="btn btn-xs btn-info btn_modal pc" data-controller="insecurity" data-id="{{CODE}}" data-method="see_pc_insecurity" title="%%See Insecurity%%"><i class="icon-eye white"></i></a>
+                                    <a class="btn btn-xs btn-info btn_modal phone" data-controller="insecurity" data-id="{{CODE}}" data-method="see_phone_insecurity" title="%%See Insecurity%%"><i class="icon-eye white"></i></a>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_INSECURITY2 -->
+                        </tbody>
+                    </table>
+                </div> <!-- END BLOCK_INSECURITYS -->
+                <!-- BEGIN BLOCK_NO_INSECURITYS -->
+                <div class="col-md-12 ">
+                    <h4>%%There are no Insecurities%%</h4>
+                </div>
+                <!-- END BLOCK_NO_INSECURITYS -->
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>

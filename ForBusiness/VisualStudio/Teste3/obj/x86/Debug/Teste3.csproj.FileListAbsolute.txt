@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Teste3\bin\Debug\Teste3.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Teste3\bin\Debug\Teste3.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Teste3\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Teste3\obj\x86\Debug\Teste3.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\Teste3\obj\x86\Debug\Teste3.pdb

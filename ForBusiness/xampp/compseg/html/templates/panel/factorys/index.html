@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="factory" data-method="new_factory">%%New Factory%%</button>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-office"></i> %%Factory%%</h4>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_FACTORYS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Name%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th style="max-width: 80px">%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_FACTORY -->
+                            <tr>
+                                <th scope="row" class="name">{{FACTORY->NAME}}</th>
+                                <td>{{FACTORY->CREATED_AT}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{FACTORY->STATUS}}</span></td>
+                                <td style="max-width: 100px">
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="factory" data-id="{{FACTORY->ID}}" data-method="edit" title="%%Edit Factory%%"><i class="icon-edit"></i></button>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="factory" data-id="{{FACTORY->ID}}" title="%%Delete Factory%%"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_FACTORY -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END BLOCK_FACTORYS -->
+                <!-- BEGIN BLOCK_NO_FACTORYS -->
+                <h4>%%There are no registered factories%%</h4>
+                <!-- END BLOCK_NO_FACTORYS -->
+            </div>
+        </div>
+    </div>
+</div>

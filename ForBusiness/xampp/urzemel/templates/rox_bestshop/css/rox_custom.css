@@ -1,0 +1,131 @@
+/**
+* @version   $Id: index.php 6263 2013-01-01 22:00:40Z kevin $
+ * @author ThemeRox http://www.themerox.com
+ * @copyright Copyright (C) 2007 - 2013 ThemeRox
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ *
+ * Gantry uses the Joomla Framework (http://www.joomla.org), a GNU/GPLv2 content management system
+ *
+ */
+.featured-view h4,.latest-view h4,.topten-view h4,.recent-view h4,.related-products-view h4,h2.title,div.cart-view h1.header,h3.header{box-shadow:0px 10px 10px -10px rgba(0, 0, 0, 0.1);padding:0 35px 20px 25px;margin:5px -25px 10px -25px;line-height:30px}
+div.rox_breadcrumbs{box-shadow: inset 0px 15px 10px -15px rgba(0,0,0,0.1);}
+div.rox_breadcrumbs  div.rox_breadcrumbs{box-shadow:none !important}
+
+div #rt-footer h2.title{box-shadow:none;color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,0.3);padding: 0 35px 0px 25px;}
+h3.header{box-shadow:none;}
+td.key label.title{color:#868686;font-size:15px}
+
+/*Rox Fractionslider*/
+.header1{background:#fda30e;color:#fff !important;padding:5px 15px;}
+.header2{border-top:2px solid #eeeeee;border-bottom:2px solid #eeeeee;padding:5px 0;}
+/*Top Surch Module*/
+#rt-top .rt-block{margin-top:10px;margin-bottom:-6px;padding-top:0;padding-bottom:0;}
+.rox_top_surch{padding:5px 0;}
+.rox_top_surch form{margin:0;}
+.rox_top_surch input[type="text"]{width:190px;background:#fff url(../images/vmart/surch.png) no-repeat 95% 50%;font-size: 12px;
+color: #9d9d9d;}
+.rox_top_surch label{display:none;}
+#rt-top ul.menu li {display: inline-block;list-style:none;color:#818181;}
+#rt-top ul.menu li a{color:#818181;}
+#rt-top ul.menu li a:hover{color:#818181;}
+/**/
+#vmCartModule{background:url(../images/vmart/cart.png) no-repeat 0 0;padding-left:35px;line-height:20px;}
+#vmCartModule .total_products{color: #807f7f;
+text-transform: uppercase;
+font-size: 12px;
+margin-top: 18px;}
+/**/
+#rt-main .rt-block{background:#FFF;}
+/*slide*/
+.shop_slide{}
+#rox_object {margin-bottom: -15px;}
+div.rox-nav-obj{margin-left:10px !important}
+h2.object_sbtitle1{color:#FFF !important;text-shadow:none;}
+div.rox_obpag{display:none;}
+/*Breadcrumbs*/
+#rt-breadcrumbs a{color:#868686;background:url(../images/arrow.png) no-repeat 100% 50%;padding-right:12px;}
+.rox_breadcrumbs{margin-top:0;padding-top:18px;padding-bottom:18px;}
+
+/*Feature1*/
+.nagative{margin-bottom:0;padding-bottom:0;}
+div.rox_shop_feature{width:50%;float:left;}
+div.rox_shop_feature h2{color: #e53f66;
+padding-left: 25px;
+padding-top: 30px;
+font-size: 80px;
+padding-bottom: 10px;}
+div.rox_shop_feature p{color:#6e6e6e;padding-left:25px;}
+/*Feature2*/
+div.rox_shop_surprice{height:155px;background:url(../images/easyshop/img3.png) no-repeat 10% 50%;color:#6e6e6e;}
+div.rox_shop_surprice h1{text-transform: uppercase;
+padding-left: 100px;
+padding-top: 30px;
+color: #c6c8cc;
+font-size: 80px;
+padding-bottom: 10px;}
+div.rox_shop_surprice p{padding-left:100px;color:#6e6e6e;}
+/*Feature3*/
+div.rox_shop_feature2{display:inline-block;height:150px;padding-top:15px;}
+div.rox_shop_feature2 h2{width:90px;height:70px;display:inline-block;color:#fff;font-size:20px;text-align:center;line-height:1;padding-top:20px;margin-left:40px;border-radius:50%;background:#e53f66;}
+
+/*Newsletter*/
+table.acymailing_form{margin:0 !important;}
+.acysubbuttons{text-align:left !important;}
+.acymailing_modulebox1 textarea, input[type="text"], input[type="password"]{border:1px solid #efefef;height:25px;box-shadow: 0 0 1px #ccc;border-radius:0;font-size: 12px;
+color: #9d9d9d;}
+
+/*sp_simple_gallery*/
+img.sp_simple_gallery:hover{padding:3px;background:#fda30e;}
+/*User Link*/
+#rt-footer ul{margin-left:15px}
+#rt-footer ul li:hover{color:#fda30e;cursor:pointer;}
+
+#rox_header{background:#FFF;margin-bottom:0;border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+/*copyright*/
+#rox-footer{margin-bottom:0px;}
+#rox-copyright{margin-top:0px;padding: 0;}
+.cart{text-align:right;padding:13px 40px 0 0;}
+
+/*contact us*/
+.sp_qc_input1 input {width: 232px;float: left;}
+.sp_qc_input1 #email {margin:0 7px 0 7px;}
+.sp_qc_input1 textarea {width:737px !important;height:200px !important;float:left;}
+
+/*Roof Customization*/
+div#rox-roof  div.rt-grid-12{width:100%;}
+div#rox-roof  div.rt-block {padding:0;margin:0;}
+
+.rox_carousel_mod{padding:0 !important;margin-bottom:-12px;}
+
+/*login*/
+.login h1{color:#fda30e;font-size:21px;}
+
+/*Language Select Module*/
+div.lng-title{
+float: left;
+line-height: 32px;
+padding-right: 15px;
+}
+
+/*Responsive*/
+.modal{position:relative !important;left:0 !important;}
+
+/*Menu*/
+
+.layout-mode-responsive .gf-menu-device-container{
+background:none !important;
+border:0 !important;
+-webkit-box-shadow:none !important;
+-moz-box-shadow:none !important;
+border-radius: 0 !important;
+margin:0 !important;
+padding:0 !important;
+text-align:center !important;
+color:#888 !important;
+}
+div.gf-menu-device-container select{border-radius: 0 !important;width:250px !important;text-align:center;color:#666 !important;}
+
+td.acyfield_email,td.acysubbuttons{padding:0;}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{font-size:12px;color: #9d9d9d;}
+p.banner_add{margin:0 0 6px 0}

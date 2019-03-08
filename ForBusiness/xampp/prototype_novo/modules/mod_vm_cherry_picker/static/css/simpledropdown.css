@@ -1,0 +1,18 @@
+@import url("common.css");
+@import url("cptrackbar.css");
+
+.cp-filter-simpledropdown {position: relative;}
+.cp-maintitle {font:14px Arial;}
+.cp-group-parent-header {font:25px 'Titillium Maps', Arial !important;
+	margin:4px 0 4px 5px !important; color:#000000 !important;}
+.cp-sdd-group-header, .cp-price-group-header {padding:2px 0 7px 0px;margin:0}
+.cp-sdd-group-title, .cp-price-group-title {font:18px Trebuchet MS, Arial;color:#000000 !important;}
+.cp-group-loader {display:inline-block;width:15px;height:15px;margin-left:4px;}
+.title-selected {color:blue !important;}
+
+.cp-filters-group-container {background:#F5F5F5;padding:15px;float:left;}
+
+.cp-filter-select {padding:1px;min-width:70px;}
+.cp-filter-option {padding:0 3px;}
+
+.cp-sdd-blanket {background:#FFFFFF;top:0;bottom:0;opacity:0.5;position:absolute;width:100%;}

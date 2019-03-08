@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+
+.dad {
+    background: url("") center center;
+}
+
+.fig {
+    color: #707070;
+	font-family: 'Karla', san-serif;
+	font-weight: 400;
+	font-size: 4em;
+	text-align: center;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 15px;
+	width: 250px;
+	border-left: 1px solid #fcfcfc;	
+	border-right: 1px solid #fcfcfc;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.fig:hover {
+	border-radius: 0px;
+	color: #333;
+	background: #fcfcfc;
+	cursor: pointer;
+    text-decoration: none;
+}

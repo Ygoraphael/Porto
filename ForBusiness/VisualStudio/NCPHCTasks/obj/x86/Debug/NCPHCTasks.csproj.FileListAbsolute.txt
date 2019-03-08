@@ -1,0 +1,26 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Form1.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Properties.Resources.resources
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.exe.config
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.PainelConfiguracao.resources
+C:\Users\Tiago Loureiro\Documents\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Main.resources
+C:\Users\Tiago Loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.EscolherArtigo.resources
+C:\Users\Tiago Loureiro\documents\visual studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.DadosCliente.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.exe.config
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.exe
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.pdb
+D:\Visual Studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.exe
+D:\Visual Studio 2010\Projects\NCPHCTasks\bin\Debug\NCPHCTasks.pdb
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.DadosCliente.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.EscolherArtigo.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Form1.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Main.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.PainelConfiguracao.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.Properties.Resources.resources
+D:\Visual Studio 2010\Projects\NCPHCTasks\obj\x86\Debug\NCPHCTasks.csproj.GenerateResource.Cache

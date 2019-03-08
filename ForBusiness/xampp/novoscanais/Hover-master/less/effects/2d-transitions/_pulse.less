@@ -1,0 +1,23 @@
+/*  */
+.keyframes(~"@{nameSpace}-", {
+	25% {
+		.prefixed(transform, scale(1.1));
+	}
+
+	75% {
+		.prefixed(transform, scale(.9));
+	}
+});
+
+.() {
+	.hacks();
+
+	&:hover,
+	&:focus,
+	&:active {
+		.prefixed(animation-name, ~"@{nameSpace}-");
+		.prefixed(animation-duration, 1s);
+		.prefixed(animation-timing-function, linear);
+		.prefixed(animation-iteration-count, infinite);
+	}
+}

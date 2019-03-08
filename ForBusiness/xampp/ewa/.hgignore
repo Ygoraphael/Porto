@@ -1,0 +1,5 @@
+syntax: glob
+nbproject/private/private.xml
+nbproject/project.xml
+nbproject/private/private.properties
+nbproject/project.properties

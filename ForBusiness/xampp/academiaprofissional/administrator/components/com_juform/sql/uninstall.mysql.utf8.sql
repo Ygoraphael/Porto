@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `#__juform_backend_permission`;
+DROP TABLE IF EXISTS `#__juform_emails`;
+DROP TABLE IF EXISTS `#__juform_fields`;
+DROP TABLE IF EXISTS `#__juform_fields_actions`;
+DROP TABLE IF EXISTS `#__juform_fields_calculations`;
+DROP TABLE IF EXISTS `#__juform_fields_conditions`;
+DROP TABLE IF EXISTS `#__juform_fields_values`;
+DROP TABLE IF EXISTS `#__juform_forms`;
+DROP TABLE IF EXISTS `#__juform_plugins`;
+DROP TABLE IF EXISTS `#__juform_submissions`;

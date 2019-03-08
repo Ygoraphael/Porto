@@ -1,0 +1,3 @@
+c:\users\tml\documents\visual studio 2010\Projects\EscalonamentoTarefas\EscalonamentoTarefas\obj\x86\Debug\EscalonamentoTarefas.Form1.resources
+c:\users\tml\documents\visual studio 2010\Projects\EscalonamentoTarefas\EscalonamentoTarefas\obj\x86\Debug\EscalonamentoTarefas.Properties.Resources.resources
+c:\users\tml\documents\visual studio 2010\Projects\EscalonamentoTarefas\EscalonamentoTarefas\obj\x86\Debug\EscalonamentoTarefas.csproj.GenerateResource.Cache

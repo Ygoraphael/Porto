@@ -1,0 +1,5 @@
+c:\users\tml\documents\visual studio 2010\Projects\ReadInputRFID\ReadInputRFID\bin\Debug\ReadInputRFID.exe
+c:\users\tml\documents\visual studio 2010\Projects\ReadInputRFID\ReadInputRFID\bin\Debug\ReadInputRFID.pdb
+c:\users\tml\documents\visual studio 2010\Projects\ReadInputRFID\ReadInputRFID\obj\x86\Debug\ReadInputRFID.exe
+c:\users\tml\documents\visual studio 2010\Projects\ReadInputRFID\ReadInputRFID\obj\x86\Debug\ReadInputRFID.pdb
+C:\Users\tml\documents\visual studio 2010\Projects\ReadInputRFID\ReadInputRFID\obj\x86\Debug\ReadInputRFID.csprojResolveAssemblyReference.cache

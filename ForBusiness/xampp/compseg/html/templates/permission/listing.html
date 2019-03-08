@@ -1,0 +1,29 @@
+
+<!-- BEGIN BLOCK_PEMISSIONS -->
+<h4 class="form-section">%%Permissions%%</h4>
+<!-- BEGIN BLOCK_MENU_PERMISSION -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-9">
+            <label><b>{{PAGE_MAIN->TITLE}}</b></label>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <div class="input-group">
+                    <label class="display-inline-block custom-control custom-radio ml-1">
+                        <input type="radio" name="permission[{{PAGE_MAIN->ID}}]" {{permission_true}} value="1" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description ml-0">%%Yes%%</span>
+                    </label>
+                    <label class="display-inline-block custom-control custom-radio">
+                        <input type="radio" name="permission[{{PAGE_MAIN->ID}}]" {{permission_false}} value="0" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description ml-0">%%No%%</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END BLOCK_MENU_PERMISSION -->
+<!-- END BLOCK_PEMISSIONS -->

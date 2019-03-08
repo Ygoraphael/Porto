@@ -1,0 +1,12 @@
+.field-files {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+}
+
+.field-files li {
+    float: left;
+    clear: both;
+    border: none !important;
+    padding: 2px 0 !important;
+}

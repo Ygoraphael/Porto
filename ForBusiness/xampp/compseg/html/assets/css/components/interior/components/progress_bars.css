@@ -1,0 +1,18 @@
+.progressBar {
+  background-color: #42413a;
+  height: 2px;
+  width: 147px;
+}
+.progressBar .progressInner {
+  height: 2px;
+  background-color: #71b423;
+}
+.progressBarYellow .progressInner {
+  background-color: #d8c41d;
+}
+.progressBarRed .progressInner {
+  background-color: #b43023;
+}
+.progressBarGreen .progressInner {
+  background-color: #71b423;
+}

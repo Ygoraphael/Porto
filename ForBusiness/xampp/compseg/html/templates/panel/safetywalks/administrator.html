@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/survey/new_survey">%%New Safety Walk%%</a>
+    </div>
+</div>
+<div class="clearfix"><br></div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-android-walk"></i> %%Safety Walks%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <input type="text" placeholder="Search" class="menu-search form-control round">
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_LISTING_SURVEYS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%Created at%%</th>
+                                <th>%%Validate%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SURVEYS -->
+                            <tr>
+                                <td>{{SURVEY->CREATED_AT}}</td>
+                                <td>{{SURVEY->VALIDATE}}</td>
+                                <td><span class=" tag tag-{{status_class}} ">{{SURVEY->STATUS}}</span></td>
+                                <td>
+                                    <a class="btn btn-xs btn-secondary" href="/survey/answer/{{SURVEY->ID}}"><i class="icon-eye"></i></a>
+                                    <a class="btn btn-xs btn-warning" href="/survey/edit/{{SURVEY->ID}}"><i class="icon-edit"></i></a>
+                                    <button class="btn btn-xs btn-danger btn_delete " data-controller="survey" data-id="{{SURVEY->ID}}"><i class="icon-close-round"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SURVEYS -->
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- END BLOCK_LISTING_SURVEYS -->
+                <!-- BEGIN BLOCK_NO_SURVEYS -->
+                <div class="col-md-12 ">
+                    <h4>%%There are no safety walks%%</h4>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_NO_SURVEYS -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,134 @@
+/* 
+version $Id: jotcache.css,v 1.5 2013/08/10 06:36:53 Jot Exp $
+package JotCache
+category Joomla 2.5
+copyright (C) 2010-2012 Vladimir Kanich
+license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+*/
+.icon-32-refresh {
+  background-image:url('images/icon-32-refresh.png') !important;
+}
+.icon-32-deleteall {
+  background-image:url('images/icon-32-deleteall.png') !important;
+}
+.icon-32-tplex {
+  background-image:url('images/icon-32-tplex.png');
+}
+.icon-32-bcache {
+  background-image:url('images/icon-32-bcache.png');
+}
+.icon-32-recache {
+  background-image:url('images/icon-32-recache.png');
+}
+.icon-32-back {
+  background-image:url('images/icon-32-help.png');
+}
+.icon-32-start {
+  background-image:url('images/icon-32-start.png');
+}
+.icon-32-stop {
+  background-image:url('images/icon-32-stop.png');
+}
+.icon-48-jotcache-logo {
+  background-image:url('images/jotcache-logo-j16-2.png');
+  min-height: 60px;
+}
+table.adminlist thead tr td.no-border-select {
+  outline-style:solid;
+  outline-width:1px;
+  outline-color:white;
+  background-color:white;
+}
+table.adminlist tr td.sel {
+  color:green;
+  font-weight: bold;
+}
+table.scope {
+  display: block;
+  width: 40% !important;
+}
+table.scope td {
+  float: left;
+}
+table.scope span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table.statuslist{
+  border:#000 solid 1px !important;
+  padding-left: 10px;
+  background-color:#E7E7E7;
+  margin-bottom: 5px;
+  width:100%;
+} 
+.status-title{
+  padding-right: 1em;
+  font-weight: bold;
+  color:#999;
+  float:left;
+}
+table.statuslist td{
+  float:left;
+}
+.front-do{
+  padding: 0px 10px;
+  border: 1px solid white;
+}
+.front-do:hover{
+  background-color: #9a9b9a;
+}
+.front-do a:hover{
+  text-decoration: none;
+  color: white;
+}
+.front-ok{
+  background-color: #9CCFCA; /*C4F3EA;*/
+  font-weight: bold;
+}
+.front-warn{
+  background-color: #F2F9D2;
+  font-weight: bold;
+}
+.front-off{
+  background-color: #E7E7E7;
+}
+#toolbar-stop{
+  opacity:0.5;
+}
+img.status{
+  width:16px;
+  height:16px;
+}
+img.status:hover{
+  background-color: #9a9b9a;
+}
+img.status-normal{
+  background-color: #36C7AA;
+}
+img.status-special{
+  background-color: #cbcb36;
+}
+img.status-attention{
+  background-color: #FAA528;
+}
+img.status-warning{
+  background-color: #EE0000;
+}
+img.status-ok{
+  background-color: #36C7AA;
+  width:16px;
+  height:16px;
+}
+img.status-ok:hover,img.status-info:hover,img.status-warn:hover {
+  background-color: #9a9b9a;
+}
+img.status-info{
+  background-color: #81caf7;
+  width:16px;
+  height:16px;
+}
+img.status-warn{
+  background-color: #FAA528;
+  width:16px;
+  height:16px;
+}

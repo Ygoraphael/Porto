@@ -1,0 +1,78 @@
+<div class="row">
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <button type="button" class="btn btn-secondary btn-block btn_modal" data-controller="dialog" data-method="new_dialog">%%New Dialogue%%</button>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/dialog/rules">%%Dialogues Rules%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/dialog/dialogs">%%All Replies%%</a>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3">
+        <a class="btn btn-secondary btn-block" href="/dialog/dialogstoanswer">%%Dialogues for Reply%%</a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="icon-bubbles2"></i> %%Dialogues%%</h4>
+                <div class="row st">
+                    <form class="form" method="get"  name="User" action="/panel/securitydialogs/" >
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="date-expired">%%Profile%%</label>
+                                        <select name="p" class="form-control" required >
+                                            <option value="0" {{SELECTED2}}  >%%All%%</option>
+                                            <!-- BEGIN BLOCK_PROFILE -->
+                                            <option value="{{IDPROFILE}}" {{SELECTED}}>{{PROFILE}}</option>
+                                            <!-- END BLOCK_PROFILE -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-md-1" style="margin-top:30px;">
+                            <button type="submit" class="btn btn-success">%%Search%%</button>
+                        </div>
+                    </form>	
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <!-- BEGIN BLOCK_SECURITYDIALOGS -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>%%theme%%</th>
+                                <th>%%Profile%%</th>
+                                <th>%%Action%%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BEGIN BLOCK_SECURITYDIALOG -->
+                            <tr>
+                                <td class="name">{{SECURITYDIALOG->THEMA}}</td>
+                                <td class="name">{{SECURITYDIALOG->PROFILE}}</td>
+                                <td>
+                                    <a class="btn btn-xs btn-info" href="/dialog/view/{{SECURITYDIALOG->ID}}" title="%%See Dialogue%%"><i class="icon-eye"></i></a>
+                                    <button class="btn btn-xs btn-warning btn_modal" data-controller="dialog" data-id="{{SECURITYDIALOG->ID}}" data-method="edit" title="%%Edit Dialogue%%"><i class="icon-edit"></i></button>
+                                </td>
+                            </tr>
+                            <!-- END BLOCK_SECURITYDIALOG -->
+                        </tbody>
+                    </table>
+
+                </div>
+                <!-- END BLOCK_SECURITYDIALOGS -->
+                <!-- BEGIN BLOCK_NO_USERS -->
+                <br>
+                <h4>%%There are no registered dialogues%%</h4>
+                <!-- END BLOCK_NO_USERS -->
+            </div>
+        </div>
+    </div>
+</div>

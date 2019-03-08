@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\UnikeyDynDNS\bin\Debug\UnikeyDynDNS.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\UnikeyDynDNS\bin\Debug\UnikeyDynDNS.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\UnikeyDynDNS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\UnikeyDynDNS\obj\x86\Debug\UnikeyDynDNS.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\UnikeyDynDNS\obj\x86\Debug\UnikeyDynDNS.pdb

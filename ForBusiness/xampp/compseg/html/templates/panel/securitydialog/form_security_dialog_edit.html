@@ -1,0 +1,137 @@
+<form class="form" name="dialog" enctype="multipart/form-data" method="post" action="/dialog/saveedit">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-file-text2"></i> {{TITLE}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <div id="designLayout" class="col-md-12" style="text-align: center; display: block;">
+                        <div class="row">
+                            <h5></h5>
+                        </div>  
+                        <div id="layout" style="display: block;">
+                            <div class="clearfix"></div>
+                            <div class="row">
+                                <div class="col-md-2" style="border-right: 1px solid #ccc">
+                                    <br>
+                                    <br>
+                                    %%Theme%%:
+                                    <br><br><br>
+                                </div>
+                                <div class="col-md-10">
+                                    <br>
+                                    <h3>
+                                        <input type="text" id="companyName" class="form-control" placeholder="Tema" value="{{SECURITYDIALOG->THEMA}}" name="thema">
+                                    </h3>
+                                    <label for="imgInp" id="LabelForBtnFile">%%Upload a photo%%</label>
+                                    <input onchange="readURL(this);" name="file_name" type="file" id="imgInp" style="width: 150px;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <div class="form-group">
+                                            <img style="display:block; margin: 0 auto;" id="blah" src="/assets/images/dialog/{{SECURITYDIALOG->IMAGE}}" width="80%" height="auto" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-inline">
+                                    <div class="col-md-12 text-justify text1 form-inline">
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <label for="profile">%%Profile%%: </label>
+                                                <select id="profile" name="profile" class="form-control">
+                                                    <!-- BEGIN BLOCK_SELECT_PROFILE -->
+                                                    <option value="{{VALUE}}" {{select}}>{{TEXT}}</option>
+                                                    <!-- END BLOCK_SELECT_PROFILE -->
+                                                </select>
+                                            </div>
+                                        </span><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text1">
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="5" class="form-control" name="first_text" placeholder="Texto">{{SECURITYDIALOG->FIRST_TEXT}}</textarea>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text-justify text2">
+                                        <br>
+                                        <span>
+                                            <div class="form-group">
+                                                <textarea id="projectinput8" rows="5" class="form-control" name="second_text" placeholder="Texto">{{SECURITYDIALOG->SECOND_TEXT}}</textarea>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text1">
+                                        <div class="col-md-2" style="border-right: 1px solid #ccc">
+                                            <br>
+                                            %%Date%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-8" style="border-right: 1px solid #ccc">
+                                            <br>
+                                            %%Presence%%
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <br>
+                                            %%Leader%%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-12 text2">
+                                        <div class="col-md-2" style="border-right: 1px solid #ccc">
+
+                                        </div>
+                                        <div class="col-md-8" style="border-right: 1px solid #ccc">
+
+                                        </div>
+                                        <div class="col-md-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br><br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="id" value="{{SECURITYDIALOG->ID}}">
+                    <input type="hidden" name="AltImage" value="{{SECURITYDIALOG->IMAGE}}">
+                    <div class="row">
+                        <button type="submit" class="btn btn-success">
+                            <i class="icon-check2"></i> %%Save%%
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

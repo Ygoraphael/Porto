@@ -1,0 +1,6 @@
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\NCDataOnlineService.exe
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\NCDataOnlineService.pdb
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\bin\Debug\SQLite.NET.dll
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.exe
+C:\Users\tml\documents\visual studio 2010\Projects\NCDataOnlineService\NCDataOnlineService\obj\x86\Debug\NCDataOnlineService.pdb

@@ -1,0 +1,199 @@
+.car-theft_card{
+  @cardHeight: 200px;
+  .panel;
+  .col-sm-6-separated;
+  position: relative;
+  height: @cardHeight;
+  padding: 12px 15px 12px 15px;
+  .sidebyside{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+  }
+  .icon{
+	float:left;
+	width: e('calc(30%)');
+	z-index: 1;
+	position: relative;
+	height: 100%;
+	margin-top: 15px;
+	.image{
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 100%;
+	  width: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+	  background-size: contain;
+	  //opacity: .6;
+	}
+  }
+  .title, .waitTime, .reward, .reward-value, .chance, .chance-value{
+	text-shadow: 2px 2px 3px #000;
+  }
+  .title{
+	position: absolute;
+	width: e('calc(100% - 30px)');
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+  }
+  .reward{
+	width: 100%;
+	text-align: right;
+	font-size: 20px;
+	color: #f5f5f5;
+	font-weight: bold;
+	margin-top: 7px;
+  }
+  .reward-value{
+	width: 100%;
+	text-align: right;
+	font-size: 19px;
+	.greenText;
+	font-weight: bold;
+	margin-top: 10px;
+	.ifSuccess{
+	  .greenText;
+	  text-align: right;
+	}
+	.ifFail{
+	  .redText;
+	  text-align: right;
+	  margin-top: 4px;
+	}
+  }
+  .chance{
+	color: #f5f5f5;
+	width: 100%;
+	text-align: right;
+  }
+  .chance-value{
+	width: 100%;
+	text-align: right;
+	.beigeText;
+	margin-top: 5px;
+  }
+  .waitTime{
+	width: 55%;
+	text-align: center;
+	font-size: 12px;
+	color: whitesmoke;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: -10px;
+  }
+  .description{
+	.panel;
+	float:right;
+	width: e('calc(70% + 2px)');
+	height: e('calc(100% - 21px)');
+	margin-right: -15px;
+	margin-left: -1px;
+	margin-top: 34px;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0;
+	transition-property: height, bottom;
+	transition-duration: 1s, 1s;
+	z-index: 10;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	&:hover{
+	  //height: e('calc(33.33% + 30px)');
+	  //bottom: 0px;
+	}
+	.overlay2{
+	  position: absolute;
+	  bottom: 0px;
+	  right: 0px;
+	  height: 50px;
+	  width: 100px;
+	  padding: 12px;
+	  text-align: center;
+	  z-index: 10000;
+	  .text {
+		text-align: center;
+		padding: 0;
+	  }
+	}
+
+  }
+  .submit{
+	&:hover {
+	  text-decoration: none;
+	  color: inherit;
+	}
+	&:visited { color: whitesmoke; }
+	margin: 0;
+	text-align: center;
+	line-height: 28px;
+	background: linear-gradient(0deg, #468414 0%, #89e53d 100%);
+	box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.50);
+	//border: 1px solid #344312 ;
+	border-radius: 4px;
+	font-size: 12px;
+	padding: 7px;
+	color: whitesmoke;
+	padding-left: 15px;
+	padding-right: 15px;
+  }
+
+
+  .overlay{
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	height: e('calc(100% + 2px)');
+	width: e('calc(100% + 2px)');
+	.panel;
+	padding: 12px;
+	padding-top: e('calc(30px)');
+	text-align: center;
+	z-index: 10000;
+	transition: opacity 2s;
+	-webkit-transition: opacity 0.9s;
+
+	background:none !important;
+	background-color: #000000 !important;
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	border-color: #000000;
+	//opacity: 0.95;
+	.img{
+	  background-image: url(images/lock.png);
+	  width: 78px;
+	  height: 100px;
+	  background-size: contain;
+	  margin-left: e('calc(50% - 39px)');
+	}
+	.text {
+	  text-align: center;
+	  padding: 10px 15px 5px 15px;
+	  text-shadow: #257719;
+	}
+	&:hover{
+	  height: e('calc(100% + 2px)');
+	  width: e('calc(100% + 2px)');
+	  text-indent:-9999px;
+	  opacity: 0;
+	}
+  }
+
+  .car-theft_card_locked{
+	background:none !important;
+	background-color: #000000 !important;
+	border-color: #000000 !important;
+  }
+
+
+
+
+
+}
+.car-theft_cards{
+  clear: both;
+}

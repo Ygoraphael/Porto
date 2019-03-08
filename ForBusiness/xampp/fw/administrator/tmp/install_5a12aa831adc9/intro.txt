@@ -1,0 +1,13 @@
+Vina Pogo Image Slider is a premium responsive image slider for Joomla 3 with many features: 12 Transitions Effect for Image, 17 Transitions Effect for Image Caption and Unlimited Image (You can load image from the list with caption for each image or load from a folder). This module does not use jQuery animations. Only CSS3, because performance matters. Have an easy to control the module displaying via simple parameters, you can do everything as you like and let your client see your site in a impression way. It couldn't be easier!
+
+Main Features:
+- 12 Transitions Effect for Image, 17 Transitions Effect: Vina Pogo Image Slider offers eye-catching transitions effect to impress your visitors with stunning animations.
+- Automatic Image Sizing: Images are automatically cropped and resized which makes publishing slideshow as easy as pie!
+- Unlimited Image: Vina Pogo Image Slider Slider support unlimited image. Very easy to add new, remove and order image.
+- Infinitely looping: Loop through your slides endlessly in both directions.
+- Fully Responsive: Vina Pogo Image Slider Slider can be scaled to any size at realtime.
+- Mobile Device Optimized: Vina Pogo Image Slider Slider works on any javascript enabled browser, including Windows Phone, iOS, Android and Opera Mobile etc.
+- Cross Browser, All Browsers Supported: Vina Pogo Image Slider Slider is cross browser slider, all browsers are supported (IE 6+, Firefox 2+, Chrome 3+, Safari 3+, Opera 10+, iOS Safari, Opera Mobile, Android Browser, iPhone, iPad, Mac, Windows Surface etc.).
+- Control Generate Buttons & Generate Nav: You can show/hide or set position for next and previous buttons, and also control nav item.
+- Support Multi-Language; Support Multi-Module in the same page.
+- Totally customizable and skinnable using HTML and CSS. To manipulate almost everything!

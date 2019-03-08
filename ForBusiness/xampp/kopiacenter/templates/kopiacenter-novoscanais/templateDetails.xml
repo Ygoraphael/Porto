@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+        <name>Kopiacenter - Novoscanais</name>
+        <creationDate>2014-07-01</creationDate>
+        <author>Novoscanais</author>
+        <authorEmail>geral@novoscanais.com</authorEmail>
+        <authorUrl>http://www.kopiacenter.com</authorUrl>
+        <copyright>Novoscanais 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>1.0.2</version>
+        <description>KopiaCenter</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>fonts</folder>
+                <folder>js</folder>
+        </files>
+        <positions>
+                <position>breadcrumb</position>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>user3</position>
+                <position>user4</position>
+                <position>footer</position>
+        </positions>
+</extension>

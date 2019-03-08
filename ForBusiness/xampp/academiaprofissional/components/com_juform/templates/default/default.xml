@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="template">
+    <name>Default</name>
+    <author>JoomUltra</author>
+    <creationDate>21 Mar 2016</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.1.2</version>
+    <license>GNU/GPL</license>
+    <authorUrl>http://www.joomultra.com</authorUrl>
+    <description>Default JU JUForm template</description>
+    <folder>default</folder>
+    <information><![CDATA[
+			Default JUForm Template
+		]]></information>
+    <fileset>
+        <files target="components/com_juform/templates/default">
+            <file>default.xml</file>
+            <file>beginpage.php</file>
+            <file>default.php</file>
+            <file>endpage.php</file>
+            <file>field.php</file>
+            <file>index.html</file>
+            <folder>assets</folder>
+            <folder>fields</folder>
+            <folder>themes</folder>
+        </files>
+    </fileset>
+    <languages>
+        <language tag="en-GB" client="administrator">en-GB.com_juform_tpl_default.ini</language>
+    </languages>
+    <config>
+        <fieldset name="template_default" label="COM_JUFORM_FIELD_SET_TEMPLATE_PARAMS">
+            <field name="layout"
+                   type="list"
+                   default="horizontal"
+                   onchange="generateTemplate(true, true);"
+                   label="COM_JUFORM_TEMPLATE_LAYOUT_LABEL"
+                   description="COM_JUFORM_TEMPLATE_LAYOUT_DESC">
+                <option value="horizontal">Horizontal</option>
+                <option value="vertical">Vertical</option>
+            </field>
+
+            <field name="columns"
+                   type="list"
+                   default="1"
+                   onchange="generateTemplate(true, true);"
+                   label="COM_JUFORM_TEMPLATE_COLUMNS_LABEL"
+                   description="COM_JUFORM_TEMPLATE_COLUMNS_DESC">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </field>
+
+            <field name="label_width"
+                   type="list"
+                   default="2"
+                   onchange="generateTemplate(true, true);"
+                   label="COM_JUFORM_TEMPLATE_LABEL_WIDTH_LABEL"
+                   description="COM_JUFORM_TEMPLATE_LABEL_WIDTH_DESC">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>

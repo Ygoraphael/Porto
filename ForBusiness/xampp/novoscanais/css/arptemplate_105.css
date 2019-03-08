@@ -1,0 +1,435 @@
+/*
+        Plugin Name:ARPrice Plugin
+        Template : arptemplate_105
+*/
+
+.arptemplate_105 {
+    zoom: 1;
+    margin: 0 auto;
+}
+
+.arptemplate_105  .white-row {
+    background:#eceef0;
+    padding-top:10px;
+}
+
+.arptemplate_105 .last-child{
+    margin-right:0px !important;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .maincaptioncolumn {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper{
+    float:left;
+    padding:0 !important;
+    position:relative;
+    text-align:center;
+    line-height:normal;
+    transition:all 0.2s linear 0s;
+    -webkit-transition:all 0.2s linear 0s;
+    -moz-transition:all 0.2s linear 0s;
+    -o-transition:all 0.2s linear 0s;
+    -ms-transition:all 0.2s linear 0s;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -o-border-radius:0px;
+    
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.no_transition{
+    background:none;
+    float: left;
+    text-align: center;
+    margin-bottom:40px;
+    padding:0 !important;
+    line-height:1.5;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    -o-border-radius:0px;
+}
+
+.arptemplate_105 .arpplan{
+    float:left;
+    border-radius:0px; 
+    -webkit-border-radius:0px; 
+    -moz-border-radius:0px; 
+    -o-border-radius:0px; 
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan:before{
+    content: "";
+    height: 23px;
+    left: 0;
+    margin-top: 2px;
+    opacity: 0.4;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan{
+    float:left;
+    box-sizing:border-box !important;
+    margin-bottom: -20px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -o-border-radius:0px;
+    transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    -webkit-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, -webkit-box-shadow 0.2s linear 0s;
+    -moz-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, -moz-box-shadow 0.2s linear 0s;
+    -o-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, -o-box-shadow 0.2s linear 0s;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper img{
+    background:none;
+    border:none;
+    display:inline;
+    padding:0;
+    vertical-align:inherit !important;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;  	
+}
+
+.arptemplate_105 .arppricetablecolumnprice.style_2{
+    float:left;
+    width:100%;
+    height:90px;
+    padding-top:10px;
+}
+
+.arptemplate_105 .arpcolumnheader:not(.has_arp_shortcode) {
+    width:100%;
+    float:left;
+    height:auto;
+    border-radius:0px 0px 0 0;
+    -moz-border-radius:0px 0px 0 0;
+    -webkit-border-radius:0px 0px 0 0;
+    -o-border-radius:0px 0px 0 0;
+}
+
+.arptemplate_105 .arpcolumnheader.has_arp_shortcode{
+    float:left;
+    width:100%;
+    height:auto;
+    min-height:280px;
+    border-radius:0px 0px 0 0;
+    -moz-border-radius:0px 0px 0 0;
+    -webkit-border-radius:0px 0px 0 0;
+    -o-border-radius:0px 0px 0 0;
+
+}
+
+.arptemplate_105 .arppricingtablebodycontent{
+    width:100%;
+    float:left;
+}
+
+.arptemplate_105 .arpcolumnfooter{
+    width:100%;
+    float:left;
+    height:86px;
+    padding:25px 0 0 0;
+    border-radius:0 0 0px 0px;
+    -moz-border-radius:0 0 0px 0px;
+    -webkit-border-radius:0 0 0px 0px;
+    -o-border-radius:0 0 0px 0px;
+    transition:all 0.2s linear 0s;
+    -moz-transition:all 0.2s linear 0s;
+    -webkit-transition:all 0.2s linear 0s;
+    -o-transition:all 0.2s linear 0s;
+    -ms-transition:all 0.2s linear 0s;
+}
+
+.arptemplate_105 .arpcolumnfooter.has_footer_content{
+    padding:30px 0 0;
+}
+
+.arptemplate_105 .maincaptioncolumn .arpcaptiontitle{
+    height:121px;
+    line-height:normal;
+    padding-top:39px;
+    padding-left:3%;
+    margin:0 0 10px 0;
+    background:#ffffff;
+    overflow:hidden;
+}
+
+.arptemplate_105 .arppricetablecolumntitle{
+    float:left;
+    width:100%;
+    min-height:48px;
+    padding-top:35px;
+}
+
+.arptemplate_105 .arppricetablecolumntitle .bestPlanTitle{
+    margin: 0;
+    line-height:normal !important;
+    padding-top:0px;
+    height: 26px !important;
+}
+
+.arptemplate_105 .arppricetablecolumnprice .custom_ribbon{
+    float:left;
+    width:96%;
+    font-family:'Open Sans Bold',Arial, Helvetica, sans-serif;
+    font-size:16px;
+    text-align:left;
+}
+
+.arptemplate_105 .arppricetablecolumnprice .column_desc{
+    float:left;
+    width:96%;
+    font-family:'Open Sans',Arial, Helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+}
+
+.arptemplate_105 .planContainer .arppricingtablebodyoptions {
+    float:left;
+    width:100%;
+}
+
+.arptemplate_105 .planContainer .arppricingtablebodyoptions li {
+    float:left;
+    width:100%;
+    line-height:1;
+    padding:0;
+    margin:0 !important;
+    display:table;
+    height:28px !important;
+    border-bottom: 1px dotted #d1d1d1;
+}
+
+
+
+
+.arptemplate_105 .planContainer .arppricingtablebodyoptions li span{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.arptemplate_105 .planContainer .arppricingtablebodyoptions li span.caption_li{
+    float:left;
+    width:100%;
+    position:relative;
+    top:5px;
+}
+
+.arptemplate_105 .arppricingtablebodyoptions li span.arp_tooltip{
+    border:none;
+}
+
+.arptemplate_105 .planContainer .arppricingtablebodyoptions li span.caption_detail{
+    float:left;
+    width:100%;
+    position:relative;
+    bottom:5px;
+}
+
+.arptemplate_105 .maincaptioncolumn .arppricetablebutton{
+    display: inline-block;
+    height:97px;
+}
+
+.arptemplate_105 .arppricetablebutton .bestPlanButton {
+    line-height: normal;
+    width: 67% !important;
+    padding:0px;
+    border:1px solid #e2e2e2;
+    border-radius:34px;
+    -moz-border-radius:34px;
+    -webkit-border-radius:34px;
+    -o-border-radius:34px;
+    text-transform:uppercase;
+    cursor:pointer !important;
+    position:relative;
+    background-image: linear-gradient(top, #ffffff, #ffffff 1px, #e7e7e7) /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#d8d8d8'); /* IE5.5 - 7 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#d8d8d8'); /* IE8 */
+	background: -ms-linear-gradient(top, #ffffff, #ffffff 1px, #e7e7e7); /* IE9 */
+	background: -moz-linear-gradient(top, #ffffff, #ffffff 1px, #e7e7e7); /* Firefox */ 
+	background: -o-linear-gradient(top, #ffffff, #ffffff 1px, #e7e7e7); /* Opera 11  */
+	background: -webkit-linear-gradient(top, #ffffff, #ffffff 1px, #e7e7e7); /* Chrome 11  */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.05, #efefef), color-stop(1, #d8d8d8)); /* Chrome 10, Safari */
+	background-color: #d8d8d8; /* background color for non-css3 browsers */
+}
+
+.arptemplate_105 .arppricetablebutton .bestPlanButton.arp_small_btn{
+    min-height:39px !important;
+    height:auto;
+    width:50% !important;
+    margin-top:5px;
+}
+
+:-o-prefocus, .arptemplate_105 .arppricetablebutton .bestPlanButton.arp_small_btn{
+    line-height:39px !important;
+}
+
+.arptemplate_105 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+    min-height: 36px !important;
+    height:auto;
+    width:67% !important;
+}
+
+:-o-prefocus, .arptemplate_105 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+    line-height:35px !important;
+}
+
+.arptemplate_105 .arppricetablebutton .bestPlanButton.arp_large_btn{
+    min-height:59px !important;
+    height:auto;
+    margin-top:-5px;
+}
+
+:-o-prefocus, .arptemplate_105 .arppricetablebutton .bestPlanButton.arp_large_btn{
+    line-height:59px !important;
+}
+
+.arptemplate_105 .maincaptioncolumn .arpcaptiontitle {
+    color: #E3E3E3 !important;
+}
+
+.arptemplate_105 .arppricetablecolumntitle.caption{
+    float:left;
+    width:100%;
+    height:54px;
+    line-height:54px;
+    background:#F2F2F2;
+    border-bottom:1px solid #ffffff !important;
+}
+
+/**add boder for button**/
+.arptemplate_105 .arpcolumnfooter.selected{
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+}
+
+.arptemplate_105 .arppricetablecolumnprice{ 
+    float:left;
+    width:100%;
+    min-height:60px;
+    padding-top:0px;
+    background:rgba(255,255,255,0.098);
+    border-bottom: 1px dotted #d1d1d1;
+}
+
+.ArpPricingTableColumnWrapper_inner_selected.selected
+{
+    margin-top:-2px !important;
+    margin-bottom:38px !important;
+}
+.arppricingtablebodycontent.selected
+{
+    margin-bottom:0px !important;
+}
+div.arppricingtablebodycontent_inner_selected.selected{ 
+    margin:-2px 0 !important;
+}
+div.arptemplate_105 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.selected:hover{ 
+    box-shadow: 0 0 0 3px #28caff !important;
+    -moz-box-shadow: 0 0 0 3px #28caff !important;
+    -webkit-box-shadow: 0 0 0 3px #28caff !important;
+    -o-box-shadow: 0 0 0 3px #28caff !important;
+}
+.arppricingtablebodycontent.selected:not(.arppricingtablebodycontent_inner_selected){
+    margin:-3px 0 !important;
+}
+
+/* Hover Effect Change */
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover,
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight{
+    margin-bottom:0px;
+    padding:0px !important;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpplan,
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpplan{
+    margin-top:20px;
+    top:-20px;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpcolumnfooter,
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpcolumnfooter{
+    height:140px;
+    padding:45px 0 0 0;
+}
+
+.arptemplate_105 .arp_column_content_wrapper{
+    float:left;
+    width:100%;
+}
+
+.arptemplate_105 .arpcolumnfooter.has_footer_content{
+    height:130px;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpcolumnfooter.has_footer_content.footer_above_content,
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpcolumnfooter.has_footer_content.footer_above_content{
+    height:170px !important;
+    padding:20px 0 0;
+}
+
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpcolumnfooter.has_footer_content.footer_below_content,
+.arptemplate_105 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpcolumnfooter.has_footer_content.footer_below_content{
+    height:170px !important;
+    padding:50px 0 0;
+}
+
+.arptemplate_105 .arpcolumnfooter.has_footer_content.footer_above_content{
+    padding:0px;
+}
+
+/*.arptemplate_105 .arpcolumnfooter .arp_footer_content{
+    height:30px;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    margin:0 !important;
+}*/
+
+.arptemplate_105 .arp_btn_before_content{
+    margin-top:5px !important;
+    margin-bottom:5px !important;
+    height:20px !important;
+}
+
+.arptemplate_105 .arp_price_wrapper{
+    float:left;
+    width:100%;
+}
+
+.arptemplate_105 .arp_odd_row{
+    background:rgba(255,255,255,0.198);
+}
+
+.arptemplate_105 .arp_even_row{
+    background:rgba(255,255,255,0.297);
+}
+
+.arptemplate_105 .arp_currency{
+    font-size:inherit;
+}

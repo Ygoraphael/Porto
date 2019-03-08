@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Text</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>text</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/text">
+            <file>text.xml</file>
+            <file>text.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                    name="rule"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_RULE_LABEL"
+                    description="COM_JUFORM_FIELD_RULE_DESC"
+            >
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="regex">COM_JUFORM_REGEX</option>
+                <option value="custom">COM_JUFORM_CUSTOM</option>
+            </field>
+
+            <field
+                    name="regex"
+                    type="list"
+                    default=""
+                    class="jufilter jufilter-rule-regex"
+                    label="COM_JUFORM_FIELD_REGEX_LABEL"
+                    description="COM_JUFORM_FIELD_REGEX_DESC"
+            >
+                <option value="[a-zA-Z]">COM_JUFORM_SINGLE_LETTER</option>
+                <option value="[a-zA-Z]+">COM_JUFORM_ALPHABETIC_STRING</option>
+                <option value="[a-zA-Z0-9]+">COM_JUFORM_ALPHA_NUMERIC_STRING</option>
+                <option value="\w+">COM_JUFORM_SINGLE_WORD</option>
+                <option value="\d+">COM_JUFORM_INTEGER</option>
+                <option value="\d+(\.\d+)?">COM_JUFORM_DECIMAL</option>
+                <option value="[\w\.-]+@[\w\.-]+\.[\w\.-]{2,6}">COM_JUFORM_EMAIL_ADDRESS</option>
+                <option value="\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})">COM_JUFORM_TELEPHONE_NUMBER</option>
+                <option value="(https?:\/\/)?([\da-zA-Z\.-]+)\.([a-zA-Z\.]{2,6}).*">COM_JUFORM_URL</option>
+                <option value="(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)">
+                    COM_JUFORM_IP_ADDRESS
+                </option>
+                <option value="custom_regex">COM_JUFORM_CUSTOM_REGEX</option>
+            </field>
+
+            <field
+                    name="custom_regex"
+                    type="text"
+                    default=""
+                    class="jufilter-rule-regex jufilter-regex-custom_regex"
+                    label="COM_JUFORM_FIELD_CUSTOM_REGEX_LABEL"
+                    description="COM_JUFORM_FIELD_CUSTOM_REGEX_DESC"
+            />
+
+            <field
+                    name="custom_rule"
+                    type="textarea"
+                    default="function(value, element) {}"
+                    class="jufilter-rule-custom"
+                    rows="10"
+                    label="COM_JUFORM_FIELD_CUSTOM_RULE_LABEL"
+                    description="COM_JUFORM_FIELD_CUSTOM_RULE_DESC"
+            />
+
+            <field
+                    name="restrict_type"
+                    type="list"
+                    default=""
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_RESTRICT_TYPE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_TYPE_DESC"
+            >
+                <option value="">COM_JUFORM_NONE</option>
+                <option value="min">COM_JUFORM_MIN</option>
+                <option value="max">COM_JUFORM_MAX</option>
+                <option value="range">COM_JUFORM_RANGE</option>
+            </field>
+
+            <field
+                    name="restrict_value"
+                    type="text"
+                    default=""
+                    class="jufilter-restrict_type-min-max-range"
+                    label="COM_JUFORM_FIELD_RESTRICT_VALUE_LABEL"
+                    description="COM_JUFORM_FIELD_RESTRICT_VALUE_DESC"
+            />
+
+            <field
+                    name="invalid_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_INVALID_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_INVALID_MESSAGE_DESC"
+            />
+
+            <field
+                    name="required_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_REQUIRED_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_REQUIRED_MESSAGE_DESC"
+            />
+        </fieldset>
+
+        <fieldset name="config" label="Config">
+            <field name="size"
+                   type="text"
+                   default="32"
+                   class="validate-numeric"
+                   label="COM_JUFORM_FIELD_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SIZE_DESC"
+            />
+
+            <field name="placeholder"
+                   type="text"
+                   label="COM_JUFORM_FIELD_PLACEHOLDER_LABEL"
+                   description="COM_JUFORM_FIELD_PLACEHOLDER_DESC"
+                   default=""
+                    />
+
+            <field
+                    name="auto_suggest"
+                    type="radio"
+                    default="0"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_AUTO_SUGGEST_LABEL"
+                    description="COM_JUFORM_FIELD_AUTO_SUGGEST_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="is_numeric"
+                    type="radio"
+                    default="0"
+                    class="jufilter btn-group"
+                    label="COM_JUFORM_FIELD_IS_NUMERIC_LABEL"
+                    description="COM_JUFORM_FIELD_IS_NUMERIC_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="digits_in_total"
+                   type="text"
+                   class="jufilter-is_numeric-1"
+                   label="COM_JUFORM_FIELD_DIGITS_IN_TOTAL_LABEL"
+                   description="COM_JUFORM_FIELD_DIGITS_IN_TOTAL_DESC"
+                   default="11"
+                    />
+
+            <field name="decimals"
+                   type="text"
+                   class="jufilter-is_numeric-1"
+                   label="COM_JUFORM_FIELD_DECIMALS_LABEL"
+                   description="COM_JUFORM_FIELD_DECIMALS_DESC"
+                   default="2"
+                    />
+
+            <field name="dec_point"
+                   type="text"
+                   class="jufilter-is_numeric-1"
+                   label="COM_JUFORM_FIELD_DEC_POINT_LABEL"
+                   description="COM_JUFORM_FIELD_DEC_POINT_DESC"
+                   default="."
+                    />
+
+            <field
+                    name="use_thousands_sep"
+                    type="radio"
+                    default="0"
+                    class="jufilter jufilter-is_numeric-1 btn-group"
+                    label="COM_JUFORM_FIELD_USE_THOUSANDS_SEP_LABEL"
+                    description="COM_JUFORM_FIELD_USE_THOUSANDS_SEP_DESC"
+                    >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="thousands_sep"
+                   type="text"
+                   class="jufilter-is_numeric-1 jufilter-use_thousands_sep-1"
+                   label="COM_JUFORM_FIELD_THOUSANDS_SEP_LABEL"
+                   description="COM_JUFORM_FIELD_THOUSANDS_SEP_DESC"
+                   default=","
+                    />
+        </fieldset>
+    </config>
+</extension>

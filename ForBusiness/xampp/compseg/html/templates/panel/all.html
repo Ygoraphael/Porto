@@ -1,0 +1,256 @@
+<div class="row">
+    <!-- BEGIN BLOCK_MONITORQUANTIDADES -->
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">%%Quantity Monitor%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered mb-0 middleTable">
+                        <tbody>
+                            <tr>
+                                <th rowspan="2"></th>
+                                <th colspan="3">%%Made last 3 months%%</th>
+                                <th rowspan="2">%%Expected%% {{MONTH}}</th>
+                                <th rowspan="2">%%Made in%% {{MONTH}}</th>
+                            </tr>
+                            <tr>
+                                <th>{{last1month}}</th>
+                                <th>{{last2month}}</th>
+                                <th>{{last3month}}</th>
+                            </tr>
+                            <tr>
+                                <th>%%Safety Walk%%</th>
+                                <th>{{last3monthsw}}</th>
+                                <th>{{last2monthsw}}</th>
+                                <th>{{last1monthsw}}</th>
+                                <th>{{nextmonthsw}}</th>
+                                <th>{{lastmonthsw}}</th>
+                            </tr>
+                            <tr>
+                                <th>%%Dialogues%%</th>
+                                <th>{{last3monthsd}}</th>
+                                <th>{{last2monthsd}}</th>
+                                <th>{{last1monthsd}}</th>
+                                <th>{{nextmonthsd}}</th>
+                                <th>{{lastmonthsd}}</th>
+                            </tr>
+                            <tr>
+                                <th>%%Surveys%%</th>                        
+                                <th>{{last3monthsu}}</th>
+                                <th>{{last2monthsu}}</th>
+                                <th>{{last1monthsu}}</th>
+                                <th>{{nextmonthsu}}</th>
+                                <th>{{lastmonthsu}}</th>
+                            </tr>
+                            <!-- BEGIN BLOCK_MONITORQUANTIDADE -->
+                            <tr>
+                                <th scope="row">{{MONQUANT->category_name}}</th>
+                                <td class="text-xs-center font-medium-3"><i class="{{MONQUANT->icon}} {{MONQUANT->color}}"></i></td>
+                            </tr>
+                            <!-- END BLOCK_MONITORQUANTIDADE -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- BEGIN BLOCK_NORESULTS_MONITORQUANTIDADES -->
+            <div class="card-footer collapse in">
+                <div class="text-xs-center font-medium-3 col-xs-12">
+                    %%No Results%%
+                </div>
+            </div>
+            <!-- END BLOCK_NORESULTS_MONITORQUANTIDADES -->
+        </div>
+    </div>
+    <!-- END BLOCK_MONITORQUANTIDADES -->
+    <!-- BEGIN BLOCK_MONITORQUALIDADES -->
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">%%Surveys%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-header">
+                <div class="row">
+                    <form class="form-horizontal">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group ">
+                                    <label class="col-sm-4 control-label" for="fromDate">%%Start Date%%</label>
+                                    <div class="col-sm-8">
+                                        <input type="date" name="m1_sd" onchange="dataStart(this);" class="form-control" value="{{mon1_sd}}">
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="toDate">%%End Date%%</label>
+                                    <div class="col-sm-8">
+                                        <input type="date" name="m1_ed" onchange="dataStart(this);" class="form-control" value="{{mon1_ed}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="t">%%Sector%%</label>
+                                    <div class="col-sm-8">
+                                        <select name="m1_s"  class="form-control" required="">
+                                            <option value="0">%%Todos%%</option>
+                                            <!-- BEGIN BLOCK_SECTOR -->
+                                            <option value="{{SECTOR->ID}}" {{select_sector}}>{{SECTOR->NAME}}</option>
+                                            <!-- END BLOCK_SECTOR -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="col-sm-4 control-label" for="t"></label>
+                                <div class="form-group">
+                                    <div class="col-sm-8">
+                                        <button type="submit" data-id="1" class="btn btn-success btn_filter_mon">%%Search%%</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered mb-0">
+                        <tbody>
+                            <!-- BEGIN BLOCK_MONITORQUALIDADE -->
+                            <tr>
+                                <th scope="row">{{MONQUAL->category_name}}</th>
+                                <td class="text-xs-center font-medium-3"><i class="{{MONQUAL->icon}} {{MONQUAL->color}}"></i></td>
+                            </tr>
+                            <!-- END BLOCK_MONITORQUALIDADE -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- BEGIN BLOCK_NORESULTS_MONITORQUALIDADES -->
+            <div class="card-footer collapse in">
+                <div class="text-xs-center font-medium-3 col-xs-12">
+                    %%No Results%%
+                </div>
+            </div>
+            <!-- END BLOCK_NORESULTS_MONITORQUALIDADES -->
+        </div>
+    </div>
+    <!-- END BLOCK_MONITORQUALIDADES -->
+    <!-- BEGIN BLOCK_MONITORINSEGURANCAS -->
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">%%Insecurities%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered mb-0">
+                        <tbody>
+                            <tr>
+                                <th>%%Insecurity%%</th>
+                                <th>%%Resume%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Attribution%%</th>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <!-- BEGIN BLOCK_MONITORINSEGURANCA -->
+                            <tr>
+                                <th scope="row" style="padding:5px;"><img style="display:block; margin:0 auto;" class="img-responsive" src="{{MONINS->urlimg}}{{MONINS->IMG}}" alt=""  height="90" width="120" ></th>
+                                <td style=" text-align: -webkit-center; padding: 40px;" >{{MONINS->RESUMO}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">{{MONINS->created_at}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span class="tag tag-{{MONINS->status_class}}">{{MONINS->status}}</span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span >{{MONINS->USER3}} {{MONINS->USER4}}</span></td>
+                            </tr>
+                            <!-- END BLOCK_MONITORINSEGURANCA -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- BEGIN BLOCK_NORESULTS_MONITORINSEGURANCAS -->
+            <div class="card-footer collapse in">
+                <div class="text-xs-center font-medium-3 col-xs-12">
+                    %%No Results%%
+                </div>
+            </div>
+            <!-- END BLOCK_NORESULTS_MONITORINSEGURANCAS -->
+        </div>
+    </div>
+    <!-- END BLOCK_MONITORINSEGURANCAS -->
+    <!-- BEGIN BLOCK_MONITORINSEGURANCASUSER -->
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">%%Insecurities%%</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body collapse in">
+                <div class="table-responsive">
+                    <table class="table table-bordered mb-0">
+                        <tbody>
+                            <tr>
+                                <th>%%Insecurity%%</th>
+                                <th>%%Resume%%</th>
+                                <th>%%Created at%%</th>
+                                <th>%%Status%%</th>
+                                <th>%%Attribution%%</th>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <!-- BEGIN BLOCK_MONITORINSEGURANCAUSER -->
+                            <tr>
+                                <th scope="row" style="padding:5px;"><img style="display:block; margin:0 auto;" class="img-responsive" src="{{MONINS->urlimg}}{{MONINS->IMG}}" alt=""  height="90" width="120" ></th>
+                                <td style=" text-align: -webkit-center; padding: 40px;" >{{MONINSUSER->RESUMO}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;">{{MONINSUSER->created_at}}</td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span class="tag tag-{{MONINSUSER->status_class}}">{{MONINSUSER->status}}</span></td>
+                                <td style=" text-align: -webkit-center; padding: 40px;"><span >{{MONINSUSER->USER3}} {{MONINSUSER->USER4}}</span></td>
+                            </tr>
+                            <!-- END BLOCK_MONITORINSEGURANCAUSER -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- BEGIN BLOCK_NORESULTS_MONITORINSEGURANCASUSER -->
+            <div class="card-footer collapse in">
+                <div class="text-xs-center font-medium-3 col-xs-12">
+                    %%No Results%%
+                </div>
+            </div>
+            <!-- END BLOCK_NORESULTS_MONITORINSEGURANCASUSER -->
+        </div>
+    </div>
+    <!-- END BLOCK_MONITORINSEGURANCASUSER -->
+</div>

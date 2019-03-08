@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Cosmos\\": "vendor/cosmos/Core",
+            "App\\": "vendor/cosmos/App"        
+        }
+    }
+}

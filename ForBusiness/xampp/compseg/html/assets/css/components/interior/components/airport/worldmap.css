@@ -1,0 +1,13 @@
+.worldmap {
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+}
+.worldmap .map_image {
+  position: relative;
+  background-image: url(images/airport_map.png);
+  height: 903px;
+  width: 1603px;
+  margin-left: -12px;
+  margin-top: -12px;
+}

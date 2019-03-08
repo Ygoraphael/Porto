@@ -1,0 +1,122 @@
+<div class="row">
+    <div class="col-lg-12 col-xs-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">{{TITLE}}</h4>
+                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-header">
+                <div class="row">
+                    <!-- BEGIN BLOCK_BTN_NEW_SAFETYWALK -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="company">%%Companies%%</label>
+                            <select id="company" name="company" class="form-control js-example-basic-multiple"  multiple="multiple">
+                                <option value="0">%%All%%</option>
+                                <!-- BEGIN BLOCK_SELECT_COMPANY -->
+                                <option value="{{VALUE}}">{{NAME}}</option>
+                                <!-- END BLOCK_SELECT_COMPANY -->
+                            </select>
+                        </div>
+                    </div>
+                    <!-- END BLOCK_BTN_NEW_SAFETYWALK -->
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="qtt">%%Qtt%%</label>
+                            <input type="number" required id="qtt" class="form-control" min="1" name="qtt" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="type">%%Type%%</label>
+                            <select id="type" name="type" class="form-control">
+                                <!-- BEGIN BLOCK_SELECT_TYPE_DATE -->
+                                <option value="{{VALUE}}">{{TEXT}}</option>
+                                <!-- END BLOCK_SELECT_TYPE_DATE -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="date-expired">%%Start Date%%</label>
+                            <input type="date" value="{{DATE_EXPIRED}}" id="date-expired" class="form-control" name="start">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="profile">%%profile%%</label>
+                            <select id="profile" name="profile" class="form-control">
+                                <!-- BEGIN BLOCK_SELECT_PROFILE -->
+                                <option value="{{SELECT_PROFILE->ID}}">{{SELECT_PROFILE->NAME}}</option>
+                                <!-- END BLOCK_SELECT_PROFILE -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BEGIN BLOCK_BTN_EDIT_SAFETYWALK -->
+            <div class="col-md-6 hidden">
+                <input type="hidden" id="safetywalk_qtt" value="{{SAFETYWALK_QTT}}" />
+                <input type="hidden" id="safetywalk_type" value="{{SAFETYWALK_TYPE}}" />
+                <input type="hidden" id="safetywalk_date_start" value="{{SAFETYWALK_DATE_START}}" />
+            </div>
+            <!-- END BLOCK_BTN_EDIT_SAFETYWALK -->
+            <div class="row">
+                <div class="col-lg-12" id="safetywalkContainer">
+                    <div class="table-responsive">
+                        <table id="safetywalkquestions" class="table order-list" style="margin-bottom:0">
+                            <thead>
+                                <tr>
+                                    <td class="col-xs-6">%%Text%%</td>
+                                    <td class="col-xs-3">%%Checkbox%%</td>
+                                    <td class="col-xs-3">%%Action%%</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col-xs-6">
+                                        <input type="text" class="form-control" name="text" id="text"  />
+                                    </td>
+                                    <td class="col-xs-3">
+                                        <div class="pretty primary">
+                                            <input type="checkbox" name="check" checked />
+                                            <label><i class="mdi mdi-check"></i></label>
+                                        </div>
+                                    </td>
+                                    <td class="col-xs-3">
+                                        <input type="button" class="ibtnDel btn btn-md btn-danger" value="%%Delete%%" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3">
+                                        <input type="button" class="btn btn-lg btn-block " id="addrow" value="%%Add Question%%" />
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="/panel/safetywalks">
+                    <button type="button" class="btn btn-warning mr-1">
+                        <i class="icon-cross2"></i> %%Cancel%%
+                    </button>
+                </a>
+                <button type="submit" class="btn btn-success btn_save_sw">
+                    <i class="icon-check2"></i> %%Save%%
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

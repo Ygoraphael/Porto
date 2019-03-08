@@ -1,0 +1,36 @@
+<form class="form" name="Category">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-office"></i> {{TITLE}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <h4 class="form-section">%%Basic Info%%</h4>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="projectinput1">%%Name%%</label>
+                                <input type="text" id="projectinput1" required class="form-control" placeholder="%%Name%%" name="name" value="{{CATEGORY->NAME}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" name="id" value="{{CATEGORY->ID}}">
+                        <div class="row">
+                            <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                                <i class="icon-cross2"></i>  %%Cancel%%
+                            </button>
+                            <button type="submit" class="btn btn-success {{action}}">
+                                <i class="icon-check2"></i> %%Save%%
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div
+    </div>
+</form>

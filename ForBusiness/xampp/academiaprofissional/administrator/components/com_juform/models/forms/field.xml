@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_juform/models/rules">
+    <fieldset name="general">
+        <field
+                name="id"
+                type="hidden"
+                default="0"
+                />
+
+        <field
+                name="plugin_id"
+                type="hidden"
+                default="0"
+                />
+
+        <field
+                name="form_id"
+                type="hidden"
+                default="0"
+                />
+
+        <field
+                name="caption"
+                type="text"
+                default=""
+                required="true"
+                size="32"
+                label="COM_JUFORM_FIELD_CAPTION_LABEL"
+                description="COM_JUFORM_FIELD_CAPTION_DESC"
+                />
+
+        <field
+                name="field_name"
+                type="text"
+                default=""
+                required="true"
+                class="validate-fieldname"
+                validate="fieldname"
+                size="32"
+                label="COM_JUFORM_FIELD_FIELD_NAME_LABEL"
+                description="COM_JUFORM_FIELD_FIELD_NAME_DESC"
+                />
+
+        <field
+                name="description"
+                type="textarea"
+                default=""
+                cols="50"
+                rows="5"
+                filter="raw"
+                label="COM_JUFORM_FIELD_DESCRIPTION_LABEL"
+                description="COM_JUFORM_FIELD_DESCRIPTION_DESC"
+                />
+
+        <field
+                name="access"
+                type="accesslevel"
+                class="inputbox"
+                label="COM_JUFORM_FIELD_ACCESS_LABEL"
+                description="COM_JUFORM_FIELD_ACCESS_DESC"
+                />
+
+        <field
+                name="required"
+                type="list"
+                default="0"
+                label="COM_JUFORM_FIELD_REQUIRED_LABEL"
+                description="COM_JUFORM_FIELD_REQUIRED_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="hide"
+                type="list"
+                default="0"
+                label="COM_JUFORM_FIELD_HIDE_LABEL"
+                description="COM_JUFORM_FIELD_HIDE_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="hide_caption"
+                type="list"
+                default="0"
+                label="COM_JUFORM_FIELD_HIDE_CAPTION_LABEL"
+                description="COM_JUFORM_FIELD_HIDE_CAPTION_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="hide_label"
+                type="list"
+                default="0"
+                label="COM_JUFORM_FIELD_HIDE_LABEL_LABEL"
+                description="COM_JUFORM_FIELD_HIDE_LABEL_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="backend_list_view"
+                type="list"
+                default="0"
+                label="COM_JUFORM_FIELD_BACKEND_LIST_VIEW_LABEL"
+                description="COM_JUFORM_FIELD_BACKEND_LIST_VIEW_DESC"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="published"
+                type="list"
+                default="1"
+                label="COM_JUFORM_FIELD_PUBLISHED_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISHED_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="ignored_options"
+                type="hidden"
+                default=""
+                />
+    </fieldset>
+
+    <fieldset name="predefinedvalue">
+        <field
+                name="predefined_values_type"
+                type="list"
+                default="1"
+                label="COM_JUFORM_FIELD_PREDEFINED_VALUES_TYPE_LABEL"
+                description="COM_JUFORM_FIELD_PREDEFINED_VALUES_TYPE_DESC">
+            <option value="1">COM_JUFORM_DEFAULT</option>
+            <option value="2">COM_JUFORM_PHP_CODE</option>
+        </field>
+
+        <field
+                name="predefined_values"
+                type="FieldPredefinedValues"
+                filter="raw"
+                label="COM_JUFORM_FIELD_PREDEFINED_VALUES_LABEL"
+                description="COM_JUFORM_FIELD_PREDEFINED_VALUES_DESC"
+                />
+
+        <field
+                name="php_predefined_values"
+                type="PHPPredefinedValues"
+                filter="raw"
+                cols="100"
+                rows="15"
+                label="COM_JUFORM_FIELD_PHP_PREDEFINED_VALUES_LABEL"
+                description="COM_JUFORM_FIELD_PHP_PREDEFINED_VALUES_DESC"
+                />
+    </fieldset>
+
+    <fieldset name="advanced">
+        <field
+                name="publish_up"
+                type="calendar"
+                default=""
+                class="inputbox"
+                format="%Y-%m-%d %H:%I:%S"
+                filter="user_utc"
+                label="COM_JUFORM_FIELD_PUBLISH_UP_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISH_UP_DESC"
+                />
+
+        <field
+                name="publish_down"
+                type="calendar"
+                default=""
+                class="inputbox"
+                format="%Y-%m-%d %H:%I:%S"
+                filter="user_utc"
+                label="COM_JUFORM_FIELD_PUBLISH_DOWN_LABEL"
+                description="COM_JUFORM_FIELD_PUBLISH_DOWN_DESC"
+                />
+
+        <field
+                name="prefix_text_mod"
+                type="text"
+                default=""
+                size="32"
+                filter="raw"
+                label="COM_JUFORM_FIELD_PREFIX_TEXT_MOD_LABEL"
+                description="COM_JUFORM_FIELD_PREFIX_TEXT_MOD_DESC"
+                />
+
+        <field
+                name="suffix_text_mod"
+                type="text"
+                default=""
+                size="32"
+                filter="raw"
+                label="COM_JUFORM_FIELD_SUFFIX_TEXT_MOD_LABEL"
+                description="COM_JUFORM_FIELD_SUFFIX_TEXT_MOD_DESC"
+                />
+
+        <field
+                name="prefix_text_display"
+                type="text"
+                default=""
+                size="32"
+                filter="raw"
+                label="COM_JUFORM_FIELD_PREFIX_TEXT_DISPLAY_LABEL"
+                description="COM_JUFORM_FIELD_PREFIX_TEXT_DISPLAY_DESC"
+                />
+
+        <field
+                name="suffix_text_display"
+                type="text"
+                default=""
+                size="32"
+                filter="raw"
+                label="COM_JUFORM_FIELD_SUFFIX_TEXT_DISPLAY_LABEL"
+                description="COM_JUFORM_FIELD_SUFFIX_TEXT_DISPLAY_DESC"
+                />
+
+        <field
+                name="prefix_suffix_wrapper"
+                type="list"
+                default="1"
+                label="COM_JUFORM_FIELD_PREFIX_SUFFIX_WRAPPER_LABEL"
+                description="COM_JUFORM_FIELD_PREFIX_SUFFIX_WRAPPER_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="attributes"
+                type="textarea"
+                default=""
+                rows="2"
+                cols="40"
+                label="COM_JUFORM_FIELD_ATTRIBUTES_LABEL"
+                description="COM_JUFORM_FIELD_ATTRIBUTES_DESC"
+                />
+    </fieldset>
+
+    <fields name="params">
+    </fields>
+</form>

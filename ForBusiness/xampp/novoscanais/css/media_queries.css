@@ -1,0 +1,1699 @@
+@media (max-width: 700px) {
+  .fussion {
+      background-color: rgba(255, 255, 255, 1);
+  }
+  .navbar{
+      height: 100px !important;
+  }
+    .navbar-inverse .navbar-nav > li > a {
+        color:white !important;
+    }
+    .sub_Menu_Mobile{
+      background:rgba(0,0,0,1);
+    }
+    #feature{
+      display: none !important;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color: white !important;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover {
+        cursor: pointer;
+        color: #6293BE !important;
+    }
+    .dropdown-menu {
+        left: 0% !important;
+        width: 100% !important;
+    }
+    .dropdown-menu li {
+        display: block;
+        text-align: left !important;
+        padding-left: 10px;
+        list-style-type: circle !important;
+    }
+    #phccs {
+        background: transparent url(../images/slider/phc_cs2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover!important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .btn-demo{
+      width: 85%;
+      font-size: 18px;
+    }
+    .intro .slogan h2{
+      margin-top: 20%;
+    }
+    .reset-center{
+      margin-left:24% !important;
+    }
+    .reset-center1{
+      margin-left:13% !important;
+    }
+    .slogan{
+      margin-top:30%;
+      padding: 4px;
+    }
+    .lead{
+      line-height: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        background: #151515;
+        padding: 15px 0;
+        padding-bottom: 0;
+        transition: all 1s;
+    }
+}
+@media (max-width: 700px) {
+    .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        background: #151515;
+        padding: 15px 0;
+        padding-bottom: 0;
+        transition: all 1s;
+    }
+}
+
+@media (max-width: 400px) {
+    #main-slider .carousel .carousel-content2 {
+        margin-top: 150px;
+        float: right;
+        width: 290px;
+        height: 180px;
+    }
+}
+@media (max-width: 700px) {
+    #main-slider .carousel .carousel-content2 {
+        margin-top: 150px;
+        float: right;
+        width: 290px;
+        height: 180px;
+    }
+}
+@media (min-width: 710px) and (max-width: 1200px) {
+    #main-slider .carousel .carousel-content2 {
+        margin-top: 160px;
+        float: right;
+        width: 500px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 400px) {
+    #main-slider .carousel .carousel-content3 {
+        margin-top: 150px;
+        float: right;
+        background: rgba(0, 0, 0, .1);
+        width: 250px;
+        height: 220px;
+    }
+}
+@media (max-width: 700px) {
+    #main-slider .carousel .carousel-content3 {
+        margin-top: 150px;
+        float: right;
+        background: rgba(0, 0, 0, .1);
+        width: 250px;
+        height: 220px;
+    }
+}
+@media (min-width: 710px) and (max-width: 1200px) {
+    #main-slider .carousel .carousel-content3 {
+        margin-top: 150px;
+        float: right;
+        background: rgba(0, 0, 0, .1);
+        width: 390px;
+        height: 230px;
+    }
+}
+@media (max-width: 400px) {
+    #main-slider .carousel .item {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0 !important;
+        opacity: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        display: block !important;
+        height: 500px;
+        -webkit-transition: opacity ease-in-out 500ms;
+        -moz-transition: opacity ease-in-out 500ms;
+        -o-transition: opacity ease-in-out 500ms;
+        transition: opacity ease-in-out 500ms;
+    }
+}
+@media (max-width: 500px) {
+    #main-slider .carousel .item.item_phc {
+        background-image: url("../images/slider/phcfull2.png");
+    }
+}
+@media (min-width: 710px) and (max-width: 800px) {
+    #main-slider .carousel .item.item_phc {
+        background-image: url("../images/slider/phcfull2.png");
+    }
+}
+@media (max-width: 400px) {
+    #main-slider .active .animation.novoscanais {
+        font-size: 40px;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 700px) {
+    #main-slider .active .animation.novoscanais {
+        font-size: 40px;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (min-width: 710px) and (max-width: 1200px) {
+    #main-slider .active .animation.novoscanais {
+        font-size: 70px;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+
+@media (max-width: 400px) {
+    #main-slider .active .animation.animated-item-2 {
+        font-size: 18px;
+        -webkit-animation: fadeInUp 300ms linear 600ms both;
+        -moz-animation: fadeInUp 300ms linear 600ms both;
+        -o-animation: fadeInUp 300ms linear 600ms both;
+        -ms-animation: fadeInUp 300ms linear 600ms both;
+        animation: fadeInUp 300ms linear 600ms both;
+    }
+}
+@media (max-width: 700px) {
+    #main-slider .active .animation.animated-item-2 {
+        font-size: 18px;
+        -webkit-animation: fadeInUp 300ms linear 600ms both;
+        -moz-animation: fadeInUp 300ms linear 600ms both;
+        -o-animation: fadeInUp 300ms linear 600ms both;
+        -ms-animation: fadeInUp 300ms linear 600ms both;
+        animation: fadeInUp 300ms linear 600ms both;
+    }
+}
+@media (max-width: 400px) {
+    #main-slider .active .animation.animated-item-4 {
+        font-size: 13px;
+        text-shadow: 2px 2px 2px #000;
+        -webkit-animation: fadeInUp 300ms linear 1500ms both;
+        -moz-animation: fadeInUp 300ms linear 1500ms both;
+        -o-animation: fadeInUp 300ms linear 15000ms both;
+        -ms-animation: fadeInUp 300ms linear 1500ms both;
+        animation: fadeInUp 300ms linear 1500ms both;
+    }
+}
+@media (max-width: 400px) {
+    #main-slider .active #v21 {
+        width: 290px;
+        height: 120px;
+        background: url(../images/slider/v212.png) no-repeat;
+        position: absolute;
+        top: 310px;
+        left: 12%;
+        animation: v21 2s;
+        -moz-animation: v21 2s;
+        -0-animation: v21 2s;
+        -webkit-animation: v21 2s;
+    }
+    @keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 12%;
+            top: 310px;
+        }
+    }
+    @-moz-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 12%;
+            top: 310px;
+        }
+    }
+    @-o-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 12%;
+            top: 310px;
+        }
+    }
+    @-webkit-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 12%;
+            top: 310px;
+        }
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    #main-slider .active #v21 {
+        width: 290px;
+        height: 120px;
+        background: url(../images/slider/v212.png) no-repeat;
+        position: absolute;
+        top: 380px;
+        left: 17%;
+        animation: v21 2s;
+        -moz-animation: v21 2s;
+        -0-animation: v21 2s;
+        -webkit-animation: v21 2s;
+    }
+    @keyframes v21 {
+        from {
+            left: -1%;
+            top: 380px;
+        }
+        to {
+            left: 17%;
+            top: 380px;
+        }
+    }
+    @-moz-keyframes v21 {
+        from {
+            left: -1%;
+            top: 380px;
+        }
+        to {
+            left: 17%;
+            top: 380px;
+        }
+    }
+    @-o-keyframes v21 {
+        from {
+            left: -1%;
+            top: 380px;
+        }
+        to {
+            left: 17%;
+            top: 380px;
+        }
+    }
+    @-webkit-keyframes v21 {
+        from {
+            left: -1%;
+            top: 380px;
+        }
+        to {
+            left: 17%;
+            top: 380px;
+        }
+    }
+}
+@media media(min-width: 501px) and (max-width: 1100px) {
+    #main-slider .active #v21 {
+        width: 310px;
+        height: 120px;
+        background: url(../images/slider/v212.png) no-repeat;
+        position: absolute;
+        top: 8px;
+        left: 15%;
+        animation: v21 2s;
+        -moz-animation: v21 2s;
+        -0-animation: v21 2s;
+        -webkit-animation: v21 2s;
+    }
+    @keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 15%;
+            top: 310px;
+        }
+    }
+    @-moz-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 15%;
+            top: 310px;
+        }
+    }
+    @-o-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 15%;
+            top: 310px;
+        }
+    }
+    @-webkit-keyframes v21 {
+        from {
+            left: -1%;
+            top: 310px;
+        }
+        to {
+            left: 15%;
+            top: 310px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    #main-slider .active #phc {
+        width: 350px;
+        height: 200px;
+        background: url(../images/slider/phc2.png) no-repeat;
+        position: absolute;
+        top: 12px;
+        left: 63%;
+        animation: phc 2s;
+        -moz-animation: phc 2s;
+        -0-animation: phc 2s;
+        -webkit-animation: phc 2s;
+    }
+    @keyframes phc {
+        from {
+            left: 110%;
+            top: 12px;
+        }
+        to {
+            left: 63%;
+            top: 12px;
+        }
+    }
+    @-moz-keyframes phc {
+        from {
+            left: 110%;
+            top: 12px;
+        }
+        to {
+            left: 63%;
+            top: 12px;
+        }
+    }
+    @-o-keyframes phc {
+        from {
+            left: 110%;
+            top: 12px;
+        }
+        to {
+            left: 63%;
+            top: 12px;
+        }
+    }
+    @-webkit-keyframes phc {
+        from {
+            left: 110%;
+            top: 12px;
+        }
+        to {
+            left: 63%;
+            top: 12px;
+        }
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    #main-slider .active #phc {
+        width: 350px;
+        height: 200px;
+        background: url(../images/slider/phc2.png) no-repeat;
+        position: absolute;
+        top: 13px;
+        left: 66%;
+        animation: phc 2s;
+        -moz-animation: phc 2s;
+        -0-animation: phc 2s;
+        -webkit-animation: phc 2s;
+    }
+    @keyframes phc {
+        from {
+            left: 110%;
+            top: 13px;
+        }
+        to {
+            left: 66%;
+            top: 13px;
+        }
+    }
+    @-moz-keyframes phc {
+        from {
+            left: 110%;
+            top: 13px;
+        }
+        to {
+            left: 66%;
+            top: 13px;
+        }
+    }
+    @-o-keyframes phc {
+        from {
+            left: 110%;
+            top: 13px;
+        }
+        to {
+            left: 66%;
+            top: 13px;
+        }
+    }
+    @-webkit-keyframes phc {
+        from {
+            left: 110%;
+            top: 13px;
+        }
+        to {
+            left: 66%;
+            top: 13px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #main-slider .active #drivefx {
+        width: 200px;
+        height: 170px;
+        background: url(../images/slider/drivefx2.png) no-repeat;
+        position: absolute;
+        top: 340px;
+        left: 6%;
+        animation: drivefx 2s;
+        -moz-animation: drivefx 2s;
+        -0-animation: drivefx 2s;
+        -webkit-animation: drivefx 2s;
+    }
+    @keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 6%;
+            top: 340px;
+        }
+    }
+    @-moz-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 6%;
+            top: 340px;
+        }
+    }
+    @-o-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 6%;
+            top: 340px;
+        }
+    }
+    @-webkit-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 6%;
+            top: 340px;
+        }
+    }
+}
+@media(min-width: 401px) and (max-width: 1100px) {
+    #main-slider .active #drivefx {
+        width: 200px;
+        height: 170px;
+        background: url(../images/slider/drivefx.png) no-repeat;
+        position: absolute;
+        top: 340px;
+        left: 8%;
+        animation: drivefx 2s;
+        -moz-animation: drivefx 2s;
+        -0-animation: drivefx 2s;
+        -webkit-animation: drivefx 2s;
+    }
+    @keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 8%;
+            top: 340px;
+        }
+    }
+    @-moz-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 8%;
+            top: 340px;
+        }
+    }
+    @-o-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 8%;
+            top: 340px;
+        }
+    }
+    @-webkit-keyframes drivefx {
+        from {
+            left: -1%;
+            top: 340px;
+        }
+        to {
+            left: 8%;
+            top: 340px;
+        }
+    }
+}
+
+/* ---------------------- */
+@media (max-width: 600px) {
+    #novoscanais h1 {
+        margin-top: 190px;
+        font-size: 50px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 400px) {
+    #novoscanais h1 {
+        margin-top: 194px;
+        font-size: 40px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 600px) {
+    #contactos h1 {
+        margin-top: 30%;
+        margin-left:22%;
+        font-size: 50px;
+        float: left;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 400px) {
+    #contactos h1 {
+        margin-top: 30%;
+        margin-left:22%;
+        font-size: 50px;
+        float: left;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 800px) {
+    #ERP {
+        background: #000 url(../images/PHC/solucoes/gestão_ERP.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #ERP {
+        background: #000 url(../images/PHC/solucoes/gestão_ERP.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #ERP {
+        background: #000 url(../images/PHC/solucoes/gestão_ERP.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 800px) {
+    #Financeira {
+        background: #000 url(../images/PHC/solucoes/financeira.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #Financeira {
+        background: #000 url(../images/PHC/solucoes/financeira.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #Financeira {
+        background: #000 url(../images/PHC/solucoes/financeira.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 800px) {
+    #RH {
+        background: #000 url(../images/PHC/solucoes/recursos_humanos.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #RH {
+        background: #000 url(../images/PHC/solucoes/recursos_humanos.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #RH {
+        background: #000 url(../images/PHC/solucoes/recursos_humanos.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #SuporteT {
+        background: #000 url(../images/PHC/solucoes/suporte_técnico.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #SuporteT {
+        background: #000 url(../images/PHC/solucoes/suporte_técnico.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #SuporteT {
+        background: #000 url(../images/PHC/solucoes/suporte_técnico.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #CRM {
+        background: #000 url(../images/PHC/solucoes/CRM.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #CRM {
+        background: #000 url(../images/PHC/solucoes/CRM.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #CRM {
+        background: #000 url(../images/PHC/solucoes/CRM.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #frota {
+        background: #000 url(../images/PHC/solucoes/frota.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #frota {
+        background: #000 url(../images/PHC/solucoes/frota.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #frota {
+        background: #000 url(../images/PHC/solucoes/frota.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #Equipas_Projetos {
+        background: #000 url(../images/PHC/solucoes/equipas_projetos.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #Equipas_Projetos {
+        background: #000 url(../images/PHC/solucoes/equipas_projetos.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #Equipas_Projetos {
+        background: #000 url(../images/PHC/solucoes/equipas_projetos.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #Industria_producao {
+        background: #000 url(../images/PHC/solucoes/industria_producao.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #Industria_producao {
+        background: #000 url(../images/PHC/solucoes/industria_producao.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #Industria_producao {
+        background: #000 url(../images/PHC/solucoes/industria_producao.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #logistica_distribuicao {
+        background: #000 url(../images/PHC/solucoes/logistica_distribuicao.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #logistica_distribuicao {
+        background: #000 url(../images/PHC/solucoes/logistica_distribuicao.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #logistica_distribuicao {
+        background: #000 url(../images/PHC/solucoes/logistica_distribuicao.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #restauracao {
+        background: #000 url(../images/PHC/solucoes/restauração.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #restauracao {
+        background: #000 url(../images/PHC/solucoes/restauração.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #restauracao {
+        background: #000 url(../images/PHC/solucoes/restauração.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #retalho {
+        background: #000 url(../images/PHC/solucoes/retalho.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #construcao_civil {
+        background: #000 url(../images/PHC/solucoes/construcao_civil.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #construcao_civil {
+        background: #000 url(../images/PHC/solucoes/construcao_civil.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #construcao_civil {
+        background: #000 url(../images/PHC/solucoes/construcao_civil.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #clinicas {
+        background: #000 url(../images/PHC/solucoes/clinicas.png);
+        margin-top: -100px;
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 600px) {
+    #clinicas {
+        background: #000 url(../images/PHC/solucoes/clinicas.png);
+        margin-top: 0px;
+        height: 160px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #clinicas {
+        background: #000 url(../images/PHC/solucoes/clinicas.png);
+        margin-top: 0px;
+        height: 170px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #portafolio h1 {
+        margin-top: 190px;
+        font-size: 55px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 400px) {
+    #portafolio h1 {
+        margin-top: 190px;
+        font-size: 45px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+
+@media (max-width: 1050px) {
+    #drivefx2 {
+        background: #000 url(../images/driverfx/drive-fx.png);
+        height: 260px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1200px) {
+    #drivefx2 {
+        background: #000 url(../images/driverfx/drive-fx2.png);
+        height: 310px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 501px) and (max-width: 1050px) {
+    #drivefx2 {
+        background: #000 url(../images/driverfx/drive-fx2.png);
+        height: 250px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    #drivefx2 {
+        background: #000 url(../images/driverfx/drive-fx3.png);
+        height: 340px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (max-width: 400px) {
+    #drivefx2 {
+        background: #000 url(../images/driverfx/drive-fx3.png);
+        height: 290px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1050px) {
+    #phccs {
+        background: transparent url(../images/slider/phc_cs2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1200px) {
+    #phccs {
+        background: transparent url(../images/slider/phc_cs2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    #phccs {
+        background: transparent url(../images/slider/phc_cs2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 400px) {
+    #phccs {
+        background: transparent url(../images/slider/phc_cs2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 1000px) {
+    #msj_success {
+        background: #000 url(../images/slider/bg4.jpg);
+        height: 390px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #msj_success h1 {
+        margin-top: 20px;
+        font-size: 25px;
+        float: left;
+        text-shadow: 8px 8px 8px #000;
+        width: 200px;
+        height: 100px;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+    #msj_success img {
+        width: 150px;
+        height: 220px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 600px) {
+    #msj_success {
+        background: #000 url(../images/slider/bg4.jpg);
+        height: 390px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #msj_success h1 {
+        margin-top: 20px;
+        font-size: 25px;
+        float: left;
+        text-shadow: 8px 8px 8px #000;
+        width: 200px;
+        height: 100px;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+    #msj_success img {
+        width: 150px;
+        height: 220px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+@media (max-width: 400px) {
+    #msj_success {
+        background: #000 url(../images/slider/bg4.jpg);
+        height: 400px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #msj_success h1 {
+        margin-top: 84px;
+        font-size: 25px;
+        float: left;
+        width: 150px;
+        height: 100px;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+    #msj_success img {
+        width: 150px;
+        height: 220px;
+        float: right;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: zoomIn 900ms linear 1000ms both;
+        -moz-animation: zoomIn 900ms linear 1000ms both;
+        -o-animation: zoomIn 900ms linear 1000ms both;
+        -ms-animation: zoomIn 900ms linear 1000ms both;
+        animation: zoomIn 900ms linear 1000ms both;
+    }
+}
+
+@media (max-width: 1050px) {
+    #soluti {
+        background: #000 url(../images/services/programacao.jpg);
+        height: 260px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1200px) {
+    #soluti {
+        background: #000 url(../images/services/programacao.jpg);
+        height: 310px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    #soluti {
+        background: #000 url(../images/services/programacao.jpg);
+        height: 340px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (max-width: 400px) {
+    #soluti {
+        background: #000 url(../images/services/programacao.jpg);
+        height: 290px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    .soluti {
+        margin-left: 0px;
+        margin-top: 100px;
+        width: 300px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .soluti h1 {
+        float: left;
+        font-size: 35px;
+        margin-top: 10px;
+        color: #84B7D9;
+        -webkit-animation: fadeInDown 200ms linear 500ms both;
+        -moz-animation: fadeInDown 200ms linear 500ms both;
+        -o-animation: fadeInDown 200ms linear 500ms both;
+        -ms-animation: fadeInDown 200ms linear 500ms both;
+        animation: fadeInDown 200ms linear 500ms both;
+    }
+    .soluti h2 {
+        float: left;
+        text-align: justify;
+        font-size: 18px;
+        margin-top: 5px;
+        color: #fff;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: fadeInUp 300ms linear 1100ms both;
+        -moz-animation: fadeInUp 300ms linear 1100ms both;
+        -o-animation: fadeInUp 300ms linear 1100ms both;
+        -ms-animation: fadeInUp 300ms linear 1100ms both;
+        animation: fadeInUp 300ms linear 1100ms both;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    .soluti {
+        margin-left: 0px;
+        margin-top: 250px;
+        width: 500px;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .soluti h1 {
+        float: left;
+        font-size: 45px;
+        margin-top: 10px;
+        color: #84B7D9;
+        -webkit-animation: fadeInDown 200ms linear 500ms both;
+        -moz-animation: fadeInDown 200ms linear 500ms both;
+        -o-animation: fadeInDown 200ms linear 500ms both;
+        -ms-animation: fadeInDown 200ms linear 500ms both;
+        animation: fadeInDown 200ms linear 500ms both;
+    }
+    .soluti h2 {
+        float: left;
+        text-align: justify;
+        font-size: 30px;
+        margin-top: 5px;
+        color: #fff;
+        text-shadow: 8px 8px 8px #000;
+        -webkit-animation: fadeInUp 300ms linear 1100ms both;
+        -moz-animation: fadeInUp 300ms linear 1100ms both;
+        -o-animation: fadeInUp 300ms linear 1100ms both;
+        -ms-animation: fadeInUp 300ms linear 1100ms both;
+        animation: fadeInUp 300ms linear 1100ms both;
+    }
+}
+@media (min-width: 100px) and (max-width: 700px) {
+    .hdg {
+        display: none !important;
+    }
+    .hdg3 {
+        display: none !important;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    .hdg {
+        display: none !important;
+    }
+    .hdg2 {
+        display: none !important;
+    }
+}
+@media (min-width: 1201px) {
+    .hdg2 {
+        display: none !important;
+    }
+    .hdg3 {
+        display: none !important;
+    }
+}
+@media (max-width: 700px) {
+    .btn-down5 {
+        position: absolute;
+        width: auto;
+        height: 50px;
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+        border: 2px solid #84B7D9;
+        background: #fff;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    #ouro {
+        background: url(../images/services/NCOuro2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .ouro h4 {
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    #ouro {
+        background: url(../images/services/NCOuro2.jpg);
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .ouro h4 {
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    #oficinas {
+        background: url(../images/services/NCOficina2.jpg);
+        margin-top: 0px;
+        min-height: 60vh;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .oficinas h4 {
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    #oficinas {
+        background: url(../images/services/NCOficina2.jpg);
+        margin-top: -100px;
+        min-height: 70vh;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .oficinas h4 {
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    #demo {
+        margin-top: 0px;
+        background: #000 url(../images/services/bg_services.png);
+        background-size: cover;
+        height: auto;
+    }
+    #demo .tc {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    #demo {
+        margin-top: 0px;
+        background: #000 url(../images/services/bg_services.png);
+        background-size: cover;
+        height: auto;
+    }
+    #demo .tc {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    #func .tc {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+/* Media queries */
+@media(min-width:767px) {
+
+    .intro-text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .top-bar {
+        z-index: 100;
+        background: #000;
+        font-size: 12px;
+    }
+}
+@media (max-width: 700px) {
+    .top-bar {
+        z-index: 100;
+        background: #000;
+        font-size: 12px;
+    }
+}

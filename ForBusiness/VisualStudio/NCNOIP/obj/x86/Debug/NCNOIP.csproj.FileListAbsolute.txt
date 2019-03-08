@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCNOIP\bin\Debug\NCNOIP.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCNOIP\bin\Debug\NCNOIP.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCNOIP\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCNOIP\obj\x86\Debug\NCNOIP.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\NCNOIP\obj\x86\Debug\NCNOIP.pdb

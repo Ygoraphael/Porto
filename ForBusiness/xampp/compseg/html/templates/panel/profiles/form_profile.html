@@ -1,0 +1,65 @@
+<form class="form" name="profile">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel4"><i class="icon-office"></i> {{TITLE}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-body">
+                    <h4 class="form-section">%%Basic Info%%</h4>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="projectinput1">%%Name%%</label>
+                                <input type="text" id="projectinput1" required class="form-control" placeholder="%%Name%%" name="name" value="{{PROFILE->NAME}}">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BEGIN BLOCK_MONITORS -->
+                    <div class="row">
+                        <!-- BEGIN BLOCK_MONITOR -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <label><b>{{MONITOR->DESCRIPTION}}</b></label>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <label class="display-inline-block custom-control custom-radio ml-1">
+                                                <input type="radio" name="profilemonitor[{{MONITOR->ID}}]" {{permission_true}} value="1" class="custom-control-input">
+                                                <span class="custom-control-indicator"></span>
+                                                <span class="custom-control-description ml-0">%%Yes%%</span>
+                                            </label>
+                                            <label class="display-inline-block custom-control custom-radio">
+                                                <input type="radio" name="profilemonitor[{{MONITOR->ID}}]" {{permission_false}} value="0" class="custom-control-input">
+                                                <span class="custom-control-indicator"></span>
+                                                <span class="custom-control-description ml-0">%%No%%</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCK_MONITOR -->
+                    </div>
+                    <!-- END BLOCK_MONITORS -->
+                    <div class="modal-footer">
+                        <input type="hidden" name="id" value="{{PROFILE->ID}}">
+                        <div class="row">
+                            <button type="button" class="btn btn-warning mr-1" data-dismiss="modal">
+                                <i class="icon-cross2"></i> %%Cancel%%
+                            </button>
+                            <button type="submit" class="btn btn-success {{action}}">
+                                <i class="icon-check2"></i> %%Save%%
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div
+    </div>
+</form>

@@ -1,0 +1,270 @@
+.menuitemsel {
+	color:white !important;
+}
+.menunavsel {
+	color:orange !important;
+}
+.size-11 { font-size: 11px; margin-top:4px;}
+.size-12 { font-size: 18px;}
+.size-13 { font-size: 2rem;}
+ul { list-style-type: none; }
+.valign-middle { padding-top:0.4rem; }
+.text001 { color:black; font-size:19px; }
+.text002 { color:orange; font-size:19px; }
+.text003 { color:gray; font-size:14px; }
+.text004 { color:gray; font-size:10px; }
+.nomargin { margin:0; }
+.nopadding { padding:0; }
+.button_padding001 { width:80%; padding:0.2rem 1rem 0.2rem 1rem; font-size:0.8rem;}
+.paneldash { padding:0.5rem 1rem 0rem 1rem; border-radius: 5px;}
+.progress-bar {
+  height: 25px;
+  padding: 5px;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #444;
+  -webkit-box-shadow: 0 1px 1px #000 inset, 0 1px 0 #444;
+  box-shadow: 0 1px 1px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+  display: inline-block;
+  height: 100%;
+  background-color: #777;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  -webkit-transition: width .4s ease-in-out;
+  -moz-transition: width .4s ease-in-out;
+  -ms-transition: width .4s ease-in-out;
+  -o-transition: width .4s ease-in-out;
+  transition: width .4s ease-in-out;
+}
+
+/*---------------------------*/			
+		
+
+.blue span { background-color: #34c2e3; }
+
+.orange span {
+  background-color: #fecf23;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fecf23), to(#fd9215));
+  background-image: -webkit-linear-gradient(top, #fecf23, #fd9215);
+  background-image: -moz-linear-gradient(top, #fecf23, #fd9215);
+  background-image: -ms-linear-gradient(top, #fecf23, #fd9215);
+  background-image: -o-linear-gradient(top, #fecf23, #fd9215);
+  background-image: linear-gradient(top, #fecf23, #fd9215);
+}
+
+.green span {
+  background-color: #a5df41;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5df41), to(#4ca916));
+  background-image: -webkit-linear-gradient(top, #a5df41, #4ca916);
+  background-image: -moz-linear-gradient(top, #a5df41, #4ca916);
+  background-image: -ms-linear-gradient(top, #a5df41, #4ca916);
+  background-image: -o-linear-gradient(top, #a5df41, #4ca916);
+  background-image: linear-gradient(top, #a5df41, #4ca916);
+}
+
+.red span {
+  background-color: #f26868;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f26868), to(#e61515));
+  background-image: -webkit-linear-gradient(top, #f26868, #e61515);
+  background-image: -moz-linear-gradient(top, #f26868, #e61515);
+  background-image: -ms-linear-gradient(top, #f26868, #e61515);
+  background-image: -o-linear-gradient(top, #f26868, #e61515);
+  background-image: linear-gradient(top, #f26868, #e61515);
+}
+
+/*---------------------------*/		
+		
+
+.stripes span {
+  -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  background-size: 30px 30px;
+  background-image: -webkit-gradient(linear, left top, right bottom,  color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),  color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),  color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),  to(transparent));
+  background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,  transparent 75%, transparent);
+  background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,  transparent 75%, transparent);
+  background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,  transparent 75%, transparent);
+  background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,  transparent 75%, transparent);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,  transparent 75%, transparent);
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+}
+ @-webkit-keyframes 
+animate-stripes {  0% {
+background-position: 0 0;
+}
+100% {
+background-position: 60px 0;
+}
+}
+ @-moz-keyframes 
+animate-stripes {  0% {
+background-position: 0 0;
+}
+100% {
+background-position: 60px 0;
+}
+}
+
+/*---------------------------*/	 
+
+
+.shine span { position: relative; }
+
+.shine span::after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-animation: animate-shine 2s ease-out infinite;
+  -moz-animation: animate-shine 2s ease-out infinite;
+}
+ @-webkit-keyframes 
+animate-shine {  0% {
+opacity: 0;
+width: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 0;
+width: 95%;
+}
+}
+ @-moz-keyframes 
+animate-shine {  0% {
+opacity: 0;
+width: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 0;
+width: 95%;
+}
+}
+
+/*---------------------------*/	 
+		
+
+.glow span {
+  -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+  -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+  box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+  -webkit-animation: animate-glow 1s ease-out infinite;
+  -moz-animation: animate-glow 1s ease-out infinite;
+}
+ @-webkit-keyframes 
+animate-glow {  0% {
+-webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+}
+ 50% {
+-webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;
+}
+ 100% {
+-webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+}
+}
+ @-moz-keyframes 
+animate-glow {  0% {
+	-moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+	}
+	 50% {
+	-moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;
+	}
+	 100% {
+	-moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+	}
+}
+
+
+
+/*----------- INI LIVE SEARCH----------------*/
+.live-search-wrap {
+  position: relative;
+}
+
+.live-search-wrap input[type=text] {
+  width: 100%;
+}
+
+.live-search-wrap div.live-search {
+  background: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  top: 40px;
+  z-index: 99;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  transition: all 0.1s ease-out;
+  border: 1px solid white;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.live-search-wrap div.live-search h2 {
+  font-weight: bold;
+  padding: 10px 10px 5px;
+}
+
+.live-search-wrap div.live-search ul {
+  margin: 0;
+  list-style: none;
+}
+
+.live-search-wrap div.live-search ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.search_line:hover {
+	background: rgb(249, 249, 249);
+}
+
+.live-search-wrap div.live-search ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.live-search-wrap div.live-search nav {
+  padding: 5px 10px;
+}
+
+.live-search-wrap div.live-search nav a {
+  float: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+.live-search-wrap div.live-search nav a[rel=next] {
+  float: right;
+}
+
+.live-search-wrap div.live-search:empty {
+  height: 0;
+  box-shadow: none;
+}
+/*-----------FIN LIVE SEARCH----------------*/

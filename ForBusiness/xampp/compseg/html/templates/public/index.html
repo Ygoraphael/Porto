@@ -1,0 +1,249 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <title>{{title}}</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_landing.css">
+        <!-- Custom styles for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/landing-page.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>	
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/images/favicon/manifest.json">
+        <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+        <!-- font icons-->
+        <link rel="stylesheet" type="text/css" href="/assets/fonts/icomoon.css">
+        <link rel="stylesheet" type="text/css" href="/assets/fonts/flag-icon-css/css/flag-icon.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/vendors/css/extensions/pace.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-formhelpers.css">
+        <script src="/assets/js/bootstrap-formhelpers.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <style> .url { display:none; } </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" style="margin:0;">
+            <div class="container">
+                <div class="navbar-header navbar-right">
+                    <a style="margin:0; padding:0;" href="/pt"><img src="/assets/images/pt_flag.png" style="max-height:50px" /></a>
+                    <a style="margin:0; padding:0;" href="/es"><img src="/assets/images/es_flag.png" style="max-height:50px" /></a>
+                </div>
+            </div>
+        </nav>
+        <div class="intro-header" style="padding-top:0px;">
+            <div class="container">
+                <!-- BEGIN BLOCK_MESSAGE -->
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                        <div class="alert alert-{{TYPE_CLASS}} mb-2" role="alert" >
+                            <strong>{{TYPE}}</strong> {{MESSAGE}}
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END BLOCK_MESSAGE -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message">
+                            <img style="max-height:150px" alt="I CHOOSE SAFETY" src="/assets/images/logo_branco_vertical.png" class="brand-logo">
+                            <!-- BEGIN BLOCK_BOTPT -->
+                            <h3>%%Safety in your hand%%</h3>
+                            <!-- END BLOCK_BOTPT -->
+                            <!-- BEGIN BLOCK_BOTES -->
+                            <h3>Seguridad en su mano</h3>
+                            <!-- END BLOCK_BOTES -->
+                            <hr class="intro-divider">
+                            <div class="login-page">
+                                <div class="form">
+                                    <form class="form-horizontal form-simple login-form" action="/login/logInTo" novalidate method="post">
+                                        <input class="text-center" name="username" id="user-name" type="text" placeholder="Email ou Código" autocomplete="off" />
+                                        <input class="text-center" name="password" id="user-password" type="password" placeholder="Senha" autocomplete="off" />
+                                        <fieldset class="form-group row">
+                                            <div class="col-xs-2">
+                                                <input type="checkbox" value="remember-me" id="remember_me" class="chk-remember">
+                                            </div>
+                                            <div class="col-md-6 col-xs-12 text-xs-center text-md-right">
+                                                <!-- BEGIN BLOCK_REMPT -->
+                                                <a>Lembrar-me</a>
+                                                <!-- END BLOCK_REMPT -->
+                                                <!-- BEGIN BLOCK_REMES -->
+                                                <a>Recuérdame</a>
+                                                <!-- END BLOCK_REMES -->
+                                            </div>
+                                        </fieldset>
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block btn-login"><i class="icon-unlock2"></i> ENTRAR</button>
+                                        <!-- BEGIN BLOCK_DEMOTOPPT -->
+                                        <a data-goto="#demoid" class="btn btn-danger btn-lg btn-block btn-login scr">Solicite um acesso demo</a>
+                                        <!-- END BLOCK_DEMOTOPPT -->
+                                        <!-- BEGIN BLOCK_DEMOTOPES -->
+                                        <a data-goto="#demoid" class="btn btn-danger btn-lg btn-block btn-login scr">Solicito un acceso demo</a>
+                                        <!-- END BLOCK_DEMOTOPES -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a  name="services"></a>
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="clearfix"></div>
+                        <!-- BEGIN BLOCK_TEXTPT -->
+                        <p class="lead text-justify">A implementação de uma cultura de segurança nas organizações exige rotinas de segurança.</p>
+                        <p class="lead text-justify">As rotinas de segurança exigem mecanismos de gestão para que não sejam apenas intenções.</p>
+                        <p class="lead text-justify">A plataforma "I Choose Safety" permite a gestão digital de iniciativas como Safety Walks, Diálogos de Segurança ou Observações de Segurança.</p>
+                        <p class="lead text-justify">Para que o tempo das pessoas seja aplicado no que verdadeiramente importa: alterar a cultura organizacional em prol da segurança.</p>
+                        <!-- END BLOCK_TEXTPT -->
+                        <!-- BEGIN BLOCK_TEXTES -->
+                        <p class="lead text-justify">La implementación de una cultura preventiva en las empresas exige rutinas de seguridad.</p>
+                        <p class="lead text-justify">Las rutinas de seguridad necesitan mecanismos de gestión para que no sean apenas intenciones.</p>
+                        <p class="lead text-justify">La plataforma "I Choose Safety" permite la gestión digital de iniciativas como Safety Walks (Paseos de Seguridad), Dialogos de Seguridad u Observaciones de Seguridad.</p>
+                        <p class="lead text-justify">Para que el tiempo de las personas sea utilizado en donde verdaderamente importa: alterar la cultura organizacional en pro de la seguridad.</p>
+                        <!-- END BLOCK_TEXTES -->
+
+                        <div class="clearfix" style="padding:10px; background-color: rgba(142, 188, 226, 0.3);">
+                            <!-- BEGIN BLOCK_FILEFORMPT -->
+                            <p class="lead text-justify"><b>Disponibilizamos 2 exemplos de rotinas de segurança, suportadas pela plataforma I Choose Safety:</b></p>
+                            <a class="" onclick="$('#fileType').val(1)" data-toggle="collapse" href="#collapseDownload" role="button" aria-expanded="false" aria-controls="collapseDownload">
+                                Diálogos de Segurança (PDF)
+                            </a>
+                            <p class="lead text-justify">Se queremos que todos conversem sobre segurança, é necessário criar uma rotina.</p>
+                            <a class="" onclick="$('#fileType').val(2)" data-toggle="collapse" href="#collapseDownload" role="button" aria-expanded="false" aria-controls="collapseDownload">
+                                Observações de Segurança (PDF)
+                            </a>
+                            <p class="lead text-justify">A segurança aumenta se tivermos mais pessoas, fora do departamento de segurança, atentas à segurança.</p>
+                            <!-- END BLOCK_FILEFORMPT -->
+
+                            <!-- BEGIN BLOCK_FILEFORMES -->
+                            <p class="lead text-justify"><b>Disponemos de 2 ejemplos de rutinas de seguridad, apoyadas por la plataforma I Choose Safety:</b></p>
+                            <a class="" onclick="$('#fileType').val(3)" data-toggle="collapse" href="#collapseDownload" role="button" aria-expanded="false" aria-controls="collapseDownload">
+                                Charlas de Seguridad (PDF)
+                            </a>
+                            <p class="lead text-justify">Si queremos que todos conversem sobre seguridad, es necesario crear una rutina.</p>
+                            <a class="" onclick="$('#fileType').val(4)" data-toggle="collapse" href="#collapseDownload" role="button" aria-expanded="false" aria-controls="collapseDownload">
+                                Observaciones de Seguridad (PDF)
+                            </a>
+                            <p class="lead text-justify">La seguridad aumenta si tenemos más personas, fuera del departamento de prevención atentas a la seguridad.</p>
+                            <!-- END BLOCK_FILEFORMES -->
+                            <div class="collapse" id="collapseDownload">
+                                <form method="POST" id="indexFileDownloadForm" role="form" >
+                                    <div class="form-group">
+                                        <input type="text" name="InputNome" class="form-control" required id="InputNome" placeholder="%%name%%" style="width:100%;" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="InputEmail1" class="form-control" required id="InputEmail1" placeholder="Email" style="width:100%;" />
+                                    </div>
+                                    <div class="g-recaptcha" data-sitekey="6LfIf00UAAAAAMcon5XORcA1AkMayBpBV5bOzoys"></div><br>
+                                    <input class="input url" id="urlDownload" placeholder="urlDownload" required>
+                                    <input class="input url" id="fileType" />
+                                    <center><button type="submit" class="btn btn-primary btn-lg btn-block btn-login">Download</button></center>
+                                </form>
+                            </div>
+                            <div id="ficheiro"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="/assets/images/ipad.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row" id="demoid">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <!-- BEGIN BLOCK_DEMOPT -->
+                        <h2 class="text-center">Solicite um acesso demo</h2>
+                        <form method="POST" id="demoForm" role="form" style="margin-top:35px">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="demo_nome" required placeholder="Nome" style="width:100%;">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="demo_email" required placeholder="Email" style="width:100%;">
+                            </div>
+                            <input class="input url" id="url" placeholder="url" required>
+                            <div class="g-recaptcha" data-sitekey="6LfIf00UAAAAAMcon5XORcA1AkMayBpBV5bOzoys"></div>
+                            <center><br><button type="submit" class="btn btn-primary btn-lg btn-block btn-login">ENVIAR</button></center>
+                        </form>
+                        <!-- END BLOCK_DEMOPT -->
+                        <!-- BEGIN BLOCK_DEMOES -->
+                        <h2 class="text-center">Solicito un acceso demo</h2>
+                        <form method="POST" id="demoForm" role="form" style="margin-top:35px">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="demo_nome" required placeholder="Nombre" style="width:100%;">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="demo_email" required placeholder="Email" style="width:100%;">
+                            </div>
+                            <input class="input url" id="url" placeholder="url" required>
+                            <div class="g-recaptcha" data-sitekey="6LfIf00UAAAAAMcon5XORcA1AkMayBpBV5bOzoys"></div>
+                            <center><br><button type="submit" class="btn btn-primary btn-lg btn-block btn-login">ENVIAR</button></center>
+                        </form>
+                        <!-- END BLOCK_DEMOES -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <p class="copyright text-muted"><i class="icon-phone2" ></i><span class="text-bold-800 grey darken-2" > 229 396 700  </span></p>
+                    <p class="copyright text-muted"><i class="icon-phone2" ></i><span class="text-bold-800 grey darken-2" > 211 212 170 </span></p>
+                    <p class="copyright text-muted"><i class="icon-fax" ></i><span class="text-bold-800 grey darken-2" > 229 396 709  </span></p>
+                    <p class="copyright text-muted"><i class="icon-house" ></i><span class="text-bold-800 grey darken-2" > RUA SOUSA AROSO, 556 4º ESQº, 4450-287 MATOSINHOS  </span></p>
+                    <p class="copyright text-muted small">&copy; 2017 <a href="https://ltm.pt" target="_blank" class="text-bold-800 grey darken-2">LTM Consultoria, Lda. </a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <style>
+        div.g-recaptcha {
+            margin: 0 auto;
+            width: 85%;
+        }
+    </style>
+    <script src="/assets/js/core/libraries/jquery.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/tether.min.js" type="text/javascript"></script>
+    <script src="/assets/js/core/libraries/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/unison.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/blockUI.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/jquery.matchHeight-min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/ui/screenfull.min.js" type="text/javascript"></script>
+    <script src="/assets/vendors/js/extensions/pace.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN ROBUST JS-->
+    <script src="/assets/js/core/app-menu.js" type="text/javascript"></script>
+    <script src="/assets/js/core/app.js" type="text/javascript"></script>
+    <script src="/assets/js/bootbox.min.js" type="text/javascript"></script>
+    <script src="/assets/js/surveyjs.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.ui.js" type="text/javascript"></script>
+    <script src="/assets/js/selectto/js/select2.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.validate.min.js"></script>
+    <script src="/assets/js/scripts.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay_progress.min.js"></script>
+</html>

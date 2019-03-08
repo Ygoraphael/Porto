@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Trebuchet MS', serif;
+	line-height: 1.6
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background-color:#DDD;
+	color: #555;
+	display: inline-block;
+	padding: 7px 35px;
+	cursor: pointer;
+	padding-top: 2px;
+
+}
+
+ul.tabs li.current{
+	background: #F30;
+	color: #EEE;
+	font-weight: bold;
+	padding: 7px 35px;
+	cursor: default;
+}
+
+.tab-content{
+	display: none;
+	background: #FFF;
+	padding: 0px;
+	border: 1px solid #F30;
+}
+
+.tab-content.current{
+	display: inherit;
+}

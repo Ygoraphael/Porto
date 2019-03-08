@@ -1,0 +1,11 @@
+<?php 
+	include("classes/medoo.min.php");
+	include("classes/slots.php");
+	include("classes/graph.php");
+	include("classes/table.php");
+	include("classes/label.php");
+	include("classes/button.php");
+	include("header.php");
+	include("body.php");
+	include("footer.php");
+?>

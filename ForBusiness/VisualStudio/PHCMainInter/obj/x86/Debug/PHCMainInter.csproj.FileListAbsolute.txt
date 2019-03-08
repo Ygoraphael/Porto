@@ -1,0 +1,5 @@
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\PHCMainInter\bin\Debug\PHCMainInter.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\PHCMainInter\bin\Debug\PHCMainInter.pdb
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\PHCMainInter\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\PHCMainInter\obj\x86\Debug\PHCMainInter.exe
+c:\users\tiago loureiro\documents\visual studio 2010\Projects\PHCMainInter\obj\x86\Debug\PHCMainInter.pdb

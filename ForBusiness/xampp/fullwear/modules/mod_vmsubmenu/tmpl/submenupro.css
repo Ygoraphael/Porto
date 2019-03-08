@@ -1,0 +1,149 @@
+/**
+ * @package		Joomla.Site
+ * @subpackage	mod_vmsubmenu
+ * @copyright	Copyright 2015 Linelab.org. All rights reserved.
+ */
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield{
+background: none; border: 0 none; left: auto; right: auto; top: auto; bottom: auto; clip: auto; height: auto; line-height: normal; list-style-type: none; box-shadow: none; box-sizing: border-box;
+float: none;
+font-family: inherit;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+min-height: 0;
+opacity: 1;
+outline: medium none;
+overflow: visible;
+padding: 0;
+position: relative;
+text-decoration: none;
+text-transform: none;
+transition: none 0s ease 0s;
+vertical-align: baseline;
+visibility: inherit;
+width: auto;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li li,#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li > ul.chield, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > li > ul.chield > li > ul.chield, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > li, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > p, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > img, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > div, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > a, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > span {
+background: none; border: 0 none; left: auto; right: auto; top: auto; bottom: auto; clip: auto; height: auto; line-height: normal; list-style-type: none; box-shadow: none; box-sizing: border-box;
+display: block;
+float: none;
+font-family: inherit;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+min-height: 0;
+opacity: 1;
+outline: medium none;
+overflow: visible;
+padding: 0;
+position: relative;
+text-align: left;
+text-decoration: none;
+text-transform: none;
+transition: none 0s ease 0s;
+vertical-align: baseline;
+visibility: inherit;
+width: auto;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > ul::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > li::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > p::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > img::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > div::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > a::before,
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > span::before, #menupro #linemenus ul > li.virtuemart-menu > ul.chield::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > ul::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > li::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > p::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > img::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > div::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > a::after, #menupro #linemenus ul > li.virtuemart-menu > ul.chield > span::after {
+display: none;
+}
+#menupro #linemenus ul > li.virtuemart-menu a > ul.chield {
+display: none;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield {
+display: none;
+}
+#menupro #linemenus ul > li.virtuemart-menu a:hover > ul.chield {
+display: block;
+}
+#menupro #linemenus ul > li.virtuemart-menu:hover > ul.chield {
+opacity: 1;
+position: absolute;
+display: block;
+padding: 0;
+margin: 0;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li {
+display: block;
+float: left;
+vertical-align: top;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li ul.chield {
+clear: both;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li ul.chield > li {
+width: 100%;
+}
+#menupro #linemenus ul table, #menupro #linemenus ul th, #menupro #linemenus ul td, #menupro #linemenus ul tr {
+background: none;
+border: 0 none;
+margin: 0;
+padding: 0;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield p {
+margin-bottom: 10px;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield img {
+max-width: 100%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield li.divider > a {
+cursor: default;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li a::before {
+color: inherit;
+display: inline-block;
+font-size: inherit;
+font-size-adjust: inherit;
+font-stretch: inherit;
+font-style: inherit;
+font-variant: inherit;
+font-weight: inherit;
+line-height: inherit;
+position: static;
+}
+#menupro #linemenus ul > li.virtuemart-menu {
+position: static;
+height: auto;
+margin: 0;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li a {
+cursor: pointer;
+display: block;
+font-family: inherit;
+outline: medium none;
+vertical-align: baseline;
+width: auto;
+border-radius: 0;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li ul.chield li ul.chield {
+margin-left: 10px;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li ul.chield li ul.chield li ul.chield {
+margin-left: 15px;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-1 {
+width: 100%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-2 {
+width: 50%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-3 {
+width: 33.3333%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-4 {
+width: 25%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-5 {
+width: 20%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-6 {
+width: 16.6667%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-7 {
+width: 14.2857%;
+}
+#menupro #linemenus ul > li.virtuemart-menu > ul.chield > li.labcol-8 {
+width: 12.5%;
+}

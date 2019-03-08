@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Dropdown List</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>dropdownlist</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/dropdownlist">
+            <file>dropdownlist.xml</file>
+            <file>dropdownlist.php</file>
+            <file>dropdownlist.css</file>
+            <file>dropdownlist.js</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+            <folder>images</folder>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="config" label="Config">
+            <field name="size"
+                   type="text"
+                   default="1"
+                   class="validate-numeric"
+                   label="COM_JUFORM_FIELD_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SIZE_DESC"
+            />
+
+            <field
+                    name="search_multiple"
+                    type="radio"
+                    default="1"
+                    class="btn-group"
+                    label="COM_JUFORM_FIELD_SEARCH_MULTIPLE_LABEL"
+                    description="COM_JUFORM_FIELD_SEARCH_MULTIPLE_DESC"
+            >
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="search_size"
+                   type="text"
+                   default="5"
+                   label="COM_JUFORM_FIELD_SEARCH_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SEARCH_SIZE_DESC"
+            />
+        </fieldset>
+    </config>
+</extension>

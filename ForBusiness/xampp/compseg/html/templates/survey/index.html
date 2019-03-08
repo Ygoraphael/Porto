@@ -1,0 +1,24 @@
+<form name="survey">
+    <div class="card">
+        <!-- BEGIN BLOCK_SURVEY -->
+        <div class="card-header">
+            <h5 class=""><span style="">  %%Survey%%</span></h5>
+            <select id="sector" name="sector" class="form-control">
+                <option disabled="" selected="">%%Select Sector%%</option>
+                <!-- BEGIN BLOCK_SECTOR -->
+                <option value="{{SECTOR->ID}}">{{SECTOR->NAME}}</option>
+                <!-- END BLOCK_SECTOR -->
+            </select>
+            <br>
+            <div id="surveyContainer"></div>
+            <input type="hidden" name="id" id="id" value="{{NOT_ID}}">
+            <input type="hidden" name="survey_content_answer" id="survey_content_answer" value="{{SURVEY_CONTENT}}">
+        </div>
+        <div class="panel-footer">
+            <button class="btn btn-success surveySubmit marginTopBottom15">
+                <i class="icon-check2"></i> %%Finish%%
+            </button>
+            <!-- END BLOCK_SURVEY -->
+        </div>
+    </div>
+</form>

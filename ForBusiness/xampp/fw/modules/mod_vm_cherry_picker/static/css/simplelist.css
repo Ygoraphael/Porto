@@ -1,0 +1,82 @@
+@import url("common.css");
+@import url("cptrackbar.css");
+
+.cp-filter-simplelist {position:relative;}
+.cp-maintitle {font:14px Arial;margin:4px 0;}
+.cp-group-parent { font:200 25px Helvetica,Arial;
+	margin:4px 0 10px 5px; text-align:center; }
+.cp-group-header, .cp-color-group-header, .cp-price-group-header, .cp-tbar-group-header {
+	font:bold 14px Arial;
+	padding:2px 0 2px 7px;margin:0; }
+.cp-group-header-manufacturer {
+	font:bold 14px Arial;
+	padding:2px 0 2px 7px; margin:0; }
+.cp-group-title, .cp-color-group-title, .cp-price-group-title, .cp-tbar-group-title {
+	font:20px Arial; color:#000000 !important; }
+.cp-group-header-state, .cp-price-group-header-state, .cp-tbar-group-header-state {
+	font:12px/24px 'Courier New'; color:#000000 !important; vertical-align:top; margin-right:7px;}
+.cp-collapse {cursor:pointer;}
+
+.cp-filter-group {padding:3px 0 15px;}
+.cp-tbar-filter-group {padding:10px 20px;}
+.cp-list {list-style:none;margin:0;padding:0px 3px 0px 3px;}
+.cp-list li {padding:1px 0;}
+
+.cp-padding-cont {padding:0 0 7px;}
+.cp-scroll-box {overflow-y:auto; -webkit-overflow-scrolling:touch; border-bottom:3px solid #FFFFFF;}
+.cp-scroll-box-bottom-line {height:1px;
+	background:-moz-linear-gradient(right, #EBF5FF 0%, #A2D1F2 50%, #FFFFFF 100%);
+	background:-webkit-linear-gradient(right, #EBF5FF 0%, #A2D1F2 50%, #FFFFFF 100%);
+	background:-o-linear-gradient(right, #EBF5FF 0%, #A2D1F2 50%, #FFFFFF 100%);
+	background:-ms-linear-gradient(right, #EBF5FF 0%, #A2D1F2 50%, #FFFFFF 100%);}
+
+.cp-filter-link {text-decoration:none;display:block;font:normal 12px Arial;padding-left:7px;color:#000000 !important;}
+.cp-filter-link:hover, .cp-filter-link:active {background:none !important}
+.cp-filter-link:hover .cp-filter-filter {text-decoration:underline;}
+.cp-filter-filter {vertical-align:middle;}
+.cp-filter-filter.selected {font-weight:bold;}
+.cp-filter-filter.unavailable {font:bold 12px Arial;color:#CCCCCC !important;}
+
+.cp-filter-checkbox {width:12px;height:12px;display:inline-block;vertical-align:middle;
+	background:transparent url('../img/ticks.png') no-repeat 0 0;}
+.cp-filter-checkbox.selected {background-position:0 -12px;}
+.cp-filter-link:hover .cp-filter-checkbox.selected {background-position:0 -36px;}
+.cp-filter-checkbox.unavailable {background-position:0 -24px;margin-left:7px;}
+
+.cp-filter-count {color:#AAAAAA !important;vertical-align:middle;}
+.cp-singfil-selected {font:bold 12px Arial;padding:5px 2px 2px 12px !important;display:block;}
+
+.cp-quickrefine-container {margin:5px 10px;}
+.cp-quickrefine-title {font:12px Arial; margin:0 0 3px;}
+.cp-quickrefine-field {border:1px solid #959595; box-shadow:0 1px 2px #D3D3D3 inset; cursor:text;
+	font: 12px Arial; list-style:none outside none; margin:0; overflow:hidden; padding:4px 2px 2px;
+	background:#FFFFFF;}
+.cp-quickrefine-field.active {border-color: #3D89E4;}
+.cp-quickrefine-input {border:none !important; font:13px Arial; color:#333333; height:16px; outline:none;}
+.cp-qr-field-layout-element {float:left; margin:2px 3px;}
+.cp-qr-field-filter {cursor:pointer; display:block; font:12px/14px Arial;
+	padding:1px 5px !important; box-shadow:1px 1px 2px #D5D5D5; border-radius:2px;
+	background:-moz-linear-gradient(top, #3C88E3, #2B71C5);
+	background:-webkit-linear-gradient(top, #3C88E3, #2B71C5);
+	background:-o-linear-gradient(top, #3C88E3, #2B71C5);
+	background:-ms-linear-gradient(top, #3C88E3, #2B71C5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3C88E3', endColorstr='#2B71C5');}
+.cp-qr-field-filter-name {color:#FFFFFF !important; vertical-align:middle; text-shadow:1px -1px #276ABB;}
+.cp-qr-field-filter-x {font:11px/14px monospace; color:#FFFFFF !important; vertical-align:middle;
+	padding:0 0 0 5px !important;}
+.cp-qr-field-filter:hover {
+	background:-moz-linear-gradient(top, #4587FF, #1B64FF);
+	background:-webkit-linear-gradient(top, #4587FF, #1B64FF);
+	background:-o-linear-gradient(top, #4587FF, #1B64FF);
+	background:-ms-linear-gradient(top, #4587FF, #1B64FF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4587FF', endColorstr='#1B64FF');}
+.cp-qr-match {background:#FFEC8E; color:#000000; border-radius:2px}
+.cp-qr-match-selected {background:#7BD6FF;}
+.cp-qr-popup {background:#FFB952; border:1px solid #9F7A43; box-shadow:2px 2px 4px rgba(0, 0, 0, 0.4);
+	font:12px Arial; text-align:left; padding:5px 10px; position:absolute;}
+.cp-qr-popup-arrow {position:absolute; left:12px; width:0; height:0; border:7px solid;}
+.cp-qr-popup-arrow-outer {border-color:#9F7A43 transparent transparent; bottom:-14px;}
+.cp-qr-popup-arrow-inner {border-color:#FFB952 transparent transparent; bottom:-13px;}
+.cp-qr-popup-key {font:9pt 'Courier New', monospace}
+.cp-qr-popup-filter {font-weight:bold; color:#FFFFFF; text-shadow:1px 1px 1px #6A4E03}
+.cp-qr-not-matched {opacity:0.5;}

@@ -1,0 +1,111 @@
+.header {
+	background: url(../images/j_header_middle_red.png) repeat-x 0 0;
+}
+#toolbar .btn-success {
+	/*width: 148px;*/
+	padding:2px 15px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #cc0001;
+	background-image: -moz-linear-gradient(top,#ee0000,#cc0001);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#ee0000),to(#cc0001));
+	background-image: -webkit-linear-gradient(top,#ee0000,#cc0001);
+	background-image: -o-linear-gradient(top,#ee0000,#cc0001);
+	background-image: linear-gradient(to bottom,#ee0000,#cc0001);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee0000', endColorstr='#ffcc0001', GradientType=0);
+	border-color: #cc0001 #cc0001 #920203;
+	*background-color: #cc0001;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-success {
+    background-color: #137baf;
+    background-image: linear-gradient(to bottom, #ee0000, #cc0001);
+    background-repeat: repeat-x;
+    border-color:  #cc0001 #cc0001 #920203;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {background-color: #137baf;color: #fff;border-color: #2a94c8 #066da1 #064768;}
+.btn-primary {
+    background-color: #cc0001;
+    background-image: linear-gradient(to bottom, #ee0000, #cc0001);
+    background-repeat: repeat-x;
+    border-color:  #cc0001 #cc0001 #920203;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {color: #fff;background-color: #cc0001;*background-color: #cc0001;}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {color: #fff;background-color: #cc0001;*background-color: #cc0001;}
+.btn-danger:active,
+.btn-danger.active {background-color: #cc0001 \9;
+}
+
+.sidebar-nav .nav-list > li.active > a ,.sidebar-nav .nav-list > li.active > a:hover{
+	background-color: #ee0000;}
+.chzn-color.chzn-single[rel="value_1"],
+.chzn-color-reverse.chzn-single[rel="value_0"],
+.chzn-color-state.chzn-single[rel="value_1"] {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #066da1;
+	background-image: -moz-linear-gradient(top,#2a94c8,#066da1);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#2a94c8),to(#066da1));
+	background-image: -webkit-linear-gradient(top,#2a94c8,#066da1);
+	background-image: -o-linear-gradient(top,#2a94c8,#066da1);
+	background-image: linear-gradient(to bottom,#2a94c8,#066da1);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2a94c8', endColorstr='#ff066da1', GradientType=0);
+	border-color: #2a94c8 #066da1 #064768;
+	*background-color: #066da1;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.sidebar-nav.quick-icons .nav-list > li > a {
+    color: #000;
+}
+
+.alert {background-color: #666;border: 1px solid #555;border-radius: 4px;margin-bottom: 18px;padding: 8px 35px 8px 14px;}
+.alert-info {background-color: #444;border-color: #000;color: #ccc;
+}
+.alert, .alert h4 {color:#fff;}
+.alert-info h4 {color: #ccc;
+}
+.label-important, .badge-important {background-color: #cc0001;}
+.alert {text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);}
+.chzn-container .chzn-results li.highlighted {
+  background-color: #ee0000;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #ee0000), color-stop(90%, #cc0001));
+  background-image: -webkit-linear-gradient(#ee0000 20%, #cc0001 90%);
+  background-image: -moz-linear-gradient(#ee0000 20%, #cc0001 90%);
+  background-image: -o-linear-gradient(#ee0000 20%, #cc0001 90%);
+  background-image: linear-gradient(#ee0000 20%, #cc0001 90%);
+  color: #fff;
+}
+.navbar-inverse .nav > li > a .icon-cog {
+    color: #cc0001;
+}
+#status.status-top {background: #a50505;}
+.j-links-groups .icon-pencil-2 {background: url('../images/header/icon-48-article-add_red.png') no-repeat;}
+.j-links-groups .icon-folder,.j-links-groups .icon-folder-open {background: url('../images/header/icon-48-category_red.png') no-repeat;}
+.j-links-groups .icon-pictures,
+.j-links-groups .icon-images {background: url('../images/header/icon-48-media_red.png') no-repeat;}
+.j-links-groups .icon-list,.j-links-groups .icon-list-view {background: url('../images/header/icon-48-menumgr_red.png') no-repeat;}
+.j-links-groups .icon-cube {background: url('../images/header/icon-48-module_red.png') no-repeat;}
+.j-links-groups .icon-users{background: url('../images/header/icon-48-user_red.png') no-repeat;}
+.j-links-groups .icon-cog {background: url('../images/header/icon-48-config_red.png') no-repeat;}
+.j-links-groups .icon-eye-open,.j-links-groups .icon-eye {background: url('../images/header/icon-48-themes_red.png') no-repeat;}
+.j-links-groups .icon-comments-2 {background: url('../images/header/icon-48-language_red.png') no-repeat;}
+#plg_quickicon_joomlaupdate .icon-joomla{display:block; background: url('../images/header/icon-48-jupdate-uptodate_red.png') no-repeat center center;}
+.j-links-groups .icon-asterisk,.j-links-groups .icon-star-empty {background: url('../images/header/icon-48-extension_red.png') no-repeat;}
+.j-links-groups .icon-download {background: url('../images/header/icon-48-installer_red.png') no-repeat;}

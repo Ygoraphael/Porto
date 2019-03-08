@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Cherry Picker</name>
+	<creationDate>January 2014</creationDate>
+	<author>Maksym Stefanchuk</author>
+	<authorEmail>admin|at|galt.md</authorEmail>
+	<authorUrl>http://www.galt.md</authorUrl>
+	<copyright>
+		Copyright (C) 2009-2014 Maksym Stefanchuk. All rights reserved.
+	</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<version>3.7</version>
+	<description>
+		<![CDATA[
+		<div style="text-align:center;font:23px Tahoma;color:black">
+			<span style="font-weight:bold;color:#00a606">Cherry Picker</span> <b>Product Types</b> &mdash; filter products by parameters.
+		</div>
+		<div style="font:18px Arial;margin:10px">
+			Installing CP for the first time? &mdash; You'll need to apply minor edits to Virtuemart's <b>product.php</b> file, or just replace it with appropriate copy which you can <a href="http://www.galt.md/index.php?option=com_blog&a=96&Itemid=84" target="_blank">get from here</a>.
+			<br/>
+			<br/>
+			For more helpful info visit our <a href="http://www.galt.md/faq" target="_blank">FAQ</a>.
+		</div>
+		]]>
+	</description>
+	<files>
+		<filename module="mod_vm_cherry_picker">mod_vm_cherry_picker.php</filename>
+		<filename>defines.php</filename>
+		<filename>index.php</filename>
+		<filename>assistOptions.php</filename>
+		<filename>index.html</filename>
+		<folder>ajax/</folder>
+		<folder>helpers/</folder>
+		<folder>static/</folder>
+		<folder>controllers/</folder>
+		<folder>models/</folder>
+		<folder>views/</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">lang/en-GB.mod_vm_cherry_picker.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_vm_cherry_picker/models/fields">
+				<field name="select_mode" type="radio" default="1" label="CP_CP_MODE" description="">
+					<option value="0">CP_CP_MODE_SINGLE</option>
+					<option value="1">CP_CP_MODE_MULTI</option>
+				</field>
+
+				<field name="layout" type="list" default="0" label="CP_LAYOUT" description="">
+					<option value="0">CP_LAYOUT_SIMPLELIST</option>
+					<option value="1">CP_LAYOUT_CHKBOX_LIST</option>
+					<option value="2">CP_LAYOUT_DROPDOWN</option>
+					<option value="3">CP_LAYOUT_SIMPLE_DROPDOWN</option>
+				</field>
+
+				<field name="display_mode" type="list" default="0" label="Show module" description="">
+					<option value="0">CP_AUTOMATIC</option>
+					<option value="1">CP_AUTOMATIC_VM</option>
+					<option value="2">CP_CUSTOM_PT</option>
+				</field>
+				<field name="ptids" type="producttypes" default=""
+					label="Product Types"
+					multiple="true" />
+
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Pre-text Options &lt;/span&gt;" />
+				<field name="title_type" type="list" default="1" label="CP_PRETEXT_TYPE" description="CP_PRETEXT_TYPE_DESC">
+					<option value="0">CP_NONE</option>
+					<option value="1">CP_PRETEXT_DYN</option>
+					<option value="2">CP_PRETEXT_STATIC</option>
+				</field>
+
+				<field name="static_title" type="textarea" cols="20" rows="1" default="Narrow your search with filters" label="CP_PRETEXT_STATIC_LABEL" description="CP_PRETEXT_STATIC_DESC" />
+				<field name="dynamic_title" type="textarea" cols="20" rows="1" default="Refine search in"
+					label="CP_PRETEXT_DYN_LABEL" description="CP_PRETEXT_DYN_DESC" />
+				<field name="show_pt_title" type="radio" class="btn-group" default="1" label="CP_SHOW_PT_TITLE" description="">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Hiding filters Options &lt;/span&gt;" />
+				<field name="hide_filters" type="radio" class="btn-group" default="0"
+					label="CP_HIDING_FILTERS" description="CP_HIDING_FILTERS_DESC">
+					<option value="0">CP_DO_NOT_HIDE</option>
+					<option value="1">CP_USE_SEEMORE</option>
+					<option value="2">CP_USE_SCROLL</option>
+				</field>
+
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:13px;font-style:italic;white-space:nowrap;&quot;&gt; See more.. Options &lt;/span&gt;" />
+
+				<field name="b4seemore" type="text" default="6" label="CP_SEEMORE_SHOWB4" size="5" />
+				<field name="seemore" type="text" default="See more.." size="40" label="CP_SEEMORE_SM" description="CP_SEEMORE_SM_DESC" />
+				<field name="seeless" type="text" default="See less.." size="40" label="CP_SEEMORE_SL" description="CP_SEEMORE_SL_DESC" />
+				<field name="smanchor" type="radio" default="0" label="CP_SEEMORE_ANCHOR" description="CP_SEEMORE_ANCHOR_DESC">
+					<option value="0">CP_TOP</option>
+					<option value="1">CP_BOTTOM</option>
+				</field>
+				<field name="smfadein" type="radio" class="btn-group" default="1"
+					label="CP_SEEMORE_FADEIN" description="CP_SEEMORE_FADEIN_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="use_seemore_ajax" type="radio" class="btn-group" default="0"
+					label="CP_SEEMORE_AJAX" description="CP_SEEMORE_AJAX_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:13px;font-style:italic;white-space:nowrap;&quot;&gt; Scroll Options &lt;/span&gt;" />
+
+				<field name="scroll_height" type="text" default="250" size="40" label="CP_SCROLL_HEIGHT" />
+
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Cherry Picker Multi's Options &lt;/span&gt;" />
+				<field name="show_clearlink" type="radio" class="btn-group" default="1"
+					label="CP_MULTIOPT_CLEAR" description="CP_MULTIOPT_CLEAR_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="clear" type="text" default="Clear" size="40" label="CP_SPECIFY_CLEAR" description="CP_SPECIFY_CLEAR_DESC" />
+				<field name="use_smartremove" type="radio" class="btn-group" default="1"
+					label="CP_MULTIOPT_SMARTSEARCH" description="CP_MULTIOPT_SMARTSEARCH_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Search by Price Options &lt;/span&gt;" />
+				<field name="use_price_search" type="radio" default="1" label="CP_SBP" description="CP_SBP_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="show_trackbar" type="radio"
+					class="btn-group"
+					default="0"
+					label="CP_SBP_SHOW_TRACKBAR"
+					description="CP_SBP_SHOW_TRACKBAR_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="price_position" type="radio"
+					default="0"
+					label="CP_SBP_POSITION"
+					description="CP_SBP_POSITION_DESC">
+					<option value="0">CP_SBP_ABOVE_FILTERS</option>
+					<option value="1">CP_SBP_BELOW_FILTERS</option>
+				</field>
+				<field name="pricetitle" type="text"
+					default="Price"
+					size="20"
+					label="CP_SBP_GROUP_TITLE"
+					description="CP_SBP_GROUP_TITLE_DESC" />
+				<field name="price_apply" type="text"
+					default="Apply price"
+					size="20"
+					label="CP_SBP_PRICE_APPLY"
+					description="" />
+				<field name="price_clear" type="text"
+					default="Clear"
+					size="20"
+					label="CP_SBP_PRICE_CLEAR"
+					description="" />
+				<field name="price_from" type="text"
+					default="FROM"
+					size="20"
+					label="CP_SBP_FROM"
+					description="" />
+				<field name="price_to" type="text"
+					default="TO"
+					size="20"
+					label="CP_SBP_TO"
+					description="" />
+				<field name="price_currency_sign" type="text"
+					default="$"
+					size="20"
+					label="CP_SBP_CURRENCY_SIGN"
+					description="" />
+
+				<field name="set_left_limit" type="radio" default="0" label="CP_SBP_LEFTLIM_TYPE" description="CP_SBP_LEFTLIM_TYPE_DESC">
+					<option value="0">CP_MANUALLY</option>
+					<option value="1">CP_AUTOMATICALLY</option>
+				</field>
+				<field name="price_left_limit" type="text" default="10" label="CP_SBP_LEFTLIM_VALUE" description="" />
+				<field name="set_right_limit" type="radio" default="1" label="CP_SBP_RIGHTLIM_TYPE" description="CP_SBP_RIGHTLIM_TYPE_DESC">
+					<option value="0">CP_MANUALLY</option>
+					<option value="1">CP_AUTOMATICALLY</option>
+				</field>
+				<field name="price_right_limit" type="text" default="100" label="CP_SBP_RIGHTLIM_VALUE" description="" />
+				<field name="show_price_limits" type="radio" default="1" label="CP_SBP_SHOW_LIMITS" description="CP_SBP_SHOW_LIMITS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="include_category_price_adjustment" type="radio" class="btn-group" default="0"
+					label="CP_INCLUDE_CATEGORY_PRICE_ADJUSTMENT" description="CP_INCLUDE_CATEGORY_PRICE_ADJUSTMENT_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="include_individual_price_adjustment" type="radio" default="0"
+					label="CP_INCLUDE_INDIVIDUAL_PRICE_ADJUSTMENT" description="CP_INCLUDE_INDIVIDUAL_PRICE_ADJUSTMENT_DESC">
+					<option value="0">No</option>
+					<option value="1">CP_INCLUDE_PRODUCT_ADJUSTMENTS</option>
+					<option value="2">CP_INCLUDE_MANUFACTURER_ADJUSTMENTS</option>
+				</field>
+<!--
+				<field name="include_tax" type="radio" class="btn-group" default="0"
+					label="CP_INCLUDE_TAX" description="CP_INCLUDE_TAX_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="tax" type="text" default="1.19" size="40" label="CP_TAX" description="CP_TAX_DESC" />
+-->
+<!--				<field name="tax2" type="sql" default="" label="Select Tax" multiple="false"
+					query="SELECT `virtuemart_calc_id`, CONCAT(`calc_name`, ' (', `calc_value_mathop`, `calc_value`, ')') as tax2
+					FROM `#__virtuemart_calcs`
+					WHERE 1" key_field="virtuemart_calc_id" />
+-->
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Trackbar Options &lt;/span&gt;" />
+				<field name="trackbar_range_delimiter" type="text" default="|" size="5"
+					label="CP_TB_RANGE_DELIMITER" description="CP_TB_RANGE_DELIMITER_DESC" />
+				<field name="trackbar_selected_value_text" type="textarea"
+					cols="30"
+					rows="1"
+					default="Selected {value}"
+					label="CP_TB_SELECTED"
+					description="CP_TB_AVAIL_SUBST_DESC"
+					filter="raw" />
+				<field name="trackbar_selected_from_text" type="textarea"
+					cols="30"
+					rows="1"
+					default="From {value}"
+					label="CP_TB_FROM"
+					description="CP_TB_AVAIL_SUBST_DESC"
+					filter="raw" />
+				<field name="trackbar_selected_to_text" type="textarea"
+					cols="30"
+					rows="1"
+					default="to {value}"
+					label="CP_TB_TO"
+					description="CP_TB_AVAIL_SUBST_DESC"
+					filter="raw" />
+				<field name="trackbar_selected_any_text" type="text"
+					default="Any"
+					size="20"
+					label="CP_TB_ANY"
+					description="CP_TB_ANY_DESC" />
+				<field name="trackbar_apply" type="text"
+					default="Apply"
+					size="20"
+					label="CP_TB_APPLY"
+					description="" />
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Manufacturer Options &lt;/span&gt;" />
+				<field name="mf_show_manufacturers" type="radio" class="btn-group" default="1"
+					label="CP_MF_SHOW" description="CP_MF_SHOW_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="mf_title" type="text" default="Brands" size="40" label="CP_MF_TITLE" description="" />
+
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; 'In stock' filter Options &lt;/span&gt;" />
+				<field name="show_instock_filter" type="radio" class="btn-group" default="0"
+					label="Show 'In stock' filter" description="Display a filter to show only products in stock">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="instock_filter_group_label" type="text"
+					default="Stock" size="40" label="Group header" description="" />
+				<field name="instock_filter_name" type="text" default="In stock"
+					size="40" label="Filter name" description="" />
+
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Total Products &lt;/span&gt;" />
+				<field name="show_total_products" type="radio" class="btn-group" default="1"
+					label="CP_TOTAL_PRODUCTS" description="CP_TOTAL_PRODUCTS_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="pretext_totalproducts" type="textarea" cols="20" rows="1" default="Total products:" label="CP_PRETEXT" description="" />
+			</fieldset>
+
+			<fieldset name="CP_MISC_OPTIONS">
+				<field name="do_not_show_up_if_no_filters" type="radio" class="btn-group" default="0"
+					label="CP_DO_NOT_SHOW_IF_NO_FILTERS" description="CP_DO_NOT_SHOW_IF_NO_FILTERS_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="hide_in_vm_root" type="radio" class="btn-group" default="0"
+					label="CP_HIDE_IN_VM_ROOT"
+					description="CP_HIDE_IN_VM_ROOT_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="global_scope" type="radio" class="btn-group" default="1"
+					label="CP_SPECIFIC_FILTER_GLOBAL_SCOPE" description="CP_SPECIFIC_FILTER_GLOBAL_SCOPE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="fill_metatitle" type="radio" class="btn-group" default="0"
+					label="CP_FILL_META_TITLE" description="CP_FILL_META_TITLE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="add_robots_noindex" type="radio" class="btn-group" default="1"
+					label="CP_ADD_ROBOTS_NOINDEX" description="CP_ADD_ROBOTS_NOINDEX_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="hide_params_with1filter" type="radio" class="btn-group" default="0"
+					label="CP_HIDE_PARAMS_1FILTER" description="CP_HIDE_PARAMS_1FILTER_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+
+				<field name="filter_count" type="radio" default="2" label="CP_NUMOFPROD" description="CP_NUMOFPROD_DESC">
+					<option value="2">CP_SHOW</option>
+					<option value="1">CP_COUNT_NOT_SHOW</option>
+				</field>
+
+				<field name="order_applied_filters" type="radio" class="btn-group" default="0"
+					label="CP_ORDER_APPLIED" description="CP_ORDER_APPLIED_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="use_collapse" type="radio" class="btn-group" default="0"
+					label="CP_USE_COLLAPSE" description="CP_USE_COLLAPSE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="default_collapsed" type="radio" default="0" label="CP_DEFAULT_COLLAPSED" description="CP_DEFAULT_COLLAPSED_DESC">
+					<option value="0">Expanded</option>
+					<option value="1">Collapsed</option>
+				</field>
+
+				<field name="display_on_product_details_page" type="radio" class="btn-group" default="0"
+					label="CP_SHOWON_DETAILSPAGE" description="CP_SHOWON_DETAILSPAGE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="translate" type="radio" class="btn-group" default="0"
+					label="CP_TRANSLATE" description="CP_TRANSLATE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="transliterate_color_names" type="radio" class="btn-group" default="0"
+					label="CP_TRANSLITERATE_COLORS" description="CP_TRANSLITERATE_COLORS_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+			</fieldset>
+
+
+			<fieldset name="CP_LAYOUT_SPECIFIC_OPTIONS">
+				<field name="backlink" type="text" size="40" default="Back" label="CP_BACK" description="" />
+				<field name="apply_filters" type="text" size="40" default="Apply" label="CP_APPLY_FILTERS" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Checkbox List layout &lt;/span&gt;" />
+				<field name="results" type="text" size="40" default="Results:" label="CP_RESULTS" description="" />
+				<field name="show_results" type="text" size="40" default="Show" label="CP_SHOW_RESULTS" description="" />
+				<field name="show_liveresult_popup" type="radio" default="1" label="CP_SHOW_LIVERESULT_POPUP" description="">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field type="spacer" default=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Drop-down list layout &lt;/span&gt;" />
+				<field name="filters_per_column" type="text" default="" size="20" label="CP_FILTERS_IN_COLUMN" description="CP_FILTERS_IN_COLUMN_DESC" />
+				<field name="dd_load_filters_with_ajax" type="radio" class="btn-group" default="0"
+					label="CP_FILTERS_AJAX" description="CP_FILTERS_AJAX_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="remove_empty_params" type="radio" default="0" label="CP_EMPTY_PARAMS" description="CP_EMPTY_PARAMS_DESC">
+					<option value="1">CP_EMPTY_PARAMS_REMOVE</option>
+					<option value="0">CP_EMPTY_PARAMS_SHOW_MSG</option>
+				</field>
+				<field name="nofilters_msg" type="text" default="No filters" size="40" label="CP_EMPTY_PARAMS_MSG" description="CP_EMPTY_PARAMS_MSG_DESC" />
+
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Simple Drop-down layout &lt;/span&gt;" />
+				<field name="simpledropdown_choose" type="text" size="40" default="Choose" label="CP_SDD_CHOOSE_LABEL" />
+				<field name="simpledropdown_mode" type="list" default="0" label="CP_SIMPLEDD_MODE" description="">
+					<option value="0">CP_DEFAULT</option>
+					<option value="1">CP_SELF_UPDATE</option>
+					<option value="2">CP_SDD_PROGRESSIVE_LOADING</option>
+				</field>
+				<field name="simpledropdown_progressive_loading_autosubmit" type="radio" class="btn-group" default="0"
+					label="CP_SIMPLEDD_PROGRESSIVE_LOADING_AUTOSUMBIT" description="">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+
+
+			<fieldset name="CP_QUICKREFINE_OPTIONS">
+				<field name="use_quickrefine" type="radio" default="0" class="btn-group"
+					label="CP_USE_QUICKREFINE" description="CP_USE_QUICKREFINE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="quickrefine_manufacturers" type="radio" default="0" class="btn-group"
+					label="CP_QUICKREFINE_MANUFACTURERS" description="CP_QUICKREFINE_MANUFACTURERS_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="quickrefine_style" type="list" default="1"
+					label="CP_QUICKREFINE_STYLE" description="CP_QUICKREFINE_STYLE_DESC">
+					<option value="0">HIDE_NOT_MATCHED</option>
+					<option value="1">HIDE_NOT_MATCHED_AND_KEEP_SIZE</option>
+					<option value="2">DIM_NOT_MATCHED</option>
+				</field>
+				<field name="quickrefine_show_popup" type="radio" default="1" class="btn-group"
+					label="CP_QUICKREFINE_SHOW_POPUP" description="CP_QUICKREFINE_SHOW_POPUP_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="quickrefine_reset_on_submit" type="radio" default="0" class="btn-group"
+					label="CP_QUICKREFINE_RESET_ON_SUBMIT" description="CP_QUICKREFINE_RESET_ON_SUBMIT_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				<field name="quickrefine_apply_selected_str" type="textarea" cols="50" rows="5" default="Press &lt;span class=&quot;cp-qr-popup-key&quot;&gt;Enter&lt;/span&gt; to apply &lt;span class=&quot;cp-qr-popup-filter&quot;&gt;{filter}&lt;/span&gt;"
+					label="CP_QRPOPUP_APPLY_SELECTED_STR" description="CP_QRPOPUP_APPLY_SELECTED_STR_DESC"
+					filter="raw" />
+				<field name="quickrefine_remove_selected_str" type="textarea" cols="50" rows="5" default="Press &lt;span class=&quot;cp-qr-popup-key&quot;&gt;Enter&lt;/span&gt; to deselect &lt;span class=&quot;cp-qr-popup-filter&quot;&gt;{filter}&lt;/span&gt;"
+					label="CP_QRPOPUP_REMOVE_SELECTED_STR" description="CP_QRPOPUP_REMOVE_SELECTED_STR_DESC"
+					filter="raw" />
+				<field name="quickrefine_next_filter_str" type="textarea" cols="50" rows="5" default="Use &lt;span class=&quot;cp-qr-popup-key&quot;&gt;Tab&lt;/span&gt; to select next filter &lt;span class=&quot;cp-qr-popup-filter&quot;&gt;{filter}&lt;/span&gt;"
+					label="CP_QRPOPUP_NEXT_FILTER_STR" description="CP_QRPOPUP_NEXT_FILTER_STR_DESC"
+					filter="raw" />
+				<field name="quickrefine_no_matches_str" type="textarea" cols="50" rows="2" default="No matches"
+					label="CP_QRPOPUP_NO_MATCHES_STR" description="CP_QRPOPUP_NO_MATCHES_STR_DESC"
+					filter="raw" />
+				<field name="quickrefine_click_to_remove_str" type="textarea" cols="50" rows="2" default="Click to remove"
+					label="CP_QRPOPUP_CLICK_TO_REMOVE_STR" description="CP_QRPOPUP_CLICK_TO_REMOVE_STR_DESC"
+					filter="raw" />
+				<field name="quickrefine_refine_str" type="text" default="Refine filters" size="57"
+					label="CP_QR_REFINE_FILTES_STR" description="CP_QR_REFINE_FILTES_STR_DESC" />
+			</fieldset>
+
+
+			<fieldset name="CP_DYNAMIC_UPDATE_OPTIONS">
+				<field name="enable_dynamic_update" type="radio" default="0" class="btn-group"
+					label="CP_ENABLE_DYNAMIC_UPDATE" description="CP_ENABLE_DYNAMIC_UPDATE_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field type="spacer" default=" " />
+				<field name="update_filters" type="radio" default="1" class="btn-group"
+					label="CP_UPDATE_FILTERS" description="CP_UPDATE_FILTERS_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="update_each_step" type="radio" default="0" class="btn-group"
+					label="CP_UPDATE_EACH_STEP" description="CP_UPDATE_EACH_STEP_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="scroll_to_top" type="radio" default="0" class="btn-group"
+					label="CP_SCROLL_TO_TOP" description="">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="dynamic_virtuemart_container" type="text" default="#main" label="CP_DYNAMIC_VIRTUEMART_CONTAINER" description="CP_DYNAMIC_VIRTUEMART_CONTAINER_DESC" />
+			</fieldset>
+
+
+			<fieldset name="advanced">
+				<field type="spacer" default=" " />
+
+				<field name="enable_debug" type="radio" default="0" class="btn-group" label="Enable debug?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="disable_vm_checking" type="radio" default="0" class="btn-group"
+					label="CP_DISABLE_VM_CHECKING" description="CP_DISABLE_VM_CHECKING_DESC">
+					<option value="0">CP_NO_DEFAULT</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="encode_url" type="radio" default="1" class="btn-group"
+					label="CP_ENCODE_URL" description="CP_ENCODE_URL_DESC">
+					<option value="0">No</option>
+					<option value="1">CP_YES_DEFAULT</option>
+				</field>
+
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

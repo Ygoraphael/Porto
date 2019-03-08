@@ -1,0 +1,8 @@
+-- version $Id: uninstall.mysql.utf8.sql,v 1.2 2012/02/14 12:21:28 Vlado Exp $
+-- SQL script for MySQL database
+-- package JotCache
+-- category Joomla 2.5
+-- copyright (C) 2010-2014 Vladimir Kanich
+-- license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+DROP TABLE IF EXISTS `#__jotcache`;
+DROP TABLE IF EXISTS `#__jotcache_exclude`;

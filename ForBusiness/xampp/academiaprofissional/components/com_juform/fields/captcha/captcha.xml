@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jufmplugintype="field">
+    <name>Captcha</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>captcha</folder>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_juform/fields/captcha">
+            <file>captcha.xml</file>
+            <file>captcha.php</file>
+            <file>index.html</file>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                    name="invalid_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_INVALID_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_INVALID_MESSAGE_DESC"
+            />
+
+            <field
+                    name="required_message"
+                    type="text"
+                    default=""
+                    label="COM_JUFORM_FIELD_REQUIRED_MESSAGE_LABEL"
+                    description="COM_JUFORM_FIELD_REQUIRED_MESSAGE_DESC"
+            />
+        </fieldset>
+
+        <fieldset name="config" label="Config">
+            <field
+                    name="captcha_type"
+                    type="list"
+                    default="securimage"
+                    class="jufilter"
+                    label="COM_JUFORM_FIELD_CAPTCHA_TYPE_LABEL"
+                    description="COM_JUFORM_FIELD_CAPTCHA_TYPE_DESC">
+                <option value="securimage">Secure Image</option>
+                <option value="recaptcha">ReCaptcha</option>
+            </field>
+
+            <field name="size"
+                   type="text"
+                   default="32"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_FIELD_SIZE_LABEL"
+                   description="COM_JUFORM_FIELD_SIZE_DESC"
+                    />
+
+            <field name="placeholder"
+                   type="text"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_FIELD_PLACEHOLDER_LABEL"
+                   description="COM_JUFORM_FIELD_PLACEHOLDER_DESC"
+                   default=""
+                    />
+
+            <field name="captcha_width"
+                   type="text"
+                   default="155"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_WIDTH_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_WIDTH_DESC"
+                    />
+
+            <field name="captcha_height"
+                   type="text"
+                   default="50"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_HEIGHT_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_HEIGHT_DESC"
+                    />
+
+            <field name="captcha_length"
+                   type="text"
+                   default="6"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_LENGTH_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_LENGTH_DESC"
+                    />
+
+            <field name="captcha_color"
+                   type="color"
+                   default="#050505"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_COLOR_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_COLOR_DESC"
+                    />
+
+            <field name="captcha_bg_color"
+                   type="color"
+                   default="#ffffff"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_BG_COLOR_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_BG_COLOR_DESC"
+                    />
+
+            <field name="captcha_line_color"
+                   type="color"
+                   default="#707070"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_LINE_COLOR_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_LINE_COLOR_DESC"
+                    />
+
+            <field name="captcha_noise_color"
+                   type="color"
+                   default="#707070"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_NOISE_COLOR_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_NOISE_COLOR_DESC"
+                    />
+
+            <field name="captcha_num_lines"
+                   type="text"
+                   default="3"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_NUM_LINES_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_NUM_LINES_DESC"
+                    />
+
+            <field name="captcha_noise_level"
+                   type="text"
+                   default="2"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_NOISE_LEVEL_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_NOISE_LEVEL_DESC"
+                    />
+
+            <field name="captcha_perturbation"
+                   type="text"
+                   default="5"
+                   size="10"
+                   filter="integer"
+                   class="jufilter-captcha_type-securimage validate-numeric"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_PERTURBATION_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_PERTURBATION_DESC"
+                    />
+
+            <field name="captcha_font"
+                   type="filelist"
+                   default="AHGBold.ttf"
+                   directory="/components/com_juform/libs/captcha_fonts/"
+                   filter="\.ttf$"
+                   stripext="0"
+                   hide_none="1"
+                   hide_default="1"
+                   class="jufilter-captcha_type-securimage"
+                   label="COM_JUFORM_CONFIG_CAPTCHA_FONT_LABEL"
+                   description="COM_JUFORM_CONFIG_CAPTCHA_FONT_DESC"
+                    />
+
+            <field
+                    name="recaptcha_sitekey"
+                    type="text"
+                    default=""
+                    class="jufilter-captcha_type-recaptcha"
+                    label="COM_JUFORM_FIELD_RECAPTCHA_SITEKEY_LABEL"
+                    description="COM_JUFORM_FIELD_RECAPTCHA_SITEKEY_DESC"
+            />
+
+            <field
+                    name="recaptcha_secretkey"
+                    type="text"
+                    default=""
+                    class="jufilter-captcha_type-recaptcha"
+                    label="COM_JUFORM_FIELD_RECAPTCHA_SECRETKEY_LABEL"
+                    description="COM_JUFORM_FIELD_RECAPTCHA_SECRETKEY_DESC"
+            />
+
+            <field
+                    name="recaptcha_theme"
+                    type="list"
+                    default="light"
+                    class="jufilter-captcha_type-recaptcha"
+                    label="COM_JUFORM_FIELD_RECAPTCHA_THEME_LABEL"
+                    description="COM_JUFORM_FIELD_RECAPTCHA_THEME_DESC">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </field>
+
+            <field
+                    name="recaptcha_size"
+                    type="list"
+                    default="securimage"
+                    class="jufilter-captcha_type-recaptcha"
+                    label="COM_JUFORM_FIELD_RECAPTCHA_SIZE_LABEL"
+                    description="COM_JUFORM_FIELD_RECAPTCHA_SIZE_DESC">
+                <option value="normal">Normal</option>
+                <option value="compact">Compact</option>
+            </field>
+
+            <field
+                    name="recaptcha_language"
+                    type="list"
+                    default="en"
+                    class="jufilter-captcha_type-recaptcha"
+                    label="COM_JUFORM_FIELD_RECAPTCHA_LANGUAGE_LABEL"
+                    description="COM_JUFORM_FIELD_RECAPTCHA_LANGUAGE_DESC">
+                <option value="ar">Arabic</option>
+                <option value="af">Afrikaans</option>
+                <option value="am">Amharic</option>
+                <option value="hy">Armenian</option>
+                <option value="az">Azerbaijani</option>
+                <option value="eu">Basque</option>
+                <option value="bn">Bengali</option>
+                <option value="bg">Bulgarian</option>
+                <option value="ca">Catalan</option>
+                <option value="zh-HK">Chinese (Hong Kong)</option>
+                <option value="zh-CN">Chinese (Simplified)</option>
+                <option value="zh-TW">Chinese (Traditional)</option>
+                <option value="hr">Croatian</option>
+                <option value="cs">Czech</option>
+                <option value="da">Danish</option>
+                <option value="nl">Dutch</option>
+                <option value="en-GB">English (UK)</option>
+                <option value="en">English (US)</option>
+                <option value="et">Estonian</option>
+                <option value="fil">Filipino</option>
+                <option value="fi">Finnish</option>
+                <option value="fr">French</option>
+                <option value="fr-CA">French (Canadian)</option>
+                <option value="gl">Galician</option>
+                <option value="ka">Georgian</option>
+                <option value="de">German</option>
+                <option value="de-AT">German (Austria)</option>
+                <option value="de-CH">German (Switzerland)</option>
+                <option value="el">Greek</option>
+                <option value="gu">Gujarati</option>
+                <option value="iw">Hebrew</option>
+                <option value="hi">Hindi</option>
+                <option value="hu">Hungarain</option>
+                <option value="is">Icelandic</option>
+                <option value="id">Indonesian</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="kn">Kannada</option>
+                <option value="ko">Korean</option>
+                <option value="lo">Laothian</option>
+                <option value="lv">Latvian</option>
+                <option value="lt">Lithuanian</option>
+                <option value="ms">Malay</option>
+                <option value="ml">Malayalam</option>
+                <option value="mr">Marathi</option>
+                <option value="mn">Mongolian</option>
+                <option value="no">Norwegian</option>
+                <option value="fa">Persian</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portuguese</option>
+                <option value="pt-BR">Portuguese (Brazil)</option>
+                <option value="pt-PT">Portuguese (Portugal)</option>
+                <option value="ro">Romanian</option>
+                <option value="ru">Russian</option>
+                <option value="sr">Serbian</option>
+                <option value="si">Sinhalese</option>
+                <option value="sk">Slovak</option>
+                <option value="sl">Slovenian</option>
+                <option value="es">Spanish</option>
+                <option value="es-419">Spanish (Latin America)</option>
+                <option value="sw">Swahili</option>
+                <option value="sv">Swedish</option>
+                <option value="ta">Tamil</option>
+                <option value="te">Telugu</option>
+                <option value="th">Thai</option>
+                <option value="tr">Turkish</option>
+                <option value="uk">Ukrainian</option>
+                <option value="ur">Urdu</option>
+                <option value="vi">Vietnamese</option>
+                <option value="zu">Zulu</option>
+            </field>
+        </fieldset>
+    </config>
+</extension>
